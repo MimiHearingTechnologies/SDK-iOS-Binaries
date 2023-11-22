@@ -1,0 +1,67 @@
+name: Unarchive, Release, and Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  unarchive-release-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: Set environment variables
+      run: |
+        echo "MIMI_SDK_VERSION=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> $GITHUB_ENV
+      working-directory: ${{ github.workspace }}
+      
+    - name: Unarchive zip file
+      run: |
+        rm -rf artifacts
+        mkdir artifacts
+        unzip MimiSDK-$MIMI_SDK_VERSION.zip -d artifacts
+      working-directory: ${{ github.workspace }}
+
+    - name: Create draft release
+      run: |
+        body=$(<Changelog.md)
+        gh release create $MIMI_SDK_VERSION -t "MimiSDK v$MIMI_SDK_VERSION" -F Changelog.md --draft
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      working-directory: ${{ github.workspace }}
+
+    - name: Upload artifacts to release
+      run: |
+        gh release upload $MIMI_SDK_VERSION "MimiSDK-$MIMI_SDK_VERSION.zip"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      working-directory: ${{ github.workspace }}
+
+    - name: Remove zip file and unnecessary files
+      run: |
+        rm -rf MimiSDK-$MIMI_SDK_VERSION.zip Version.config Changelog.md
+      working-directory: ${{ github.workspace }}
+
+    - name: Commit and push changes
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add .
+        git commit -m "Release [skip ci]"
+        git push
+      env:
+        token: ${{ secrets.GH_TOKEN }}
+      working-directory: ${{ github.workspace }}
+
+    - name: Update draft release to false
+      run: |
+        gh release edit $MIMI_SDK_VERSION --draft=false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      working-directory: ${{ github.workspace }}

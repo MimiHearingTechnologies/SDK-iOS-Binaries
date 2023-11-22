@@ -1,4 +1,4 @@
-name: Unarchive, Release, and Commit
+name: CI release
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  unarchive-release-commit:
+  release:
     runs-on: ubuntu-latest
 
     steps:

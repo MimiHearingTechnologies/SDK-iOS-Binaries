@@ -9,6 +9,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
 
+    outputs:
+      output1: ${{ steps.set_version.outputs.MIMI_SDK_VERSION }}
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -16,9 +19,11 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GH_TOKEN }}
 
-    - name: Set environment variables
+    - id: set_version
+      name: Set environment variables
       run: |
         echo "MIMI_SDK_VERSION=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> $GITHUB_ENV
+        echo "MIMI_SDK_VERSION=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> "$GITHUB_OUTPUT"
       working-directory: ${{ github.workspace }}
       
     - name: Unarchive zip file
@@ -65,3 +70,41 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       working-directory: ${{ github.workspace }}
+
+  notify:
+    needs: release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send custom JSON data to Slack workflow
+      id: slack
+      uses: slackapi/slack-github-action@v1.24.0
+      with:
+        payload: |
+          {
+            "channel": "C01JDQES01G",
+            "text": "🚀 Mimi SDK v${{needs.release.outputs.output1}} for iOS is now available",
+            "blocks": [
+              {	
+                "type": "header",
+                "text": {
+                  "type": "plain_text",
+                  "text": "🚀 Mimi SDK v${{needs.release.outputs.output1}} for iOS is now available",
+                  "emoji": true
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries-Test/releases/tag/${{needs.release.outputs.output1}}|*View on GitHub*>"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+
+
+  

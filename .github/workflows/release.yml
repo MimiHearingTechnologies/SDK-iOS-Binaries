@@ -3,14 +3,14 @@ name: CI release
 on:
   push:
     branches:
-      - main
+      - release/*
 
 jobs:
   release:
     runs-on: ubuntu-latest
 
     outputs:
-      output1: ${{ steps.set_version.outputs.MIMI_SDK_VERSION }}
+      sdk_version: ${{ steps.set_env_variables.outputs.sdk_version }}
 
     steps:
     - name: Checkout code
@@ -19,11 +19,10 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GH_TOKEN }}
 
-    - id: set_version
+    - id: set_env_variables
       name: Set environment variables
       run: |
-        echo "MIMI_SDK_VERSION=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> $GITHUB_ENV
-        echo "MIMI_SDK_VERSION=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> "$GITHUB_OUTPUT"
+        echo "sdk_version=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> "$GITHUB_OUTPUT"
       working-directory: ${{ github.workspace }}
       
     - name: Unarchive zip file
@@ -31,6 +30,8 @@ jobs:
         rm -rf artifacts
         mkdir artifacts
         unzip MimiSDK-$MIMI_SDK_VERSION.zip -d artifacts
+      env:
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
     - name: Create draft release
@@ -39,6 +40,7 @@ jobs:
         gh release create $MIMI_SDK_VERSION -t "MimiSDK v$MIMI_SDK_VERSION" -F Changelog.md --draft
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
     - name: Upload artifacts to release
@@ -46,14 +48,17 @@ jobs:
         gh release upload $MIMI_SDK_VERSION "MimiSDK-$MIMI_SDK_VERSION.zip"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
     - name: Remove zip file and unnecessary files
       run: |
         rm -rf MimiSDK-$MIMI_SDK_VERSION.zip Version.config Changelog.md
+      env:
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
-    - name: Commit and push changes
+    - name: Commit changes to release branch
       run: |
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
@@ -64,11 +69,32 @@ jobs:
         token: ${{ secrets.GH_TOKEN }}
       working-directory: ${{ github.workspace }}
 
+    - name: Merge changes into main branch with squash
+      run: |
+        git checkout main
+        git pull origin main
+        git merge --no-ff --no-commit release/v$MIMI_SDK_VERSION
+        git commit -m "Release v$MIMI_SDK_VERSION [skip ci]"
+        git push
+      env:
+        token: ${{ secrets.GH_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+      working-directory: ${{ github.workspace }}
+
+    - name: Delete release branch
+      run: |
+        git push origin --delete release/v$MIMI_SDK_VERSION
+      env:
+        token: ${{ secrets.GH_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+      working-directory: ${{ github.workspace }}
+
     - name: Update draft release to false
       run: |
         gh release edit $MIMI_SDK_VERSION --draft=false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
   notify:
@@ -76,20 +102,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Send custom JSON data to Slack workflow
+    - name: Send Slack message to prod-releases channel
       id: slack
       uses: slackapi/slack-github-action@v1.24.0
       with:
         payload: |
           {
             "channel": "C01JDQES01G",
-            "text": "🚀 Mimi SDK v${{needs.release.outputs.output1}} for iOS is now available",
+            "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
             "blocks": [
               {	
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": "🚀 Mimi SDK v${{needs.release.outputs.output1}} for iOS is now available",
+                  "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
                   "emoji": true
                 }
               },
@@ -97,7 +123,7 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries-Test/releases/tag/${{needs.release.outputs.output1}}|*View on GitHub*>"
+                  "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries/releases/tag/${{needs.release.outputs.sdk_version}}|*View on GitHub*>"
                 }
               }
             ]
@@ -106,5 +132,32 @@ jobs:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
 
-
-  
+    - name: Send Slack message to dev-release channel
+      id: slack
+      uses: slackapi/slack-github-action@v1.24.0
+      with:
+        payload: |
+          {
+            "channel": "CBR1NVCKA",
+            "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
+            "blocks": [
+              {	
+                "type": "header",
+                "text": {
+                  "type": "plain_text",
+                  "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
+                  "emoji": true
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries/releases/tag/${{needs.release.outputs.sdk_version}}|*View on GitHub*>"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK

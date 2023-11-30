@@ -9,7 +9,7 @@ This repository contains precompiled binaries for MimiSDK, making it easy to int
 Add the following line to your project's Podfile:
 
 ```ruby
-pod 'SDK-iOS-Binaries', :git => 'https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries.git'
+pod 'MimiSDK', :git => 'https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries.git'
 ```
 
 Run pod install in your terminal to fetch and integrate the SDK into your project.

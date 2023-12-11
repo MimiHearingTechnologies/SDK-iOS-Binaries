@@ -1,0 +1,11 @@
+framework module MimiTestKit {
+  umbrella header "MimiTestKit.h"
+  export *
+
+  module * { export * }
+}
+
+module MimiTestKit.Swift {
+  header "MimiTestKit-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module MimiAuthKit {
+  umbrella header "MimiAuthKit.h"
+  export *
+
+  module * { export * }
+}
+
+module MimiAuthKit.Swift {
+  header "MimiAuthKit-Swift.h"
+  requires objc
+}

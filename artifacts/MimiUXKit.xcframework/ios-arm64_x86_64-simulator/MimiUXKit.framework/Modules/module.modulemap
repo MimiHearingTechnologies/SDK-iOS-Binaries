@@ -1,0 +1,11 @@
+framework module MimiUXKit {
+  umbrella header "MimiUXKit.h"
+  export *
+
+  module * { export * }
+}
+
+module MimiUXKit.Swift {
+  header "MimiUXKit-Swift.h"
+  requires objc
+}

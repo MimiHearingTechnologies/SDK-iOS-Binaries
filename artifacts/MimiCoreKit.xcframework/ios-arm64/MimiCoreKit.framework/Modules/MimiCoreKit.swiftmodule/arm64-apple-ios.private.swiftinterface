@@ -1,0 +1,1002 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MimiCoreKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CommonCrypto
+import Foundation
+@_exported import MimiCoreKit
+import PDFKit
+import SafariServices
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import dnssd
+public struct MimiHeadphone : Swift.Codable {
+  public typealias Identifier = Swift.String
+  public enum ConnectionType : Swift.String, Swift.Codable {
+    case bluetooth
+    case wired
+    case other
+    case all
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Category : Swift.String, Swift.Codable {
+    case inEar
+    case overEar
+    case other
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let id: MimiCoreKit.MimiHeadphone.Identifier
+  public let category: MimiCoreKit.MimiHeadphone.Category
+  public let connectionType: MimiCoreKit.MimiHeadphone.ConnectionType
+  public let displayName: Swift.String
+  public let displayIcon: Foundation.URL?
+  public let manufacturer: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiHeadphone.ConnectionType {
+  public init?(rawValue: Swift.String)
+}
+extension MimiCoreKit.MimiHeadphone.Category {
+  public init?(rawValue: Swift.String)
+}
+extension MimiCoreKit.MimiHeadphone : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiHeadphone, rhs: MimiCoreKit.MimiHeadphone) -> Swift.Bool
+}
+public struct MimiHearingPercentage : Swift.Codable, Swift.RawRepresentable {
+  public let rawValue: Swift.Int
+  public init(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+}
+public protocol MimiResourceController : MimiCoreKit.MimiCoreController {
+  func load(url: Foundation.URL, cachePreferred: Swift.Bool, result: MimiCoreKit.MimiCoreResultHandler<Foundation.Data>)
+}
+public enum MimiTestResultError : Swift.Error, Swift.Codable {
+  public enum MT : Swift.Int, Swift.Error, Swift.Codable {
+    case visualizationComputation
+    case visualizationMissingData
+    case validationMissingData
+    case insightComputationFailed
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum PTT : Swift.Int, Swift.Error, Swift.Codable {
+    case visualizationMissingFrequencies
+    case visualizationOutOfCalibratedLimits
+    case uncalibratedHeadphones
+    case loudEnvironment
+    case visualizationMissingAudiogram
+    case visualizationMissingCenterFrequency
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  case mt(MimiCoreKit.MimiTestResultError.MT)
+  case ptt(MimiCoreKit.MimiTestResultError.PTT)
+  case unsupportedTest
+  case unknown(Swift.Int)
+}
+extension MimiCoreKit.MimiTestResultError : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable {
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+}
+extension MimiCoreKit.MimiTestResultError : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public struct MimiHeadphoneIdentifier {
+  public let model: Swift.String
+  public init(model: Swift.String)
+}
+public protocol MimiPersonalizationController {
+  var observable: MimiCoreKit.MimiCoreObservable<any MimiCoreKit.MimiPersonalizationControllerObservable> { get }
+  var visualization: MimiCoreKit.MimiPersonalizationVisualization? { get }
+  func loadVisualization(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiPersonalizationVisualization>)
+}
+public protocol MimiPersonalizationControllerObservable : AnyObject {
+  func personalizationController(_ controller: any MimiCoreKit.MimiPersonalizationController, didUpdate visualization: MimiCoreKit.MimiPersonalizationVisualization)
+}
+@_hasMissingDesignatedInitializers open class MimiCoreObservable<Observing> {
+  open func addObserver(_ observer: Observing)
+  open func removeObserver(_ observer: Observing)
+  @objc deinit
+}
+public typealias MimiCoreResult<DataType> = Swift.Result<DataType, MimiCoreKit.MimiCoreError>
+public typealias MimiCoreResultHandler<Model> = ((MimiCoreKit.MimiCoreResult<Model>) -> Swift.Void)?
+public enum MimiCorePagedResult<DataType> {
+  case result(MimiCoreKit.MimiCoreResult<DataType>, next: ((MimiCoreKit.MimiCorePagedResultHandler<DataType>) -> Swift.Void)?)
+  public var value: MimiCoreKit.MimiCoreResult<DataType> {
+    get
+  }
+  public var loadNext: ((MimiCoreKit.MimiCorePagedResultHandler<DataType>) -> Swift.Void)? {
+    get
+  }
+}
+public typealias MimiCorePagedResultHandler<Model> = ((MimiCoreKit.MimiCorePagedResult<Model>) -> Swift.Void)?
+@_hasMissingDesignatedInitializers public class MimiRemoteProcessingParameter<Value> : MimiCoreKit.MimiProcessingParameter<Value> where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable {
+  @available(*, unavailable)
+  override public var deliveryMode: MimiCoreKit.MimiProcessingParameter<Value>.DeliveryMode {
+    get
+    set
+  }
+  public func reload() -> Combine.AnyPublisher<Value, any Swift.Error>
+  @objc deinit
+}
+public struct MimiPTTTestRunResultData : MimiCoreKit.MimiTestRunResultData {
+  public let ear: MimiCoreKit.MimiTestEar
+  public let hearingPercentage: MimiCoreKit.MimiHearingPercentage?
+  public let hearingGrade: MimiCoreKit.MimiHearingGrade
+  public let audiogram: MimiCoreKit.MimiTestAudiogram?
+  public let dbHearingLoss: Swift.Int?
+  public var error: MimiCoreKit.MimiTestResultError? {
+    get
+  }
+  public var warnings: [MimiCoreKit.MimiTestResultError]? {
+    get
+  }
+}
+extension MimiCoreKit.MimiPTTTestRunResultData {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol MimiCoreController : AnyObject {
+}
+@_hasMissingDesignatedInitializers final public class MimiAuthTokenRequest {
+  final public func cancel()
+  @objc deinit
+}
+public enum MimiProcessingParameterError : Swift.Error {
+  case cannotApply, applyTimeoutExceeded
+  public static func == (a: MimiCoreKit.MimiProcessingParameterError, b: MimiCoreKit.MimiProcessingParameterError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct MimiTestMetadata : Swift.Codable {
+  public struct Host : Swift.Codable {
+    public let type: Swift.String?
+    public let version: Swift.String?
+    public let region: Swift.String?
+    public let language: Swift.String?
+    public let model: Swift.String?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Client : Swift.Codable {
+    public let id: Swift.String?
+    public let name: Swift.String?
+    public let version: Swift.String?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public let host: MimiCoreKit.MimiTestMetadata.Host?
+  public let client: MimiCoreKit.MimiTestMetadata.Client?
+  public let sdkVersion: Swift.String?
+  public let engineVersion: Swift.String?
+  public init(host: MimiCoreKit.MimiTestMetadata.Host = .from(device: .current, locale: .current), client: MimiCoreKit.MimiTestMetadata.Client = .from(bundle: .main), engineVersion: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum MimiHearingGrade : Swift.Int, Swift.Codable, Swift.CaseIterable {
+  case excellent
+  case good
+  case average
+  case limited
+  case impaired
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [MimiCoreKit.MimiHearingGrade]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [MimiCoreKit.MimiHearingGrade] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MimiCoreKit.MimiHearingGrade : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public struct MimiCoreErrorDetails : Swift.Codable {
+  public let statusCode: Swift.Int
+  public let error: Swift.String
+  public let message: Swift.String?
+}
+extension MimiCoreKit.MimiCoreErrorDetails {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension MimiCoreKit.MimiCoreErrorDetails : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public protocol AnyMimiTestResult : Swift.Decodable, Swift.Encodable {
+  var id: Swift.String { get }
+  var timestamp: Foundation.Date { get }
+  var metadata: MimiCoreKit.MimiTestMetadata { get }
+  var hearingGrade: MimiCoreKit.MimiHearingGrade { get }
+  var hearingSymmetry: MimiCoreKit.MimiHearingSymmetry { get }
+  var errors: [MimiCoreKit.MimiTestResultError]? { get }
+  var warnings: [MimiCoreKit.MimiTestResultError]? { get }
+}
+public struct MimiTestResults : Swift.Codable {
+  public let ptt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiPTTTestRunResultData>?
+  public let mt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiMTTestRunResultData>?
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiTestResults : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiTestResults, rhs: MimiCoreKit.MimiTestResults) -> Swift.Bool
+}
+public protocol MimiCoreDelegate : AnyObject {
+  func mimiCoreWasFoundUnserviceable(_ core: MimiCoreKit.MimiCore)
+}
+@_hasMissingDesignatedInitializers final public class MimiCore {
+  public enum ClientCredentials {
+    case client(id: Swift.String, secret: Swift.String)
+  }
+  public static let shared: MimiCoreKit.MimiCore
+  final public let log: MimiCoreKit.MimiLogger
+  final public var allowsUsageDataCollection: Swift.Bool {
+    get
+    set
+  }
+  final public func start(credentials: MimiCoreKit.MimiCore.ClientCredentials, delegate: any MimiCoreKit.MimiCoreDelegate)
+  final public func update(credentials: MimiCoreKit.MimiCore.ClientCredentials)
+  @objc deinit
+}
+extension MimiCoreKit.MimiCore {
+  final public var auth: any MimiCoreKit.MimiAuthController {
+    get
+  }
+  final public var test: any MimiCoreKit.MimiTestController {
+    get
+  }
+  final public var processing: any MimiCoreKit.MimiProcessingController {
+    get
+  }
+  final public var personalization: any MimiCoreKit.MimiPersonalizationController {
+    get
+  }
+  final public var resource: any MimiCoreKit.MimiResourceController {
+    get
+  }
+}
+public struct MimiPersonalizationVisualization : Swift.Codable, Swift.Equatable {
+  public let levels: [MimiCoreKit.MimiPersonalizationVisualization.Level]
+  public static func == (a: MimiCoreKit.MimiPersonalizationVisualization, b: MimiCoreKit.MimiPersonalizationVisualization) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class MimiProcessingParameterApplicator<Value> : Combine.Cancellable, Swift.Identifiable where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable {
+  public typealias ApplicationResult = MimiCoreKit.MimiProcessingParameter<Value>.ApplicationResult
+  public typealias ApplicationResultHandler = (MimiCoreKit.MimiProcessingParameterApplicator<Value>.ApplicationResult) -> Swift.Void
+  final public let id: Swift.String
+  final public func canApply(_ canApply: @escaping (Value) -> Swift.Bool) -> MimiCoreKit.MimiProcessingParameterApplicator<Value>
+  final public func apply(_ apply: @escaping (Value, @escaping MimiCoreKit.MimiProcessingParameterApplicator<Value>.ApplicationResultHandler) -> Swift.Void) -> MimiCoreKit.MimiProcessingParameterApplicator<Value>
+  final public func timeout(_ seconds: Swift.Double) -> MimiCoreKit.MimiProcessingParameterApplicator<Value>
+  final public func cancel()
+  public typealias ID = Swift.String
+  @objc deinit
+}
+extension MimiCoreKit.MimiProcessingParameterApplicator : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiProcessingParameterApplicator<Value>, rhs: MimiCoreKit.MimiProcessingParameterApplicator<Value>) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class MimiDefaultPresetParameterDataSource {
+  final public var fitting: MimiCoreKit.MimiPersonalization.Fitting
+  convenience public init(fitting: MimiCoreKit.MimiPersonalization.Fitting)
+  @objc deinit
+}
+public struct MimiPersonalization : Swift.Codable {
+  public let preset: MimiCoreKit.MimiPersonalization.Preset
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiPersonalization {
+  public struct Preset : Swift.Codable {
+    public let id: Swift.String
+    public let payload: Foundation.Data
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+}
+extension MimiCoreKit.MimiPersonalization.Preset {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiPersonalization.Preset : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiPersonalization.Preset, rhs: MimiCoreKit.MimiPersonalization.Preset) -> Swift.Bool
+}
+public struct MimiTestResult<RunResultData> : MimiCoreKit.AnyMimiTestResult, Swift.Identifiable where RunResultData : MimiCoreKit.MimiTestRunResultData {
+  public let id: Swift.String
+  public let timestamp: Foundation.Date
+  public let metadata: MimiCoreKit.MimiTestMetadata
+  public var data: [RunResultData] {
+    get
+  }
+  public var hearingGrade: MimiCoreKit.MimiHearingGrade {
+    get
+  }
+  public var hearingSymmetry: MimiCoreKit.MimiHearingSymmetry {
+    get
+  }
+  public var errors: [MimiCoreKit.MimiTestResultError]? {
+    get
+  }
+  public var warnings: [MimiCoreKit.MimiTestResultError]? {
+    get
+  }
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension MimiCoreKit.MimiTestResult {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiTestResult : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiTestResult<RunResultData>, rhs: MimiCoreKit.MimiTestResult<RunResultData>) -> Swift.Bool
+}
+final public class MimiAnalytics<Event> where Event : MimiCoreKit.MimiAnalyticsEvent {
+  public init(core: MimiCoreKit.MimiCore, secret: Swift.String) throws
+  final public func track(event: Event)
+  final public func time(event: Event)
+  @objc deinit
+}
+public enum MimiAnalyticsError : Swift.Error {
+  case invalidSecret
+  public static func == (a: MimiCoreKit.MimiAnalyticsError, b: MimiCoreKit.MimiAnalyticsError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol MimiProcessingController : AnyObject {
+  var session: Combine.CurrentValueSubject<MimiCoreKit.MimiProcessingSession?, Swift.Never> { get }
+  func activate(presetDataSource: MimiCoreKit.MimiPresetParameterDataSource) throws -> MimiCoreKit.MimiProcessingSession
+  func deactivate()
+}
+extension MimiCoreKit.MimiPersonalization {
+  public struct UpDownPresetBundle : Swift.Equatable {
+    public let up: MimiCoreKit.MimiPersonalization.Preset?
+    public let `default`: MimiCoreKit.MimiPersonalization.Preset
+    public let down: MimiCoreKit.MimiPersonalization.Preset?
+    public static func == (a: MimiCoreKit.MimiPersonalization.UpDownPresetBundle, b: MimiCoreKit.MimiPersonalization.UpDownPresetBundle) -> Swift.Bool
+  }
+}
+extension MimiCoreKit.MimiPersonalization.UpDownPresetBundle : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum MimiAuthRoute {
+  case anonymously
+  case logIn(email: Swift.String, password: Swift.String)
+  case logInAnonymously(anonymousId: Swift.String)
+  case signUp(data: MimiCoreKit.MimiSignUpData)
+  case deviceAuthorization(request: MimiCoreKit.MimiDeviceAuthRequest)
+}
+public enum MimiProcessingError : Swift.Error {
+  case sessionAlreadyActivated
+  case sessionInterruptionNotFound
+  case sessionNotInterrupted
+  case sessionInterruptionInProgress
+  public static func == (a: MimiCoreKit.MimiProcessingError, b: MimiCoreKit.MimiProcessingError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum MimiCoreError : Swift.Error {
+  public enum ConfigurationError : Swift.Int, Swift.Error {
+    case invalidCredentials
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum ClientError : Swift.Int, Swift.Error {
+    case badRequest
+    case unauthorized
+    case forbidden
+    case notFound
+    case conflict
+    case gone
+    case unprocessableEntity
+    case unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum ServerError : Swift.Int, Swift.Error {
+    case `internal`
+    case notImplemented
+    case serviceUnavailable
+    case timeout
+    case unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum DataError : Swift.Int, Swift.Error {
+    case missing
+    case invalidHash
+    case invalid
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum ProcessingError : Swift.Int, Swift.Error {
+    case existingHandler
+    case invalidHandler
+    case invalidPreset
+    case disabled
+    case timeout
+    case unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  case configuration(error: MimiCoreKit.MimiCoreError.ConfigurationError)
+  case client(error: MimiCoreKit.MimiCoreError.ClientError, details: MimiCoreKit.MimiCoreErrorDetails?)
+  case server(error: MimiCoreKit.MimiCoreError.ServerError, details: MimiCoreKit.MimiCoreErrorDetails?)
+  case data(error: MimiCoreKit.MimiCoreError.DataError, details: MimiCoreKit.MimiCoreErrorDetails?)
+  case processing(error: MimiCoreKit.MimiCoreError.ProcessingError)
+  case unknown(cause: (any Swift.Error)?, details: MimiCoreKit.MimiCoreErrorDetails?)
+  case unserviceable
+}
+extension MimiCoreKit.MimiCoreError {
+  public var rawError: (any Swift.Error)? {
+    get
+  }
+  public var details: MimiCoreKit.MimiCoreErrorDetails? {
+    get
+  }
+}
+extension MimiCoreKit.MimiCoreError : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiCoreError, rhs: MimiCoreKit.MimiCoreError) -> Swift.Bool
+}
+extension MimiCoreKit.MimiCoreError : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public enum MimiHearingSymmetry : Swift.Equatable, Swift.Codable {
+  case symmetrical
+  case asymmetrical(betterEar: MimiCoreKit.MimiTestEar)
+  case unknown
+  public static func == (a: MimiCoreKit.MimiHearingSymmetry, b: MimiCoreKit.MimiHearingSymmetry) -> Swift.Bool
+}
+extension MimiCoreKit.MimiHearingSymmetry {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers final public class MimiProcessingSession {
+  @Combine.Published @_projectedValueProperty($isInterrupted) final public var isInterrupted: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  final public var $isInterrupted: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  final public var isEnabled: MimiCoreKit.MimiProcessingParameter<Swift.Bool> {
+    get
+  }
+  final public let intensity: MimiCoreKit.MimiProcessingParameter<Swift.Float>
+  final public let preset: MimiCoreKit.MimiRemoteProcessingParameter<MimiCoreKit.MimiPersonalization.Preset?>
+  final public let presetDataSource: MimiCoreKit.MimiPresetParameterDataSource
+  @objc deinit
+}
+public typealias MimiProcessingSessionInterruption = Swift.Hashable
+extension MimiCoreKit.MimiProcessingSession {
+  final public func interrupt<T>(reason: T) -> Combine.AnyPublisher<Swift.Bool, any Swift.Error> where T : Swift.Hashable
+  final public func resolve<T>(interruption: T) -> Combine.AnyPublisher<Swift.Bool, any Swift.Error> where T : Swift.Hashable
+}
+extension MimiCoreKit.MimiProcessingSession : Swift.CustomDebugStringConvertible {
+  final public var debugDescription: Swift.String {
+    get
+  }
+}
+public enum MimiTestEar : Swift.String, Swift.Codable {
+  case left
+  case right
+  case both
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension MimiCoreKit.MimiTestEar {
+  public var other: MimiCoreKit.MimiTestEar? {
+    get
+  }
+}
+extension MimiCoreKit.MimiTestTypeConfiguration {
+  public struct MimiSupportedTestConfigurations : Swift.Codable {
+    public let ptt: MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.MimiPTTTestConfiguration?
+    public let mt: MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.MimiMTTestConfiguration?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations {
+  public struct MimiMTTestConfiguration : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct MimiPTTTestConfiguration : Swift.Codable {
+    public let metadata: MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.MimiPTTTestConfiguration.MimiPTTTestMetadata?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.MimiPTTTestConfiguration {
+  public struct MimiPTTTestMetadata : Swift.Codable {
+    public let headphone: MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.MimiPTTTestConfiguration.MimiPTTTestMetadata.MimiPTTHeadphoneMetadata
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.MimiPTTTestConfiguration.MimiPTTTestMetadata {
+  public struct MimiPTTHeadphoneMetadata : Swift.Codable {
+    public let id: Swift.String
+    public let connectionType: MimiCoreKit.MimiHeadphone.ConnectionType?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+public protocol MimiAuthController : MimiCoreKit.MimiCoreController {
+  var observable: MimiCoreKit.MimiCoreObservable<any MimiCoreKit.MimiAuthControllerObservable> { get }
+  var currentUser: MimiCoreKit.MimiUser? { get }
+  @discardableResult
+  func authenticate(route: MimiCoreKit.MimiAuthRoute, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiUser>) -> MimiCoreKit.MimiAuthTokenRequest?
+  func resetPassword(email: Swift.String, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
+  func requestDeviceAuthorization(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiDeviceAuthRequest>)
+  func approveDeviceAuthorization(request: MimiCoreKit.MimiDeviceAuthRequest, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
+  func logOut()
+  func reloadUser(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiUser>)
+  func updateUser(properties: MimiCoreKit.MimiUser.PropertyUpdate..., result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiUser>)
+  @available(*, deprecated, message: "Will be removed in SDK v10. Use loadUserAccountPortalURL() instead.")
+  func launchAccountPortal(from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, customize: ((SafariServices.SFSafariViewController) -> Swift.Void)?, completion: (() -> Swift.Void)?) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  func loadUserAccountPortalURL() async throws -> Foundation.URL
+  #endif
+}
+public protocol MimiAuthControllerObservable : AnyObject {
+  func authController(_ controller: any MimiCoreKit.MimiAuthController, didUpdate currentUser: MimiCoreKit.MimiUser?, from oldUser: MimiCoreKit.MimiUser?, error: MimiCoreKit.MimiCoreError?)
+}
+public protocol MimiTestRunResultData : Swift.Decodable, Swift.Encodable {
+  var ear: MimiCoreKit.MimiTestEar { get }
+  var hearingGrade: MimiCoreKit.MimiHearingGrade { get }
+  var error: MimiCoreKit.MimiTestResultError? { get }
+  var warnings: [MimiCoreKit.MimiTestResultError]? { get }
+}
+public protocol MimiTestController : MimiCoreKit.MimiCoreController {
+  var observable: MimiCoreKit.MimiCoreObservable<any MimiCoreKit.MimiTestControllerObservable> { get }
+  var latestResults: MimiCoreKit.MimiTestResults? { get }
+  var connectedHeadphoneProvider: (any MimiCoreKit.MimiConnectedHeadphoneProvider)? { get set }
+  func loadTestTypeConfiguration(headphoneIdentifier: MimiCoreKit.MimiHeadphoneIdentifier?, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestTypeConfiguration>)
+  func submit(test: MimiCoreKit.MimiTest, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestResults>)
+  func loadHeadphones(connectionType: MimiCoreKit.MimiHeadphone.ConnectionType, result: MimiCoreKit.MimiCoreResultHandler<[MimiCoreKit.MimiHeadphone]>)
+  func delete(testResult: any MimiCoreKit.AnyMimiTestResult, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
+  func loadResults<RunResultData>(type: RunResultData.Type, result: MimiCoreKit.MimiCorePagedResultHandler<[MimiCoreKit.MimiTestResult<RunResultData>]>) where RunResultData : MimiCoreKit.MimiTestRunResultData
+  func loadLatestResults(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestResults>)
+}
+public protocol MimiTestControllerObservable : AnyObject {
+  func testController(_ controller: any MimiCoreKit.MimiTestController, didUpdate latestResults: MimiCoreKit.MimiTestResults)
+}
+extension MimiCoreKit.MimiTestControllerObservable {
+  public func testController(_ controller: any MimiCoreKit.MimiTestController, didUpdate latestResults: MimiCoreKit.MimiTestResults)
+}
+final public class MimiLogger {
+  public enum Level {
+    case none
+    case debug
+    case info
+    case warning
+    case error
+    case all
+    public static func == (a: MimiCoreKit.MimiLogger.Level, b: MimiCoreKit.MimiLogger.Level) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public var levels: [MimiCoreKit.MimiLogger.Level]
+  final public var history: [Swift.String] {
+    get
+  }
+  public init(levels: [MimiCoreKit.MimiLogger.Level] = [.none])
+  final public func debug(_ message: Swift.String, sender: Swift.AnyObject?)
+  final public func info(_ message: Swift.String, sender: Swift.AnyObject?)
+  final public func warn(_ message: Swift.String, sender: Swift.AnyObject?)
+  final public func error(_ message: Swift.String, sender: Swift.AnyObject?)
+  final public func clearHistory()
+  @objc deinit
+}
+extension MimiCoreKit.MimiLogger.Level : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var emoji: Swift.String {
+    get
+  }
+}
+extension MimiCoreKit.MimiPersonalization {
+  public struct Fitting : Swift.Codable, Swift.Equatable {
+    public let techLevel: Swift.Int
+    public let additionalInfo: Swift.String?
+    public static func techLevel(_ techLevel: Swift.Int, additionalInfo: Swift.String? = nil) -> MimiCoreKit.MimiPersonalization.Fitting
+    public static func == (a: MimiCoreKit.MimiPersonalization.Fitting, b: MimiCoreKit.MimiPersonalization.Fitting) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+public struct MimiTestAudiogram : Swift.Codable {
+  public struct DataPoint : Swift.Codable {
+    public let frequency: Swift.Int
+    public let threshold: Swift.Double
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public let dataPoints: [MimiCoreKit.MimiTestAudiogram.DataPoint]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiTestAudiogram.DataPoint {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension MimiCoreKit.MimiTestAudiogram.DataPoint : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiTestAudiogram.DataPoint, rhs: MimiCoreKit.MimiTestAudiogram.DataPoint) -> Swift.Bool
+}
+extension MimiCoreKit.MimiCore {
+  public static let version: Swift.String
+}
+public struct MimiTestHeadphoneMetadata : Swift.Equatable, Swift.Codable {
+  public let id: Swift.String
+  public let connectionType: MimiCoreKit.MimiHeadphone.ConnectionType?
+  public init(id: Swift.String, connectionType: MimiCoreKit.MimiHeadphone.ConnectionType?)
+  public static func == (a: MimiCoreKit.MimiTestHeadphoneMetadata, b: MimiCoreKit.MimiTestHeadphoneMetadata) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MimiUser : Swift.Codable {
+  public enum Sex : Swift.String, Swift.CaseIterable, Swift.Codable {
+    case male
+    case female
+    case intersex
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [MimiCoreKit.MimiUser.Sex]
+    public typealias RawValue = Swift.String
+    public static var allCases: [MimiCoreKit.MimiUser.Sex] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public typealias YearOfBirth = Swift.Int
+  public typealias Age = Swift.Int
+  public enum PropertyUpdate {
+    case sex(to: MimiCoreKit.MimiUser.Sex)
+    case yearOfBirth(to: Swift.Int)
+    case nickname(to: Swift.String)
+    case country(to: Swift.String)
+  }
+  public var id: Swift.String? {
+    get
+  }
+  public var anonymousId: Swift.String? {
+    get
+  }
+  public var isAnonymous: Swift.Bool {
+    get
+  }
+  public var email: Swift.String? {
+    get
+  }
+  public var yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth? {
+    get
+  }
+  public var sex: MimiCoreKit.MimiUser.Sex? {
+    get
+  }
+  public var nickname: Swift.String? {
+    get
+  }
+  public var country: Swift.String? {
+    get
+  }
+  public var age: MimiCoreKit.MimiUser.Age? {
+    get
+  }
+  public var isVerified: Swift.Bool? {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension MimiCoreKit.MimiUser {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiUser : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiUser, rhs: MimiCoreKit.MimiUser) -> Swift.Bool
+}
+extension MimiCoreKit.MimiUser {
+  public func isRelated(to other: MimiCoreKit.MimiUser?) -> Swift.Bool
+}
+public typealias MimiProcessingParameterable = Swift.Equatable & Swift.Codable
+@_hasMissingDesignatedInitializers public class MimiProcessingParameter<Value> where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable {
+  @frozen public enum ApplicationResult {
+    case success
+    case failure(any Swift.Error)
+  }
+  @frozen public enum DeliveryMode {
+    case continuous
+    case discrete(seconds: Foundation.TimeInterval)
+  }
+  @Combine.Published @_projectedValueProperty($value) public var value: Value {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+  }
+  public var $value: Combine.Published<Value>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public func applicator() -> MimiCoreKit.MimiProcessingParameterApplicator<Value>
+  public func applicator(synchronizing value: Value) -> (MimiCoreKit.MimiProcessingParameterApplicator<Value>, Combine.AnyPublisher<Value, any Swift.Error>)
+  public var deliveryMode: MimiCoreKit.MimiProcessingParameter<Value>.DeliveryMode {
+    get
+    set
+  }
+  @discardableResult
+  public func apply(_ value: Value) -> Combine.AnyPublisher<Value, any Swift.Error>
+  @objc deinit
+}
+extension MimiCoreKit.MimiProcessingParameter : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public protocol MimiAnalyticsEvent {
+  var name: Swift.String { get }
+  var properties: [Swift.String : MimiCoreKit.MimiAnalyticsProperty]? { get }
+  var bundle: Foundation.Bundle { get }
+}
+extension MimiCoreKit.MimiTestMetadata.Host {
+  public static func from(device: UIKit.UIDevice, locale: Foundation.Locale) -> MimiCoreKit.MimiTestMetadata.Host
+}
+extension MimiCoreKit.MimiTestMetadata.Client {
+  public static func from(bundle: Foundation.Bundle) -> MimiCoreKit.MimiTestMetadata.Client
+}
+public struct MimiMTTestRunResultData : MimiCoreKit.MimiTestRunResultData {
+  public let ear: MimiCoreKit.MimiTestEar
+  public let hearingGrade: MimiCoreKit.MimiHearingGrade
+  public var error: MimiCoreKit.MimiTestResultError? {
+    get
+  }
+  public var warnings: [MimiCoreKit.MimiTestResultError]? {
+    get
+  }
+}
+extension MimiCoreKit.MimiMTTestRunResultData {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol MimiConnectedHeadphoneProvider : AnyObject {
+  func getMimiHeadphoneIdentifier() -> MimiCoreKit.MimiHeadphoneIdentifier?
+}
+public enum MimiPresetParameterDataSource {
+  case `default`(MimiCoreKit.MimiDefaultPresetParameterDataSource)
+  case upDown(MimiCoreKit.MimiUpDownPresetParameterDataSource)
+}
+public struct MimiTestTypeConfiguration {
+  public let supported: MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations?
+  public let order: [MimiCoreKit.MimiTestType]
+  public let selected: MimiCoreKit.MimiTestType?
+}
+extension MimiCoreKit.MimiTestTypeConfiguration : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MimiDeviceAuthRequest : Swift.Codable {
+  public let userCode: Swift.String
+  public let deviceCode: Swift.String?
+  public let expiryDate: Foundation.Date?
+  public var hasExpired: Swift.Bool {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension MimiCoreKit.MimiDeviceAuthRequest {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiDeviceAuthRequest {
+  public static func fromQRCode(data: Foundation.Data) throws -> MimiCoreKit.MimiDeviceAuthRequest
+  public func generateQRCode(size: CoreFoundation.CGSize) -> UIKit.UIImage?
+}
+public struct MimiSignUpData {
+  public enum Permission : Swift.String, Swift.CaseIterable {
+    case privacyPolicy
+    case termsOfService
+    case contact
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [MimiCoreKit.MimiSignUpData.Permission]
+    public typealias RawValue = Swift.String
+    public static var allCases: [MimiCoreKit.MimiSignUpData.Permission] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let email: Swift.String
+  public let password: Swift.String
+  public let nickname: Swift.String?
+  public let sex: MimiCoreKit.MimiUser.Sex?
+  public let yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth?
+  public let country: Swift.String?
+  public let acceptedPermissions: [MimiCoreKit.MimiSignUpData.Permission]
+  public init(email: Swift.String, password: Swift.String, nickname: Swift.String? = nil, sex: MimiCoreKit.MimiUser.Sex? = nil, yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth? = nil, country: Swift.String? = nil, acceptedPermissions: [MimiCoreKit.MimiSignUpData.Permission]? = nil)
+}
+public enum MimiTestType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case maskThreshold
+  case pureToneThreshold
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MimiCoreKit.MimiTestType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MimiCoreKit.MimiTestType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct MimiTest : Swift.Codable {
+  public init(runs: [MimiCoreKit.MimiTestRun], metadata: MimiCoreKit.MimiTestMetadata)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class MimiUpDownPresetParameterDataSource {
+  final public var fitting: MimiCoreKit.MimiPersonalization.Fitting
+  @Combine.Published @_projectedValueProperty($bundle) final public var bundle: MimiCoreKit.MimiPersonalization.UpDownPresetBundle? {
+    get
+  }
+  final public var $bundle: Combine.Published<MimiCoreKit.MimiPersonalization.UpDownPresetBundle?>.Publisher {
+    get
+  }
+  convenience public init(fitting: MimiCoreKit.MimiPersonalization.Fitting)
+  @objc deinit
+}
+public struct MimiTestRun : Swift.Codable {
+  public enum MetadataItem {
+    case none
+    case headphone(MimiCoreKit.MimiTestHeadphoneMetadata)
+    case sampleRate(Swift.Double?)
+  }
+  public init(data: Foundation.Data, noiseData: Foundation.Data? = nil, metadata: [MimiCoreKit.MimiTestRun.MetadataItem]) throws
+}
+extension MimiCoreKit.MimiTestRun {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiPersonalizationVisualization {
+  public struct Level : Swift.Codable, Swift.Equatable {
+    public let personalized: Swift.Double
+    public let nonPersonalized: Swift.Double
+    public let optimal: Swift.Double
+    public static func == (a: MimiCoreKit.MimiPersonalizationVisualization.Level, b: MimiCoreKit.MimiPersonalizationVisualization.Level) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+public enum MimiAnalyticsProperty : Swift.Equatable {
+  case string(_: Swift.String)
+  case integer(_: Swift.Int)
+  case double(_: Swift.Double)
+  case bool(_: Swift.Bool)
+  case array(_: [MimiCoreKit.MimiAnalyticsProperty])
+  public static func == (a: MimiCoreKit.MimiAnalyticsProperty, b: MimiCoreKit.MimiAnalyticsProperty) -> Swift.Bool
+}
+extension MimiCoreKit.MimiAnalyticsProperty : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MimiCoreKit.MimiAnalyticsProperty : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public struct MimiAnalyticsPropertiesGenerator {
+  public static func generate(for error: MimiCoreKit.MimiCoreError) -> [Swift.String : MimiCoreKit.MimiAnalyticsProperty]?
+  public static func generate(for error: any Swift.Error) -> [Swift.String : MimiCoreKit.MimiAnalyticsProperty]?
+}
+extension MimiCoreKit.MimiHeadphone.ConnectionType : Swift.Equatable {}
+extension MimiCoreKit.MimiHeadphone.ConnectionType : Swift.Hashable {}
+extension MimiCoreKit.MimiHeadphone.ConnectionType : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiHeadphone.Category : Swift.Equatable {}
+extension MimiCoreKit.MimiHeadphone.Category : Swift.Hashable {}
+extension MimiCoreKit.MimiHeadphone.Category : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiTestResultError.MT : Swift.Equatable {}
+extension MimiCoreKit.MimiTestResultError.MT : Swift.Hashable {}
+extension MimiCoreKit.MimiTestResultError.MT : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiTestResultError.PTT : Swift.Equatable {}
+extension MimiCoreKit.MimiTestResultError.PTT : Swift.Hashable {}
+extension MimiCoreKit.MimiTestResultError.PTT : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiProcessingParameterError : Swift.Equatable {}
+extension MimiCoreKit.MimiProcessingParameterError : Swift.Hashable {}
+extension MimiCoreKit.MimiHearingGrade : Swift.Equatable {}
+extension MimiCoreKit.MimiHearingGrade : Swift.Hashable {}
+extension MimiCoreKit.MimiHearingGrade : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiTestType : Swift.Equatable {}
+extension MimiCoreKit.MimiTestType : Swift.Hashable {}
+extension MimiCoreKit.MimiTestType : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiAnalyticsError : Swift.Equatable {}
+extension MimiCoreKit.MimiAnalyticsError : Swift.Hashable {}
+extension MimiCoreKit.MimiProcessingError : Swift.Equatable {}
+extension MimiCoreKit.MimiProcessingError : Swift.Hashable {}
+extension MimiCoreKit.MimiCoreError.ConfigurationError : Swift.Equatable {}
+extension MimiCoreKit.MimiCoreError.ConfigurationError : Swift.Hashable {}
+extension MimiCoreKit.MimiCoreError.ConfigurationError : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiCoreError.ClientError : Swift.Equatable {}
+extension MimiCoreKit.MimiCoreError.ClientError : Swift.Hashable {}
+extension MimiCoreKit.MimiCoreError.ClientError : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiCoreError.ServerError : Swift.Equatable {}
+extension MimiCoreKit.MimiCoreError.ServerError : Swift.Hashable {}
+extension MimiCoreKit.MimiCoreError.ServerError : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiCoreError.DataError : Swift.Equatable {}
+extension MimiCoreKit.MimiCoreError.DataError : Swift.Hashable {}
+extension MimiCoreKit.MimiCoreError.DataError : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiCoreError.ProcessingError : Swift.Equatable {}
+extension MimiCoreKit.MimiCoreError.ProcessingError : Swift.Hashable {}
+extension MimiCoreKit.MimiCoreError.ProcessingError : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiTestEar : Swift.Equatable {}
+extension MimiCoreKit.MimiTestEar : Swift.Hashable {}
+extension MimiCoreKit.MimiTestEar : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiLogger.Level : Swift.Equatable {}
+extension MimiCoreKit.MimiLogger.Level : Swift.Hashable {}
+extension MimiCoreKit.MimiUser.Sex : Swift.Equatable {}
+extension MimiCoreKit.MimiUser.Sex : Swift.Hashable {}
+extension MimiCoreKit.MimiUser.Sex : Swift.RawRepresentable {}
+extension MimiCoreKit.MimiProcessingParameter.ApplicationResult : Swift.Sendable {}
+extension MimiCoreKit.MimiProcessingParameter.DeliveryMode : Swift.Sendable {}
+extension MimiCoreKit.MimiSignUpData.Permission : Swift.Equatable {}
+extension MimiCoreKit.MimiSignUpData.Permission : Swift.Hashable {}
+extension MimiCoreKit.MimiSignUpData.Permission : Swift.RawRepresentable {}

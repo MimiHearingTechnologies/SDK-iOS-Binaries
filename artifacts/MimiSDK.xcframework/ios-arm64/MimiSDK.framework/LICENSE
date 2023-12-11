@@ -1,0 +1,117 @@
+MIMI HEARING TECHNOLOGIES
+
+SOFTWARE DEVELOPMENT KIT (SDK) LICENSE AGREEMENT
+
+THIS SDK LICENSE AGREEMENT (THE “AGREEMENT”) IS A LEGALLY BINDING AGREEMENT BETWEEN YOU, WHETHER AN INDIVIDUAL OR ENTITY, 
+(“YOU”) AND MIMI HEARING TECHNOLOGIES, A CORPORATION INCORPORATED IN GERMANY (“MIMI”) FOR THE MIMI SDK SOFTWARE THAT ACCOMPANIES 
+THIS AGREEMENT INCLUDING ANY UPGRADES, UPDATES, BUG FIXES AND OR MODIFIED VERSIONS THERETO AND ANY ASSOCIATED MEDIA, INCLUDING MANUALS (IF ANY), 
+WHETHER PRINTED OR IN ELECTRONIC FORM (COLLECTIVELY, THE “SOFTWARE”).
+
+IMPORTANT: PLEASE READ THIS AGREEMENT CAREFULLY. IT IS VERY IMPORTANT THAT YOU CHECK THAT YOU ARE RECEIVING THE SOFTWARE FROM MIMI AND THAT YOU 
+HAVE EXECUTED A WRITTEN LICENSE AGREEMENT WITH MIMI APPROVING YOUR USE OF THE SOFTWARE. WITHOUT SUCH APPROVAL, YOU HAVE NO LICENSE TO USE THE SOFTWARE. 
+IF YOU HAVE RECEIVED THE SOFTWARE FROM MIMI, DOWNLOADING, INSTALLING OR USING THIS SOFTWARE CONSTITUTES YOUR ACCEPTANCE OF THIS AGREEMENT.
+
+MIMI IS WILLING TO LICENSE THIS SOFTWARE TO YOU ONLY UPON THE CONDITION THAT MIMI HAS APPROVED YOUR USE OF THE SOFTWARE IN WRITING UNDER EXECUTED LICENSE 
+AGREEMENT AND THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN MIMI IS UNWILLING 
+TO LICENSE THE SOFTWARE TO YOU AND YOU MAY NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE. 
+
+THE FOLLOWING TERMS OF THE AGREEMENT GOVERN YOUR USE OF THE SOFTWARE.
+
+1. License Grant, Restrictions and Indemnity
+
+1.1	Subject to continued compliance with the terms and conditions of the Agreement, Mimi grants to you a non-exclusive, 
+non-transferable, non-sublicensable and revocable license to use the Software.
+
+1.2	Your license to use the Software shall be limited to using Software for internal purposes only to enable the interoperability 
+of the Mimi technology with your branded products or services. No other licenses are granted by implication, estoppel or otherwise. 
+
+1.3	This is a license, not a transfer of title, to the Software and Mimi retains ownership of all copies of the Software. You acknowledge 
+that the Software contains valuable intellectual property and trade secrets of Mimi or its suppliers or licensors. Except as otherwise 
+expressly provided under the Agreement, You shall only use the Software as specified in section 1.2 above and for no other purposes whatsoever. 
+
+1.4	You shall have no right, and specifically agree not to (nor permit any third party to): 
+    a) transfer, assign or sublicense Your license rights to any other person or entity;
+    b) make error corrections to or otherwise modify or adapt or reverse engineer or disassemble the Software or 
+       create derivative works based upon the Software except to the extent permitted under applicable law; 
+    c) publish any results of benchmark tests run on the Software; 
+    d) disclose, provide, or otherwise make available intellectual property and trade secrets contained within the Software to 
+       any third party and shall treat the Software in the same manner as You do Your own intellectual property, 
+       personal data and confidential information but with no less than a reasonable degree of care; and 
+    e) make any additional copies of the Software unless required solely for back-up purposes.
+
+1.5	You agree to indemnify, defend and hold harmless Mimi, its affiliates and officers, directors, employees, representatives and agents 
+for any loss, damage or liability arising from Your breach of any provision of this Agreement.
+
+2. Proprietary Notices
+
+You agree to maintain and reproduce all copyright, proprietary, and other notices on all copies, in any form, of the Software as they are provided to You. 
+
+3. Term and Termination 
+
+3.1	This Agreement and the license granted herein shall remain effective until terminated. 
+
+3.2	Your rights to use the Software under this Agreement will terminate immediately without notice from Mimi if You breach any provision of this Agreement. 
+In such event, You shall destroy all copies of Software. The provisions herein relating to confidentiality, indemnity and limitations of 
+liability shall survive any termination of this Agreement.
+
+3.3	You may terminate the Agreement and the license at any time by ceasing all use of the Software and destroying all copies of the Software in Your possession. 
+
+4. Export and Re-Export Controls 
+
+The Software supplied under the Agreement is subject to export controls under the laws and regulations of the European Union, the United States and any other 
+applicable countries' laws and regulations. You agree to comply with such laws and regulations governing export, re-export, import, transfer and use of the Software. 
+
+5. Limited Warranty
+
+5.1	Mimi represents and warrants the following: the Software is capable of meeting the specifications included in the documentation or operating instructions, 
+if any, provided hereunder on the condition that it is used in accordance with its operating instructions and the terms herein.
+
+5.2	Your sole and exclusive remedy for breach of the foregoing representation shall be Mimi’s commercially reasonable efforts to redeliver the affected Software.
+
+6. DISCLAIMER OF WARRANTY 
+IN NO EVENT DOES MIMI WARRANT THAT THE SOFTWARE IS ERROR FREE OR THAT YOU WILL BE ABLE TO OPERATE THE SOFTWARE WITHOUT PROBLEMS OR INTERRUPTIONS. IN ADDITION, DUE 
+TO THE CONTINUAL DEVELOPMENT OF NEW TECHNIQUES FOR BREACHING NETWORKS, MIMI DOES NOT WARRANT THAT THE SOFTWARE WILL BE FREE OF VULNERABILITY TO SUCH BREACH. 
+
+EXCEPT AS SPECIFIED IN THIS WARRANTY SECTION ABOVE, THE SOFTWARE IS PROVIDED ‘AS IS’ AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS, AND WARRANTIES INCLUDING, 
+WITHOUT LIMITATION, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, SATISFACTORY QUALITY, NON-INTERFERENCE, 
+ACCURACY OF INFORMATIONAL CONTENT, OR ARISING FROM A COURSE OF DEALING, LAW, USAGE, OR TRADE PRACTICE, ARE HEREBY EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW 
+AND ARE EXPRESSLY DISCLAIMED BY MIMI, ITS SUPPLIERS AND LICENSORS. 
+
+THE WARRANTY PROVIDED HEREIN GIVES CUSTOMER SPECIFIC LEGAL RIGHTS, AND CUSTOMER MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION. THIS DISCLAIMER 
+AND EXCLUSION SHALL APPLY EVEN IF THE EXPRESS WARRANTY SET FORTH ABOVE FAILS OF ITS ESSENTIAL PURPOSE.
+
+THE MIMI SOFTWARE IS NOT INTENDED TO DIAGNOSE, CURE, MITIGATE, TREAT OR PREVENT ANY DISEASE OR CONDITION AND IF THE INDIVIDUAL USING THE SOFTWARE HAS ANY CONCERN ABOUT 
+HIS OR HER HEARING ABILITY, THEN THAT INDIVIDUAL SHOULD SEE A PHYSICIAN. 
+
+7. DISCLAIMER OF LIABILITIES AND LIMITATION OF LIABILITY 
+
+ALL LIABILITY OF MIMI, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS AND LICENSORS COLLECTIVELY, TO YOU, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE),
+ BREACH OF WARRANTY OR OTHERWISE, SHALL NOT EXCEED THE PRICE PAID BY YOU FOR THE SOFTWARE THAT GAVE RISE TO THE CLAIM. THIS LIMITATION OF LIABILITY FOR SOFTWARE IS CUMULATIVE 
+ AND NOT PER INCIDENT. NOTHING IN THE AGREEMENT SHALL LIMIT (I) THE LIABILITY OF MIMI, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS AND LICENSORS TO 
+ CUSTOMER FOR PERSONAL INJURY OR DEATH CAUSED BY THEIR NEGLIGENCE, (II) MIMI’S LIABILITY FOR FRAUDULENT MISREPRESENTATION, OR (III) ANY LIABILITY OF MIMI WHICH 
+ CANNOT BE EXCLUDED UNDER APPLICABLE LAW. 
+
+ IN NO EVENT WILL MIMI, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS AND LICENSORS, BE LIABLE FOR ANY LOST REVENUE, LOST PROFIT, OR LOST OR 
+ DAMAGED DATA, BUSINESS INTERRUPTION, LOSS OF CAPITAL, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES, HOWSOEVER ARISING, INCLUDING, WITHOUT 
+ LIMITATION, IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR WHETHER ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF, IN EACH CASE, MIMI, ITS AFFILIATES, 
+ OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS AND LICENSORS, HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME STATES OR JURISDICTIONS DO NOT 
+ ALLOW LIMITATION OR EXCLUSION OF CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT FULLY APPLY TO YOU. THE FOREGOING EXCLUSION SHALL NOT APPLY TO 
+ ANY LIABILITY ARISING OUT OF OR IN CONNECTION WITH: (I) DEATH OR PERSONAL INJURY, (II) FRAUDULENT MISREPRESENTATION, OR (III) MIMI'S LIABILITY IN CONNECTION WITH 
+ ANY TERMS THAT CANNOT BE EXCLUDED UNDER APPLICABLE LAW. 
+
+8. Miscellaneous 
+
+8.1 This Agreement and warranties provided herein are controlled by and construed under the laws of [Germany], notwithstanding any conflicts of law provisions; 
+and the courts of [Berlin, Germany] shall have exclusive jurisdiction over any claim arising under the Agreement. Notwithstanding the foregoing, either party may 
+seek interim injunctive relief in any court of appropriate jurisdiction with respect to any alleged breach of such party's intellectual property or proprietary rights.
+
+8.2 No person who is not a party to the Agreement shall be entitled to enforce or take the benefit of any of its terms herein.
+
+8.3 The parties specifically disclaim the application of the UN Convention on Contracts for the International Sale of Goods.
+
+8.4 If any portion hereof is found to be void or unenforceable, the remaining provisions of the Agreement shall remain in full force and effect. 
+
+8.5 Except as expressly provided herein, this Agreement constitutes the entire agreement between the parties with respect to the license of the Software and 
+supersedes any conflicting or additional terms contained elsewhere, all of which terms are excluded. 
+
+8.6 The Agreement has been written in the English language, and the parties agree that the English version will govern.

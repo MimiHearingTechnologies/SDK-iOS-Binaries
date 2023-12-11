@@ -1,0 +1,1807 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MimiUXKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import DeveloperToolsSupport
+import Foundation
+@_exported import MimiUXKit
+import ObjectiveC
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiVisibilityToggle : MimiUXKit.MimiControl {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct MimiTextUppercaseOptions : Swift.OptionSet {
+  public let rawValue: Swift.Int
+  public static let header: MimiUXKit.MimiTextUppercaseOptions
+  public static let title: MimiUXKit.MimiTextUppercaseOptions
+  public static let button: MimiUXKit.MimiTextUppercaseOptions
+  public static let none: MimiUXKit.MimiTextUppercaseOptions
+  public init(rawValue: Swift.Int)
+  public typealias ArrayLiteralElement = MimiUXKit.MimiTextUppercaseOptions
+  public typealias Element = MimiUXKit.MimiTextUppercaseOptions
+  public typealias RawValue = Swift.Int
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiLabel : MimiUXKit.MimiAttributedLabel {
+  public enum Style : Swift.CaseIterable {
+    case title
+    case header
+    case action
+    case compactAction
+    case body
+    case compactBody
+    case caption
+    public static func == (a: MimiUXKit.MimiLabel.Style, b: MimiUXKit.MimiLabel.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public typealias AllCases = [MimiUXKit.MimiLabel.Style]
+    public static var allCases: [MimiUXKit.MimiLabel.Style] {
+      get
+    }
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) open var style: MimiUXKit.MimiLabel.Style {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var textColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var font: UIKit.UIFont! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override open var highlightedFont: UIKit.UIFont? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open var paragraphLineSpacing: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open var kern: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open var allowsOverridingTextAlignmentByTheme: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) open class MimiToggleButton : MimiUXKit.MimiButton {
+  public enum Style {
+    case onOff
+    case custom
+    public static func == (a: MimiUXKit.MimiToggleButton.Style, b: MimiUXKit.MimiToggleButton.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var selectedTintColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var selectedTitleColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var bounces: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) public init(style: MimiUXKit.MimiToggleButton.Style)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var adjustsImageWhenDisabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var adjustsImageWhenHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
+  @objc deinit
+}
+extension UIKit.UITraitCollection {
+  @objc dynamic public var mimiLayoutClass: MimiUXKit.MimiLayoutClass {
+    @objc get
+  }
+}
+@_hasMissingDesignatedInitializers final public class MimiAlertPresenter : MimiUXKit.MimiAlertPresentable {
+  @discardableResult
+  public static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  final public func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiTextButton : MimiUXKit.MimiButton {
+  public enum Style {
+    case `default`
+    case destructive
+    public static func == (a: MimiUXKit.MimiTextButton.Style, b: MimiUXKit.MimiTextButton.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public init(style: MimiUXKit.MimiTextButton.Style = .default)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var titleLabel: UIKit.UILabel? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) open var style: MimiUXKit.MimiTextButton.Style {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var highlightedTintColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var titleFont: UIKit.UIFont! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+public struct MimiHighlightableColor {
+  public let color: UIKit.UIColor
+  public let highlightColor: UIKit.UIColor
+  public init(color: UIKit.UIColor, highlightColor: UIKit.UIColor)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiPageControl : MimiUXKit.MimiControl {
+  @_Concurrency.MainActor(unsafe) open var numberOfPages: Swift.Int {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var currentPage: Swift.Int! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var hidesForSinglePage: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiAttributedLabel : UIKit.UILabel, MimiUXKit.MimiComponent {
+  @_Concurrency.MainActor(unsafe) public var automaticallyApplyAttributes: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var attributedText: Foundation.NSAttributedString? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var font: UIKit.UIFont! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var textColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var highlightedFont: UIKit.UIFont? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var highlightedTextColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var numberOfLines: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var paragraphLineSpacing: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var kern: CoreFoundation.CGFloat? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var allowsOverridingTextAlignmentByTheme: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiValidatingTextField<TextField> : MimiUXKit.MimiControl where TextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) final public let field: TextField
+  @_Concurrency.MainActor(unsafe) open var errorColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var messageColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) open var message: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var numberOfLines: Swift.Int {
+    get
+    set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var accessibilityIdentifier: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var messageAccessibilityIdentifier: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var fieldAccessibilityIdentifier: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MimiUXKit.MimiValidatingTextField {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func addValidation(_ validation: @escaping (TextField) -> Swift.Bool?, investigation: MimiUXKit.MimiValidationEngine.CheckInvestigation? = nil) -> any MimiUXKit.MimiValidation
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func validate() -> Swift.Bool
+}
+public protocol MimiAlertPresentable : AnyObject {
+  @discardableResult
+  static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiAlertBanner : MimiUXKit.MimiControl {
+  @_Concurrency.MainActor(unsafe) open var title: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var hideOnTouch: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var textColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var labelAccessibilityId: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public init(title: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+extension MimiUXKit.MimiAlertBanner {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public class func show(title: Swift.String, in view: UIKit.UIView, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> MimiUXKit.MimiAlertBanner?
+  @_Concurrency.MainActor(unsafe) public class func hide(from view: UIKit.UIView, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+@_Concurrency.MainActor(unsafe) public struct MimiText : SwiftUI.View {
+  public enum TextStyle {
+    case title
+    case header
+    case action
+    case compactAction
+    case body
+    case bodyHighlight
+    case compactBody
+    case compactBodyHighlight
+    case caption
+    case captionHighlight
+    public static func == (a: MimiUXKit.MimiText.TextStyle, b: MimiUXKit.MimiText.TextStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public init(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s9MimiUXKit0A4TextV4bodyQrvp", 0) __
+}
+extension MimiUXKit.MimiText {
+  @_Concurrency.MainActor(unsafe) public func style(_ style: MimiUXKit.MimiText.TextStyle) -> MimiUXKit.MimiText
+  @_Concurrency.MainActor(unsafe) public func bold(_ bold: Swift.Bool = true) -> MimiUXKit.MimiText
+  @_Concurrency.MainActor(unsafe) public func textAlignmentOverriddenByTheme() -> MimiUXKit.MimiText
+  @_Concurrency.MainActor(unsafe) public func overrideLineSpacing(_ spacing: CoreFoundation.CGFloat) -> MimiUXKit.MimiText
+  @_Concurrency.MainActor(unsafe) public func foregroundColor(_ color: SwiftUI.Color) -> MimiUXKit.MimiText
+}
+extension UIKit.UIAlertController : MimiUXKit.MimiAlertPresentable {
+  @_Concurrency.MainActor(unsafe) public static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  @_Concurrency.MainActor(unsafe) public func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiLoadingView : MimiUXKit.MimiView {
+  public enum IndicatorColor {
+    case primaryTint
+    case foreground
+    case custom(UIKit.UIColor)
+  }
+  @_Concurrency.MainActor(unsafe) open var preferredIndicatorColor: MimiUXKit.MimiLoadingView.IndicatorColor?
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) open func startAnimating()
+  @_Concurrency.MainActor(unsafe) open func stopAnimating(completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func mimiStartLoading(animated: Swift.Bool, preferredIndicatorColor: MimiUXKit.MimiLoadingView.IndicatorColor? = nil, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func mimiStopLoading(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+}
+@_hasMissingDesignatedInitializers final public class MimiUX {
+  @objc deinit
+}
+@objc public class MimiAlert : ObjectiveC.NSObject {
+  final public let title: Swift.String?
+  final public let message: Swift.String?
+  final public let image: UIKit.UIImage?
+  final public let actions: [MimiUXKit.MimiAlertAction]
+  public var accessibilityId: Swift.String?
+  public init(title: Swift.String?, message: Swift.String?, image: UIKit.UIImage? = nil, actions: [MimiUXKit.MimiAlertAction]?)
+  @objc deinit
+}
+public class MimiAlertAction {
+  public typealias Handler = () -> Swift.Void
+  public enum Style {
+    case `default`
+    case destructive
+    case cancel
+    public static func == (a: MimiUXKit.MimiAlertAction.Style, b: MimiUXKit.MimiAlertAction.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let title: Swift.String
+  final public let action: MimiUXKit.MimiAlertAction.Handler?
+  final public let style: MimiUXKit.MimiAlertAction.Style
+  public var accessibilityId: Swift.String?
+  public init(title: Swift.String, style: MimiUXKit.MimiAlertAction.Style = .default, action: MimiUXKit.MimiAlertAction.Handler?)
+  @objc deinit
+}
+public struct MimiColorBook : Swift.Equatable {
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public enum Color {
+    case primaryTint(MimiUXKit.MimiColor)
+    case secondaryTint(MimiUXKit.MimiColor)
+    case tertiaryTint(MimiUXKit.MimiColor)
+    case primaryForeground(MimiUXKit.MimiColor)
+    case secondaryForeground(MimiUXKit.MimiColor)
+    case primaryBackground(MimiUXKit.MimiColor)
+    case secondaryBackground(MimiUXKit.MimiColor)
+    case elevatedBackground(MimiUXKit.MimiColor)
+    case warning(MimiUXKit.MimiColor)
+    case error(MimiUXKit.MimiColor)
+    case success(MimiUXKit.MimiColor)
+    case primaryText(MimiUXKit.MimiColor)
+    case secondaryText(MimiUXKit.MimiColor)
+    case hearingTestButtonBackground(MimiUXKit.MimiColor)
+    case hearingTestButtonText(MimiUXKit.MimiColor)
+    case soundPersonalizationIcon(MimiUXKit.MimiColor)
+    case leftEar(MimiUXKit.MimiColor)
+    case rightEar(MimiUXKit.MimiColor)
+  }
+  public var primaryTint: MimiUXKit.MimiColor! {
+    get
+  }
+  public var secondaryTint: MimiUXKit.MimiColor! {
+    get
+  }
+  public var tertiaryTint: MimiUXKit.MimiColor! {
+    get
+  }
+  public var primaryForeground: MimiUXKit.MimiColor! {
+    get
+  }
+  public var secondaryForeground: MimiUXKit.MimiColor! {
+    get
+  }
+  public var primaryBackground: MimiUXKit.MimiColor! {
+    get
+  }
+  public var secondaryBackground: MimiUXKit.MimiColor! {
+    get
+  }
+  public var elevatedBackground: MimiUXKit.MimiColor! {
+    get
+  }
+  public var warning: MimiUXKit.MimiColor! {
+    get
+  }
+  public var error: MimiUXKit.MimiColor! {
+    get
+  }
+  public var success: MimiUXKit.MimiColor! {
+    get
+  }
+  public var primaryText: MimiUXKit.MimiColor! {
+    get
+  }
+  public var secondaryText: MimiUXKit.MimiColor! {
+    get
+  }
+  public var hearingTestButtonBackground: MimiUXKit.MimiColor! {
+    get
+  }
+  public var hearingTestButtonText: MimiUXKit.MimiColor! {
+    get
+  }
+  public var soundPersonalizationIcon: MimiUXKit.MimiColor! {
+    get
+  }
+  public var earLeft: MimiUXKit.MimiColor! {
+    get
+  }
+  public var earRight: MimiUXKit.MimiColor! {
+    get
+  }
+  @available(*, deprecated, message: "Use init with all the defined colors i.e. init(primaryTint:secondaryTint:...).")
+  public init(_ colors: MimiUXKit.MimiColorBook.Color...)
+  public init(primaryTint: MimiUXKit.MimiHighlightableColor, secondaryTint: MimiUXKit.MimiColor, tertiaryTint: MimiUXKit.MimiHighlightableColor, primaryForeground: MimiUXKit.MimiHighlightableColor, secondaryForeground: MimiUXKit.MimiHighlightableColor, primaryBackground: MimiUXKit.MimiColor, secondaryBackground: MimiUXKit.MimiColor, elevatedBackground: MimiUXKit.MimiColor, warning: MimiUXKit.MimiColor, error: MimiUXKit.MimiColor, success: MimiUXKit.MimiColor, primaryText: MimiUXKit.MimiHighlightableColor, secondaryText: MimiUXKit.MimiHighlightableColor, hearingTestButtonBackground: MimiUXKit.MimiColor, hearingTestButtonText: MimiUXKit.MimiHighlightableColor, soundPersonalizationIcon: MimiUXKit.MimiColor, earLeft: MimiUXKit.MimiColor, earRight: MimiUXKit.MimiColor)
+  public static func == (a: MimiUXKit.MimiColorBook, b: MimiUXKit.MimiColorBook) -> Swift.Bool
+}
+extension MimiUXKit.MimiColorBook {
+  public static var `default`: MimiUXKit.MimiColorBook {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiNavigationBar : UIKit.UINavigationBar, MimiUXKit.MimiThemeable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+extension MimiUXKit.MimiAlertController : MimiUXKit.MimiAlertPresentable {
+  public static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  public func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiUserFlowStepAccessoryView : MimiUXKit.MimiView {
+  public enum Action {
+    case jumpTo(location: MimiUXKit.MimiUserFlowCoordinator.FlowLocation)
+  }
+  @_Concurrency.MainActor(unsafe) open var performDefaultActions: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func performAction(_ action: MimiUXKit.MimiUserFlowStepAccessoryView.Action)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum MimiUserFlowCoordinatorError : Swift.Error {
+  case alreadyStarted
+  case notStarted
+  case missingNavigationController
+  case outOfFlowRange
+  case invalidDestinationStep
+  public static func == (a: MimiUXKit.MimiUserFlowCoordinatorError, b: MimiUXKit.MimiUserFlowCoordinatorError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class MimiColor {
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public enum HighlightStyle {
+    case lighten
+    case darken
+    public static func == (a: MimiUXKit.MimiColor.HighlightStyle, b: MimiUXKit.MimiColor.HighlightStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let color: UIKit.UIColor
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public var cgColor: CoreGraphics.CGColor {
+    get
+  }
+  public init(_ color: UIKit.UIColor)
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  convenience public init(red: CoreFoundation.CGFloat, green: CoreFoundation.CGFloat, blue: CoreFoundation.CGFloat, alpha: CoreFoundation.CGFloat)
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  convenience public init(cgColor: CoreGraphics.CGColor)
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  convenience public init(white: CoreFoundation.CGFloat, alpha: CoreFoundation.CGFloat)
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public func withHighlightStyle(_ highlightStyle: MimiUXKit.MimiColor.HighlightStyle) -> Self
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public func withHighlightColor(_ highlightColor: UIKit.UIColor) -> Self
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public func color(for state: UIKit.UIControl.State) -> UIKit.UIColor
+  @objc deinit
+}
+extension MimiUXKit.MimiColor : Swift.Equatable {
+  public static func == (lhs: MimiUXKit.MimiColor, rhs: MimiUXKit.MimiColor) -> Swift.Bool
+}
+extension UIKit.UIColor {
+  @available(*, deprecated, message: "Will be removed in SDK v10")
+  public var mimi: MimiUXKit.MimiColor {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiNavigationStepHeaderView : MimiUXKit.MimiUserFlowStepHeaderView {
+  @_Concurrency.MainActor(unsafe) open var text: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var textAlignment: UIKit.NSTextAlignment {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var textAccessibilityIdentifier: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var contentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiView : UIKit.UIView, MimiUXKit.MimiComponent, MimiUXKit.MimiThemeable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+final public class MimiThemePublisher : Combine.ObservableObject, MimiUXKit.MimiThemeable {
+  @Combine.Published @_projectedValueProperty($colors) final public var colors: MimiUXKit.MimiThemePublisher.ColorBook! {
+    get
+  }
+  final public var $colors: Combine.Published<MimiUXKit.MimiThemePublisher.ColorBook?>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($fonts) final public var fonts: MimiUXKit.MimiFontBook! {
+    get
+  }
+  final public var $fonts: Combine.Published<MimiUXKit.MimiFontBook?>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($styles) final public var styles: MimiUXKit.MimiStyleBook! {
+    get
+  }
+  final public var $styles: Combine.Published<MimiUXKit.MimiStyleBook?>.Publisher {
+    get
+  }
+  public init()
+  final public func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension MimiUXKit.MimiThemePublisher {
+  public struct MimiSwiftUIColor {
+    public let color: SwiftUI.Color
+    public let highlightedColor: SwiftUI.Color
+    public init(color: MimiUXKit.MimiColor)
+  }
+  public struct ColorBook {
+    public let primaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let secondaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let tertiaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let primaryForeground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let secondaryForeground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let primaryBackground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let secondaryBackground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let elevatedBackground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let warning: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let error: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let success: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let primaryText: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let secondaryText: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let soundPersonalizationIcon: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let leftEar: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let rightEar: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public init(_ original: MimiUXKit.MimiColorBook)
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiNavigationStepFooterView : MimiUXKit.MimiUserFlowStepFooterView {
+  @_Concurrency.MainActor(unsafe) final public let actionButton: MimiUXKit.MimiActionButton
+  @_Concurrency.MainActor(unsafe) final public let textButton: MimiUXKit.MimiTextButton
+  @_Concurrency.MainActor(unsafe) public var contentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class MimiBulletinController {
+  weak final public var shownBulletin: MimiUXKit.MimiBulletinItem? {
+    get
+  }
+  final public class func `for`(presentingViewController: UIKit.UIViewController) -> MimiUXKit.MimiBulletinController
+  @discardableResult
+  final public func show(_ item: MimiUXKit.MimiBulletinItem, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil) -> Swift.Bool
+  final public func enqueue(_ item: MimiUXKit.MimiBulletinItem, sort: ((MimiUXKit.MimiBulletinItem, MimiUXKit.MimiBulletinItem) -> Swift.Bool)? = nil)
+  @discardableResult
+  final public func dequeue(_ item: MimiUXKit.MimiBulletinItem, sort: ((MimiUXKit.MimiBulletinItem, MimiUXKit.MimiBulletinItem) -> Swift.Bool)? = nil) -> MimiUXKit.MimiBulletinItem?
+  final public func dismiss(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  final public func invalidateIntrinsicSize(for bulletin: MimiUXKit.MimiBulletinItem)
+  @objc deinit
+}
+@objc public enum MimiLayoutClass : Swift.Int {
+  case compact
+  case regular
+  case large
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiButton : UIKit.UIButton, MimiUXKit.MimiComponent, MimiUXKit.MimiThemeable {
+  public enum CornerStyle {
+    case square
+    case rounded
+    case eliptical
+    public static func == (a: MimiUXKit.MimiButton.CornerStyle, b: MimiUXKit.MimiButton.CornerStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum DisplayStyle {
+    case fill
+    case outline
+    public static func == (a: MimiUXKit.MimiButton.DisplayStyle, b: MimiUXKit.MimiButton.DisplayStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitle(_ title: Swift.String?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setAttributedTitle(_ title: Foundation.NSAttributedString?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+extension UIKit.UIControl.State : Swift.Hashable {
+}
+public struct MimiFontBook : Swift.Equatable {
+  public enum Font {
+    case title(MimiUXKit.MimiFont)
+    case header(MimiUXKit.MimiFont)
+    case action(MimiUXKit.MimiFont)
+    case compactAction(MimiUXKit.MimiFont)
+    case body(normal: MimiUXKit.MimiFont, highlighted: MimiUXKit.MimiFont?)
+    case compactBody(normal: MimiUXKit.MimiFont, highlighted: MimiUXKit.MimiFont?)
+    case caption(normal: MimiUXKit.MimiFont, highlighted: MimiUXKit.MimiFont?)
+  }
+  public var title: MimiUXKit.MimiFont! {
+    get
+  }
+  public var header: MimiUXKit.MimiFont! {
+    get
+  }
+  public var action: MimiUXKit.MimiFont! {
+    get
+  }
+  @available(*, deprecated, message: "The usage of `compactAction` font will be replaced by another font.")
+  public var compactAction: MimiUXKit.MimiFont! {
+    get
+  }
+  public var body: MimiUXKit.MimiFont! {
+    get
+  }
+  public var bodyHighlight: MimiUXKit.MimiFont? {
+    get
+  }
+  @available(*, deprecated, message: "The usage of `compactBody` font will be replaced by another font.")
+  public var compactBody: MimiUXKit.MimiFont! {
+    get
+  }
+  public var compactBodyHighlight: MimiUXKit.MimiFont? {
+    get
+  }
+  public var caption: MimiUXKit.MimiFont! {
+    get
+  }
+  public var captionHighlight: MimiUXKit.MimiFont? {
+    get
+  }
+  public init(_ fonts: MimiUXKit.MimiFontBook.Font...)
+  public static func == (a: MimiUXKit.MimiFontBook, b: MimiUXKit.MimiFontBook) -> Swift.Bool
+}
+extension MimiUXKit.MimiFontBook {
+  public static var `default`: MimiUXKit.MimiFontBook {
+    get
+  }
+}
+extension Foundation.NSMutableAttributedString {
+  public func mimiAddHighlightsAttribute(with font: UIKit.UIFont, color: UIKit.UIColor? = nil)
+}
+@objc @_Concurrency.MainActor(unsafe) final public class MimiPagingScrollHandler : ObjectiveC.NSObject, UIKit.UIScrollViewDelegate {
+  public enum Axis : Swift.Int {
+    case horizontal
+    case vertical
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public let scrollView: UIKit.UIScrollView
+  @_Concurrency.MainActor(unsafe) weak final public var dataSource: (any MimiUXKit.MimiPagingScrollHandlerDataSource)?
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any MimiUXKit.MimiPagingScrollHandlerDelegate)?
+  @_Concurrency.MainActor(unsafe) final public var currentIndex: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentPosition: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var isParallaxEnabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var unfocussedAlpha: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var unfocussedScale: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var viewMinimumSpacing: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public init(scrollView: UIKit.UIScrollView, axis: MimiUXKit.MimiPagingScrollHandler.Axis)
+  @_Concurrency.MainActor(unsafe) @objc final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) final public func setNeedsTransitionUpdate()
+  @objc deinit
+}
+extension MimiUXKit.MimiPagingScrollHandler {
+  @_Concurrency.MainActor(unsafe) final public func viewInTransition(at location: CoreFoundation.CGPoint, in referenceView: UIKit.UIView) -> UIKit.UIView?
+}
+public protocol MimiPagingScrollHandlerDataSource : AnyObject {
+  func scrollHandler(_ handler: MimiUXKit.MimiPagingScrollHandler, requiresTransitionViewFor page: Swift.Int) -> UIKit.UIView?
+}
+public protocol MimiPagingScrollHandlerDelegate : AnyObject {
+  func scrollHandler(_ handler: MimiUXKit.MimiPagingScrollHandler, didScrollTo position: CoreFoundation.CGFloat, from old: CoreFoundation.CGFloat?)
+  func scrollHandler(_ handler: MimiUXKit.MimiPagingScrollHandler, didScrollTo page: Swift.Int, from old: Swift.Int?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiSwitch : UIKit.UISwitch, MimiUXKit.MimiComponent, MimiUXKit.MimiThemeable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var onTintColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var thumbTintColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiUserFlowStepFooterView : MimiUXKit.MimiUserFlowStepAccessoryView {
+  @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class None : MimiUXKit.MimiUserFlowStepFooterView {
+    @_Concurrency.MainActor(unsafe) override public func construct(in view: UIKit.UIView)
+    @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+    @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public var mimiHasHomeIndicator: Swift.Bool {
+    get
+  }
+}
+public enum MimiIconBook {
+  case alert
+  case check
+  case cross
+  case exit
+  case help
+  case info
+  case share
+  public static func == (a: MimiUXKit.MimiIconBook, b: MimiUXKit.MimiIconBook) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MimiUXKit.MimiIconBook {
+  public var image: UIKit.UIImage? {
+    get
+  }
+}
+extension MimiUXKit.MimiActivityIndicator {
+  public enum FinishState : Swift.Hashable {
+    case checkmark
+    case cross
+    case error(artwork: MimiUXKit.MimiActivityIndicator.ErrorArtwork)
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension MimiUXKit.MimiActivityIndicator.FinishState : Swift.Equatable {
+  public static func == (lhs: MimiUXKit.MimiActivityIndicator.FinishState, rhs: MimiUXKit.MimiActivityIndicator.FinishState) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiTextField : UIKit.UITextField, MimiUXKit.MimiComponent {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var placeholderColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var font: UIKit.UIFont? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var keyboardAppearance: UIKit.UIKeyboardAppearance {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var textColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var placeholder: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+public protocol MimiUserFlowNavigationItemable : AnyObject {
+  var title: Swift.String? { get set }
+  var backButtonTitle: Swift.String? { get set }
+  var hidesBackButton: Swift.Bool { get set }
+  var rightBarButtonItem: UIKit.UIBarButtonItem? { get }
+  var leftBarButtonItem: UIKit.UIBarButtonItem? { get }
+  func setRightBarButton(_ item: UIKit.UIBarButtonItem?, animated: Swift.Bool)
+  func setLeftBarButton(_ item: UIKit.UIBarButtonItem?, animated: Swift.Bool)
+  func setHidesBackButton(_ hidesBackButton: Swift.Bool, animated: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiCompactTextButton : MimiUXKit.MimiTextButton {
+  @_Concurrency.MainActor(unsafe) override public init(style: MimiUXKit.MimiTextButton.Style = super)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol MimiThemeDefinition {
+  var identifier: Swift.String { get }
+  var colors: MimiUXKit.MimiColorBook { get }
+  var fonts: MimiUXKit.MimiFontBook { get }
+  var styles: MimiUXKit.MimiStyleBook { get }
+  var isApplied: Swift.Bool { get }
+  func apply()
+  func clear()
+  func variantForUserInterfaceStyle(_ style: UIKit.UIUserInterfaceStyle) -> Self?
+}
+public protocol MimiTheme : MimiUXKit.MimiThemeDefinition, Swift.Equatable {
+  static var variants: [Self] { get }
+}
+extension MimiUXKit.MimiTheme {
+  public static func == (lhs: Self, rhs: Self) -> Swift.Bool
+}
+extension MimiUXKit.MimiThemeDefinition {
+  public var isApplied: Swift.Bool {
+    get
+  }
+  public func apply()
+  public func clear()
+}
+extension MimiUXKit.MimiThemeDefinition {
+  public func variantForUserInterfaceStyle(_ style: UIKit.UIUserInterfaceStyle) -> Self?
+}
+extension MimiUXKit.MimiActivityIndicator {
+  public enum ErrorArtwork {
+    case none
+    case cloud
+    case cross
+    public static func == (a: MimiUXKit.MimiActivityIndicator.ErrorArtwork, b: MimiUXKit.MimiActivityIndicator.ErrorArtwork) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class MimiBirthYearPickerView : MimiUXKit.MimiView {
+  public typealias YearOfBirth = Swift.Int
+  @_Concurrency.MainActor(unsafe) open var selectedYear: MimiUXKit.MimiBirthYearPickerView.YearOfBirth {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak open var delegate: (any MimiUXKit.MimiBirthYearPickerViewDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @objc deinit
+}
+extension MimiUXKit.MimiBirthYearPickerView : UIKit.UIPickerViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+}
+extension MimiUXKit.MimiBirthYearPickerView : UIKit.UIPickerViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic open func pickerView(_ pickerView: UIKit.UIPickerView, viewForRow row: Swift.Int, forComponent component: Swift.Int, reusing view: UIKit.UIView?) -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) @objc dynamic open func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
+}
+public protocol MimiBirthYearPickerViewDelegate : AnyObject {
+  func birthYearPickerView(_ view: MimiUXKit.MimiBirthYearPickerView, didSelectNew year: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiCompactActionButton : MimiUXKit.MimiActionButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func mimiStartShimmering(backgroundColor: UIKit.UIColor, tintColor: UIKit.UIColor)
+  @_Concurrency.MainActor(unsafe) public func mimiStopShimmering()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiCredentialTextField : MimiUXKit.MimiTextField {
+  public enum Credential {
+    case email
+    case password
+    public static func == (a: MimiUXKit.MimiCredentialTextField.Credential, b: MimiUXKit.MimiCredentialTextField.Credential) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) open var credential: MimiUXKit.MimiCredentialTextField.Credential {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSecureTextEntry: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func rightViewRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) open func synchronizeSecureTextEntry(with other: MimiUXKit.MimiCredentialTextField)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiUserFlowStepHeaderView : MimiUXKit.MimiUserFlowStepAccessoryView {
+  @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class None : MimiUXKit.MimiUserFlowStepHeaderView {
+    @_Concurrency.MainActor(unsafe) override public func construct(in view: UIKit.UIView)
+    @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+    @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiCheckbox : MimiUXKit.MimiControl {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var highlightedTintColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var uncheckedTintColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var uncheckedHighlightedTintColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var isChecked: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) open func setChecked(_ isChecked: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiControl : UIKit.UIControl, MimiUXKit.MimiComponent {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+public protocol MimiComponent : MimiUXKit.MimiThemeable {
+  init()
+  func construct(in view: UIKit.UIView)
+}
+public enum MimiTextAligment {
+  case leading
+  case `default`
+  public static func == (a: MimiUXKit.MimiTextAligment, b: MimiUXKit.MimiTextAligment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class MimiFooterActionButton : MimiUXKit.MimiButton {
+  public enum Style {
+    case primaryTint
+    case secondaryText
+    public static func == (a: MimiUXKit.MimiFooterActionButton.Style, b: MimiUXKit.MimiFooterActionButton.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public init(style: MimiUXKit.MimiFooterActionButton.Style)
+  @_Concurrency.MainActor(unsafe) override final public func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override final public func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) @objc override final public func setImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) override final public func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+public struct MimiPagingProgressCalculator {
+  public struct PageBounds {
+    public let lower: Swift.Int
+    public let upper: Swift.Int
+    public let max: Swift.Int
+  }
+  public static func calculatePageBounds(for position: CoreFoundation.CGFloat, max: Swift.Int) -> MimiUXKit.MimiPagingProgressCalculator.PageBounds
+  public static func calculateLowerProgress(for bounds: MimiUXKit.MimiPagingProgressCalculator.PageBounds, position: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  public static func calculateUpperProgress(for bounds: MimiUXKit.MimiPagingProgressCalculator.PageBounds, position: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  public static func calculateProgress(for bounds: MimiUXKit.MimiPagingProgressCalculator.PageBounds, position: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiActionButton : MimiUXKit.MimiButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var titleLabel: UIKit.UILabel? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var highlightedTintColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var cornerStyle: MimiUXKit.MimiButton.CornerStyle! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var displayStyle: MimiUXKit.MimiButton.DisplayStyle! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var titleFont: UIKit.UIFont! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func titleColor(for state: UIKit.UIControl.State) -> UIKit.UIColor?
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MimiUXKit.MimiActionButton : UIKit.UIPointerInteractionDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pointerInteraction(_ interaction: UIKit.UIPointerInteraction, styleFor region: UIKit.UIPointerRegion) -> UIKit.UIPointerStyle?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pointerInteraction(_ interaction: UIKit.UIPointerInteraction, regionFor request: UIKit.UIPointerRegionRequest, defaultRegion: UIKit.UIPointerRegion) -> UIKit.UIPointerRegion?
+}
+@objc @_inheritsConvenienceInitializers open class MimiUserFlow : ObjectiveC.NSObject, MimiUXKit.MimiThemeable {
+  public var count: Swift.Int {
+    get
+  }
+  public var currentIndex: Swift.Int? {
+    get
+  }
+  weak public var delegate: (any MimiUXKit.MimiUserFlowDelegate)?
+  public var modalPresentationStyle: UIKit.UIModalPresentationStyle?
+  public var modalTransitionStyle: UIKit.UIModalTransitionStyle?
+  weak public var transitioningDelegate: (any UIKit.UIViewControllerTransitioningDelegate)?
+  open var navigationBarClass: UIKit.UINavigationBar.Type? {
+    get
+  }
+  weak open var parent: MimiUXKit.MimiUserFlow? {
+    get
+  }
+  weak open var rootViewController: UIKit.UIViewController? {
+    get
+  }
+  @objc override dynamic public init()
+  open func willAppear(animated: Swift.Bool)
+  open func didAppear(animated: Swift.Bool)
+  open func willDismiss(animated: Swift.Bool)
+  open func didDismiss(animated: Swift.Bool)
+  public func step(_ step: any MimiUXKit.MimiUserFlowSteppable) -> Self
+  public func step(_ step: any MimiUXKit.MimiUserFlowSteppable, if decision: @escaping () -> Swift.Bool) -> Self
+  public func step(_ step: any MimiUXKit.MimiUserFlowSteppable, or other: any MimiUXKit.MimiUserFlowSteppable, decision: @escaping (any MimiUXKit.MimiUserFlowSteppable, any MimiUXKit.MimiUserFlowSteppable) -> (any MimiUXKit.MimiUserFlowSteppable)?) -> Self
+  open func push(in navigationController: UIKit.UINavigationController?, animated: Swift.Bool)
+  open func present(from presentingviewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  open func addAsChild(to viewController: UIKit.UIViewController, layout: ((_ parent: UIKit.UIViewController, _ view: UIKit.UIView) -> Swift.Void)? = nil)
+  open func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  open func interactionController(for animationController: any UIKit.UIViewControllerAnimatedTransitioning, in navigationController: UIKit.UINavigationController) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  @objc deinit
+}
+public protocol MimiBulletinViewMaker {
+  func makeTitle() -> UIKit.UILabel
+  func makeText() -> UIKit.UILabel
+  func makeActionButton() -> UIKit.UIButton
+  func makeTextButton() -> UIKit.UIButton
+  func makeIcon() -> UIKit.UIImageView
+  func makeAndEmbedIconInContainer(for icon: UIKit.UIImageView) -> UIKit.UIView
+}
+open class MimiBulletinItem {
+  public var controller: MimiUXKit.MimiBulletinController? {
+    get
+  }
+  public var view: UIKit.UIView? {
+    get
+  }
+  public var isDismissable: Swift.Bool
+  open var isFullWidth: Swift.Bool {
+    get
+  }
+  open var contentInset: UIKit.UIEdgeInsets {
+    get
+  }
+  open var standardContentInset: UIKit.UIEdgeInsets {
+    get
+  }
+  weak open var interactionDelegate: (any MimiUXKit.MimiBulletinItemInteractionDelegate)?
+  public init()
+  open func makeViews(maker: any MimiUXKit.MimiBulletinViewMaker) -> [UIKit.UIView]
+  open func didLoad()
+  open func willAppear(animated: Swift.Bool)
+  open func didAppear(animated: Swift.Bool)
+  open func willDisappear(animated: Swift.Bool)
+  open func didDisappear(animated: Swift.Bool)
+  open func didLayoutSubviews()
+  @objc deinit
+}
+public protocol MimiBulletinItemInteractionDelegate : AnyObject {
+  func bulletin(_ item: MimiUXKit.MimiBulletinItem, willBeDismissed animated: Swift.Bool)
+}
+extension MimiUXKit.MimiUserFlowCoordinator {
+  public enum FlowLocation {
+    case next
+    case previous
+    case start
+    case parent
+    case root
+    case last(step: any MimiUXKit.MimiUserFlowSteppable.Type)
+  }
+}
+@_inheritsConvenienceInitializers open class MimiUserFlowStep<ContentViewController, HeaderView, FooterView> : ObjectiveC.NSObject, MimiUXKit.MimiThemeable where ContentViewController : UIKit.UIViewController, HeaderView : MimiUXKit.MimiUserFlowStepHeaderView, FooterView : MimiUXKit.MimiUserFlowStepFooterView {
+  weak public var coordinator: MimiUXKit.MimiUserFlowCoordinator! {
+    get
+  }
+  public var navigationItem: (any MimiUXKit.MimiUserFlowNavigationItemable)? {
+    get
+  }
+  public var flow: MimiUXKit.MimiUserFlow {
+    get
+  }
+  weak public var view: UIKit.UIView? {
+    get
+  }
+  weak public var content: ContentViewController! {
+    get
+  }
+  weak public var header: HeaderView! {
+    get
+  }
+  weak public var footer: FooterView! {
+    get
+  }
+  open var backgroundColor: UIKit.UIColor {
+    get
+  }
+  open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    get
+  }
+  open var isModalInPresentation: Swift.Bool {
+    get
+    set
+  }
+  open var layoutContentToSafeArea: Swift.Bool {
+    get
+  }
+  open var requiresFullWidth: Swift.Bool {
+    get
+  }
+  open func didLoad()
+  open func willAppear(animated: Swift.Bool)
+  open func didAppear(animated: Swift.Bool)
+  open func willDisappear(animated: Swift.Bool)
+  open func didDisappear(animated: Swift.Bool)
+  open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  open func animationControllerForPush(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  open func animationControllerForPop(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum MimiSnackbarDuration {
+  case short
+  case long
+  case indefinite
+  case custom(duration: Foundation.TimeInterval)
+}
+public protocol MimiSnackbarPresentable : AnyObject {
+  func show(animated: Swift.Bool, duration: MimiUXKit.MimiSnackbarDuration, completion: (() -> Swift.Void)?)
+  func hide(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class MimiSnackbar<ContentView> : MimiUXKit.MimiControl, MimiUXKit.MimiSnackbarPresentable where ContentView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public class var `default`: MimiUXKit.MimiSnackbar<MimiUXKit.MimiSnackbarDefaultContentView> {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public let contents: ContentView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc convenience override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) open func show(animated: Swift.Bool, duration: MimiUXKit.MimiSnackbarDuration, completion: (() -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) open func hide(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class MimiSnackbarDefaultContentView : MimiUXKit.MimiView {
+  @_Concurrency.MainActor(unsafe) final public var contentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var leadingText: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var trailingText: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var textColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var leadingTextAlignment: UIKit.NSTextAlignment {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var trailingTextAlignment: UIKit.NSTextAlignment {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var style: MimiUXKit.MimiLabel.Style {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override final public func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct MimiFont : Swift.Equatable {
+  public var name: Swift.String {
+    get
+  }
+  public var size: CoreFoundation.CGFloat {
+    get
+  }
+  public var lineSpacing: CoreFoundation.CGFloat?
+  public var kern: CoreFoundation.CGFloat?
+  public let font: UIKit.UIFont
+  public init?(name: Swift.String, size: CoreFoundation.CGFloat, lineSpacing: CoreFoundation.CGFloat? = nil, kern: CoreFoundation.CGFloat? = nil)
+  public static func systemFont(ofSize size: CoreFoundation.CGFloat, weight: UIKit.UIFont.Weight) -> MimiUXKit.MimiFont
+  public static func == (a: MimiUXKit.MimiFont, b: MimiUXKit.MimiFont) -> Swift.Bool
+}
+public enum MimiStateMachineError : Swift.Error {
+  case invalidTransition
+  public static func == (a: MimiUXKit.MimiStateMachineError, b: MimiUXKit.MimiStateMachineError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+final public class MimiStateMachine<State> where State : Swift.Equatable {
+  public typealias TransitionClosure = (State, State?) -> Swift.Void
+  final public let initial: State
+  final public var current: State {
+    get
+  }
+  final public var previous: State? {
+    get
+  }
+  final public var transitions: [MimiUXKit.MimiStateMachine<State>.Transition<State>] {
+    get
+  }
+  public init(initialState: State)
+  final public func registerTransition(from: State, to: State, bidirectional: Swift.Bool = false)
+  final public func transition(to state: State) throws
+  final public func reset() throws
+  final public func willTransition(_ action: @escaping MimiUXKit.MimiStateMachine<State>.TransitionClosure)
+  final public func onTransition(_ action: @escaping MimiUXKit.MimiStateMachine<State>.TransitionClosure)
+  @objc deinit
+}
+extension MimiUXKit.MimiStateMachine {
+  public struct Transition<State> : Swift.Equatable where State : Swift.Equatable {
+    public let from: State
+    public let to: State
+    public static func == (lhs: MimiUXKit.MimiStateMachine<State>.Transition<State>, rhs: MimiUXKit.MimiStateMachine<State>.Transition<State>) -> Swift.Bool
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiActivityIndicator : MimiUXKit.MimiView {
+  public enum State {
+    case activity
+    case finished(state: MimiUXKit.MimiActivityIndicator.FinishState)
+  }
+  @_Concurrency.MainActor(unsafe) open var state: MimiUXKit.MimiActivityIndicator.State {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var isAnimating: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var color: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toWindow newWindow: UIKit.UIWindow?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) open func startAnimating()
+  @_Concurrency.MainActor(unsafe) open func stopAnimating(completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func finish(to state: MimiUXKit.MimiActivityIndicator.FinishState, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MimiUXKit.MimiActivityIndicator.State : Swift.Equatable {
+  public static func == (lhs: MimiUXKit.MimiActivityIndicator.State, rhs: MimiUXKit.MimiActivityIndicator.State) -> Swift.Bool
+}
+public struct MimiStyleBook {
+  public enum Style {
+    case statusBar(UIKit.UIStatusBarStyle)
+    case keyboardAppearance(UIKit.UIKeyboardAppearance)
+    case buttonDisplay(MimiUXKit.MimiButton.DisplayStyle)
+    case buttonCorner(MimiUXKit.MimiButton.CornerStyle)
+    case alert(any MimiUXKit.MimiAlertPresentable.Type)
+    case uppercaseTransformation(MimiUXKit.MimiTextUppercaseOptions)
+    case textAlignment(MimiUXKit.MimiTextAligment)
+  }
+  public var statusBar: UIKit.UIStatusBarStyle! {
+    get
+  }
+  public var keyboardAppearance: UIKit.UIKeyboardAppearance! {
+    get
+  }
+  public var buttonDisplay: MimiUXKit.MimiButton.DisplayStyle! {
+    get
+  }
+  public var buttonCorner: MimiUXKit.MimiButton.CornerStyle! {
+    get
+  }
+  public var alert: (any MimiUXKit.MimiAlertPresentable.Type)! {
+    get
+  }
+  public var uppercaseOptions: MimiUXKit.MimiTextUppercaseOptions! {
+    get
+  }
+  public var textAlignment: MimiUXKit.MimiTextAligment! {
+    get
+  }
+  public init(_ styles: MimiUXKit.MimiStyleBook.Style...)
+}
+extension MimiUXKit.MimiStyleBook {
+  public static var `default`: MimiUXKit.MimiStyleBook {
+    get
+  }
+}
+extension MimiUXKit.MimiStyleBook : Swift.Equatable {
+  public static func == (lhs: MimiUXKit.MimiStyleBook, rhs: MimiUXKit.MimiStyleBook) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiIconView : MimiUXKit.MimiView {
+  @_Concurrency.MainActor(unsafe) public var icon: MimiUXKit.MimiIconBook? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var tintColor: UIKit.UIColor! {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override public func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) override public func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol MimiThemeObservable : AnyObject {
+  func setNeedsThemeUpdate()
+}
+public protocol MimiThemeable : MimiUXKit.MimiThemeObservable {
+  var theme: any MimiUXKit.MimiThemeDefinition { get }
+  func registerForTheming()
+  func apply(theme: any MimiUXKit.MimiThemeDefinition)
+}
+extension MimiUXKit.MimiThemeable {
+  public var theme: any MimiUXKit.MimiThemeDefinition {
+    get
+  }
+  public func registerForTheming()
+  public func setNeedsThemeUpdate()
+  public var ignoresThemeUpdates: Swift.Bool {
+    get
+    set
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiViewController : UIKit.UIViewController, MimiUXKit.MimiThemeable {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiInstructionStepView : MimiUXKit.MimiView {
+  public typealias Entry = Swift.String
+  @_Concurrency.MainActor(unsafe) open var entries: [MimiUXKit.MimiInstructionStepView.Entry] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var spacing: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var textColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var linkColor: UIKit.UIColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var accessibilityIdentifier: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) override open func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class MimiUserFlowViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public let coordinator: MimiUXKit.MimiUserFlowCoordinator
+  @_Concurrency.MainActor(unsafe) @objc override final public var childForStatusBarStyle: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var childForStatusBarHidden: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var childForHomeIndicatorAutoHidden: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var isModalInPresentation: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @objc deinit
+}
+public protocol MimiUserFlowDelegate : AnyObject {
+  func userFlow(_ flow: MimiUXKit.MimiUserFlow, willAppear animated: Swift.Bool)
+  func userFlow(_ flow: MimiUXKit.MimiUserFlow, didAppear animated: Swift.Bool)
+  func userFlow(_ flow: MimiUXKit.MimiUserFlow, willDismiss animated: Swift.Bool)
+  func userFlow(_ flow: MimiUXKit.MimiUserFlow, didDismiss animated: Swift.Bool)
+}
+extension MimiUXKit.MimiUserFlowDelegate {
+  public func userFlow(_ flow: MimiUXKit.MimiUserFlow, willAppear animated: Swift.Bool)
+  public func userFlow(_ flow: MimiUXKit.MimiUserFlow, didAppear animated: Swift.Bool)
+}
+@_hasMissingDesignatedInitializers open class MimiValidationEngine {
+  public enum Result {
+    case pass
+    case fail(failingChecks: [any MimiUXKit.MimiValidation], reasons: [MimiUXKit.MimiValidationFailReason]?)
+  }
+  public typealias CheckInvestigation = () -> MimiUXKit.MimiValidationFailReason
+  @discardableResult
+  open func addCheck<T>(that object: T?, passes validation: @escaping (T) -> Swift.Bool?, investigation: MimiUXKit.MimiValidationEngine.CheckInvestigation? = nil) -> any MimiUXKit.MimiValidation where T : AnyObject
+  open func performAllChecks() -> MimiUXKit.MimiValidationEngine.Result
+  @objc deinit
+}
+public protocol MimiValidation {
+  var suspect: Swift.AnyObject? { get }
+  var failReason: MimiUXKit.MimiValidationFailReason? { get }
+  func check() -> Swift.Bool
+}
+public enum MimiValidationFailReason {
+  case error(error: any Swift.Error)
+  case unsolved
+}
+public enum MimiValidationError : Swift.Error {
+  case unknown
+  public static func == (a: MimiUXKit.MimiValidationError, b: MimiUXKit.MimiValidationError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers open class MimiAlertController {
+  open func present(from viewController: UIKit.UIViewController?, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  open func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers final public class MimiUserFlowCoordinator : ObjectiveC.NSObject {
+  final public let flow: MimiUXKit.MimiUserFlow
+  @objc deinit
+}
+extension MimiUXKit.MimiUserFlowCoordinator {
+  final public func jump(to location: MimiUXKit.MimiUserFlowCoordinator.FlowLocation, animated: Swift.Bool = true) throws
+  final public func push(childFlow: MimiUXKit.MimiUserFlow, animated: Swift.Bool = true, hidesBackButton: Swift.Bool = false) throws
+}
+extension MimiUXKit.MimiUserFlowCoordinator : UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func navigationController(_ navigationController: UIKit.UINavigationController, didShow viewController: UIKit.UIViewController, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc final public func navigationController(_ navigationController: UIKit.UINavigationController, animationControllerFor operation: UIKit.UINavigationController.Operation, from fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc final public func navigationController(_ navigationController: UIKit.UINavigationController, interactionControllerFor animationController: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc final public func navigationControllerSupportedInterfaceOrientations(_ navigationController: UIKit.UINavigationController) -> UIKit.UIInterfaceOrientationMask
+}
+public protocol MimiUserFlowSteppable : AnyObject {
+  var view: UIKit.UIView? { get }
+  var navigationItem: (any MimiUXKit.MimiUserFlowNavigationItemable)? { get }
+  var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask { get }
+  func didLoad()
+  func willAppear(animated: Swift.Bool)
+  func didAppear(animated: Swift.Bool)
+  func willDisappear(animated: Swift.Bool)
+  func didDisappear(animated: Swift.Bool)
+  func animationControllerForPush(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  func animationControllerForPop(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+}
+extension MimiUXKit.MimiLabel.Style : Swift.Equatable {}
+extension MimiUXKit.MimiLabel.Style : Swift.Hashable {}
+extension MimiUXKit.MimiToggleButton.Style : Swift.Equatable {}
+extension MimiUXKit.MimiToggleButton.Style : Swift.Hashable {}
+extension MimiUXKit.MimiTextButton.Style : Swift.Equatable {}
+extension MimiUXKit.MimiTextButton.Style : Swift.Hashable {}
+extension MimiUXKit.MimiTextAligment : Swift.Equatable {}
+extension MimiUXKit.MimiTextAligment : Swift.Hashable {}
+extension MimiUXKit.MimiText.TextStyle : Swift.Equatable {}
+extension MimiUXKit.MimiText.TextStyle : Swift.Hashable {}
+extension MimiUXKit.MimiAlertAction.Style : Swift.Equatable {}
+extension MimiUXKit.MimiAlertAction.Style : Swift.Hashable {}
+extension MimiUXKit.MimiUserFlowCoordinatorError : Swift.Equatable {}
+extension MimiUXKit.MimiUserFlowCoordinatorError : Swift.Hashable {}
+@available(*, deprecated, message: "Will be removed in SDK v10")
+extension MimiUXKit.MimiColor.HighlightStyle : Swift.Equatable {}
+@available(*, deprecated, message: "Will be removed in SDK v10")
+extension MimiUXKit.MimiColor.HighlightStyle : Swift.Hashable {}
+extension MimiUXKit.MimiLayoutClass : Swift.Equatable {}
+extension MimiUXKit.MimiLayoutClass : Swift.Hashable {}
+extension MimiUXKit.MimiLayoutClass : Swift.RawRepresentable {}
+extension MimiUXKit.MimiButton.CornerStyle : Swift.Equatable {}
+extension MimiUXKit.MimiButton.CornerStyle : Swift.Hashable {}
+extension MimiUXKit.MimiButton.DisplayStyle : Swift.Equatable {}
+extension MimiUXKit.MimiButton.DisplayStyle : Swift.Hashable {}
+extension MimiUXKit.MimiPagingScrollHandler.Axis : Swift.Equatable {}
+extension MimiUXKit.MimiPagingScrollHandler.Axis : Swift.Hashable {}
+extension MimiUXKit.MimiPagingScrollHandler.Axis : Swift.RawRepresentable {}
+extension MimiUXKit.MimiIconBook : Swift.Equatable {}
+extension MimiUXKit.MimiIconBook : Swift.Hashable {}
+extension MimiUXKit.MimiActivityIndicator.ErrorArtwork : Swift.Equatable {}
+extension MimiUXKit.MimiActivityIndicator.ErrorArtwork : Swift.Hashable {}
+extension MimiUXKit.MimiCredentialTextField.Credential : Swift.Equatable {}
+extension MimiUXKit.MimiCredentialTextField.Credential : Swift.Hashable {}
+extension MimiUXKit.MimiFooterActionButton.Style : Swift.Equatable {}
+extension MimiUXKit.MimiFooterActionButton.Style : Swift.Hashable {}
+extension MimiUXKit.MimiUserFlowStep : MimiUXKit.MimiUserFlowSteppable {}
+extension MimiUXKit.MimiStateMachineError : Swift.Equatable {}
+extension MimiUXKit.MimiStateMachineError : Swift.Hashable {}
+extension MimiUXKit.MimiValidationError : Swift.Equatable {}
+extension MimiUXKit.MimiValidationError : Swift.Hashable {}

@@ -1,0 +1,11 @@
+framework module MimiCoreKit {
+  umbrella header "MimiCoreKit.h"
+  export *
+
+  module * { export * }
+}
+
+module MimiCoreKit.Swift {
+  header "MimiCoreKit-Swift.h"
+  requires objc
+}

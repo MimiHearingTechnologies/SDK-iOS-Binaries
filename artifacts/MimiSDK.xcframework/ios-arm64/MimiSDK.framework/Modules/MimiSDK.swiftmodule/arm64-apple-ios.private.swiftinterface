@@ -1,0 +1,115 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MimiSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import MimiAuthKit
+import MimiCoreKit
+@_exported import MimiSDK
+import MimiTestKit
+import MimiUXKit
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MimiProfileNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var childForStatusBarHidden: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var childForStatusBarStyle: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var childForHomeIndicatorAutoHidden: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public init(configuration: MimiSDK.MimiProfileConfiguration = MimiProfileConfiguration())
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct MimiProfileConfiguration : Swift.Equatable {
+  public let allowsRemoteDeviceAuthorization: Swift.Bool
+  public let allowsAnonymousUserOnly: Swift.Bool
+  public let showsOnboardingIntroduction: Swift.Bool
+  public let personalization: MimiSDK.MimiPersonalizationConfiguration
+  public init(allowsRemoteDeviceAuthorization: Swift.Bool = false, allowsAnonymousUserOnly: Swift.Bool = false, showsOnboardingIntroduction: Swift.Bool = true, personalization: MimiSDK.MimiPersonalizationConfiguration = .init())
+  public static func == (a: MimiSDK.MimiProfileConfiguration, b: MimiSDK.MimiProfileConfiguration) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class Mimi {
+  final public class func start(credentials: MimiCoreKit.MimiCore.ClientCredentials, delegate: any MimiCoreKit.MimiCoreDelegate)
+  @objc deinit
+}
+extension MimiSDK.Mimi {
+  public static var version: Swift.String {
+    get
+  }
+  final public class var logLevels: [MimiCoreKit.MimiLogger.Level] {
+    get
+    set
+  }
+  public static var core: MimiCoreKit.MimiCore {
+    get
+  }
+  final public class var allowsUsageDataCollection: Swift.Bool {
+    get
+    set
+  }
+}
+public struct MimiPersonalizationConfiguration : Swift.Equatable {
+  public let showsSampleSoundPlayer: Swift.Bool
+  public init(showsSampleSoundPlayer: Swift.Bool = true)
+  public static func == (a: MimiSDK.MimiPersonalizationConfiguration, b: MimiSDK.MimiPersonalizationConfiguration) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MimiProfileViewController : MimiUXKit.MimiViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public init(configuration: MimiSDK.MimiProfileConfiguration = MimiProfileConfiguration())
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func present(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) override public func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  @objc deinit
+}
+extension MimiSDK.MimiProfileViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+}
+extension MimiSDK.MimiProfileViewController : MimiCoreKit.MimiAuthControllerObservable {
+  @_Concurrency.MainActor(unsafe) public func authController(_ controller: any MimiCoreKit.MimiAuthController, didUpdate currentUser: MimiCoreKit.MimiUser?, from oldUser: MimiCoreKit.MimiUser?, error: MimiCoreKit.MimiCoreError?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MimiProfileLauncherView : MimiUXKit.MimiView {
+  @_Concurrency.MainActor(unsafe) public var isHighlighted: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var backgroundColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public init(configuration: MimiSDK.MimiProfileConfiguration = MimiProfileConfiguration())
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) override public func construct(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}

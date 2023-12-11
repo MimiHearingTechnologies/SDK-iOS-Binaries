@@ -103,7 +103,6 @@ jobs:
 
     steps:
     - name: Send Slack message to prod-releases channel
-      id: slack
       uses: slackapi/slack-github-action@v1.24.0
       with:
         payload: |
@@ -133,7 +132,6 @@ jobs:
         SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
 
     - name: Send Slack message to dev-release channel
-      id: slack
       uses: slackapi/slack-github-action@v1.24.0
       with:
         payload: |

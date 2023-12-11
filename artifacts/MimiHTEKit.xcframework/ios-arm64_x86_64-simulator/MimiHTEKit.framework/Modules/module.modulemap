@@ -1,0 +1,6 @@
+framework module MimiHTEKit {
+  umbrella header "MimiHTE.h"
+
+  export *
+  module * { export * }
+}

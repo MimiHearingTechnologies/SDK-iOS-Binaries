@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MimiUXKit
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MimiUXKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import DeveloperToolsSupport
@@ -51,9 +51,7 @@ public struct MimiTextUppercaseOptions : Swift.OptionSet {
     case title
     case header
     case action
-    case compactAction
     case body
-    case compactBody
     case caption
     public static func == (a: MimiUXKit.MimiLabel.Style, b: MimiUXKit.MimiLabel.Style) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
@@ -225,6 +223,9 @@ public struct MimiHighlightableColor {
   public let highlightColor: UIKit.UIColor
   public init(color: UIKit.UIColor, highlightColor: UIKit.UIColor)
 }
+extension MimiUXKit.MimiHighlightableColor : Swift.Equatable {
+  public static func == (lhs: MimiUXKit.MimiHighlightableColor, rhs: MimiUXKit.MimiHighlightableColor) -> Swift.Bool
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiPageControl : MimiUXKit.MimiControl {
   @_Concurrency.MainActor(unsafe) open var numberOfPages: Swift.Int {
     get
@@ -384,13 +385,9 @@ extension MimiUXKit.MimiAlertBanner {
     case title
     case header
     case action
-    case compactAction
     case body
     case bodyHighlight
-    case compactBody
-    case compactBodyHighlight
     case caption
-    case captionHighlight
     public static func == (a: MimiUXKit.MimiText.TextStyle, b: MimiUXKit.MimiText.TextStyle) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -465,40 +462,19 @@ public class MimiAlertAction {
   @objc deinit
 }
 public struct MimiColorBook : Swift.Equatable {
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public enum Color {
-    case primaryTint(MimiUXKit.MimiColor)
-    case secondaryTint(MimiUXKit.MimiColor)
-    case tertiaryTint(MimiUXKit.MimiColor)
-    case primaryForeground(MimiUXKit.MimiColor)
-    case secondaryForeground(MimiUXKit.MimiColor)
-    case primaryBackground(MimiUXKit.MimiColor)
-    case secondaryBackground(MimiUXKit.MimiColor)
-    case elevatedBackground(MimiUXKit.MimiColor)
-    case warning(MimiUXKit.MimiColor)
-    case error(MimiUXKit.MimiColor)
-    case success(MimiUXKit.MimiColor)
-    case primaryText(MimiUXKit.MimiColor)
-    case secondaryText(MimiUXKit.MimiColor)
-    case hearingTestButtonBackground(MimiUXKit.MimiColor)
-    case hearingTestButtonText(MimiUXKit.MimiColor)
-    case soundPersonalizationIcon(MimiUXKit.MimiColor)
-    case leftEar(MimiUXKit.MimiColor)
-    case rightEar(MimiUXKit.MimiColor)
-  }
-  public var primaryTint: MimiUXKit.MimiColor! {
+  public var primaryTint: MimiUXKit.MimiHighlightableColor! {
     get
   }
   public var secondaryTint: MimiUXKit.MimiColor! {
     get
   }
-  public var tertiaryTint: MimiUXKit.MimiColor! {
+  public var tertiaryTint: MimiUXKit.MimiHighlightableColor! {
     get
   }
-  public var primaryForeground: MimiUXKit.MimiColor! {
+  public var primaryForeground: MimiUXKit.MimiHighlightableColor! {
     get
   }
-  public var secondaryForeground: MimiUXKit.MimiColor! {
+  public var secondaryForeground: MimiUXKit.MimiHighlightableColor! {
     get
   }
   public var primaryBackground: MimiUXKit.MimiColor! {
@@ -519,16 +495,16 @@ public struct MimiColorBook : Swift.Equatable {
   public var success: MimiUXKit.MimiColor! {
     get
   }
-  public var primaryText: MimiUXKit.MimiColor! {
+  public var primaryText: MimiUXKit.MimiHighlightableColor! {
     get
   }
-  public var secondaryText: MimiUXKit.MimiColor! {
+  public var secondaryText: MimiUXKit.MimiHighlightableColor! {
     get
   }
   public var hearingTestButtonBackground: MimiUXKit.MimiColor! {
     get
   }
-  public var hearingTestButtonText: MimiUXKit.MimiColor! {
+  public var hearingTestButtonText: MimiUXKit.MimiHighlightableColor! {
     get
   }
   public var soundPersonalizationIcon: MimiUXKit.MimiColor! {
@@ -540,8 +516,6 @@ public struct MimiColorBook : Swift.Equatable {
   public var earRight: MimiUXKit.MimiColor! {
     get
   }
-  @available(*, deprecated, message: "Use init with all the defined colors i.e. init(primaryTint:secondaryTint:...).")
-  public init(_ colors: MimiUXKit.MimiColorBook.Color...)
   public init(primaryTint: MimiUXKit.MimiHighlightableColor, secondaryTint: MimiUXKit.MimiColor, tertiaryTint: MimiUXKit.MimiHighlightableColor, primaryForeground: MimiUXKit.MimiHighlightableColor, secondaryForeground: MimiUXKit.MimiHighlightableColor, primaryBackground: MimiUXKit.MimiColor, secondaryBackground: MimiUXKit.MimiColor, elevatedBackground: MimiUXKit.MimiColor, warning: MimiUXKit.MimiColor, error: MimiUXKit.MimiColor, success: MimiUXKit.MimiColor, primaryText: MimiUXKit.MimiHighlightableColor, secondaryText: MimiUXKit.MimiHighlightableColor, hearingTestButtonBackground: MimiUXKit.MimiColor, hearingTestButtonText: MimiUXKit.MimiHighlightableColor, soundPersonalizationIcon: MimiUXKit.MimiColor, earLeft: MimiUXKit.MimiColor, earRight: MimiUXKit.MimiColor)
   public static func == (a: MimiUXKit.MimiColorBook, b: MimiUXKit.MimiColorBook) -> Swift.Bool
 }
@@ -582,45 +556,12 @@ public enum MimiUserFlowCoordinatorError : Swift.Error {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class MimiColor {
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public enum HighlightStyle {
-    case lighten
-    case darken
-    public static func == (a: MimiUXKit.MimiColor.HighlightStyle, b: MimiUXKit.MimiColor.HighlightStyle) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  final public let color: UIKit.UIColor
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public var cgColor: CoreGraphics.CGColor {
-    get
-  }
+public struct MimiColor {
+  public let color: UIKit.UIColor
   public init(_ color: UIKit.UIColor)
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  convenience public init(red: CoreFoundation.CGFloat, green: CoreFoundation.CGFloat, blue: CoreFoundation.CGFloat, alpha: CoreFoundation.CGFloat)
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  convenience public init(cgColor: CoreGraphics.CGColor)
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  convenience public init(white: CoreFoundation.CGFloat, alpha: CoreFoundation.CGFloat)
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public func withHighlightStyle(_ highlightStyle: MimiUXKit.MimiColor.HighlightStyle) -> Self
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public func withHighlightColor(_ highlightColor: UIKit.UIColor) -> Self
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public func color(for state: UIKit.UIControl.State) -> UIKit.UIColor
-  @objc deinit
 }
 extension MimiUXKit.MimiColor : Swift.Equatable {
   public static func == (lhs: MimiUXKit.MimiColor, rhs: MimiUXKit.MimiColor) -> Swift.Bool
-}
-extension UIKit.UIColor {
-  @available(*, deprecated, message: "Will be removed in SDK v10")
-  public var mimi: MimiUXKit.MimiColor {
-    get
-  }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiNavigationStepHeaderView : MimiUXKit.MimiUserFlowStepHeaderView {
   @_Concurrency.MainActor(unsafe) open var text: Swift.String? {
@@ -679,23 +620,27 @@ final public class MimiThemePublisher : Combine.ObservableObject, MimiUXKit.Mimi
 extension MimiUXKit.MimiThemePublisher {
   public struct MimiSwiftUIColor {
     public let color: SwiftUI.Color
-    public let highlightedColor: SwiftUI.Color
     public init(color: MimiUXKit.MimiColor)
   }
+  public struct MimiSwiftUIHighlightableColor {
+    public let color: SwiftUI.Color
+    public let highlightColor: SwiftUI.Color
+    public init(color: MimiUXKit.MimiHighlightableColor)
+  }
   public struct ColorBook {
-    public let primaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let primaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIHighlightableColor
     public let secondaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
-    public let tertiaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
-    public let primaryForeground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
-    public let secondaryForeground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let tertiaryTint: MimiUXKit.MimiThemePublisher.MimiSwiftUIHighlightableColor
+    public let primaryForeground: MimiUXKit.MimiThemePublisher.MimiSwiftUIHighlightableColor
+    public let secondaryForeground: MimiUXKit.MimiThemePublisher.MimiSwiftUIHighlightableColor
     public let primaryBackground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let secondaryBackground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let elevatedBackground: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let warning: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let error: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let success: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
-    public let primaryText: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
-    public let secondaryText: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
+    public let primaryText: MimiUXKit.MimiThemePublisher.MimiSwiftUIHighlightableColor
+    public let secondaryText: MimiUXKit.MimiThemePublisher.MimiSwiftUIHighlightableColor
     public let soundPersonalizationIcon: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let leftEar: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
     public let rightEar: MimiUXKit.MimiThemePublisher.MimiSwiftUIColor
@@ -773,10 +718,8 @@ public struct MimiFontBook : Swift.Equatable {
     case title(MimiUXKit.MimiFont)
     case header(MimiUXKit.MimiFont)
     case action(MimiUXKit.MimiFont)
-    case compactAction(MimiUXKit.MimiFont)
     case body(normal: MimiUXKit.MimiFont, highlighted: MimiUXKit.MimiFont?)
-    case compactBody(normal: MimiUXKit.MimiFont, highlighted: MimiUXKit.MimiFont?)
-    case caption(normal: MimiUXKit.MimiFont, highlighted: MimiUXKit.MimiFont?)
+    case caption(MimiUXKit.MimiFont)
   }
   public var title: MimiUXKit.MimiFont! {
     get
@@ -787,27 +730,13 @@ public struct MimiFontBook : Swift.Equatable {
   public var action: MimiUXKit.MimiFont! {
     get
   }
-  @available(*, deprecated, message: "The usage of `compactAction` font will be replaced by another font.")
-  public var compactAction: MimiUXKit.MimiFont! {
-    get
-  }
   public var body: MimiUXKit.MimiFont! {
     get
   }
   public var bodyHighlight: MimiUXKit.MimiFont? {
     get
   }
-  @available(*, deprecated, message: "The usage of `compactBody` font will be replaced by another font.")
-  public var compactBody: MimiUXKit.MimiFont! {
-    get
-  }
-  public var compactBodyHighlight: MimiUXKit.MimiFont? {
-    get
-  }
   public var caption: MimiUXKit.MimiFont! {
-    get
-  }
-  public var captionHighlight: MimiUXKit.MimiFont? {
     get
   }
   public init(_ fonts: MimiUXKit.MimiFontBook.Font...)
@@ -994,12 +923,6 @@ public protocol MimiUserFlowNavigationItemable : AnyObject {
   func setLeftBarButton(_ item: UIKit.UIBarButtonItem?, animated: Swift.Bool)
   func setHidesBackButton(_ hidesBackButton: Swift.Bool, animated: Swift.Bool)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiCompactTextButton : MimiUXKit.MimiTextButton {
-  @_Concurrency.MainActor(unsafe) override public init(style: MimiUXKit.MimiTextButton.Style = super)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc deinit
-}
 public protocol MimiThemeDefinition {
   var identifier: Swift.String { get }
   var colors: MimiUXKit.MimiColorBook { get }
@@ -1061,14 +984,6 @@ extension MimiUXKit.MimiBirthYearPickerView : UIKit.UIPickerViewDelegate {
 }
 public protocol MimiBirthYearPickerViewDelegate : AnyObject {
   func birthYearPickerView(_ view: MimiUXKit.MimiBirthYearPickerView, didSelectNew year: Swift.Int)
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiCompactActionButton : MimiUXKit.MimiActionButton {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
-    @objc get
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc deinit
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func mimiStartShimmering(backgroundColor: UIKit.UIColor, tintColor: UIKit.UIColor)
@@ -1778,10 +1693,6 @@ extension MimiUXKit.MimiAlertAction.Style : Swift.Equatable {}
 extension MimiUXKit.MimiAlertAction.Style : Swift.Hashable {}
 extension MimiUXKit.MimiUserFlowCoordinatorError : Swift.Equatable {}
 extension MimiUXKit.MimiUserFlowCoordinatorError : Swift.Hashable {}
-@available(*, deprecated, message: "Will be removed in SDK v10")
-extension MimiUXKit.MimiColor.HighlightStyle : Swift.Equatable {}
-@available(*, deprecated, message: "Will be removed in SDK v10")
-extension MimiUXKit.MimiColor.HighlightStyle : Swift.Hashable {}
 extension MimiUXKit.MimiLayoutClass : Swift.Equatable {}
 extension MimiUXKit.MimiLayoutClass : Swift.Hashable {}
 extension MimiUXKit.MimiLayoutClass : Swift.RawRepresentable {}

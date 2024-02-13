@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'MimiSDK'
-  s.version             = '9.2.0'
+  s.version             = '10.0.0'
   s.homepage            = 'https://mimi.io'
   s.documentation_url   = 'https://mimihearingtechnologies.github.io/SDKDocs-iOS/master/'
   s.license             = { :type => 'Commercial', :file => 'MimiSDK.xcframework/LICENSE' }
@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries.git', :tag => s.version.to_s }
 
 
-  s.platform            = :ios, '14.0'
-  s.ios.deployment_target = '14.0'
+  s.platform            = :ios, '15.0'
+  s.ios.deployment_target = '15.0'
 
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MimiSDK/**"' }
   s.frameworks          = 'Foundation', 'UIKit', 'SafariServices', 'Security', 'AudioToolbox', 'QuartzCore'

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		1UtkR3NrHRyChXZbpib42fsd/no=
+		LiH/32rEzKWb3UkRa+x0wL0OTdQ=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MimiTestKit-Swift.h</key>
 		<data>
-		XihGWzRuueyvymeM1lWzRl65vNc=
+		AxImsZHSsJIdgE68OpJoyqQl3uU=
 		</data>
 		<key>Headers/MimiTestKit.h</key>
 		<data>
@@ -22,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HVQf0D+W5XS0EjcBgp14LBcT7rE=
+		2vh41zSU2lIulSExsp2848vM2Yw=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OQ2C0LSdy75/3pN4elvEZoDzGOw=
+		mtZQnqbW1ktshO5LnZhY+aQxllY=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m3wIjvzXpDMneqz5ePBgzF9VObQ=
+		wRAg/PAiOpuz4M2C2vnKbSj4dSo=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OkuArvd8ThjBBb9IOgrH0SfrzKA=
+		qjrjNLUAgfmzVK1z07iTJEnUq7E=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m3wIjvzXpDMneqz5ePBgzF9VObQ=
+		wRAg/PAiOpuz4M2C2vnKbSj4dSo=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gSoV0PKVcByYqYLFy7mf8NrlVlE=
+		Cice/qD+ArSCQjSLz3s3wX9ArMo=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OQ2C0LSdy75/3pN4elvEZoDzGOw=
+		mtZQnqbW1ktshO5LnZhY+aQxllY=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x18+RVlGAg8BYXpgEjurNEVhxHI=
+		wV5A8iJ+IiCQTEXKCRzd+gFX87w=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NdZhXoUHxlckRH7WTeilS+GIOYQ=
+		FizyzR8pGukwFLw9yEOJEie4iyc=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x18+RVlGAg8BYXpgEjurNEVhxHI=
+		wV5A8iJ+IiCQTEXKCRzd+gFX87w=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yrG7U/nCpeY3fN5Zns/cYolX8dU=
+		HtMlrgWndlcLTlT3tF0hBL1v3QE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2y7IbRV6Qos1NoTFxVQvMTQ0QLQ=
+			XY7jJVWGE44USkDvlamIekIjPHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -221,6 +221,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>uk-UA.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HL9mclHdnGEYZx4oVslYzzLpkCw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>zh-CN.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -255,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			njRo4kzxR+5JZNYNpGBQ+Gngr3w7J5LenF90WndNvaE=
+			2P8jPoElgs/7J2L+tu1FcsHEPI5Q7tibLFFlqx6oGRI=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -269,7 +278,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aj2w0tc4d5GIKwYjtf5AYr1zCOsrlpZaTOtC/cRlCQI=
+			bPl+NSH2c2JOFEhlbpvqqfQFdZuCC3QzLdeuYasysUo=
 			</data>
 		</dict>
 		<key>Headers/MimiTestKit.h</key>
@@ -283,70 +292,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eU7SsvWgtPb53PxDpWWwcZ+9KDiI5yjBFCX/6GQov/Y=
+			NeYHww0mZ5y8OnRfguD9Tf716pmE9STjB09iC/mIeMI=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iM3dgl1pil71LHcRFKUc4Nco0cBIdbuIceIdMasuRE=
+			4TPFftOpu3KIoOu/x5kQh5pxBD4V7lT4VPj5/OzJHts=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tObYfuHA9jufApv/wRQ6tqx41RE77asV+9bAJ1NZXf4=
+			07cppkLB+Ymd365IBRA3kzEK+2XzoRqPMTHgUKTTA5A=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iM3dgl1pil71LHcRFKUc4Nco0cBIdbuIceIdMasuRE=
+			4TPFftOpu3KIoOu/x5kQh5pxBD4V7lT4VPj5/OzJHts=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3QqOow44MSv42JlnYzcEBPF9AwUj8rS1ZmmWl+EdQk=
+			voAL0Fi653/azsjbW55oUxqnLrgBTDyzHWcrbMW0neg=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eU7SsvWgtPb53PxDpWWwcZ+9KDiI5yjBFCX/6GQov/Y=
+			NeYHww0mZ5y8OnRfguD9Tf716pmE9STjB09iC/mIeMI=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6RhHEBq+qgY07k4yt+2oew8VBAdtMwPKzyLZVV8Pkl0=
+			bxus63YsDHtU6hNpPWhzDxPtGOLYiPxb+MN84og1jsA=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KReXb2WeLY1ODUbjR1UYW6ZzxeHiWThTtITPhuDyxJA=
+			iTfhHPbjGI7MVpau5zm0RSdadgCiqHSZyLur9fK56PY=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6RhHEBq+qgY07k4yt+2oew8VBAdtMwPKzyLZVV8Pkl0=
+			bxus63YsDHtU6hNpPWhzDxPtGOLYiPxb+MN84og1jsA=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L6AimB3EyVXtumyi3JPKIyD8Zoc4gLiG+N9FlkAfGNQ=
+			GNN6nOOxEtyOakBcAsboAt6yHSMN272Q1A2PyOSgvQg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -387,7 +396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAf8Slmdxl0IS+cLykxAz3R3+jG7J8RgC8If6XKMoV8=
+			2S4CgPU+I8FJYnvPds+ljNuwx+sWEewbOb5clfGPj/8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -505,6 +514,15 @@
 			<key>hash2</key>
 			<data>
 			3H664mP/yWNc1jE2WyVVZ+d483H8+6fSpzSPp91x8BI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>uk-UA.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NDS9SL8cCmpScRQuCzkr0pieVOcfzieCvIaw9nvdfek=
 			</data>
 			<key>optional</key>
 			<true/>

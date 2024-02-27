@@ -22417,21 +22417,28 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MimiCoreKit.MimiProcessingParameterDataSource<τ_0_0>?",
+                "printedName": "MimiCoreKit.AnyMimiProcessingParameterDataSource<τ_0_0>?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MimiProcessingParameterDataSource",
-                    "printedName": "MimiCoreKit.MimiProcessingParameterDataSource<τ_0_0>",
-                    "usr": "s:11MimiCoreKit0A29ProcessingParameterDataSourceP"
+                    "name": "AnyMimiProcessingParameterDataSource",
+                    "printedName": "MimiCoreKit.AnyMimiProcessingParameterDataSource<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11MimiCoreKit03AnyA29ProcessingParameterDataSourceC"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11MimiCoreKit0A19ProcessingParameterC10dataSourceAA0ade4DataG0_px5ValueAaEPRts_XPSgvp",
-            "mangledName": "$s11MimiCoreKit0A19ProcessingParameterC10dataSourceAA0ade4DataG0_px5ValueAaEPRts_XPSgvp",
+            "usr": "s:11MimiCoreKit0A19ProcessingParameterC10dataSourceAA03Anyade4DataG0CyxGSgvp",
+            "mangledName": "$s11MimiCoreKit0A19ProcessingParameterC10dataSourceAA03Anyade4DataG0CyxGSgvp",
             "moduleName": "MimiCoreKit",
             "declAttributes": [
               "Final",
@@ -22450,21 +22457,28 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MimiCoreKit.MimiProcessingParameterDataSource<τ_0_0>?",
+                    "printedName": "MimiCoreKit.AnyMimiProcessingParameterDataSource<τ_0_0>?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MimiProcessingParameterDataSource",
-                        "printedName": "MimiCoreKit.MimiProcessingParameterDataSource<τ_0_0>",
-                        "usr": "s:11MimiCoreKit0A29ProcessingParameterDataSourceP"
+                        "name": "AnyMimiProcessingParameterDataSource",
+                        "printedName": "MimiCoreKit.AnyMimiProcessingParameterDataSource<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11MimiCoreKit03AnyA29ProcessingParameterDataSourceC"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11MimiCoreKit0A19ProcessingParameterC10dataSourceAA0ade4DataG0_px5ValueAaEPRts_XPSgvg",
-                "mangledName": "$s11MimiCoreKit0A19ProcessingParameterC10dataSourceAA0ade4DataG0_px5ValueAaEPRts_XPSgvg",
+                "usr": "s:11MimiCoreKit0A19ProcessingParameterC10dataSourceAA03Anyade4DataG0CyxGSgvg",
+                "mangledName": "$s11MimiCoreKit0A19ProcessingParameterC10dataSourceAA03Anyade4DataG0CyxGSgvg",
                 "moduleName": "MimiCoreKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
                 "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable>",
@@ -25206,6 +25220,138 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyMimiProcessingParameterDataSource",
+        "printedName": "AnyMimiProcessingParameterDataSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MimiCoreKit03AnyA29ProcessingParameterDataSourceC4typeypSgvp",
+            "mangledName": "$s11MimiCoreKit03AnyA29ProcessingParameterDataSourceC4typeypSgvp",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MimiCoreKit03AnyA29ProcessingParameterDataSourceC4typeypSgvg",
+                "mangledName": "$s11MimiCoreKit03AnyA29ProcessingParameterDataSourceC4typeypSgvg",
+                "moduleName": "MimiCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MimiCoreKit03AnyA29ProcessingParameterDataSourceC4load5valuexx_tYaKF",
+            "mangledName": "$s11MimiCoreKit03AnyA29ProcessingParameterDataSourceC4load5valuexx_tYaKF",
+            "moduleName": "MimiCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MimiCoreKit03AnyA29ProcessingParameterDataSourceC",
+        "mangledName": "$s11MimiCoreKit03AnyA29ProcessingParameterDataSourceC",
+        "moduleName": "MimiCoreKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<Value where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Available",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MimiProcessingParameterDataSource",
+            "printedName": "MimiProcessingParameterDataSource",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11MimiCoreKit0A29ProcessingParameterDataSourceP",
+            "mangledName": "$s11MimiCoreKit0A29ProcessingParameterDataSourceP"
+          }
         ]
       },
       {
@@ -29701,112 +29847,112 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 3180,
+      "offset": 3218,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 4303,
+      "offset": 4341,
       "length": 42,
       "value": "\"Interrupted with interruption: \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 4344,
+      "offset": 4382,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 4478,
+      "offset": 4516,
       "length": 87,
       "value": "\"Failed to interrupt interruption: \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 4522,
+      "offset": 4560,
       "length": 4,
       "value": "\" with error: \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 4564,
+      "offset": 4602,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 5250,
+      "offset": 5288,
       "length": 40,
       "value": "\"Resolved interruption: \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 5289,
+      "offset": 5327,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5461,
       "length": 91,
       "value": "\"Failed to resolve interruption: \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 5471,
+      "offset": 5509,
       "length": 4,
       "value": "\" with error: \""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 5513,
+      "offset": 5551,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 5970,
+      "offset": 6008,
       "length": 32,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 6001,
+      "offset": 6039,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 6086,
+      "offset": 6124,
       "length": 25,
       "value": "\"upDown\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 6110,
+      "offset": 6148,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
-      "offset": 6152,
+      "offset": 6190,
       "length": 35,
       "value": "\"Invalid PresetParameterDataSource\""
     },
@@ -34085,7 +34231,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"10.0.0\""
+      "value": "\"10.0.1\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiHeadphone+Mock.swift",

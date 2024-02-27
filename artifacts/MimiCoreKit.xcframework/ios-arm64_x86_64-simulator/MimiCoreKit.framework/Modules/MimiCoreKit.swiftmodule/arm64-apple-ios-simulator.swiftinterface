@@ -864,7 +864,7 @@ public typealias MimiProcessingParameterable = Swift.Equatable & Swift.Codable
   nonisolated final public var valuePublisher: Combine.AnyPublisher<Value, Swift.Never> {
     get
   }
-  nonisolated final public let dataSource: (any MimiCoreKit.MimiProcessingParameterDataSource<Value>)?
+  nonisolated final public let dataSource: MimiCoreKit.AnyMimiProcessingParameterDataSource<Value>?
   nonisolated final public var updateState: Combine.AnyPublisher<MimiCoreKit.MimiProcessingParameter<Value>.ParameterUpdateState, Swift.Never> {
     get
   }
@@ -951,6 +951,16 @@ public protocol MimiProcessingParameterDataSource {
   #endif
 }
 #endif
+@_hasMissingDesignatedInitializers @available(iOS, deprecated: 16.0, message: "Use Swift's any keyword")
+final public class AnyMimiProcessingParameterDataSource<Value> : MimiCoreKit.MimiProcessingParameterDataSource where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable {
+  final public var type: Any? {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func load(value: Value) async throws -> Value
+  #endif
+  @objc deinit
+}
 public enum MimiTestType : Swift.String, Swift.CaseIterable, Swift.Codable {
   case maskThreshold
   case pureToneThreshold

@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GUyXLnuWD+iEuuIJXo7kVT+K8Nw=
+		gnNr0DUzfz5Aj9SsOkJZnBBp7Ys=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MimiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LBTRp1/lZ1EM5qH83abTuDDH0UI=
+		TiSLDNe4fUpg96PxEHaWxCRsyaQ=
 		</data>
 		<key>Modules/MimiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/MimiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LBTRp1/lZ1EM5qH83abTuDDH0UI=
+		TiSLDNe4fUpg96PxEHaWxCRsyaQ=
 		</data>
 		<key>Modules/MimiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKJ9ejVmdvlA4j8aBvFW+W9V2qdx1aELrxC46PLapSc=
+			tjWfCqh/bn+nHxqatWJHLZpQLNg5sdrFGy4WoSZzUNM=
 			</data>
 		</dict>
 		<key>Modules/MimiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -382,7 +382,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKJ9ejVmdvlA4j8aBvFW+W9V2qdx1aELrxC46PLapSc=
+			tjWfCqh/bn+nHxqatWJHLZpQLNg5sdrFGy4WoSZzUNM=
 			</data>
 		</dict>
 		<key>Modules/MimiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

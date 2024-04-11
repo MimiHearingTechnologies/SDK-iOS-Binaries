@@ -707,6 +707,8 @@ extension MimiUXKit.MimiThemePublisher {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitle(_ title: Swift.String?, for state: UIKit.UIControl.State)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func setAttributedTitle(_ title: Foundation.NSAttributedString?, for state: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateConfiguration()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor(unsafe) open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor(unsafe) open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
@@ -1418,7 +1420,7 @@ final public class MimiStateMachine<State> where State : Swift.Equatable {
   final public var previous: State? {
     get
   }
-  final public var transitions: [MimiUXKit.MimiStateMachine<State>.Transition<State>] {
+  final public var transitions: [MimiUXKit.MimiStateMachine<State>.Transition] {
     get
   }
   public init(initialState: State)
@@ -1430,10 +1432,10 @@ final public class MimiStateMachine<State> where State : Swift.Equatable {
   @objc deinit
 }
 extension MimiUXKit.MimiStateMachine {
-  public struct Transition<State> : Swift.Equatable where State : Swift.Equatable {
+  public struct Transition : Swift.Equatable {
     public let from: State
     public let to: State
-    public static func == (lhs: MimiUXKit.MimiStateMachine<State>.Transition<State>, rhs: MimiUXKit.MimiStateMachine<State>.Transition<State>) -> Swift.Bool
+    public static func == (lhs: MimiUXKit.MimiStateMachine<State>.Transition, rhs: MimiUXKit.MimiStateMachine<State>.Transition) -> Swift.Bool
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MimiActivityIndicator : MimiUXKit.MimiView {

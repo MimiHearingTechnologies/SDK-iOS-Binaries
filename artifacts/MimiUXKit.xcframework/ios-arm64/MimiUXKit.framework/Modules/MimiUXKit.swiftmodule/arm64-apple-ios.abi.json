@@ -9371,6 +9371,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiUXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18841,6 +18851,60 @@
             "overriding": true,
             "isOpen": true,
             "objc_name": "setAttributedTitle:forState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateConfiguration",
+            "printedName": "updateConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MimiUXKit@objc(cs)MimiButton(im)updateConfiguration",
+            "mangledName": "$s9MimiUXKit0A6ButtonC19updateConfigurationyyF",
+            "moduleName": "MimiUXKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "updateConfiguration",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MimiUXKit@objc(cs)MimiButton(im)layoutSubviews",
+            "mangledName": "$s9MimiUXKit0A6ButtonC14layoutSubviewsyyF",
+            "moduleName": "MimiUXKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -37291,19 +37355,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MimiUXKit.MimiStateMachine<τ_0_0>.Transition<τ_0_0>]",
+                "printedName": "[MimiUXKit.MimiStateMachine<τ_0_0>.Transition]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Transition",
-                    "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
+                    "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition",
                     "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV"
                   }
                 ],
@@ -37311,8 +37368,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_xGGvp",
-            "mangledName": "$s9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_xGGvp",
+            "usr": "s:9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_GGvp",
+            "mangledName": "$s9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_GGvp",
             "moduleName": "MimiUXKit",
             "declAttributes": [
               "HasInitialValue",
@@ -37331,19 +37388,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[MimiUXKit.MimiStateMachine<τ_0_0>.Transition<τ_0_0>]",
+                    "printedName": "[MimiUXKit.MimiStateMachine<τ_0_0>.Transition]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Transition",
-                        "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
+                        "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition",
                         "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV"
                       }
                     ],
@@ -37351,8 +37401,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_xGGvg",
-                "mangledName": "$s9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_xGGvg",
+                "usr": "s:9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_GGvg",
+                "mangledName": "$s9MimiUXKit0A12StateMachineC11transitionsSayAC10TransitionVyx_GGvg",
                 "moduleName": "MimiUXKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
                 "sugared_genericSig": "<State where State : Swift.Equatable>",
@@ -37628,12 +37678,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "GenericTypeParam",
-                    "printedName": "τ_1_0"
+                    "printedName": "τ_0_0"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV4fromqd__vp",
-                "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV4fromqd__vp",
+                "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV4fromxvp",
+                "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV4fromxvp",
                 "moduleName": "MimiUXKit",
                 "declAttributes": [
                   "HasStorage",
@@ -37650,15 +37700,15 @@
                       {
                         "kind": "TypeNominal",
                         "name": "GenericTypeParam",
-                        "printedName": "τ_1_0"
+                        "printedName": "τ_0_0"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV4fromqd__vg",
-                    "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV4fromqd__vg",
+                    "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV4fromxvg",
+                    "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV4fromxvg",
                     "moduleName": "MimiUXKit",
-                    "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.Equatable, τ_1_0 : Swift.Equatable>",
-                    "sugared_genericSig": "<State, State where State : Swift.Equatable, State : Swift.Equatable>",
+                    "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                    "sugared_genericSig": "<State where State : Swift.Equatable>",
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -37672,12 +37722,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "GenericTypeParam",
-                    "printedName": "τ_1_0"
+                    "printedName": "τ_0_0"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV2toqd__vp",
-                "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV2toqd__vp",
+                "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV2toxvp",
+                "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV2toxvp",
                 "moduleName": "MimiUXKit",
                 "declAttributes": [
                   "HasStorage",
@@ -37694,15 +37744,15 @@
                       {
                         "kind": "TypeNominal",
                         "name": "GenericTypeParam",
-                        "printedName": "τ_1_0"
+                        "printedName": "τ_0_0"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV2toqd__vg",
-                    "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV2toqd__vg",
+                    "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV2toxvg",
+                    "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV2toxvg",
                     "moduleName": "MimiUXKit",
-                    "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.Equatable, τ_1_0 : Swift.Equatable>",
-                    "sugared_genericSig": "<State, State where State : Swift.Equatable, State : Swift.Equatable>",
+                    "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                    "sugared_genericSig": "<State where State : Swift.Equatable>",
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -37722,36 +37772,22 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Transition",
-                    "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition<τ_1_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_1_0"
-                      }
-                    ],
+                    "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition",
                     "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Transition",
-                    "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition<τ_1_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_1_0"
-                      }
-                    ],
+                    "printedName": "MimiUXKit.MimiStateMachine<τ_0_0>.Transition",
                     "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV2eeoiySbAEyx_qd__G_AGtFZ",
-                "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV2eeoiySbAEyx_qd__G_AGtFZ",
+                "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV2eeoiySbAEyx_G_AGtFZ",
+                "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV2eeoiySbAEyx_G_AGtFZ",
                 "moduleName": "MimiUXKit",
-                "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.Equatable, τ_1_0 : Swift.Equatable>",
-                "sugared_genericSig": "<State, State where State : Swift.Equatable, State : Swift.Equatable>",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<State where State : Swift.Equatable>",
                 "static": true,
                 "declAttributes": [
                   "AccessControl"
@@ -37763,8 +37799,8 @@
             "usr": "s:9MimiUXKit0A12StateMachineC10TransitionV",
             "mangledName": "$s9MimiUXKit0A12StateMachineC10TransitionV",
             "moduleName": "MimiUXKit",
-            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.Equatable, τ_1_0 : Swift.Equatable>",
-            "sugared_genericSig": "<State, State where State : Swift.Equatable, State : Swift.Equatable>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<State where State : Swift.Equatable>",
             "declAttributes": [
               "AccessControl"
             ],
@@ -47401,7 +47437,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5160,
+      "offset": 5126,
       "length": 5,
       "value": "false"
     },
@@ -47415,266 +47451,168 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 528,
+      "offset": 539,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 539,
-      "length": 4,
-      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 553,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 565,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 614,
+      "offset": 567,
       "length": 3,
-      "value": "8.0"
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 662,
+      "offset": 582,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 632,
       "length": 4,
       "value": "34.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3377,
+      "offset": 3364,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3759,
+      "offset": 3746,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4654,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4701,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5978,
+      "offset": 5918,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6055,
+      "offset": 5995,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6163,
+      "offset": 6103,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6171,
+      "offset": 6111,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6566,
+      "offset": 6506,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6652,
+      "offset": 6592,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6730,
+      "offset": 6670,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6795,
+      "offset": 6735,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6803,
+      "offset": 6743,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7050,
+      "offset": 6990,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7110,
+      "offset": 7050,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7164,
+      "offset": 7104,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7358,
+      "offset": 7298,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 7543,
+      "offset": 7483,
       "length": 3,
       "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 7992,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8025,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8037,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8094,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8105,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8118,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8217,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8228,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8241,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8319,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8352,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 8364,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "StringLiteral",
-      "offset": 8783,
+      "offset": 7764,
       "length": 10,
       "value": "\"ic_check\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "StringLiteral",
-      "offset": 8885,
+      "offset": 7866,
       "length": 10,
       "value": "\"ic_check\""
     },
@@ -47687,64 +47625,57 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2866,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "StringLiteral",
-      "offset": 2931,
+      "offset": 2887,
       "length": 8,
       "value": "\"Action\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3011,
+      "offset": 2967,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3065,
+      "offset": 3021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3112,
+      "offset": 3068,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4462,
+      "offset": 4424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4594,
+      "offset": 4556,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4665,
+      "offset": 4627,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4765,
+      "offset": 4727,
       "length": 3,
       "value": "0.3"
     },
@@ -49842,6 +49773,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3762,
+      "length": 1,
+      "value": "8"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Fonts\/MimiFontBook.swift",
       "kind": "FloatLiteral",
       "offset": 3943,
@@ -50432,14 +50370,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIDevice+Mimi.swift",
       "kind": "FloatLiteral",
-      "offset": 486,
+      "offset": 491,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIDevice+Mimi.swift",
       "kind": "BooleanLiteral",
-      "offset": 526,
+      "offset": 531,
       "length": 5,
       "value": "false"
     },
@@ -52328,66 +52266,17 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1165,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1592,
+      "offset": 1539,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1606,
+      "offset": 1553,
       "length": 4,
       "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 1878,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 1927,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 1961,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2035,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2046,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2059,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiFooterActionButton.swift",
@@ -52475,141 +52364,148 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3133,
+      "offset": 3224,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4144,
+      "offset": 4342,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4348,
+      "offset": 4546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4381,
+      "offset": 4579,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 4472,
+      "offset": 4670,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "StringLiteral",
-      "offset": 4547,
+      "offset": 4745,
       "length": 8,
       "value": "\"Action\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5533,
+      "offset": 5731,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5573,
+      "offset": 5771,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5808,
+      "offset": 6028,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5819,
+      "offset": 6042,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5832,
+      "offset": 6055,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5844,
+      "offset": 6070,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5907,
+      "offset": 6133,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6144,
+      "offset": 6387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6581,
+      "offset": 6824,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6959,
+      "offset": 7169,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 8185,
+      "offset": 8447,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 8830,
+      "offset": 9093,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 8839,
+      "offset": 9102,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 8866,
+      "offset": 9129,
       "length": 3,
       "value": "0.5"
     },
@@ -52840,70 +52736,56 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 4284,
-      "length": 1,
-      "value": "4"
+      "offset": 4144,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 4293,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4304,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4314,
-      "length": 1,
-      "value": "4"
+      "offset": 4156,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "FloatLiteral",
-      "offset": 4493,
+      "offset": 4414,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "BooleanLiteral",
+      "offset": 4431,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
+      "kind": "FloatLiteral",
       "offset": 4510,
       "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
-      "kind": "FloatLiteral",
-      "offset": 4589,
-      "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 4606,
+      "offset": 4527,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 4801,
+      "offset": 4722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 5116,
+      "offset": 5037,
       "length": 4,
       "value": "true"
     },
@@ -52959,210 +52841,210 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2007,
       "length": 49,
       "value": "\"MimiSnackbar does not support Interface Builder\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 2512,
+      "offset": 2470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "StringLiteral",
-      "offset": 3690,
+      "offset": 3631,
       "length": 38,
       "value": "\"Could not find a presentation window\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 4033,
+      "offset": 3974,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 4045,
+      "offset": 3986,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 4074,
+      "offset": 4015,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 4102,
+      "offset": 4043,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "IntegerLiteral",
-      "offset": 4566,
+      "offset": 4507,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 5144,
+      "offset": 5085,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 5156,
+      "offset": 5097,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 5259,
+      "offset": 5200,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 5680,
+      "offset": 5621,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 5774,
+      "offset": 5715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 5966,
+      "offset": 5907,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 6033,
+      "offset": 5974,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "IntegerLiteral",
-      "offset": 6659,
+      "offset": 6600,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "IntegerLiteral",
-      "offset": 6828,
+      "offset": 6769,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 8284,
+      "offset": 8225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 8519,
+      "offset": 8460,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 8562,
+      "offset": 8503,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 8938,
+      "offset": 8879,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 8995,
+      "offset": 8936,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 9007,
+      "offset": 8948,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 9021,
+      "offset": 8962,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
-      "offset": 9034,
+      "offset": 8975,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "IntegerLiteral",
-      "offset": 11710,
+      "offset": 11651,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "IntegerLiteral",
-      "offset": 11750,
+      "offset": 11691,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 11905,
+      "offset": 11846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "BooleanLiteral",
-      "offset": 12716,
+      "offset": 12657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiStateMachine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1400,
+      "offset": 1393,
       "length": 5,
       "value": "false"
     },

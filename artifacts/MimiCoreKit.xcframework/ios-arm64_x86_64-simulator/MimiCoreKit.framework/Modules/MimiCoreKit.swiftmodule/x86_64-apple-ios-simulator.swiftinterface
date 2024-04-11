@@ -157,7 +157,8 @@ public protocol MimiPersonalizationController {
 public protocol MimiPersonalizationControllerObservable : AnyObject {
   func personalizationController(_ controller: any MimiCoreKit.MimiPersonalizationController, didUpdate visualization: MimiCoreKit.MimiPersonalizationVisualization)
 }
-@_hasMissingDesignatedInitializers open class MimiCoreObservable<Observing> {
+open class MimiCoreObservable<Observing> {
+  public init()
   open func addObserver(_ observer: Observing)
   open func removeObserver(_ observer: Observing)
   @objc deinit
@@ -191,6 +192,9 @@ public struct MimiPTTTestRunResultData : MimiCoreKit.MimiTestRunResultData {
   public var warnings: [MimiCoreKit.MimiTestResultError]? {
     get
   }
+}
+extension MimiCoreKit.MimiPTTTestRunResultData {
+  public init(ear: MimiCoreKit.MimiTestEar, hearingPercentage: MimiCoreKit.MimiHearingPercentage?, hearingGrade: MimiCoreKit.MimiHearingGrade, audiogram: MimiCoreKit.MimiTestAudiogram?, dbHearingLoss: Swift.Int?, error: MimiCoreKit.MimiTestResultError?, warnings: [MimiCoreKit.MimiTestResultError]?)
 }
 extension MimiCoreKit.MimiPTTTestRunResultData {
   public init(from decoder: any Swift.Decoder) throws
@@ -286,6 +290,7 @@ public struct MimiTestResults : Swift.Codable {
   public var isEmpty: Swift.Bool {
     get
   }
+  public init(ptt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiPTTTestRunResultData>?, mt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiMTTestRunResultData>?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -361,6 +366,11 @@ extension MimiCoreKit.MimiProcessingSession : Swift.CustomDebugStringConvertible
   }
 }
 #endif
+public struct MimiSubmitAudiogramResponse : Swift.Codable {
+  public let id: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct MimiPersonalizationVisualization : Swift.Codable, Swift.Equatable {
   public let levels: [MimiCoreKit.MimiPersonalizationVisualization.Level]
   public static func == (a: MimiCoreKit.MimiPersonalizationVisualization, b: MimiCoreKit.MimiPersonalizationVisualization) -> Swift.Bool
@@ -443,6 +453,9 @@ public struct MimiTestResult<RunResultData> : MimiCoreKit.AnyMimiTestResult, Swi
   }
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
+}
+extension MimiCoreKit.MimiTestResult {
+  public init(id: Swift.String, timestamp: Foundation.Date, metadata: MimiCoreKit.MimiTestMetadata, data: [RunResultData], hearingGrade: MimiCoreKit.MimiHearingGrade, hearingSymmetry: MimiCoreKit.MimiHearingSymmetry)
 }
 extension MimiCoreKit.MimiTestResult {
   public init(from decoder: any Swift.Decoder) throws
@@ -666,6 +679,7 @@ public protocol MimiTestController : MimiCoreKit.MimiCoreController {
   var connectedHeadphoneProvider: (any MimiCoreKit.MimiConnectedHeadphoneProvider)? { get set }
   func loadTestTypeConfiguration(headphoneIdentifier: MimiCoreKit.MimiHeadphoneIdentifier?, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestTypeConfiguration>)
   func submit(test: MimiCoreKit.MimiTest, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestResults>)
+  func submitAudiogram(leftEar: MimiCoreKit.MimiTestAudiogram, rightEar: MimiCoreKit.MimiTestAudiogram, metadata: MimiCoreKit.MimiTestAudiogramMetadata, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiSubmitAudiogramResponse>)
   func loadHeadphones(connectionType: MimiCoreKit.MimiHeadphone.ConnectionType, result: MimiCoreKit.MimiCoreResultHandler<[MimiCoreKit.MimiHeadphone]>)
   func delete(testResult: any MimiCoreKit.AnyMimiTestResult, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
   func loadResults<RunResultData>(type: RunResultData.Type, result: MimiCoreKit.MimiCorePagedResultHandler<[MimiCoreKit.MimiTestResult<RunResultData>]>) where RunResultData : MimiCoreKit.MimiTestRunResultData
@@ -721,13 +735,16 @@ extension MimiCoreKit.MimiPersonalization {
     public init(from decoder: any Swift.Decoder) throws
   }
 }
-public struct MimiTestAudiogram : Swift.Codable {
+public struct MimiTestAudiogram : Swift.Codable, Swift.Equatable {
   public struct DataPoint : Swift.Codable {
     public let frequency: Swift.Int
     public let threshold: Swift.Double
+    public init(frequency: Swift.Int, threshold: Swift.Double)
     public init(from decoder: any Swift.Decoder) throws
   }
   public let dataPoints: [MimiCoreKit.MimiTestAudiogram.DataPoint]
+  public init(dataPoints: [MimiCoreKit.MimiTestAudiogram.DataPoint]) throws
+  public static func == (a: MimiCoreKit.MimiTestAudiogram, b: MimiCoreKit.MimiTestAudiogram) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -816,6 +833,7 @@ public struct MimiUser : Swift.Codable {
   public var isVerified: Swift.Bool? {
     get
   }
+  public init(anonymousId: Swift.String?, isAnonymous: Swift.Bool, email: Swift.String?, yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth?, sex: MimiCoreKit.MimiUser.Sex?, nickname: Swift.String?, country: Swift.String?, isVerified: Swift.Bool?)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension MimiCoreKit.MimiUser {
@@ -847,6 +865,9 @@ public struct MimiMTTestRunResultData : MimiCoreKit.MimiTestRunResultData {
   public var warnings: [MimiCoreKit.MimiTestResultError]? {
     get
   }
+}
+extension MimiCoreKit.MimiMTTestRunResultData {
+  public init(ear: MimiCoreKit.MimiTestEar, hearingGrade: MimiCoreKit.MimiHearingGrade, error: MimiCoreKit.MimiTestResultError?, warnings: [MimiCoreKit.MimiTestResultError]?)
 }
 extension MimiCoreKit.MimiMTTestRunResultData {
   public init(from decoder: any Swift.Decoder) throws
@@ -973,6 +994,15 @@ public enum MimiTestType : Swift.String, Swift.CaseIterable, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct MimiTestAudiogramMetadata : Swift.Equatable {
+  public let timestamp: Foundation.Date
+  public init(timestamp: Foundation.Date)
+  public static func == (a: MimiCoreKit.MimiTestAudiogramMetadata, b: MimiCoreKit.MimiTestAudiogramMetadata) -> Swift.Bool
+}
+extension MimiCoreKit.MimiTestAudiogramMetadata : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct MimiTest : Swift.Codable {
   public init(runs: [MimiCoreKit.MimiTestRun], metadata: MimiCoreKit.MimiTestMetadata)

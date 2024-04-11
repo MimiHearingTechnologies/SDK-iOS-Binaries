@@ -6821,98 +6821,98 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3509,
+      "offset": 3467,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3650,
+      "offset": 3608,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4730,
+      "offset": 4688,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4874,
+      "offset": 4832,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5005,
+      "offset": 4963,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5262,
+      "offset": 5220,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5271,
+      "offset": 5229,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5416,
+      "offset": 5374,
       "length": 4,
       "value": "1.05"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5425,
+      "offset": 5383,
       "length": 4,
       "value": "1.05"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5594,
+      "offset": 5552,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5727,
+      "offset": 5685,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
-      "offset": 5756,
+      "offset": 5714,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 5784,
+      "offset": 5742,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 6083,
+      "offset": 6041,
       "length": 5,
       "value": "false"
     },
@@ -7086,211 +7086,155 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3204,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3215,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3229,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3241,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3308,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3319,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3332,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3344,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3460,
+      "offset": 3073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5116,
+      "offset": 4729,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5302,
+      "offset": 4915,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5392,
+      "offset": 5005,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5480,
+      "offset": 5093,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5529,
+      "offset": 5142,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5653,
+      "offset": 5266,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5710,
+      "offset": 5323,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5889,
+      "offset": 5502,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5935,
+      "offset": 5548,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6016,
+      "offset": 5629,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6060,
+      "offset": 5673,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6135,
+      "offset": 5748,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6226,
+      "offset": 5839,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6740,
+      "offset": 6353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7262,
+      "offset": 6875,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7356,
+      "offset": 6969,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7485,
+      "offset": 7098,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7708,
+      "offset": 7321,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8043,
+      "offset": 7656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8278,
+      "offset": 7891,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8695,
+      "offset": 8308,
       "length": 5,
       "value": "false"
     },
@@ -8780,253 +8724,141 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2175,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2186,
-      "length": 3,
-      "value": "8.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2199,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2211,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2276,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2287,
-      "length": 4,
-      "value": "-8.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2301,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2313,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2395,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2406,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2419,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2431,
-      "length": 3,
-      "value": "8.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2496,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2507,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2520,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 2532,
-      "length": 4,
-      "value": "-8.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 2084,
       "length": 37,
       "value": "\"flow_noise_explainer_mt_prompt_beep\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3985,
+      "offset": 3442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4017,
+      "offset": 3474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5083,
+      "offset": 4540,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5190,
+      "offset": 4647,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5307,
+      "offset": 4764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6112,
+      "offset": 5569,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6751,
+      "offset": 6208,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6901,
+      "offset": 6358,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7062,
+      "offset": 6519,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7575,
+      "offset": 7032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7718,
+      "offset": 7175,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8293,
+      "offset": 7750,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8474,
+      "offset": 7931,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8726,
+      "offset": 8183,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8890,
+      "offset": 8347,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9410,
+      "offset": 8867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9519,
+      "offset": 8976,
       "length": 4,
       "value": "34.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9627,
+      "offset": 9084,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10106,
+      "offset": 9563,
       "length": 5,
       "value": "false"
     },
@@ -9138,7 +8970,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/Observable.swift",
       "kind": "BooleanLiteral",
-      "offset": 361,
+      "offset": 350,
       "length": 4,
       "value": "true"
     },
@@ -13982,189 +13814,133 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "IntegerLiteral",
-      "offset": 712,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 721,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 732,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 742,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 973,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1087,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1468,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1477,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1488,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1498,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1791,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1899,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "StringLiteral",
-      "offset": 2121,
-      "length": 13,
-      "value": "\"ic_nav_list\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2317,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2326,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2337,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2347,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2546,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2654,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "StringLiteral",
-      "offset": 2839,
-      "length": 17,
-      "value": "\"ic_chevron_left\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "StringLiteral",
-      "offset": 3078,
-      "length": 18,
-      "value": "\"ic_chevron_right\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3413,
+      "offset": 586,
       "length": 2,
-      "value": "10"
+      "value": "20"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "IntegerLiteral",
-      "offset": 3425,
+      "offset": 598,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 926,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1307,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1319,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 3740,
+      "offset": 1703,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 3853,
+      "offset": 1811,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "StringLiteral",
+      "offset": 2033,
+      "length": 13,
+      "value": "\"ic_nav_list\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4177,
+      "offset": 2478,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 17,
+      "value": "\"ic_chevron_left\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "StringLiteral",
+      "offset": 2902,
+      "length": 18,
+      "value": "\"ic_chevron_right\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3237,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3249,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3564,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4285,
+      "offset": 3677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4001,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4109,
       "length": 4,
       "value": "true"
     },
@@ -18630,63 +18406,63 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5368,
+      "offset": 5505,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5376,
+      "offset": 5513,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5388,
+      "offset": 5525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5399,
+      "offset": 5536,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5670,
+      "offset": 5807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5700,
+      "offset": 5837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "FloatLiteral",
-      "offset": 5799,
+      "offset": 5936,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6062,
+      "offset": 6199,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6186,
+      "offset": 6323,
       "length": 5,
       "value": "false"
     },

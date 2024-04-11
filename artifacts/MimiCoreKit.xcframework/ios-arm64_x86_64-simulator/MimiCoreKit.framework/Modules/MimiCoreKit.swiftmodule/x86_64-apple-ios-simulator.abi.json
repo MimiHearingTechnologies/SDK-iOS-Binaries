@@ -3808,6 +3808,37 @@
         "printedName": "MimiCoreObservable",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiCoreObservable",
+                "printedName": "MimiCoreKit.MimiCoreObservable<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11MimiCoreKit0aB10ObservableC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0aB10ObservableCACyxGycfc",
+            "mangledName": "$s11MimiCoreKit0aB10ObservableCACyxGycfc",
+            "moduleName": "MimiCoreKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Observing>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "addObserver",
             "printedName": "addObserver(_:)",
@@ -3876,8 +3907,7 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -4713,6 +4743,119 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ear:hearingPercentage:hearingGrade:audiogram:dbHearingLoss:error:warnings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiPTTTestRunResultData",
+                "printedName": "MimiCoreKit.MimiPTTTestRunResultData",
+                "usr": "s:11MimiCoreKit0A20PTTTestRunResultDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestEar",
+                "printedName": "MimiCoreKit.MimiTestEar",
+                "usr": "s:11MimiCoreKit0A7TestEarO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiHearingPercentage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiHearingPercentage",
+                    "printedName": "MimiCoreKit.MimiHearingPercentage",
+                    "usr": "s:11MimiCoreKit0A17HearingPercentageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiHearingGrade",
+                "printedName": "MimiCoreKit.MimiHearingGrade",
+                "usr": "s:11MimiCoreKit0A12HearingGradeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiTestAudiogram?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiTestAudiogram",
+                    "printedName": "MimiCoreKit.MimiTestAudiogram",
+                    "usr": "s:11MimiCoreKit0A13TestAudiogramV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiTestResultError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiTestResultError",
+                    "printedName": "MimiCoreKit.MimiTestResultError",
+                    "usr": "s:11MimiCoreKit0A15TestResultErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MimiCoreKit.MimiTestResultError]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MimiCoreKit.MimiTestResultError]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MimiTestResultError",
+                        "printedName": "MimiCoreKit.MimiTestResultError",
+                        "usr": "s:11MimiCoreKit0A15TestResultErrorO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A20PTTTestRunResultDataV3ear17hearingPercentage0I5Grade9audiogram13dbHearingLoss5error8warningsAcA0A7TestEarO_AA0anJ0VSgAA0anK0OAA0aR9AudiogramVSgSiSgAA0arF5ErrorOSgSayAWGSgtcfc",
+            "mangledName": "$s11MimiCoreKit0A20PTTTestRunResultDataV3ear17hearingPercentage0I5Grade9audiogram13dbHearingLoss5error8warningsAcA0A7TestEarO_AA0anJ0VSgAA0anK0OAA0aR9AudiogramVSgSiSgAA0arF5ErrorOSgSayAWGSgtcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -7788,6 +7931,72 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(ptt:mt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestResults",
+                "printedName": "MimiCoreKit.MimiTestResults",
+                "usr": "s:11MimiCoreKit0A11TestResultsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiTestResult<MimiCoreKit.MimiPTTTestRunResultData>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiTestResult",
+                    "printedName": "MimiCoreKit.MimiTestResult<MimiCoreKit.MimiPTTTestRunResultData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MimiPTTTestRunResultData",
+                        "printedName": "MimiCoreKit.MimiPTTTestRunResultData",
+                        "usr": "s:11MimiCoreKit0A20PTTTestRunResultDataV"
+                      }
+                    ],
+                    "usr": "s:11MimiCoreKit0A10TestResultV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiTestResult<MimiCoreKit.MimiMTTestRunResultData>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiTestResult",
+                    "printedName": "MimiCoreKit.MimiTestResult<MimiCoreKit.MimiMTTestRunResultData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MimiMTTestRunResultData",
+                        "printedName": "MimiCoreKit.MimiMTTestRunResultData",
+                        "usr": "s:11MimiCoreKit0A19MTTestRunResultDataV"
+                      }
+                    ],
+                    "usr": "s:11MimiCoreKit0A10TestResultV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A11TestResultsV3ptt2mtAcA0aD6ResultVyAA0a10PTTTestRunH4DataVGSg_AGyAA0a6MTTestjhK0VGSgtcfc",
+            "mangledName": "$s11MimiCoreKit0A11TestResultsV3ptt2mtAcA0aD6ResultVyAA0a10PTTTestRunH4DataVGSg_AGyAA0a6MTTestjhK0VGSgtcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -9161,6 +9370,153 @@
         "moduleName": "MimiCoreKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MimiSubmitAudiogramResponse",
+        "printedName": "MimiSubmitAudiogramResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV2idSSvp",
+            "mangledName": "$s11MimiCoreKit0A23SubmitAudiogramResponseV2idSSvp",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV2idSSvg",
+                "mangledName": "$s11MimiCoreKit0A23SubmitAudiogramResponseV2idSSvg",
+                "moduleName": "MimiCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiSubmitAudiogramResponse",
+                "printedName": "MimiCoreKit.MimiSubmitAudiogramResponse",
+                "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11MimiCoreKit0A23SubmitAudiogramResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MimiCoreKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11MimiCoreKit0A23SubmitAudiogramResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MimiCoreKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV",
+        "mangledName": "$s11MimiCoreKit0A23SubmitAudiogramResponseV",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -11452,6 +11808,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "MimiTestResult",
         "printedName": "MimiTestResult",
@@ -11909,6 +12275,81 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:timestamp:metadata:data:hearingGrade:hearingSymmetry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestResult",
+                "printedName": "MimiCoreKit.MimiTestResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11MimiCoreKit0A10TestResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestMetadata",
+                "printedName": "MimiCoreKit.MimiTestMetadata",
+                "usr": "s:11MimiCoreKit0A12TestMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiHearingGrade",
+                "printedName": "MimiCoreKit.MimiHearingGrade",
+                "usr": "s:11MimiCoreKit0A12HearingGradeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiHearingSymmetry",
+                "printedName": "MimiCoreKit.MimiHearingSymmetry",
+                "usr": "s:11MimiCoreKit0A15HearingSymmetryO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A10TestResultV2id9timestamp8metadata4data12hearingGrade0J8SymmetryACyxGSS_10Foundation4DateVAA0aD8MetadataVSayxGAA0a7HearingK0OAA0apL0Otcfc",
+            "mangledName": "$s11MimiCoreKit0A10TestResultV2id9timestamp8metadata4data12hearingGrade0J8SymmetryACyxGSS_10Foundation4DateVAA0aD8MetadataVSayxGAA0a7HearingK0OAA0apL0Otcfc",
+            "moduleName": "MimiCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : MimiCoreKit.MimiTestRunResultData>",
+            "sugared_genericSig": "<RunResultData where RunResultData : MimiCoreKit.MimiTestRunResultData>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -17539,6 +17980,88 @@
           },
           {
             "kind": "Function",
+            "name": "submitAudiogram",
+            "printedName": "submitAudiogram(leftEar:rightEar:metadata:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogram",
+                "printedName": "MimiCoreKit.MimiTestAudiogram",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogram",
+                "printedName": "MimiCoreKit.MimiTestAudiogram",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogramMetadata",
+                "printedName": "MimiCoreKit.MimiTestAudiogramMetadata",
+                "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<MimiCoreKit.MimiSubmitAudiogramResponse, MimiCoreKit.MimiCoreError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<MimiCoreKit.MimiSubmitAudiogramResponse, MimiCoreKit.MimiCoreError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<MimiCoreKit.MimiSubmitAudiogramResponse, MimiCoreKit.MimiCoreError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MimiSubmitAudiogramResponse",
+                            "printedName": "MimiCoreKit.MimiSubmitAudiogramResponse",
+                            "usr": "s:11MimiCoreKit0A23SubmitAudiogramResponseV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MimiCoreError",
+                            "printedName": "MimiCoreKit.MimiCoreError",
+                            "usr": "s:11MimiCoreKit0aB5ErrorO"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MimiCoreKit0A14TestControllerP15submitAudiogram7leftEar05rightI08metadata6resultyAA0adG0V_AjA0adG8MetadataVys6ResultOyAA0a6SubmitG8ResponseVAA0aB5ErrorOGcSgtF",
+            "mangledName": "$s11MimiCoreKit0A14TestControllerP15submitAudiogram7leftEar05rightI08metadata6resultyAA0adG0V_AjA0adG8MetadataVys6ResultOyAA0a6SubmitG8ResponseVAA0aB5ErrorOGcSgtF",
+            "moduleName": "MimiCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : MimiCoreKit.MimiTestController>",
+            "sugared_genericSig": "<Self where Self : MimiCoreKit.MimiTestController>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loadHeadphones",
             "printedName": "loadHeadphones(connectionType:result:)",
             "children": [
@@ -18956,6 +19479,40 @@
               {
                 "kind": "Constructor",
                 "name": "init",
+                "printedName": "init(frequency:threshold:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "MimiCoreKit.MimiTestAudiogram.DataPoint",
+                    "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV9frequency9thresholdAESi_Sdtcfc",
+                "mangledName": "$s11MimiCoreKit0A13TestAudiogramV9DataPointV9frequency9thresholdAESi_Sdtcfc",
+                "moduleName": "MimiCoreKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
                 "printedName": "init(from:)",
                 "children": [
                   {
@@ -19139,6 +19696,43 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(dataPoints:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogram",
+                "printedName": "MimiCoreKit.MimiTestAudiogram",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MimiCoreKit.MimiTestAudiogram.DataPoint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "MimiCoreKit.MimiTestAudiogram.DataPoint",
+                    "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A13TestAudiogramV10dataPointsACSayAC9DataPointVG_tKcfc",
+            "mangledName": "$s11MimiCoreKit0A13TestAudiogramV10dataPointsACSayAC9DataPointVG_tKcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -19186,6 +19780,38 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogram",
+                "printedName": "MimiCoreKit.MimiTestAudiogram",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogram",
+                "printedName": "MimiCoreKit.MimiTestAudiogram",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MimiCoreKit0A13TestAudiogramV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11MimiCoreKit0A13TestAudiogramV2eeoiySbAC_ACtFZ",
+            "moduleName": "MimiCoreKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -19210,6 +19836,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -19550,6 +20183,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -21116,6 +21759,132 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(anonymousId:isAnonymous:email:yearOfBirth:sex:nickname:country:isVerified:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiUser",
+                "printedName": "MimiCoreKit.MimiUser",
+                "usr": "s:11MimiCoreKit0A4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiUser.Sex?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sex",
+                    "printedName": "MimiCoreKit.MimiUser.Sex",
+                    "usr": "s:11MimiCoreKit0A4UserV3SexO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A4UserV11anonymousId11isAnonymous5email11yearOfBirth3sex8nickname7country0G8VerifiedACSSSg_SbALSiSgAC3SexOSgA2LSbSgtcfc",
+            "mangledName": "$s11MimiCoreKit0A4UserV11anonymousId11isAnonymous5email11yearOfBirth3sex8nickname7country0G8VerifiedACSSSg_SbALSiSgAC3SexOSgA2LSbSgtcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -21867,6 +22636,77 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ear:hearingGrade:error:warnings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiMTTestRunResultData",
+                "printedName": "MimiCoreKit.MimiMTTestRunResultData",
+                "usr": "s:11MimiCoreKit0A19MTTestRunResultDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestEar",
+                "printedName": "MimiCoreKit.MimiTestEar",
+                "usr": "s:11MimiCoreKit0A7TestEarO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiHearingGrade",
+                "printedName": "MimiCoreKit.MimiHearingGrade",
+                "usr": "s:11MimiCoreKit0A12HearingGradeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MimiCoreKit.MimiTestResultError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiTestResultError",
+                    "printedName": "MimiCoreKit.MimiTestResultError",
+                    "usr": "s:11MimiCoreKit0A15TestResultErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MimiCoreKit.MimiTestResultError]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MimiCoreKit.MimiTestResultError]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MimiTestResultError",
+                        "printedName": "MimiCoreKit.MimiTestResultError",
+                        "usr": "s:11MimiCoreKit0A15TestResultErrorO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A19MTTestRunResultDataV3ear12hearingGrade5error8warningsAcA0A7TestEarO_AA0a7HearingJ0OAA0amF5ErrorOSgSayAMGSgtcfc",
+            "mangledName": "$s11MimiCoreKit0A19MTTestRunResultDataV3ear12hearingGrade5error8warningsAcA0A7TestEarO_AA0a7HearingJ0OAA0amF5ErrorOSgSayAMGSgtcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -25686,6 +26526,216 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MimiTestAudiogramMetadata",
+        "printedName": "MimiTestAudiogramMetadata",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV9timestamp10Foundation4DateVvp",
+            "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV9timestamp10Foundation4DateVvp",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV9timestamp10Foundation4DateVvg",
+                "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV9timestamp10Foundation4DateVvg",
+                "moduleName": "MimiCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogramMetadata",
+                "printedName": "MimiCoreKit.MimiTestAudiogramMetadata",
+                "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV9timestampAC10Foundation4DateV_tcfc",
+            "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV9timestampAC10Foundation4DateV_tcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogramMetadata",
+                "printedName": "MimiCoreKit.MimiTestAudiogramMetadata",
+                "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogramMetadata",
+                "printedName": "MimiCoreKit.MimiTestAudiogramMetadata",
+                "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV2eeoiySbAC_ACtFZ",
+            "moduleName": "MimiCoreKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiTestAudiogramMetadata",
+                "printedName": "MimiCoreKit.MimiTestAudiogramMetadata",
+                "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MimiCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11MimiCoreKit0A21TestAudiogramMetadataV",
+        "mangledName": "$s11MimiCoreKit0A21TestAudiogramMetadataV",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -25817,6 +26867,26 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -27262,13 +28332,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/PersonalizationApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 300,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Headphone\/MimiHeadphone.swift",
       "kind": "StringLiteral",
       "offset": 1448,
@@ -28383,22 +29446,15 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/TestTypeConfigurationApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 301,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/TestTypeConfigurationApi+Mock.swift",
       "kind": "Array",
-      "offset": 485,
+      "offset": 425,
       "length": 13,
       "value": "[\"mt\", \"ptt\"]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/TestTypeConfigurationApi+Mock.swift",
       "kind": "Array",
-      "offset": 510,
+      "offset": 450,
       "length": 7,
       "value": "[\"ptt\"]"
     },
@@ -28426,42 +29482,42 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3528,
+      "offset": 3580,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3552,
+      "offset": 3604,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3528,
+      "offset": 3580,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3552,
+      "offset": 3604,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3528,
+      "offset": 3580,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3552,
+      "offset": 3604,
       "length": 4,
       "value": "1000"
     },
@@ -28482,7 +29538,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/ProcessingAnalytics.swift",
       "kind": "FloatLiteral",
-      "offset": 3231,
+      "offset": 5628,
       "length": 3,
       "value": "3.0"
     },
@@ -28594,35 +29650,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1535,
+      "offset": 1952,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
+      "kind": "StringLiteral",
+      "offset": 2049,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
+      "kind": "StringLiteral",
+      "offset": 2300,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1574,
+      "offset": 2339,
       "length": 10,
       "value": "\"warnings\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1535,
+      "offset": 2300,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1574,
+      "offset": 2339,
       "length": 10,
       "value": "\"warnings\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "Array",
-      "offset": 2126,
+      "offset": 2891,
       "length": 2,
       "value": "[]"
     },
@@ -28649,22 +29719,15 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/TestsApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 284,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/TestsApi+Mock.swift",
       "kind": "IntegerLiteral",
-      "offset": 1367,
+      "offset": 1302,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/TestsApi+Mock.swift",
       "kind": "IntegerLiteral",
-      "offset": 1715,
+      "offset": 1650,
       "length": 1,
       "value": "1"
     },
@@ -29727,71 +30790,78 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2786,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3957,
+      "offset": 4742,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4735,
+      "offset": 5520,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
-      "offset": 5429,
+      "offset": 6214,
       "length": 26,
       "value": "\"io\/mimi\/MimiCoreKit\/tmp\/\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 6281,
       "length": 21,
       "value": "\"MimiHealth_Results_\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5841,
+      "offset": 6626,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
-      "offset": 6240,
+      "offset": 7025,
       "length": 6,
       "value": "\".pdf\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6688,
+      "offset": 7473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6824,
+      "offset": 7609,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
-      "offset": 7432,
+      "offset": 8217,
       "length": 40,
       "value": "\"Test type for run data type not found.\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8624,
+      "offset": 9409,
       "length": 1,
       "value": "1"
     },
@@ -29821,7 +30891,7 @@
       "kind": "FloatLiteral",
       "offset": 2278,
       "length": 3,
-      "value": "0.0"
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
@@ -30116,6 +31186,97 @@
       "offset": 5324,
       "length": 16,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "FloatLiteral",
+      "offset": 570,
+      "length": 3,
+      "value": "1.9"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "IntegerLiteral",
+      "offset": 627,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "FloatLiteral",
+      "offset": 643,
+      "length": 3,
+      "value": "1.8"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "FloatLiteral",
+      "offset": 717,
+      "length": 4,
+      "value": "-0.6"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "FloatLiteral",
+      "offset": 792,
+      "length": 3,
+      "value": "1.9"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "IntegerLiteral",
+      "offset": 849,
+      "length": 4,
+      "value": "4000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "FloatLiteral",
+      "offset": 866,
+      "length": 3,
+      "value": "5.5"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "FloatLiteral",
+      "offset": 940,
+      "length": 3,
+      "value": "1.9"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestAudiogram+Mock.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 21,
+      "value": "\"Invalid data points\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestResult+Mock.swift",
@@ -31786,77 +32947,77 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 2021,
       "length": 9,
       "value": "\"results\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 2021,
       "length": 9,
       "value": "\"results\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 2172,
+      "offset": 2753,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2837,
       "length": 24,
       "value": "\"Timestamp parse failed\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 2566,
+      "offset": 3147,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 3106,
+      "offset": 3687,
       "length": 21,
       "value": "\"overallHearingGrade\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 3152,
+      "offset": 3733,
       "length": 13,
       "value": "\"runsResults\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3782,
       "length": 13,
       "value": "\"earSymmetry\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 3106,
+      "offset": 3687,
       "length": 21,
       "value": "\"overallHearingGrade\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 3152,
+      "offset": 3733,
       "length": 13,
       "value": "\"runsResults\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3782,
       "length": 13,
       "value": "\"earSymmetry\""
     },
@@ -32006,13 +33167,6 @@
       "offset": 2768,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/RemoteConfigurationApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 298,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
@@ -32401,29 +33555,22 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/AuthApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 282,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/AuthApi+Mock.swift",
       "kind": "StringLiteral",
-      "offset": 693,
+      "offset": 628,
       "length": 9,
       "value": "\"mock_id\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/AuthApi+Mock.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 647,
       "length": 13,
       "value": "\"mock_secret\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/AuthApi+Mock.swift",
       "kind": "IntegerLiteral",
-      "offset": 993,
+      "offset": 928,
       "length": 4,
       "value": "1800"
     },
@@ -33534,13 +34681,6 @@
       "value": "\"headphoneModel\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/UserApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 282,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 493,
@@ -34047,7 +35187,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Processing\/Recommendation\/RecommendationTriggerDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3409,
+      "offset": 3557,
       "length": 4,
       "value": "true"
     },
@@ -34231,7 +35371,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"10.0.1\""
+      "value": "\"10.1.0\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiHeadphone+Mock.swift",
@@ -34239,6 +35379,13 @@
       "offset": 474,
       "length": 1214,
       "value": "\"[{\n  \"category\": \"in-ear\",\n  \"connectionType\": \"wired\",\n  \"displayIcon\": \"\/images\/ic_earpods.png\",\n  \"displayName\": \"Apple EarPods\",\n  \"id\": \"Buds\",\n  \"manufacturer\": \"Apple\",\n  \"type\": \"earphones\"\n},\n{\n  \"category\": \"over-ear\",\n  \"connectionType\": \"bluetooth\",\n  \"displayName\": \"Apple AirPods\",\n  \"id\": \"airpods\",\n  \"manufacturer\": \"Apple\",\n  \"type\": \"circumaural\"\n},\n{\n  \"category\": \"other\",\n  \"connectionType\": \"all\",\n  \"displayIcon\": \"\/images\/ic_earpods.png\",\n  \"displayName\": \"Apple EarPods\",\n  \"id\": \"Buds\",\n  \"manufacturer\": \"Apple\",\n  \"type\": \"earphones\"\n},\n{\n  \"category\": \"in-soul\",\n  \"connectionType\": \"spiritual\",\n  \"displayIcon\": \"\/images\/ic_earpods.png\",\n  \"displayName\": \"Spirit Pods\",\n  \"id\": \"Buds\",\n  \"manufacturer\": \"Your soul\",\n  \"type\": \"circumaural\"\n}]\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiSubmitAudiogramResponse+Mock.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 3,
+      "value": "\"1\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/IdentityMergeAnalyticsEvent.swift",
@@ -34691,105 +35838,105 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 369,
       "length": 11,
       "value": "\"anonymous\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "Array",
-      "offset": 3102,
+      "offset": 3057,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 3374,
+      "offset": 3317,
       "length": 11,
       "value": "\"anonymous\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3459,
       "length": 10,
       "value": "\"verified\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 3374,
+      "offset": 3317,
       "length": 11,
       "value": "\"anonymous\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3459,
       "length": 10,
       "value": "\"verified\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "BooleanLiteral",
-      "offset": 3842,
+      "offset": 3781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "Array",
-      "offset": 4362,
+      "offset": 4301,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 5455,
+      "offset": 5378,
       "length": 5,
       "value": "\"sex\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 5540,
+      "offset": 5463,
       "length": 13,
       "value": "\"yearOfBirth\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 5626,
+      "offset": 5549,
       "length": 10,
       "value": "\"nickname\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
-      "offset": 5704,
+      "offset": 5627,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 7465,
+      "offset": 7336,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "BooleanLiteral",
-      "offset": 7991,
+      "offset": 7862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "BooleanLiteral",
-      "offset": 8367,
+      "offset": 8234,
       "length": 5,
       "value": "false"
     },
@@ -35069,37 +36216,44 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
+      "kind": "StringLiteral",
+      "offset": 1683,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1722,
       "length": 10,
       "value": "\"warnings\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1683,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1722,
       "length": 10,
       "value": "\"warnings\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/HeadphonesApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 279,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/BaseURLProvider\/DebugBaseURLProvider.swift",
@@ -35135,13 +36289,6 @@
       "offset": 1270,
       "length": 27,
       "value": "\"io.mimi.core.debug.region\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Endpoints\/ResourceApi+Mock.swift",
-      "kind": "BooleanLiteral",
-      "offset": 275,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Extensions\/UserDefaults+Mimi.swift",
@@ -35706,9 +36853,23 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Requests\/MockRequestExecutor.swift",
       "kind": "FloatLiteral",
-      "offset": 2442,
+      "offset": 2224,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Audiogram\/MimiTestAudiogramMetadata.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1042,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Audiogram\/MimiTestAudiogramMetadata.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1276,
+      "length": 4,
+      "value": "1000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Analytics\/MockAnalyticsProvider.swift",
@@ -35786,6 +36947,20 @@
       "offset": 693,
       "length": 8,
       "value": "\"anonId\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Api\/AudiogramsApi.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 13,
+      "value": "\"\/audiograms\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Api\/AudiogramsApi.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 47,
+      "value": "\"Failed to serialize Audiogram submission data\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",

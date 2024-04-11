@@ -2949,23 +2949,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
-        "declKind": "Import",
-        "moduleName": "MimiSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7032,154 +7015,147 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 959,
+      "offset": 958,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 1218,
+      "offset": 1217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1361,
       "length": 52,
       "value": "\"profile_state_personalize_card_savehearingid_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 1470,
+      "offset": 1469,
       "length": 14,
       "value": "\"ic_mimi_logo\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 1548,
+      "offset": 1547,
       "length": 64,
       "value": "\"profile_state_personalize_card_savehearingid_message_estimated\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 1653,
+      "offset": 1652,
       "length": 66,
       "value": "\"profile_state_personalize_card_savehearingid_action_signup_short\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 1774,
+      "offset": 1773,
       "length": 59,
       "value": "\"profile_state_personalize_card_savehearingid_action_login\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 1913,
+      "offset": 1912,
       "length": 12,
       "value": "\"ic_account\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2030,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2388,
+      "offset": 2330,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2399,
+      "offset": 2341,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2412,
+      "offset": 2354,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2424,
+      "offset": 2366,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2714,
+      "offset": 2656,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2726,
+      "offset": 2668,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2739,
+      "offset": 2681,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 2751,
+      "offset": 2693,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "StringLiteral",
-      "offset": 3607,
+      "offset": 3549,
       "length": 65,
       "value": "\"Could not present AuthFlow - missing presentationViewController\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 3969,
+      "offset": 3911,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 4552,
+      "offset": 4494,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 4620,
+      "offset": 4562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Cards\/AuthPromptGenericUserProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 6157,
+      "offset": 6099,
       "length": 5,
       "value": "false"
     },
@@ -7199,43 +7175,29 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Utilities\/BarButtonMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 677,
-      "length": 1,
-      "value": "4"
+      "kind": "FloatLiteral",
+      "offset": 563,
+      "length": 4,
+      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Utilities\/BarButtonMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 686,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Utilities\/BarButtonMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 697,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Utilities\/BarButtonMaker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 707,
-      "length": 1,
-      "value": "4"
+      "kind": "FloatLiteral",
+      "offset": 577,
+      "length": 4,
+      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Utilities\/BarButtonMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1000,
+      "offset": 933,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Utilities\/BarButtonMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1108,
+      "offset": 1041,
       "length": 4,
       "value": "true"
     },
@@ -9565,57 +9527,29 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4538,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4549,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4562,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4574,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4692,
+      "offset": 4595,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 5096,
       "length": 42,
       "value": "\"result_details_retest_unavailable_config\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "StringLiteral",
-      "offset": 5827,
+      "offset": 5730,
       "length": 42,
       "value": "\"result_details_retest_unavailable_config\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "StringLiteral",
-      "offset": 5921,
+      "offset": 5824,
       "length": 42,
       "value": "\"result_details_retest_unavailable_device\""
     },
@@ -9986,7 +9920,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/BulletPointsView.swift",
       "kind": "StringLiteral",
-      "offset": 4250,
+      "offset": 4203,
       "length": 17,
       "value": "\"Not implemented\""
     },
@@ -13835,178 +13769,136 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Onboarding\/Footers\/LoginProfileFooter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 655,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Onboarding\/Footers\/LoginProfileFooter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 703,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Onboarding\/Footers\/LoginProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 964,
+      "offset": 865,
       "length": 39,
       "value": "\"profile_state_onboarding_login_action\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Onboarding\/Footers\/LoginProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 1425,
+      "offset": 1326,
       "length": 32,
       "value": "\"Could not present MimiAuthFlow\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Onboarding\/Footers\/LoginProfileFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1778,
+      "offset": 1679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Onboarding\/Footers\/LoginProfileFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2120,
+      "offset": 2021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 379,
+      "offset": 390,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 388,
+      "offset": 402,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 400,
+      "offset": 414,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 410,
+      "offset": 427,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1433,
+      "offset": 1190,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1489,
       "length": 45,
       "value": "\"profile_state_personalize_header_toggle_off\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "StringLiteral",
+      "offset": 1584,
+      "length": 44,
+      "value": "\"profile_state_personalize_header_toggle_on\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1680,
+      "length": 44,
+      "value": "\"profile_state_personalize_header_toggle_on\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
+      "kind": "StringLiteral",
       "offset": 1827,
-      "length": 44,
-      "value": "\"profile_state_personalize_header_toggle_on\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "StringLiteral",
-      "offset": 1923,
-      "length": 44,
-      "value": "\"profile_state_personalize_header_toggle_on\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2070,
       "length": 10,
       "value": "\"ic_check\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "StringLiteral",
-      "offset": 2175,
+      "offset": 1932,
       "length": 10,
       "value": "\"ic_check\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2466,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2477,
-      "length": 4,
-      "value": "-4.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2491,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 2503,
-      "length": 3,
-      "value": "4.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2563,
+      "offset": 2227,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2613,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2661,
+      "offset": 2274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3412,
+      "offset": 2978,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3474,
+      "offset": 3040,
       "length": 3,
       "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ProcessingToggleButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4111,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/ChipControl.swift",
@@ -15284,204 +15176,113 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 594,
-      "length": 3,
-      "value": "6.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 904,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 952,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 1251,
+      "offset": 1093,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 1719,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 1754,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 1843,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 1877,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 1889,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 1971,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 2005,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 2095,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 2106,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
-      "kind": "FloatLiteral",
-      "offset": 2119,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2502,
+      "offset": 1663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 2597,
+      "offset": 1758,
       "length": 19,
       "value": "\"action_reset_user\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 2792,
+      "offset": 1953,
       "length": 11,
       "value": "\"ic_logout\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 2076,
       "length": 19,
       "value": "\"action_reset_anon\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 3281,
+      "offset": 2442,
       "length": 19,
       "value": "\"action_reset_anon\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3376,
+      "offset": 2537,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 3998,
+      "offset": 3159,
       "length": 23,
       "value": "\"generic_action_cancel\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 4189,
+      "offset": 3350,
       "length": 39,
       "value": "\"action_reset_user_confirmation_action\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 4387,
+      "offset": 3548,
       "length": 38,
       "value": "\"action_reset_user_confirmation_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 3637,
       "length": 40,
       "value": "\"action_reset_user_confirmation_message\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 4824,
+      "offset": 3985,
       "length": 23,
       "value": "\"generic_action_cancel\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 5015,
+      "offset": 4176,
       "length": 39,
       "value": "\"action_reset_anon_confirmation_action\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 5213,
+      "offset": 4374,
       "length": 38,
       "value": "\"action_reset_anon_confirmation_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "StringLiteral",
-      "offset": 5302,
+      "offset": 4463,
       "length": 40,
       "value": "\"action_reset_anon_confirmation_message\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5589,
+      "offset": 4750,
       "length": 4,
       "value": "true"
     },
@@ -15495,42 +15296,42 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "FloatLiteral",
-      "offset": 5822,
+      "offset": 4983,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6253,
+      "offset": 5414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6577,
+      "offset": 5738,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6749,
+      "offset": 5910,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6926,
+      "offset": 6087,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Generic\/Footers\/ResetAccountProfileFooter.swift",
       "kind": "Dictionary",
-      "offset": 7881,
+      "offset": 7042,
       "length": 3,
       "value": "[]"
     },
@@ -16800,62 +16601,6 @@
       "offset": 279,
       "length": 20,
       "value": "\"MimiSDK.AudiogramEarPlotData\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 436,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 492,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 503,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 517,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 529,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1221,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1268,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/AnnotationPillButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1566,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
@@ -18267,84 +18012,84 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "StringLiteral",
-      "offset": 760,
+      "offset": 767,
       "length": 68,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 785,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "StringLiteral",
-      "offset": 808,
+      "offset": 815,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "StringLiteral",
-      "offset": 827,
+      "offset": 834,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1168,
+      "offset": 1175,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2099,
+      "offset": 2106,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2186,
+      "offset": 2193,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2331,
+      "offset": 2338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2348,
+      "offset": 2355,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3099,
+      "offset": 3106,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3186,
+      "offset": 3193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/Cards\/SoundPersonalization\/SoundPersonalizationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3210,
+      "offset": 3217,
       "length": 4,
       "value": "true"
     },
@@ -19240,49 +18985,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 9537,
+      "offset": 10018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 10074,
+      "offset": 10694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
       "kind": "BooleanLiteral",
-      "offset": 10750,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11371,
+      "offset": 11315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
       "kind": "FloatLiteral",
-      "offset": 12176,
-      "length": 3,
-      "value": "1.5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
-      "kind": "FloatLiteral",
-      "offset": 12730,
-      "length": 3,
-      "value": "1.5"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/StandardProfileCard.swift",
-      "kind": "FloatLiteral",
-      "offset": 12828,
+      "offset": 12120,
       "length": 3,
       "value": "1.5"
     },
@@ -19499,98 +19223,98 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12216,
+      "offset": 12222,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12522,
+      "offset": 12528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12972,
+      "offset": 12978,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15450,
+      "offset": 15456,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15738,
+      "offset": 15744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15790,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16166,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16379,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16717,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16778,
+      "offset": 15796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18031,
+      "offset": 16172,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18364,
+      "offset": 16385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16784,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18037,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18404,
+      "offset": 18410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/ProfileCardsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18805,
+      "offset": 18811,
       "length": 5,
       "value": "false"
     },
@@ -22673,13 +22397,6 @@
       "offset": 659,
       "length": 13,
       "value": "\"testResults\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Utilities\/TestResultsPresentationCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1874,
-      "length": 4,
-      "value": "1000"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Controls\/SwiftUI\/FooterActionButtonView.swift",

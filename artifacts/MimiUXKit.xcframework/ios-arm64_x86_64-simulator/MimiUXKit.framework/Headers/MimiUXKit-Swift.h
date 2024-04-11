@@ -313,6 +313,8 @@ SWIFT_CLASS("_TtC9MimiUXKit10MimiButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)setTitle:(NSString * _Nullable)title forState:(UIControlState)state;
 - (void)setAttributedTitle:(NSAttributedString * _Nullable)title forState:(UIControlState)state;
+- (void)updateConfiguration;
+- (void)layoutSubviews;
 @end
 
 @class UILabel;
@@ -782,6 +784,7 @@ SWIFT_CLASS("_TtC9MimiUXKit20MimiVisibilityToggle")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -1135,6 +1138,8 @@ SWIFT_CLASS("_TtC9MimiUXKit10MimiButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)setTitle:(NSString * _Nullable)title forState:(UIControlState)state;
 - (void)setAttributedTitle:(NSAttributedString * _Nullable)title forState:(UIControlState)state;
+- (void)updateConfiguration;
+- (void)layoutSubviews;
 @end
 
 @class UILabel;
@@ -1604,6 +1609,7 @@ SWIFT_CLASS("_TtC9MimiUXKit20MimiVisibilityToggle")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4fq+Rr64FTsT4C+7Yl367vKOmE0=
+		123lz9pzcj3UxbF4kH7qluj3B+4=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6cRWexWmWQOrWPn3NZ+IlUAbGqc=
+		v1GL8ajnah5OSb+js2+Jz54sNjk=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6cRWexWmWQOrWPn3NZ+IlUAbGqc=
+		v1GL8ajnah5OSb+js2+Jz54sNjk=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -292,7 +292,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PQqxrzCs7uuo0NINKYWBYs8577JMb4+dth9lS3tMo4I=
+			5Ozblry9I2DiER2Xb48TZqCB7SJmeIhITqbPIupAPVs=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -327,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PQqxrzCs7uuo0NINKYWBYs8577JMb4+dth9lS3tMo4I=
+			5Ozblry9I2DiER2Xb48TZqCB7SJmeIhITqbPIupAPVs=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

@@ -3694,91 +3694,91 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 5783,
+      "offset": 5779,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "StringLiteral",
-      "offset": 5790,
+      "offset": 5786,
       "length": 41,
       "value": "\"Missing credentials that were validated\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6175,
+      "offset": 6142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6213,
+      "offset": 6180,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6273,
+      "offset": 6240,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6702,
+      "offset": 6542,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6945,
+      "offset": 6704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7498,
+      "offset": 7197,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7609,
+      "offset": 7292,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7675,
+      "offset": 7350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 8356,
+      "offset": 7966,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "StringLiteral",
-      "offset": 8934,
+      "offset": 8544,
       "length": 41,
       "value": "\"login_wrong_email_password_error_banner\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "StringLiteral",
-      "offset": 9133,
+      "offset": 8743,
       "length": 21,
       "value": "\"login_error_generic\""
     },

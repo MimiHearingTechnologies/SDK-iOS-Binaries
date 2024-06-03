@@ -50132,217 +50132,224 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5413,
+      "offset": 5187,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5478,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 5775,
+      "offset": 5840,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 5971,
+      "offset": 6036,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6180,
+      "offset": 6245,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 6387,
+      "offset": 6452,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 6449,
+      "offset": 6514,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6637,
+      "offset": 6702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 6833,
+      "offset": 6898,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7059,
+      "offset": 7124,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 7266,
+      "offset": 7331,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7326,
+      "offset": 7391,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 7612,
+      "offset": 7677,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 7801,
+      "offset": 7866,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 7911,
+      "offset": 7976,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 8144,
+      "offset": 8209,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 8441,
+      "offset": 8506,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 8629,
+      "offset": 8694,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 8740,
+      "offset": 8805,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 9037,
+      "offset": 9102,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 9451,
+      "offset": 9516,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9479,
+      "offset": 9544,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 9655,
+      "offset": 9720,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 10422,
+      "offset": 10487,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 10659,
+      "offset": 10724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11009,
+      "offset": 11074,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11145,
+      "offset": 11210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11185,
+      "offset": 11250,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11238,
+      "offset": 11303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11263,
+      "offset": 11328,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11316,
+      "offset": 11381,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11341,
+      "offset": 11406,
       "length": 1,
       "value": "1"
     },

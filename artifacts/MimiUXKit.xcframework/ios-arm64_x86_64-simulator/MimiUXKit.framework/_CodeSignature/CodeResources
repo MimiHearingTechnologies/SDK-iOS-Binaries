@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		28TPlVXFwU2E+KkThCH3S3UvMSo=
+		/Ver6e5Y9n+E1PPCgYbOEv6nwVw=
 		</data>
 		<key>MimiAlertView.nib</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JVotssWxeZD2iL1HAWZIgR1PpM4=
+		rmsKlUkNW531P7CAHGMORdlXjSk=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JVotssWxeZD2iL1HAWZIgR1PpM4=
+		rmsKlUkNW531P7CAHGMORdlXjSk=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			voJk7KQi/0/y9JLU8k3DxvAmlpnygEvH1jdfFG5LkjI=
+			IurnKp0eOGTq96PrkjtcgLnKxMuoCNRaur2lOL8rFoE=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			voJk7KQi/0/y9JLU8k3DxvAmlpnygEvH1jdfFG5LkjI=
+			IurnKp0eOGTq96PrkjtcgLnKxMuoCNRaur2lOL8rFoE=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'MimiSDK'
-  s.version             = '10.1.2'
+  s.version             = '10.1.3'
   s.homepage            = 'https://mimi.io'
   s.documentation_url   = 'https://mimihearingtechnologies.github.io/SDKDocs-iOS/master/'
   s.license             = { :type => 'Commercial', :file => 'MimiSDK.xcframework/LICENSE' }

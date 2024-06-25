@@ -11651,168 +11651,168 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 5777,
+      "offset": 5888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 5939,
       "length": 46,
       "value": "\"flow_setup_environment_action_mic_permission\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6035,
+      "offset": 6136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 6090,
+      "offset": 6186,
       "length": 21,
       "value": "\"generic_action_next\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "FloatLiteral",
-      "offset": 6261,
+      "offset": 6404,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6734,
+      "offset": 6877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6820,
+      "offset": 6963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 6984,
+      "offset": 7127,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7312,
+      "offset": 7455,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7677,
+      "offset": 7820,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7744,
+      "offset": 7887,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 7886,
+      "offset": 8029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 8188,
+      "offset": 8331,
       "length": 38,
       "value": "\"Failed to enable AmbientNoiseMonitor\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 8761,
+      "offset": 8904,
       "length": 55,
       "value": "\"flow_setup_environment_alert_level_loud_action_cancel\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 9019,
+      "offset": 9162,
       "length": 45,
       "value": "\"alert_permission_mic_denied_action_settings\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 9416,
+      "offset": 9559,
       "length": 35,
       "value": "\"microphone_permission_alert_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 9502,
+      "offset": 9645,
       "length": 41,
       "value": "\"microphone_permission_alert_description\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 10096,
+      "offset": 10239,
       "length": 55,
       "value": "\"flow_setup_environment_alert_level_ok_action_continue\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 10362,
+      "offset": 10505,
       "length": 45,
       "value": "\"flow_setup_environment_alert_level_ok_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 10458,
+      "offset": 10601,
       "length": 47,
       "value": "\"flow_setup_environment_alert_level_ok_message\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 10721,
+      "offset": 10864,
       "length": 55,
       "value": "\"flow_setup_environment_alert_level_loud_action_cancel\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 10993,
+      "offset": 11136,
       "length": 57,
       "value": "\"flow_setup_environment_alert_level_loud_action_continue\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 11266,
+      "offset": 11409,
       "length": 47,
       "value": "\"flow_setup_environment_alert_level_loud_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "StringLiteral",
-      "offset": 11364,
+      "offset": 11507,
       "length": 49,
       "value": "\"flow_setup_environment_alert_level_loud_message\""
     },

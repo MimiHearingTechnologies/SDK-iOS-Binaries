@@ -3876,147 +3876,147 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4130,
+      "offset": 4188,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4234,
+      "offset": 4292,
       "length": 4,
       "value": "1.15"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4243,
+      "offset": 4301,
       "length": 4,
       "value": "1.15"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4379,
+      "offset": 4437,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4385,
+      "offset": 4443,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4450,
+      "offset": 4508,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 4456,
+      "offset": 4514,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 4533,
+      "offset": 4591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 4924,
+      "offset": 4982,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 5012,
+      "offset": 5070,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 5288,
+      "offset": 5346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "StringLiteral",
-      "offset": 6041,
+      "offset": 6099,
       "length": 13,
       "value": "\"borderColor\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 6136,
+      "offset": 6194,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 6225,
+      "offset": 6283,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 6554,
+      "offset": 6612,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 6745,
+      "offset": 6803,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 6814,
+      "offset": 6872,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 6887,
+      "offset": 6945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 7328,
+      "offset": 7386,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 7427,
+      "offset": 7485,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 7705,
+      "offset": 7763,
       "length": 4,
       "value": "16.0"
     },

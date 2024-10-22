@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GT2t5ChfeTk7JB2iSclf05w47aQ=
+		Dj0Yo2iHIPT/KFe78Gyh6+rm6Us=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MimiAuthKit-Swift.h</key>
 		<data>
-		X6tvJYl7zIUuryUH8QOwOYIybCA=
+		ymOkGm6ouWwslB3rWNRMWLzQJWc=
 		</data>
 		<key>Headers/MimiAuthKit.h</key>
 		<data>
@@ -22,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5pwzhKxaeHmY7f00SyK499ZJA4E=
+		uw4xShCFnlUE80LjAugI4d+XTSY=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8W6FGk6odTNoh2vK+1yJTz07vww=
+		2f22YJkCv+I6vmCve1CwMCln+LU=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x/MK/116LVBHPYMbIbHkULymBik=
+		kaE4ffgAjpW3HrH1jyAjK6kbdF8=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ku1nWcBPd51YrqywoNv6PekwEQw=
+		KiQM3BGqHj1Dz0Yj3u999iSh2Dk=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x/MK/116LVBHPYMbIbHkULymBik=
+		kaE4ffgAjpW3HrH1jyAjK6kbdF8=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ablL/NeF2hKUiVMx+NJ0IJ/6VK8=
+		GshiE7Dd6c/RZh08+CDr1Rrwhx0=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8W6FGk6odTNoh2vK+1yJTz07vww=
+		2f22YJkCv+I6vmCve1CwMCln+LU=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		P64dFEdMuZ77YdhQMt/5zdWxLc0=
+		yAcHICPncIzOvh0V2Gw04n2joRI=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wsmwPc3fIkSi624k9lzSrIn3z6Y=
+		yR1OzhorzwWIjSu8BTV9GGS43xY=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P64dFEdMuZ77YdhQMt/5zdWxLc0=
+		yAcHICPncIzOvh0V2Gw04n2joRI=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g5g9QGryiOBCA1N0Pk30RD6sQ/Y=
+		FJehVHftR4evzL6sgVEQBlVqDrk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gvpK81Fp8fsWwr8ADkamaGi3dX8=
+			ygV2eP93FR9uFPAFnOPDbj5wi6k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cos1q0m8gWmo0v5/b+hjISDeADA=
+			xv4XxOXWa89egSr7Ig/pv8fyJbw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n6IoU/ApHDieHQwuzRtc1BDsvIQ=
+			KlbxfuXFAlSp+MkS0g8ZCaRzR/A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A6fUQpIO9EJ0BvIFWosKcIqmHZI=
+			P4/7XJzi/HJkuM3PrbdItGlHoo8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -108,7 +108,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sLoAlV4a2zLi1q1HYYdXZUVbhts=
+			myzFZqgyuJgL4ku1Iu8d5npGzHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qXzAjHoqLgx9Qczc6Rp5o/OJoSs=
+			XxJuooC00H/rf32XUSN3zcjKtHg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6+8pOeMtGy9wJMC9PCMVfofMmSk=
+			ogf0XCV9aLXzTH1EPGGSWMsGbyg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pFEAcoqg00T7kVrsi7blqpraH4U=
+			wGSuju3jnbiFplk6jqtpnk6QMKY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CJSeI497VjMywUHSdlXvmlXdOOc=
+			UX8QD5KZPOvrzL85D1NK+s7yQfY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x7BgS5OhOC82Smd9ul26xZbX1p4=
+			ApzoitXQqJkB+Tk78nfPGNQVjrU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VChs+5+oBxP+Tsc16WqA01gnSUE=
+			L6V62fXxB6Z5urKXu9YZvvx6RV4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rcgH6WEMLxly/GINcFvOpx85GQA=
+			yG2Wrd8J8QrO1bVvzcnAsJjbu3Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h/zUoMIk8NFoBpecq5o2eRMQ9Fg=
+			tuEIdxycMr9kRQjdD3E9Zfg5WJA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4dcrnnd7AnhHD17Hd+0JNPHB/ak=
+			C8t4PYWhnKQ6LWkGtRK4P4qCr+U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZijP8+y6e5V+5euMO7KtvSMb6xU=
+			J228dEbq0M/0gfXwlKhNk0o8gRU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -207,7 +207,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			USoj8CD3dCEK7sovyE7jiVEFzn8=
+			lEh8Wwy/ROaTTq8Hmc2O+e1DR4A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -216,7 +216,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1x61SdKmH96BdHe0dz6wdvBfW90=
+			3WPEBGXxUX1eEiY+45T2ufipyGI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AfM90qCry61Ba/eXRSBGb/8N3mM=
+			UzALzv6dmE8d61fnVpzxSsZ57zs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -234,7 +234,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W2YFSQZZhy+jHg0CpArp7hyb/do=
+			39/ZzWTI5e87Q1Pi2ltfXi9q4ts=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -243,7 +243,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vzs2QytLMuNx44VKzHXRCkCHWnM=
+			5ytdRneqzBOeO03DYkh5JlPy6b8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -252,7 +252,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gTEo2VeAWKElo0ftHEiLSU8yc38=
+			HGk+VzeUa/2kmIReg+K+2CGEcmc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BS8UJnU69inqSoSizMsxBJTHR8zLDbxFmKHQs6vgIiY=
+			JLWEzBCZQkL3J0Sf0DavLoSlx4jcHhpBe7Ui3wOCM/o=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -278,7 +278,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b4B7pz0HnkgYS3IfiOzMxKPjLImjqcnUklskdATFfks=
+			n79l7mRQbXCQPPtSA5eteHWYOUcVTpCT4wL/mbkzEjM=
 			</data>
 		</dict>
 		<key>Headers/MimiAuthKit.h</key>
@@ -292,70 +292,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fb+BD7bducbjuDXff8stl1lTcQ9wWRnyGAGGGqYstI=
+			F/G+8raPGXGc1UUtEzg4T4mr2vBeUVguc0JUJpoordk=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d6G2tjh2WK250QI9dCd0ovY0xbaqFUMd/kMcDGPceCI=
+			8m3TJvP5+c8t+jqRY1j5EU9SXvknOvumWDddDHYjicE=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w/XzZ1kFczvLUSqHIVULi3brTfSmg56X2xE4XRj+Rhk=
+			Q5wmOgOOgEdy0x4G6+8FkDytpaB5MIvHxdOhyteAGro=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d6G2tjh2WK250QI9dCd0ovY0xbaqFUMd/kMcDGPceCI=
+			8m3TJvP5+c8t+jqRY1j5EU9SXvknOvumWDddDHYjicE=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZGfvKDeltM/CVGzCa9FH+HiBW9aNazKWE/NF/JkgkXI=
+			6ki+Z5fl0vAnredMABQX3NVVbd3TCn1XZxGLkdpYfFI=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fb+BD7bducbjuDXff8stl1lTcQ9wWRnyGAGGGqYstI=
+			F/G+8raPGXGc1UUtEzg4T4mr2vBeUVguc0JUJpoordk=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+oLwAhvKFSIFg7nnKmUER5DSrnNFhZ+t1lvMt1BqeKk=
+			OS2g26XHREuFr5TP8UigoLmU+wDh6Xu6oqRRt92CAUU=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q1pZxJIfaLvcOKRw/oykEbbsiqXSRTb5y1i/P/WpHnY=
+			TPCNCgg5KZXRpanEkAFL2NFDxLIyVR/38ZFAh1bvzsY=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+oLwAhvKFSIFg7nnKmUER5DSrnNFhZ+t1lvMt1BqeKk=
+			OS2g26XHREuFr5TP8UigoLmU+wDh6Xu6oqRRt92CAUU=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NDJjy8ErGXHycEbWUPT/2TP50YJgquoZEAkYOe9WpbU=
+			reU/zH10GA42fdCOPDgZ16fLdvp8/ZYtG8P49mlMt6s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -369,7 +369,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgvMxosuDPoS/fjdgvLif4TeT5PksWIDsBcnZAiZEXc=
+			rAvMncRcZmbmH7nmKg62j82FJk6g5F5MLwO55ymE/mk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -378,7 +378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v8nQYwhhHJa3DZyko6jWNKujvyEjWz9VMNk58EVVdcw=
+			1QFkLua+ljqe5XwlDVMPg0op4eMOMhGGEDNradVM8Gs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -387,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3nKjy95vCA2Fjk0lon45jADI5NccoUi2FAXTdBEtpQ=
+			ViqyVnzDkra2FG3wOeI6FifDw7FjkCm9Fn6JDXu5q0Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -396,7 +396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EPQFyHOgAFR72Qn08IP/BypWPK85wtQG2EyAtmrpflY=
+			g94VVciB6vRQLs3mbxgklwf7gI9EiGrYHDfRoCZblOs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -405,7 +405,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R9X8kr8VJSDXAS0JpIcALp5bbDv392+jtJaMak218As=
+			2he9/Bl0oCHCeUUyqiviwgpuYSkohT4yIu013lAwjDY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -414,7 +414,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TppPL4tToQBnqjMvwQXmzeDJYOJ/lD5T2eWyBp12f2o=
+			5AaOQS98TzrxUYrsRSANIvYQpn16RgkKrzwOwtrU6UM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -423,7 +423,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8/D5k+043Lj17Cut5a9sIK6i8fOgimxDDkDbMkztQiQ=
+			ahZgjUX4wpGXE4ZYkLkjLj3FdjHaYbMMIfjv3H5ZHNw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -432,7 +432,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SGSVKQzuNqBwhCU2BvagNSh1msRtrnBZj+hryB3vWJo=
+			XxCu6fp0BF5NYqv6cNFrfZQSaCPM40pWceTWsfJHKZI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -441,7 +441,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVL4nkIqIcvwLZilOSkVDvzVsu7bttR/wjBSP9t9Coo=
+			N67cemzfBHregc0RS2xKU+Y+OoPiUoslwW0g9+9uYvI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -450,7 +450,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LqYdr9lmaVLPIFnXOOz/nycHL6u3X23ilZYGkjNHM+o=
+			GXmokw0rUqHE36dX2Mp1dgzN5tiWCaSf5UXRLyyTxh8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -459,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Wp8g7sgghzmaLiZEckd24czIGs+qetVml7ViWa2iIQ=
+			VoImCeDi55MCPsCatD/M8cnqKMuw9KrzhqY/kUnj0/c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -468,7 +468,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XUVd+qqYCqQGALITS0NXAOwRrwV0wDeO7cYjZ15qr+g=
+			scoKS/fQJn4RMjfyOSurSkz/f7o1lNX344TVpPhPGB8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -477,7 +477,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aYjAHoho8AMoTYgW5gt5+GqgOeMWSoWaqIqO7dR+Axs=
+			W9rw02khOOgDRFI3EELSoxEvPzcIsDSyueoFPE84mzA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -486,7 +486,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CRK5L5u6+173g1mekpItZnMkQNbEdJeIKv9De+pBtQ=
+			gaSY8RwCW9XiDzOKBXn6DeUisL38hRsNGYopuNZsaMk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -495,7 +495,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7aVcDN+AMaZFtYaRMZUZrnvq321rLd4+muA/8jJveWM=
+			c00dsE9MTLmnMfDtqeWOtKyfqfLfcpNl6VmG7UWZiNk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -504,7 +504,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mPZd3HndRhXrljvxxd2vmZ4dObk47Rwh+XK5TxswXMA=
+			lqLssYQfd9ykmPLd30NYJDPqS1uqMlup5G96zwGj/1U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -513,7 +513,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z6grzB2pBsOyXYaj/0ONHmyDex2uOJigOChgpcUrE3s=
+			gx77NU4P0v+MianUvdiQ3G23bToyII7g3iporkpoYtk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -522,7 +522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wErC89IwXZ4e5btt6vwIdjFq4p/KQSQ/ZXGsx58qSlQ=
+			LkPXOU2cqowjj3WytdOl92+wThVssTySGadIpx4jM+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -531,7 +531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oIQ8P0MJGpOGIg7eH1CS/6DxHtF019pVvDjTahL9n1E=
+			7q1Cf3WwaN0KDGFPFOJKtucZ0r/wKTnD8bC2ilNgGNI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -540,7 +540,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1HWgzZxOf/c/3TaAvW7wT2Yey3NCPqinM9Lry7Loqk=
+			vwvlgDYF0km2hvtadp6k08PF2dXp+RbA388Tg9X4EIY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -549,7 +549,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			anW2XFBWPvpMWnZE2eJtYh1iY6cpBZO5eMRrBS2NzKY=
+			8r6XnACz0rPm9n40HUyRvOpAZgJ6vQpe9KH9E1bgT2k=
 			</data>
 			<key>optional</key>
 			<true/>

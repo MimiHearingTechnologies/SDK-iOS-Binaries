@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MimiCoreKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
@@ -80,6 +80,12 @@ extension MimiCoreKit.MimiHeadphone.Category {
 }
 extension MimiCoreKit.MimiHeadphone : Swift.Equatable {
   public static func == (lhs: MimiCoreKit.MimiHeadphone, rhs: MimiCoreKit.MimiHeadphone) -> Swift.Bool
+}
+extension MimiCoreKit.MimiHeadphone : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct MimiHearingPercentage : Swift.Codable, Swift.RawRepresentable {
   public let rawValue: Swift.Int
@@ -418,7 +424,6 @@ public struct MimiPersonalizationVisualization : Swift.Codable, Swift.Equatable 
 }
 @_hasMissingDesignatedInitializers public actor MimiProcessingParameterApplicator<Value> : Swift.Identifiable where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable {
   final public let id: Swift.String
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.String
   @objc deinit
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -469,7 +474,6 @@ public struct MimiTestResult<RunResultData> : MimiCoreKit.AnyMimiTestResult, Swi
   public var warnings: [MimiCoreKit.MimiTestResultError]? {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -1020,8 +1024,6 @@ public struct MimiTestRun : Swift.Codable {
 extension MimiCoreKit.MimiTestRun {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-extension Foundation.UserDefaults : @unchecked Swift.Sendable {
 }
 extension MimiCoreKit.MimiPersonalizationVisualization {
   public struct Level : Swift.Codable, Swift.Equatable {

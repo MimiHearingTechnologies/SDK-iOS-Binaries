@@ -49157,336 +49157,329 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 751,
-      "length": 20,
-      "value": "\"menu_launchers_tab\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 746,
       "length": 15,
       "value": "\"menu_more_tab\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 789,
       "length": 18,
       "value": "\"menu_profile_tab\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 861,
       "length": 24,
       "value": "\"navigation_exit_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 938,
       "length": 23,
       "value": "\"settings_about_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 1003,
       "length": 37,
       "value": "\"settings_change_localization_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1075,
       "length": 29,
       "value": "\"settings_environment_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1132,
       "length": 21,
       "value": "\"settings_production\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1183,
       "length": 24,
       "value": "\"settings_region_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1232,
       "length": 18,
       "value": "\"settings_staging\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1329,
+      "offset": 1279,
       "length": 23,
       "value": "\"settings_theme_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1329,
       "length": 21,
       "value": "\"settings_theme_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1399,
       "length": 22,
       "value": "\"about_auth_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1502,
+      "offset": 1452,
       "length": 22,
       "value": "\"about_core_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 1501,
       "length": 17,
       "value": "\"about_hte_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1549,
       "length": 22,
       "value": "\"about_test_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1600,
       "length": 20,
       "value": "\"about_ux_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1680,
       "length": 27,
       "value": "\"environment_cancel_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1742,
       "length": 31,
       "value": "\"environment_production_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 1805,
       "length": 28,
       "value": "\"environment_staging_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1945,
+      "offset": 1895,
       "length": 29,
       "value": "\"localization_bosnian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 1964,
       "length": 39,
       "value": "\"localization_chinese_hong_kong_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2043,
       "length": 38,
       "value": "\"localization_chinese_mainland_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2119,
       "length": 36,
       "value": "\"localization_chinese_taiwan_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2238,
+      "offset": 2188,
       "length": 30,
       "value": "\"localization_croatian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2298,
+      "offset": 2248,
       "length": 27,
       "value": "\"localization_dutch_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2357,
+      "offset": 2307,
       "length": 29,
       "value": "\"localization_english_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2370,
       "length": 32,
       "value": "\"localization_english_uk_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
+      "offset": 2433,
       "length": 28,
       "value": "\"localization_french_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2542,
+      "offset": 2492,
       "length": 28,
       "value": "\"localization_german_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2602,
+      "offset": 2552,
       "length": 29,
       "value": "\"localization_italian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
+      "offset": 2614,
       "length": 30,
       "value": "\"localization_japanese_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2725,
+      "offset": 2675,
       "length": 28,
       "value": "\"localization_korean_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2737,
       "length": 32,
       "value": "\"localization_phrase_key_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2850,
+      "offset": 2800,
       "length": 28,
       "value": "\"localization_polish_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2913,
+      "offset": 2863,
       "length": 32,
       "value": "\"localization_portuguese_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2977,
+      "offset": 2927,
       "length": 29,
       "value": "\"localization_russian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 2988,
       "length": 29,
       "value": "\"localization_serbian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3104,
+      "offset": 3054,
       "length": 35,
       "value": "\"localization_serbian_latin_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3123,
       "length": 31,
       "value": "\"localization_slovenian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3235,
+      "offset": 3185,
       "length": 28,
       "value": "\"localization_spanis_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3247,
       "length": 31,
       "value": "\"localization_ukrainian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3332,
       "length": 21,
       "value": "\"region_china_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3435,
+      "offset": 3385,
       "length": 23,
       "value": "\"region_dynamic_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3494,
+      "offset": 3444,
       "length": 29,
       "value": "\"region_rest_of_world_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3582,
+      "offset": 3532,
       "length": 24,
       "value": "\"snackbar_leading_label\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 3587,
       "length": 25,
       "value": "\"snackbar_trailing_label\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 3634,
       "length": 15,
       "value": "\"snackbar_view\""
     },

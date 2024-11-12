@@ -1831,6 +1831,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MimiUXKit",
+        "printedName": "MimiUXKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2686,6 +2703,23 @@
       },
       {
         "kind": "Import",
+        "name": "MimiCoreKit",
+        "printedName": "MimiCoreKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MimiUXKit",
         "printedName": "MimiUXKit",
         "declKind": "Import",
@@ -3021,6 +3055,33 @@
       },
       {
         "kind": "Import",
+        "name": "MimiCoreKit",
+        "printedName": "MimiCoreKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MimiUXKit",
+        "printedName": "MimiUXKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3104,23 +3165,6 @@
         "kind": "Import",
         "name": "CommonCrypto",
         "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
         "declKind": "Import",
         "moduleName": "MimiTestKit"
       },
@@ -6917,455 +6961,483 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 5932,
+      "offset": 5948,
+      "length": 58,
+      "value": "\"set_up_headphones_selection_step_other_headphones_button\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "kind": "StringLiteral",
+      "offset": 6030,
       "length": 40,
       "value": "\"set_up_headphones_selection_step_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6014,
+      "offset": 6112,
       "length": 53,
       "value": "\"set_up_headphones_selection_step_un_calibrated_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6109,
+      "offset": 6207,
       "length": 61,
       "value": "\"set_up_headphones_selection_step_un_calibrated_radio_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6245,
+      "offset": 6357,
+      "length": 46,
+      "value": "\"unsupported_headphones_bulletin_close_button\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "kind": "StringLiteral",
+      "offset": 6446,
+      "length": 49,
+      "value": "\"unsupported_headphones_bulletin_continue_button\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "kind": "StringLiteral",
+      "offset": 6529,
+      "length": 39,
+      "value": "\"unsupported_headphones_bulletin_title\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "kind": "StringLiteral",
+      "offset": 6655,
       "length": 42,
       "value": "\"result_conditions_bulletin_action_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6316,
+      "offset": 6726,
       "length": 41,
       "value": "\"result_conditions_bulletin_close_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6380,
+      "offset": 6790,
       "length": 34,
       "value": "\"result_conditions_bulletin_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6471,
+      "offset": 6881,
       "length": 30,
       "value": "\"body_result_condition_plural\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6541,
+      "offset": 6951,
       "length": 30,
       "value": "\"body_result_condition_single\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6630,
+      "offset": 7040,
       "length": 27,
       "value": "\"carousel_view_scroll_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6725,
+      "offset": 7135,
       "length": 36,
       "value": "\"result_conditions_loud_environment\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6791,
+      "offset": 7201,
       "length": 32,
       "value": "\"result_conditions_missing_data\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6853,
+      "offset": 7263,
       "length": 33,
       "value": "\"result_conditions_out_of_bounds\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 6927,
+      "offset": 7337,
       "length": 43,
       "value": "\"result_conditions_uncalibrated_headphones\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7066,
+      "offset": 7476,
       "length": 30,
       "value": "\"another_app_using_audio_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7129,
+      "offset": 7539,
       "length": 42,
       "value": "\"another_app_using_audio_exit_test_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7195,
+      "offset": 7605,
       "length": 31,
       "value": "\"another_app_using_audio_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7298,
+      "offset": 7708,
       "length": 34,
       "value": "\"cant_hear_anything_bulletin_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7356,
+      "offset": 7766,
       "length": 35,
       "value": "\"cant_hear_anything_bulletin_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7424,
+      "offset": 7834,
       "length": 46,
       "value": "\"cant_hear_anything_bulletin_try_again_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7540,
+      "offset": 7950,
       "length": 30,
       "value": "\"headphones_disconnected_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7603,
+      "offset": 8013,
       "length": 42,
       "value": "\"headphones_disconnected_exit_test_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7681,
+      "offset": 8091,
       "length": 45,
       "value": "\"headphones_disconnected_no_headphones_image\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7750,
+      "offset": 8160,
       "length": 31,
       "value": "\"headphones_disconnected_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7850,
+      "offset": 8260,
       "length": 39,
       "value": "\"test_paused_bulletin_exit_test_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 7927,
+      "offset": 8337,
       "length": 44,
       "value": "\"test_paused_bulletin_practice_again_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8010,
+      "offset": 8420,
       "length": 46,
       "value": "\"test_paused_bulletin_restart_this_ear_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8087,
+      "offset": 8497,
       "length": 36,
       "value": "\"test_paused_bulletin_resume_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8159,
+      "offset": 8569,
       "length": 43,
       "value": "\"test_paused_bulletin_skip_this_ear_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8265,
+      "offset": 8675,
       "length": 24,
       "value": "\"too_loud_bulletin_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8313,
+      "offset": 8723,
       "length": 25,
       "value": "\"too_loud_bulletin_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8375,
+      "offset": 8785,
       "length": 39,
       "value": "\"too_loud_bulletin_troubleshoot_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8483,
+      "offset": 8893,
       "length": 30,
       "value": "\"volume_changed_bulletin_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8549,
+      "offset": 8959,
       "length": 45,
       "value": "\"volume_changed_bulletin_reset_volume_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8618,
+      "offset": 9028,
       "length": 31,
       "value": "\"volume_changed_bulletin_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8738,
+      "offset": 9148,
       "length": 24,
       "value": "\"exit_alert_exit_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8785,
+      "offset": 9195,
       "length": 17,
       "value": "\"exit_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8870,
+      "offset": 9280,
       "length": 37,
       "value": "\"interruption_alert_exit_test_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 8942,
+      "offset": 9352,
       "length": 39,
       "value": "\"interruption_alert_test_anyway_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9004,
+      "offset": 9414,
       "length": 25,
       "value": "\"interruption_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9099,
+      "offset": 9509,
       "length": 39,
       "value": "\"microphone_access_alert_cancel_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9169,
+      "offset": 9579,
       "length": 39,
       "value": "\"microphone_access_alert_open_settings\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9231,
+      "offset": 9641,
       "length": 30,
       "value": "\"microphone_access_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9325,
+      "offset": 9735,
       "length": 32,
       "value": "\"practice_alert_practice_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9380,
+      "offset": 9790,
       "length": 21,
       "value": "\"practice_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9463,
+      "offset": 9873,
       "length": 30,
       "value": "\"restart_alert_restart_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9516,
+      "offset": 9926,
       "length": 20,
       "value": "\"restart_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9592,
+      "offset": 10002,
       "length": 24,
       "value": "\"skip_alert_skip_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9639,
+      "offset": 10049,
       "length": 17,
       "value": "\"skip_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9721,
+      "offset": 10131,
       "length": 34,
       "value": "\"test_paused_alert_restart_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9786,
+      "offset": 10196,
       "length": 33,
       "value": "\"test_paused_alert_resume_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9851,
+      "offset": 10261,
       "length": 35,
       "value": "\"test_paused_alert_skip_ear_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 9909,
+      "offset": 10319,
       "length": 24,
       "value": "\"test_paused_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10014,
+      "offset": 10424,
       "length": 52,
       "value": "\"uncalibrated_head_phones_alert_i_understand_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10089,
+      "offset": 10499,
       "length": 37,
       "value": "\"uncalibrated_head_phones_alert_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10188,
+      "offset": 10598,
       "length": 20,
       "value": "\"test_complete_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10240,
+      "offset": 10650,
       "length": 32,
       "value": "\"test_complete_exit_test_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10295,
+      "offset": 10705,
       "length": 21,
       "value": "\"test_complete_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10373,
+      "offset": 10783,
       "length": 29,
       "value": "\"test_selection_mt_test_card\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10431,
+      "offset": 10841,
       "length": 30,
       "value": "\"test_selection_ptt_test_card\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10484,
+      "offset": 10894,
       "length": 22,
       "value": "\"test_selection_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10574,
+      "offset": 10984,
       "length": 32,
       "value": "\"your_personalization_card_desc\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10640,
+      "offset": 11050,
       "length": 45,
       "value": "\"your_personalization_card_disclaimer_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10715,
+      "offset": 11125,
       "length": 41,
       "value": "\"your_personalization_card_finish_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10779,
+      "offset": 11189,
       "length": 33,
       "value": "\"your_personalization_card_graph\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 10835,
+      "offset": 11245,
       "length": 33,
       "value": "\"your_personalization_card_title\""
     },
@@ -7379,77 +7451,49 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1553,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1568,
-      "length": 12,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1684,
+      "offset": 1169,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1991,
+      "offset": 1570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2041,
+      "offset": 1620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2112,
+      "offset": 1691,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2161,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2212,
+      "offset": 1740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2316,
+      "offset": 1843,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2440,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2573,
+      "offset": 2274,
       "length": 1,
       "value": "0"
     },
@@ -7715,63 +7759,56 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesSectionHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 432,
       "length": 29,
       "value": "\"HeadphonesSectionHeaderView\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 1569,
       "length": 21,
       "value": "\"HeadphonesTableCell\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1885,
+      "offset": 1678,
       "length": 4,
-      "value": "12.0"
+      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1897,
+      "offset": 1690,
       "length": 4,
-      "value": "12.0"
+      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1911,
+      "offset": 1704,
       "length": 4,
-      "value": "12.0"
+      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1924,
+      "offset": 1717,
       "length": 4,
-      "value": "12.0"
+      "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1973,
+      "offset": 1766,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 2019,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3112,
+      "offset": 2767,
       "length": 5,
       "value": "false"
     },
@@ -8037,14 +8074,14 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 805,
+      "offset": 871,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 985,
+      "offset": 1051,
       "length": 5,
       "value": "false"
     },
@@ -8457,336 +8494,329 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 751,
-      "length": 20,
-      "value": "\"menu_launchers_tab\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 746,
       "length": 15,
       "value": "\"menu_more_tab\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 789,
       "length": 18,
       "value": "\"menu_profile_tab\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 861,
       "length": 24,
       "value": "\"navigation_exit_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 938,
       "length": 23,
       "value": "\"settings_about_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 1003,
       "length": 37,
       "value": "\"settings_change_localization_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1075,
       "length": 29,
       "value": "\"settings_environment_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1132,
       "length": 21,
       "value": "\"settings_production\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1183,
       "length": 24,
       "value": "\"settings_region_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1232,
       "length": 18,
       "value": "\"settings_staging\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1329,
+      "offset": 1279,
       "length": 23,
       "value": "\"settings_theme_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1329,
       "length": 21,
       "value": "\"settings_theme_view\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1399,
       "length": 22,
       "value": "\"about_auth_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1502,
+      "offset": 1452,
       "length": 22,
       "value": "\"about_core_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 1501,
       "length": 17,
       "value": "\"about_hte_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1549,
       "length": 22,
       "value": "\"about_test_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1600,
       "length": 20,
       "value": "\"about_ux_kit_value\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1680,
       "length": 27,
       "value": "\"environment_cancel_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1792,
+      "offset": 1742,
       "length": 31,
       "value": "\"environment_production_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 1805,
       "length": 28,
       "value": "\"environment_staging_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 1945,
+      "offset": 1895,
       "length": 29,
       "value": "\"localization_bosnian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 1964,
       "length": 39,
       "value": "\"localization_chinese_hong_kong_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2043,
       "length": 38,
       "value": "\"localization_chinese_mainland_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2119,
       "length": 36,
       "value": "\"localization_chinese_taiwan_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2238,
+      "offset": 2188,
       "length": 30,
       "value": "\"localization_croatian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2298,
+      "offset": 2248,
       "length": 27,
       "value": "\"localization_dutch_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2357,
+      "offset": 2307,
       "length": 29,
       "value": "\"localization_english_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2370,
       "length": 32,
       "value": "\"localization_english_uk_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
+      "offset": 2433,
       "length": 28,
       "value": "\"localization_french_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2542,
+      "offset": 2492,
       "length": 28,
       "value": "\"localization_german_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2602,
+      "offset": 2552,
       "length": 29,
       "value": "\"localization_italian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
+      "offset": 2614,
       "length": 30,
       "value": "\"localization_japanese_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2725,
+      "offset": 2675,
       "length": 28,
       "value": "\"localization_korean_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2737,
       "length": 32,
       "value": "\"localization_phrase_key_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2850,
+      "offset": 2800,
       "length": 28,
       "value": "\"localization_polish_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2913,
+      "offset": 2863,
       "length": 32,
       "value": "\"localization_portuguese_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 2977,
+      "offset": 2927,
       "length": 29,
       "value": "\"localization_russian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 2988,
       "length": 29,
       "value": "\"localization_serbian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3104,
+      "offset": 3054,
       "length": 35,
       "value": "\"localization_serbian_latin_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3123,
       "length": 31,
       "value": "\"localization_slovenian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3235,
+      "offset": 3185,
       "length": 28,
       "value": "\"localization_spanis_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3247,
       "length": 31,
       "value": "\"localization_ukrainian_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3332,
       "length": 21,
       "value": "\"region_china_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3435,
+      "offset": 3385,
       "length": 23,
       "value": "\"region_dynamic_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3494,
+      "offset": 3444,
       "length": 29,
       "value": "\"region_rest_of_world_button\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3582,
+      "offset": 3532,
       "length": 24,
       "value": "\"snackbar_leading_label\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 3587,
       "length": 25,
       "value": "\"snackbar_trailing_label\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 3634,
       "length": 15,
       "value": "\"snackbar_view\""
     },

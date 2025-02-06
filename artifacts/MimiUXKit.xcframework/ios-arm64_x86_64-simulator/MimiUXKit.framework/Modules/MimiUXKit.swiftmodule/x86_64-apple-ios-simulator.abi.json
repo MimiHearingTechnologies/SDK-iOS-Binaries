@@ -47797,1813 +47797,1813 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
       "kind": "FloatLiteral",
       "offset": 964,
       "length": 4,
       "value": "40.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
       "kind": "FloatLiteral",
       "offset": 978,
       "length": 4,
       "value": "40.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 11,
       "value": "\"highlight\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
       "kind": "StringLiteral",
       "offset": 1335,
       "length": 11,
       "value": "\"highlight\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
       "kind": "StringLiteral",
       "offset": 1610,
       "length": 15,
       "value": "\"strikethrough\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiVisibilityToggle.swift",
       "kind": "StringLiteral",
       "offset": 1705,
       "length": 11,
       "value": "\"selection\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 491,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 496,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 564,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 569,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 638,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 643,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Style\/MimiTextUppercaseOptions.swift",
       "kind": "Array",
       "offset": 706,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/ValidationMessageView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/ValidationMessageView.swift",
       "kind": "IntegerLiteral",
       "offset": 1273,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/ValidationMessageView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/ValidationMessageView.swift",
       "kind": "BooleanLiteral",
       "offset": 3059,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Themes\/System\/SystemTheme.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Themes\/System\/SystemTheme.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 30,
       "value": "\"io.mimi.theme.system.default\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Themes\/System\/SystemTheme.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/Themes\/System\/SystemTheme.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 27,
       "value": "\"io.mimi.theme.system.dark\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLabel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 2939,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 472,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 539,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 553,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 567,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 582,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 632,
       "length": 4,
       "value": "34.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "IntegerLiteral",
       "offset": 1312,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 3364,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "BooleanLiteral",
       "offset": 3746,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiTextButton.swift",
       "kind": "BooleanLiteral",
       "offset": 4424,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "FloatLiteral",
       "offset": 432,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "IntegerLiteral",
       "offset": 547,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "IntegerLiteral",
       "offset": 663,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "BooleanLiteral",
       "offset": 1170,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "FloatLiteral",
       "offset": 1858,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "FloatLiteral",
       "offset": 5739,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "FloatLiteral",
       "offset": 5753,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "FloatLiteral",
       "offset": 5809,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "FloatLiteral",
       "offset": 5822,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiPageControl.swift",
       "kind": "BooleanLiteral",
       "offset": 6240,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiAttributedLabel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiAttributedLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 540,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiAttributedLabel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiAttributedLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 2514,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 274,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 285,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 298,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 310,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 379,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 390,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 403,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 415,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "FloatLiteral",
       "offset": 461,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiValidatingTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 1205,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIColor+Adjustment.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIColor+Adjustment.swift",
       "kind": "FloatLiteral",
       "offset": 262,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIColor+Adjustment.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIColor+Adjustment.swift",
       "kind": "FloatLiteral",
       "offset": 391,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIColor+Adjustment.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIColor+Adjustment.swift",
       "kind": "FloatLiteral",
       "offset": 539,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "FloatLiteral",
       "offset": 393,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "FloatLiteral",
       "offset": 405,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "FloatLiteral",
       "offset": 419,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "FloatLiteral",
       "offset": 432,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "BooleanLiteral",
       "offset": 605,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "BooleanLiteral",
       "offset": 879,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiAlertBanner.swift",
       "kind": "BooleanLiteral",
       "offset": 981,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/SwiftUI\/MimiText.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/SwiftUI\/MimiText.swift",
       "kind": "BooleanLiteral",
       "offset": 537,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/SwiftUI\/MimiText.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/SwiftUI\/MimiText.swift",
       "kind": "BooleanLiteral",
       "offset": 703,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/SwiftUI\/MimiText.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/SwiftUI\/MimiText.swift",
       "kind": "BooleanLiteral",
       "offset": 1723,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlow+StepItem.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlow+StepItem.swift",
       "kind": "BooleanLiteral",
       "offset": 891,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 552,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 564,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 578,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiLoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 591,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 511,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertView.swift",
       "kind": "Dictionary",
       "offset": 5647,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/FinishStateLayers\/CrossActivityFinishStateLayer.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/FinishStateLayers\/CrossActivityFinishStateLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 616,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStepAccessoryView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStepAccessoryView.swift",
       "kind": "BooleanLiteral",
       "offset": 1286,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 453,
       "length": 4,
       "value": "32.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 465,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 479,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 491,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 539,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 584,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 627,
       "length": 5,
       "value": "432.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/HeaderView\/MimiNavigationStepHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 911,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 472,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 484,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 498,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 511,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 572,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 584,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 598,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 611,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 662,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "FloatLiteral",
       "offset": 708,
       "length": 5,
       "value": "432.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "IntegerLiteral",
       "offset": 898,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/FooterView\/MimiNavigationStepFooterView.swift",
       "kind": "BooleanLiteral",
       "offset": 1218,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/MimiBulletinController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/MimiBulletinController.swift",
       "kind": "BooleanLiteral",
       "offset": 2000,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/MimiBulletinController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/MimiBulletinController.swift",
       "kind": "BooleanLiteral",
       "offset": 4994,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiLayoutClass.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiLayoutClass.swift",
       "kind": "IntegerLiteral",
       "offset": 438,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiLayoutClass.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiLayoutClass.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiButton.swift",
       "kind": "Dictionary",
       "offset": 1143,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiButton.swift",
       "kind": "Dictionary",
       "offset": 1221,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 493,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 2180,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2307,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
       "offset": 2535,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
       "offset": 2730,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiPagingScrollHandler.swift",
       "kind": "FloatLiteral",
       "offset": 2932,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 389,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 442,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 496,
       "length": 4,
       "value": "0.94"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 509,
       "length": 4,
       "value": "0.94"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 521,
       "length": 4,
       "value": "0.94"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 534,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 576,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 625,
       "length": 4,
       "value": "40.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiTextField.swift",
       "kind": "FloatLiteral",
       "offset": 673,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+KeyboardDismissal.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+KeyboardDismissal.swift",
       "kind": "IntegerLiteral",
       "offset": 272,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/YearOfBirthPolicy.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/YearOfBirthPolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 420,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/YearOfBirthPolicy.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/YearOfBirthPolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/YearOfBirthPolicy.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/YearOfBirthPolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 501,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/ThemedPickerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/ThemedPickerView.swift",
       "kind": "IntegerLiteral",
       "offset": 436,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/ThemedPickerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/ThemedPickerView.swift",
       "kind": "IntegerLiteral",
       "offset": 500,
       "length": 2,
       "value": "36"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+Shimmering.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+Shimmering.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 37,
       "value": "\"io.mimi.sdk.shimmering.overlayLayer\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+Shimmering.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+Shimmering.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 40,
       "value": "\"io.mimi.sdk.shimmering.backgroundLayer\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+Shimmering.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Extensions\/UIView+Shimmering.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 40,
       "value": "\"io.mimi.sdk.shimmering.foregroundLayer\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
       "kind": "FloatLiteral",
       "offset": 545,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
       "kind": "FloatLiteral",
       "offset": 596,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
       "kind": "FloatLiteral",
       "offset": 654,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCredentialTextField.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCredentialTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 756,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCheckbox.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 657,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCheckbox.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 671,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCheckbox.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCheckbox.swift",
       "kind": "BooleanLiteral",
       "offset": 4673,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "FloatLiteral",
       "offset": 472,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "FloatLiteral",
       "offset": 525,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 582,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 592,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 604,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 615,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1571,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1674,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2080,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Containers\/MimiBulletinRootViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 8826,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/KeyboardObserver.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/KeyboardObserver.swift",
       "kind": "BooleanLiteral",
       "offset": 635,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
       "offset": 470,
       "length": 4,
       "value": "52.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "FloatLiteral",
       "offset": 519,
       "length": 4,
       "value": "44.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "IntegerLiteral",
       "offset": 740,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiActionButton.swift",
       "kind": "BooleanLiteral",
       "offset": 6387,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/MimiBulletinItem.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/MimiBulletinItem.swift",
       "kind": "BooleanLiteral",
       "offset": 1303,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 266,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 278,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 292,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 305,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 349,
       "length": 5,
       "value": "420.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 394,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 443,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 8879,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 8936,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 8948,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 8962,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiSnackbar.swift",
       "kind": "FloatLiteral",
       "offset": 8975,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiStateMachine.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Utilities\/MimiStateMachine.swift",
       "kind": "BooleanLiteral",
       "offset": 1393,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 797,
       "length": 3,
       "value": "1.6"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 851,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 903,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 952,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 1002,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 1053,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "BooleanLiteral",
       "offset": 1327,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "BooleanLiteral",
       "offset": 1651,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 1744,
       "length": 4,
       "value": "80.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 1758,
       "length": 4,
       "value": "80.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "BooleanLiteral",
       "offset": 2404,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/MimiThemeable.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Theming\/MimiThemeable.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStepViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/Step\/MimiUserFlowStepViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1050,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 487,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/FinishStateLayers\/CheckmarkActivityFinishStateLayer.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/FinishStateLayers\/CheckmarkActivityFinishStateLayer.swift",
       "kind": "IntegerLiteral",
       "offset": 624,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepView.swift",
       "kind": "FloatLiteral",
       "offset": 521,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepView.swift",
       "kind": "FloatLiteral",
       "offset": 571,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepView.swift",
       "kind": "FloatLiteral",
       "offset": 620,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertController.swift",
       "kind": "FloatLiteral",
       "offset": 1742,
       "length": 5,
       "value": "300.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiAlertController\/MimiAlertController.swift",
       "kind": "FloatLiteral",
       "offset": 2016,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 963,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 2968,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 3796,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 8018,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 8069,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 8730,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 15002,
       "length": 34,
       "value": "\"flowResponderUpdatedNotification\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/UserFlow\/MimiUserFlowCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 18220,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 35,
       "value": "\"presentation_debug_present_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 47,
       "value": "\"presentation_debug_present_full_screen_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 32,
       "value": "\"presentation_debug_push_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 26,
       "value": "\"presentation_debug_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 30,
       "value": "\"sound_personalization_slider\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 30,
       "value": "\"sound_personalization_switch\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 29,
       "value": "\"sound_personalization_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 16,
       "value": "\"menu_debug_tab\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 15,
       "value": "\"menu_more_tab\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 789,
       "length": 18,
       "value": "\"menu_profile_tab\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 861,
       "length": 24,
       "value": "\"navigation_exit_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 23,
       "value": "\"settings_about_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 37,
       "value": "\"settings_change_localization_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 29,
       "value": "\"settings_environment_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1132,
       "length": 21,
       "value": "\"settings_production\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1183,
       "length": 24,
       "value": "\"settings_region_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1232,
       "length": 18,
       "value": "\"settings_staging\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1279,
       "length": 23,
       "value": "\"settings_theme_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 21,
       "value": "\"settings_theme_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1399,
       "length": 22,
       "value": "\"about_auth_kit_value\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1452,
       "length": 22,
       "value": "\"about_core_kit_value\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1501,
       "length": 17,
       "value": "\"about_hte_value\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1549,
       "length": 22,
       "value": "\"about_test_kit_value\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1600,
       "length": 20,
       "value": "\"about_ux_kit_value\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1680,
       "length": 27,
       "value": "\"environment_cancel_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1742,
       "length": 31,
       "value": "\"environment_production_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 28,
       "value": "\"environment_staging_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1895,
       "length": 29,
       "value": "\"localization_bosnian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 39,
       "value": "\"localization_chinese_hong_kong_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2043,
       "length": 38,
       "value": "\"localization_chinese_mainland_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2119,
       "length": 36,
       "value": "\"localization_chinese_taiwan_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2188,
       "length": 30,
       "value": "\"localization_croatian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2248,
       "length": 27,
       "value": "\"localization_dutch_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2307,
       "length": 29,
       "value": "\"localization_english_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2370,
       "length": 32,
       "value": "\"localization_english_uk_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2433,
       "length": 28,
       "value": "\"localization_french_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2492,
       "length": 28,
       "value": "\"localization_german_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2552,
       "length": 29,
       "value": "\"localization_italian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2614,
       "length": 30,
       "value": "\"localization_japanese_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2675,
       "length": 28,
       "value": "\"localization_korean_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2737,
       "length": 32,
       "value": "\"localization_phrase_key_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2800,
       "length": 28,
       "value": "\"localization_polish_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2863,
       "length": 32,
       "value": "\"localization_portuguese_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2927,
       "length": 29,
       "value": "\"localization_russian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2988,
       "length": 29,
       "value": "\"localization_serbian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3054,
       "length": 35,
       "value": "\"localization_serbian_latin_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3123,
       "length": 31,
       "value": "\"localization_slovenian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3185,
       "length": 28,
       "value": "\"localization_spanis_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3247,
       "length": 31,
       "value": "\"localization_ukrainian_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3332,
       "length": 21,
       "value": "\"region_china_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3385,
       "length": 23,
       "value": "\"region_dynamic_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3444,
       "length": 29,
       "value": "\"region_rest_of_world_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3532,
       "length": 24,
       "value": "\"snackbar_leading_label\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3587,
       "length": 25,
       "value": "\"snackbar_trailing_label\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3634,
       "length": 15,
       "value": "\"snackbar_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 555,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 565,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 577,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 588,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 659,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 703,
       "length": 5,
       "value": "376.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 755,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "BooleanLiteral",
       "offset": 1123,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "BooleanLiteral",
       "offset": 2396,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 2709,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "BooleanLiteral",
       "offset": 3658,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 3735,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 3810,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/Presentation\/MimiBulletinPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 4231,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
       "kind": "FloatLiteral",
       "offset": 468,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
       "kind": "FloatLiteral",
       "offset": 479,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
       "kind": "FloatLiteral",
       "offset": 492,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiInstructionStepView\/MimiInstructionStepEntryView.swift",
       "kind": "FloatLiteral",
       "offset": 504,
       "length": 3,

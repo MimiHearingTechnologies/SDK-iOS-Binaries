@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gn1lJN9hR5hz2vjc1QVodUcHR/g=
+		vUGDUK1g6ajkZiSXJi5diiseeIE=
 		</data>
 		<key>MimiAlertView.nib</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ntmyMg7ValoZKKt8/80sxnm+I4E=
+		LKdZjFzZ5SeFDokh7BTDzzwJn/o=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j4d20t65g3vxh+bS6hf+ClmJw3o=
+		w95YTjxaY4yURX1iahyWVxEw4zc=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ntmyMg7ValoZKKt8/80sxnm+I4E=
+		LKdZjFzZ5SeFDokh7BTDzzwJn/o=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mhrFQjjAUr0wFxr11aS5ZUm4Rtc=
+		P1f4FxBAs+NfqmEgBzZjAsz/SFg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nu4VN41hkyhCIjNzSCPOnmp1jIZxYbwgsxbjLzjSVq8=
+			LbR9l6Qfoz/tqyJgmXf1b268YMqkHCCP3tat8HkNXxo=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ik+9kmmINdgotxfyS6gY5Ago77IuY99/HfRvVTJ3uiU=
+			bcmGzo8+3m2XSDm1Yk7ayHJffeJWQfPPUeeFWIPZDso=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nu4VN41hkyhCIjNzSCPOnmp1jIZxYbwgsxbjLzjSVq8=
+			LbR9l6Qfoz/tqyJgmXf1b268YMqkHCCP3tat8HkNXxo=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c4cir3r3yW5T3m0Be2sHcTkkwmN8P3Tq3gIeq6TQ3Es=
+			3jWrablSxTajKcZz1o6pXXkYLa0HLc7PlGK7O83O6ns=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

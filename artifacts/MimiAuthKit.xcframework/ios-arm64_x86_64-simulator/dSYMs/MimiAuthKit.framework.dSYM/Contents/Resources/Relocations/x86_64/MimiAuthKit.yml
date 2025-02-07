@@ -4,8 +4,8 @@ binary-path:     '/tmp/iphoneos/Build/Intermediates.noindex/ArchiveIntermediates
 relocations:
   - { offset: 0x77B9F, size: 0x8, addend: 0x0, symName: _MimiAuthKitVersionString, symObjAddr: 0x0, symBinAddr: 0x53260, symSize: 0x0 }
   - { offset: 0x77BD4, size: 0x8, addend: 0x0, symName: _MimiAuthKitVersionNumber, symObjAddr: 0x30, symBinAddr: 0x53290, symSize: 0x0 }
-  - { offset: 0x77C35, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit0A4UrlsV13privacyPolicy10Foundation3URLVvpZ', symObjAddr: 0x7300, symBinAddr: 0x6CF48, symSize: 0x0 }
-  - { offset: 0x77C4F, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit0A4UrlsV10termsOfUse10Foundation3URLVvpZ', symObjAddr: 0x7318, symBinAddr: 0x6CF60, symSize: 0x0 }
+  - { offset: 0x77C35, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit0A4UrlsV13privacyPolicy10Foundation3URLVvpZ', symObjAddr: 0x7330, symBinAddr: 0x6CF48, symSize: 0x0 }
+  - { offset: 0x77C4F, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit0A4UrlsV10termsOfUse10Foundation3URLVvpZ', symObjAddr: 0x7348, symBinAddr: 0x6CF60, symSize: 0x0 }
   - { offset: 0x77C5D, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x0, symBinAddr: 0x1D60, symSize: 0x10 }
   - { offset: 0x77C71, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x10, symBinAddr: 0x1D70, symSize: 0x10 }
   - { offset: 0x77C85, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x20, symBinAddr: 0x1D80, symSize: 0x20 }
@@ -1150,7 +1150,7 @@ relocations:
   - { offset: 0xAB0EF, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit27BottomOverlayViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x2020, symBinAddr: 0x4C600, symSize: 0xF0 }
   - { offset: 0xAB16C, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit27BottomOverlayViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x2110, symBinAddr: 0x4C6F0, symSize: 0x30 }
   - { offset: 0xAB180, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit27BottomOverlayViewControllerCfD', symObjAddr: 0x2140, symBinAddr: 0x4C720, symSize: 0x30 }
-  - { offset: 0xAB338, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit9analytics0a4CoreC00A9AnalyticsCyAA0b4FlowF5EventOGvp', symObjAddr: 0xD5B8, symBinAddr: 0x6D0C8, symSize: 0x0 }
+  - { offset: 0xAB338, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit9analytics0a4CoreC00A9AnalyticsCyAA0b4FlowF5EventOGvp', symObjAddr: 0xD5E8, symBinAddr: 0x6D0C8, symSize: 0x0 }
   - { offset: 0xAB54E, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit9analytics_WZ', symObjAddr: 0x90, symBinAddr: 0x4CDD0, symSize: 0xA0 }
   - { offset: 0xAB64A, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit0aB4FlowCfE', symObjAddr: 0x9C0, symBinAddr: 0x4D660, symSize: 0x50 }
   - { offset: 0xAB677, size: 0x8, addend: 0x0, symName: '_$s11MimiAuthKit0aB4FlowCfETo', symObjAddr: 0xA40, symBinAddr: 0x4D6E0, symSize: 0x50 }

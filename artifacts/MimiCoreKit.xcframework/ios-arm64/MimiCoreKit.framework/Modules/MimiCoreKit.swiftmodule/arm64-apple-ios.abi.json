@@ -30853,1498 +30853,1498 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Extensions\/Task+Retrying.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Extensions\/Task+Retrying.swift",
       "kind": "IntegerLiteral",
       "offset": 431,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Extensions\/Task+Retrying.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Extensions\/Task+Retrying.swift",
       "kind": "IntegerLiteral",
       "offset": 469,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Processing\/Parameter\/ProcessingParameterCache.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Processing\/Parameter\/ProcessingParameterCache.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 43,
       "value": "\"io.mimi.processing.parameter.cache.\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Processing\/Parameter\/ProcessingParameterCache.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Processing\/Parameter\/ProcessingParameterCache.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsIdentificationService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsIdentificationService.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 33,
       "value": "\"io.mimi.core.analytics.deviceId\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsIdentificationService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsIdentificationService.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 39,
       "value": "\"io.mimi.core.analytics.fallbackUserId\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1035,
       "length": 14,
       "value": "\"$mp_metadata\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/TestResultErrorDetails.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/TestResultErrorDetails.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DNS\/DNSTXTQueryService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DNS\/DNSTXTQueryService.swift",
       "kind": "StringLiteral",
       "offset": 779,
       "length": 20,
       "value": "\"DNSTXTQueryService\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 6,
       "value": "\"soft\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 5,
       "value": "\"rec\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 6,
       "value": "\"rich\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 15,
       "value": "\"rec_rich_soft\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 10,
       "value": "\"rec_rich\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 10,
       "value": "\"rec_soft\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 5,
       "value": "\"rec\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/ProcessingAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 548,
       "length": 11,
       "value": "\"setEnable\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 656,
       "length": 4,
       "value": "1999"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 717,
       "length": 4,
       "value": "9151"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 1299,
       "length": 4,
       "value": "1011"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 1344,
       "length": 4,
       "value": "1012"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 1386,
       "length": 4,
       "value": "1021"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 1431,
       "length": 4,
       "value": "1111"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2348,
       "length": 4,
       "value": "2012"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2459,
       "length": 4,
       "value": "2013"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2565,
       "length": 4,
       "value": "2111"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2677,
       "length": 4,
       "value": "2112"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2720,
       "length": 4,
       "value": "2031"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2756,
       "length": 4,
       "value": "2041"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2801,
       "length": 4,
       "value": "2040"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2848,
       "length": 4,
       "value": "2042"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResultError.swift",
       "kind": "IntegerLiteral",
       "offset": 2880,
       "length": 4,
       "value": "2114"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
       "offset": 3580,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/MimiCoreObservable.swift",
       "kind": "IntegerLiteral",
       "offset": 3604,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/ProcessingAnalytics.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/ProcessingAnalytics.swift",
       "kind": "FloatLiteral",
       "offset": 5628,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 963,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 1131,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 1350,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 1576,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 1734,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 1896,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGradeWHO2021.swift",
       "kind": "IntegerLiteral",
       "offset": 2071,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
       "kind": "StringLiteral",
       "offset": 904,
       "length": 14,
       "value": "\"access_token\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
       "kind": "StringLiteral",
       "offset": 952,
       "length": 25,
       "value": "\"access_token_expires_at\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 15,
       "value": "\"refresh_token\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthToken.swift",
       "kind": "StringLiteral",
       "offset": 1056,
       "length": 26,
       "value": "\"refresh_token_expires_at\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/DomainResolving.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/DomainResolving.swift",
       "kind": "StringLiteral",
       "offset": 1669,
       "length": 19,
       "value": "\"available_domains\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "StringLiteral",
       "offset": 2624,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiPTTTestRunResultData.swift",
       "kind": "StringLiteral",
       "offset": 2663,
       "length": 10,
       "value": "\"warnings\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Api\/PersonalizationApi.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Api\/PersonalizationApi.swift",
       "kind": "StringLiteral",
       "offset": 674,
       "length": 8,
       "value": "\"updown\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/ServiceabilityClient.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/ServiceabilityClient.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 17,
       "value": "\"mimi-%@-version\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/ServiceabilityClient.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/ServiceabilityClient.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 34,
       "value": "\"mimi-%@-deprecated-until-version\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
       "kind": "IntegerLiteral",
       "offset": 623,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
       "kind": "IntegerLiteral",
       "offset": 641,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
       "kind": "IntegerLiteral",
       "offset": 662,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
       "kind": "IntegerLiteral",
       "offset": 683,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
       "kind": "IntegerLiteral",
       "offset": 705,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiHearingGrade.swift",
       "kind": "IntegerLiteral",
       "offset": 726,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/TestRunData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/TestRunData.swift",
       "kind": "StringLiteral",
       "offset": 1796,
       "length": 11,
       "value": "\"test_type\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/TestRunData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/TestRunData.swift",
       "kind": "StringLiteral",
       "offset": 1831,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/TestRunData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/TestRunData.swift",
       "kind": "StringLiteral",
       "offset": 1888,
       "length": 17,
       "value": "\"start_timestamp\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Error\/MimiCoreErrorDetails.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Error\/MimiCoreErrorDetails.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 15,
       "value": "\"invalid_grant\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Error\/MimiCoreErrorDetails.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Error\/MimiCoreErrorDetails.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Error\/MimiCoreErrorDetails.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Error\/MimiCoreErrorDetails.swift",
       "kind": "StringLiteral",
       "offset": 799,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthGrantType.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/AuthGrantType.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 12,
       "value": "\"grant_type\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCore.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCore.swift",
       "kind": "StringLiteral",
       "offset": 1508,
       "length": 14,
       "value": "\"MimiCore-iOS\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 15,
       "value": "\"latestResults\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "IntegerLiteral",
       "offset": 559,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "BooleanLiteral",
       "offset": 5786,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
       "offset": 6480,
       "length": 26,
       "value": "\"io\/mimi\/MimiCoreKit\/tmp\/\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Test\/DefaultTestController.swift",
       "kind": "StringLiteral",
       "offset": 6547,
       "length": 21,
       "value": "\"MimiHealth_Results_\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 11,
       "value": "\"IsEnabled\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 11,
       "value": "\"Intensity\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
       "offset": 655,
       "length": 8,
       "value": "\"Preset\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "FloatLiteral",
       "offset": 2278,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
       "offset": 2321,
       "length": 54,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
       "offset": 2350,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "StringLiteral",
       "offset": 2374,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/MimiProcessingSession.swift",
       "kind": "BooleanLiteral",
       "offset": 3218,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestResult+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestResult+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 2285,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestResult+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiTestResult+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 11780,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/Store\/KeychainSecureStore\/KeychainSwiftDistrib.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/Store\/KeychainSecureStore\/KeychainSwiftDistrib.swift",
       "kind": "StringLiteral",
       "offset": 691,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/Store\/KeychainSecureStore\/KeychainSwiftDistrib.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/Store\/KeychainSecureStore\/KeychainSwiftDistrib.swift",
       "kind": "BooleanLiteral",
       "offset": 1536,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/Store\/KeychainSecureStore\/KeychainSwiftDistrib.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/Store\/KeychainSecureStore\/KeychainSwiftDistrib.swift",
       "kind": "BooleanLiteral",
       "offset": 6026,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Requests\/Utility\/ParameterEncoding.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Requests\/Utility\/ParameterEncoding.swift",
       "kind": "Array",
       "offset": 6407,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Config\/DefaultConfigService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Config\/DefaultConfigService.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 40,
       "value": "\"Updating Config to \""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Config\/DefaultConfigService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Config\/DefaultConfigService.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Config\/DefaultConfigService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Config\/DefaultConfigService.swift",
       "kind": "StringLiteral",
       "offset": 702,
       "length": 25,
       "value": "\"Removing current config\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/PresetParameterDataSource\/MimiUpDownPresetParameterDataSource.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/PresetParameterDataSource\/MimiUpDownPresetParameterDataSource.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 34,
       "value": "\"upDownBundle\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/PresetParameterDataSource\/MimiUpDownPresetParameterDataSource.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/ProcessingSession\/PresetParameterDataSource\/MimiUpDownPresetParameterDataSource.swift",
       "kind": "StringLiteral",
       "offset": 1808,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/MixpanelAnalyticsProvider.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/MixpanelAnalyticsProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 500,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/EmbeddedTestResults.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/EmbeddedTestResults.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 11,
       "value": "\"resultsV2\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
       "offset": 2297,
       "length": 9,
       "value": "\"results\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
       "offset": 4036,
       "length": 28,
       "value": "\"overallHearingGradeWho2021\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
       "offset": 4097,
       "length": 21,
       "value": "\"overallHearingGrade\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
       "offset": 4143,
       "length": 13,
       "value": "\"runsResults\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/MimiTestResult.swift",
       "kind": "StringLiteral",
       "offset": 4192,
       "length": 13,
       "value": "\"earSymmetry\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/MimiAnalytics.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/MimiAnalytics.swift",
       "kind": "StringLiteral",
       "offset": 515,
       "length": 66,
       "value": "\"B33DB1670E1569BFAF02102EF7431785C850E1711C84E19FE2FE41E25280B462\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/MixpanelNetworkClient.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/MixpanelNetworkClient.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 29,
       "value": "\"https:\/\/api-eu.mixpanel.com\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/Poller.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Utility\/Poller.swift",
       "kind": "IntegerLiteral",
       "offset": 707,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 23,
       "value": "\"authorization_pending\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
       "kind": "BooleanLiteral",
       "offset": 2053,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Auth\/DefaultAuthController.swift",
       "kind": "BooleanLiteral",
       "offset": 17170,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1570,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1602,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1631,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1659,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1687,
       "length": 3,
       "value": "409"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1711,
       "length": 3,
       "value": "410"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1750,
       "length": 3,
       "value": "422"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1777,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2194,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2228,
       "length": 3,
       "value": "501"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2266,
       "length": 3,
       "value": "503"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2293,
       "length": 3,
       "value": "504"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2320,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2644,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 2669,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 3174,
       "length": 14,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 3202,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 3229,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 3251,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 3272,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Requests\/Router\/UrlSessionRequestRouter.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Requests\/Router\/UrlSessionRequestRouter.swift",
       "kind": "StringLiteral",
       "offset": 610,
       "length": 45,
       "value": "\"io.mimi.MimiCoreKit.UrlSessionRequestRouter\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsService.swift",
       "kind": "BooleanLiteral",
       "offset": 1375,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 547,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 599,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 651,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Http\/Http.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Personalization\/DefaultPersonalizationController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Controllers\/Personalization\/DefaultPersonalizationController.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 15,
       "value": "\"visualization\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 753,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
       "kind": "StringLiteral",
       "offset": 1166,
       "length": 29,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSSSSSZ\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
       "kind": "StringLiteral",
       "offset": 1277,
       "length": 32,
       "value": "\"io.mimi.MimiCoreKit.MimiLogger\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Logger\/MimiLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 3208,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 294,
       "length": 38,
       "value": "\"a39c2be5-9849-4904-9751-46bc28d46eed\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 14,
       "value": "\"mock@mimi.io\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "IntegerLiteral",
       "offset": 495,
       "length": 4,
       "value": "1994"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 593,
       "length": 11,
       "value": "\"Mimi Mock\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 650,
       "length": 4,
       "value": "\"DE\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 703,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 38,
       "value": "\"9cc8dccf-de66-47a5-bc8f-e0e4d291a089\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 874,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 14,
       "value": "\"mock@mimi.io\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "IntegerLiteral",
       "offset": 1006,
       "length": 4,
       "value": "1994"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 11,
       "value": "\"Mimi Mock\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 1191,
       "length": 4,
       "value": "\"DE\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 1254,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 1322,
       "length": 38,
       "value": "\"9cc8dccf-de66-47a5-bc8f-e0e4d291a089\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 1414,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "IntegerLiteral",
       "offset": 1523,
       "length": 4,
       "value": "1994"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 1812,
       "length": 38,
       "value": "\"9cc8dccf-de66-47a5-bc8f-e0e4d291a089\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 1914,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 2356,
       "length": 38,
       "value": "\"a39c2be5-9849-4904-9751-46bc28d46eed\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "BooleanLiteral",
       "offset": 2441,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 2490,
       "length": 14,
       "value": "\"mock@mimi.io\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "IntegerLiteral",
       "offset": 2559,
       "length": 4,
       "value": "1994"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 2654,
       "length": 11,
       "value": "\"Mimi Mock\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Model\/MimiUser+Mock.swift",
       "kind": "StringLiteral",
       "offset": 2711,
       "length": 4,
       "value": "\"DE\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCore+Version.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCore+Version.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
       "value": "\"10.4.0\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/IdentityMergeAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/IdentityMergeAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 7,
       "value": "\"merge\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/FeatureFlags\/FeatureFlagsService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/FeatureFlags\/FeatureFlagsService.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 14,
       "value": "\"dev_feature_\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/FeatureFlags\/FeatureFlagsService.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/FeatureFlags\/FeatureFlagsService.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 18,
       "value": "\"FOO_FEATURE_FLAG\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
       "kind": "IntegerLiteral",
       "offset": 600,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
       "kind": "BooleanLiteral",
       "offset": 6586,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
       "kind": "IntegerLiteral",
       "offset": 9598,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
       "kind": "IntegerLiteral",
       "offset": 9619,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",
       "kind": "IntegerLiteral",
       "offset": 9642,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 11,
       "value": "\"anonymous\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
       "offset": 3317,
       "length": 11,
       "value": "\"anonymous\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/User\/MimiUser.swift",
       "kind": "StringLiteral",
       "offset": 3459,
       "length": 10,
       "value": "\"verified\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelSessionMetadata.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelSessionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 14,
       "value": "\"$mp_event_id\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelSessionMetadata.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelSessionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 643,
       "length": 16,
       "value": "\"$mp_session_id\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DNS\/RemoteTXTRecordProvider.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DNS\/RemoteTXTRecordProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 667,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DNS\/CacheFirstTXTRecordProvider.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DNS\/CacheFirstTXTRecordProvider.swift",
       "kind": "StringLiteral",
       "offset": 491,
       "length": 11,
       "value": "\"txtRecord\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
       "kind": "StringLiteral",
       "offset": 2007,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestResult\/Data\/MimiMTTestRunResultData.swift",
       "kind": "StringLiteral",
       "offset": 2046,
       "length": 10,
       "value": "\"warnings\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/BaseURLProvider\/DebugBaseURLProvider.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/BaseURLProvider\/DebugBaseURLProvider.swift",
       "kind": "StringLiteral",
       "offset": 1315,
       "length": 27,
       "value": "\"io.mimi.core.debug.region\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestTypeConfiguration\/MimiTestTypeConfiguration.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestTypeConfiguration\/MimiTestTypeConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 957,
       "length": 16,
       "value": "\"configurations\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestTypeConfiguration\/MimiTestTypeConfiguration.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/TestTypeConfiguration\/MimiTestTypeConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 995,
       "length": 11,
       "value": "\"supported\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "FloatLiteral",
       "offset": 401,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1417,
       "length": 11,
       "value": "\"user_code\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1455,
       "length": 13,
       "value": "\"device_code\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1499,
       "length": 12,
       "value": "\"expires_in\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1538,
       "length": 9,
       "value": "\"expires\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1579,
       "length": 18,
       "value": "\"verification_uri\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1637,
       "length": 27,
       "value": "\"verification_uri_complete\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiDeviceAuthRequest.swift",
       "kind": "StringLiteral",
       "offset": 1696,
       "length": 10,
       "value": "\"interval\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/AuthStore\/DefaultAuthStore.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/AuthStore\/DefaultAuthStore.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 23,
       "value": "\"io.mimi.sdk.authToken\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/AuthStore\/DefaultAuthStore.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/AuthStore\/DefaultAuthStore.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 18,
       "value": "\"io.mimi.sdk.user\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/AuthStore\/DefaultAuthStore.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Storage\/AuthStore\/DefaultAuthStore.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 22,
       "value": "\"io.mimi.sdk.configId\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiSignUpData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiSignUpData.swift",
       "kind": "StringLiteral",
       "offset": 593,
       "length": 15,
       "value": "\"PrivacyPolicy\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiSignUpData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiSignUpData.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 16,
       "value": "\"TermsOfService\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiSignUpData.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Auth\/MimiSignUpData.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 14,
       "value": "\"ContactUsage\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestType.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestType.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 4,
       "value": "\"mt\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestType.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestType.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 5,
       "value": "\"ptt\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Requests\/MockRequestExecutor.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Requests\/MockRequestExecutor.swift",
       "kind": "FloatLiteral",
       "offset": 544,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Analytics\/MockAnalyticsProvider.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Analytics\/MockAnalyticsProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Analytics\/MockAnalyticsProvider.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Mock\/Analytics\/MockAnalyticsProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTest.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTest.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 11,
       "value": "\"_embedded\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/IdentifyAnalyticsEvent.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Events\/IdentifyAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 419,
       "length": 10,
       "value": "\"identify\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 6,
       "value": "\"page\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",
       "kind": "StringLiteral",
       "offset": 584,
       "length": 7,
       "value": "\"total\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Generic\/DataPage.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 7,
       "value": "\"items\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestRun.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestRun.swift",
       "kind": "StringLiteral",
       "offset": 2211,
       "length": 9,
       "value": "\"results\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestRun.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Model\/Test\/MimiTestRun.swift",
       "kind": "StringLiteral",
       "offset": 2246,
       "length": 7,
       "value": "\"noise\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Requests\/Builder\/DefaultRequestBuilder.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/Requests\/Builder\/DefaultRequestBuilder.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 43,
       "value": "\"io.mimi.MimiCoreKit.DefaultRequestBuilder\""
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelIngestResponse.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelIngestResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelIngestResponse.swift",
+      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/Providers\/Mixpanel\/Model\/MixpanelIngestResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 406,
       "length": 1,

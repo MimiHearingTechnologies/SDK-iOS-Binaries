@@ -124,9 +124,9 @@ relocations:
   - { offset: 0x5F924, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit21ValidationMessageViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xAD0, symBinAddr: 0x8750, symSize: 0x30 }
   - { offset: 0x5F938, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit21ValidationMessageViewCfD', symObjAddr: 0xB70, symBinAddr: 0x87F0, symSize: 0x30 }
   - { offset: 0x5FA53, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV7default_WZ', symObjAddr: 0x0, symBinAddr: 0x88E0, symSize: 0xC0 }
-  - { offset: 0x5FA77, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV7defaultACvpZ', symObjAddr: 0x5D80, symBinAddr: 0xB3590, symSize: 0x0 }
-  - { offset: 0x5FBBB, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV4darkACvpZ', symObjAddr: 0x5F88, symBinAddr: 0xB3798, symSize: 0x0 }
-  - { offset: 0x5FBD5, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV8variantsSayACGvpZ', symObjAddr: 0x6190, symBinAddr: 0xB39A0, symSize: 0x0 }
+  - { offset: 0x5FA77, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV7defaultACvpZ', symObjAddr: 0x5DB8, symBinAddr: 0xB3590, symSize: 0x0 }
+  - { offset: 0x5FBBB, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV4darkACvpZ', symObjAddr: 0x5FC0, symBinAddr: 0xB3798, symSize: 0x0 }
+  - { offset: 0x5FBD5, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV8variantsSayACGvpZ', symObjAddr: 0x61C8, symBinAddr: 0xB39A0, symSize: 0x0 }
   - { offset: 0x5FC00, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV7default_WZ', symObjAddr: 0x0, symBinAddr: 0x88E0, symSize: 0xC0 }
   - { offset: 0x5FC45, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit11SystemThemeV4dark_WZ', symObjAddr: 0xC0, symBinAddr: 0x89A0, symSize: 0x110 }
   - { offset: 0x5FC82, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1D0, symBinAddr: 0x8AB0, symSize: 0x40 }
@@ -2313,7 +2313,7 @@ relocations:
   - { offset: 0xB3761, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A19InstructionStepViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x23D0, symBinAddr: 0x73BA0, symSize: 0x30 }
   - { offset: 0xB3775, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A19InstructionStepViewCfD', symObjAddr: 0x2470, symBinAddr: 0x73C40, symSize: 0x30 }
   - { offset: 0xB390C, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A12ThemeServiceC5resetyyF', symObjAddr: 0x0, symBinAddr: 0x74570, symSize: 0x590 }
-  - { offset: 0xB3930, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A12ThemeServiceC6sharedACvpZ', symObjAddr: 0x8C88, symBinAddr: 0xB39B0, symSize: 0x0 }
+  - { offset: 0xB3930, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A12ThemeServiceC6sharedACvpZ', symObjAddr: 0x8CC0, symBinAddr: 0xB39B0, symSize: 0x0 }
   - { offset: 0xB3AD2, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A12ThemeServiceC6shared_WZ', symObjAddr: 0x710, symBinAddr: 0x74C80, symSize: 0x40 }
   - { offset: 0xB3C86, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A15ThemeDefinitionPAAE7variant33_0C42D5DE3829BD3327D4D69F49522924LL3forxSo20UIUserInterfaceStyleV_tF', symObjAddr: 0xF40, symBinAddr: 0x754B0, symSize: 0xE0 }
   - { offset: 0xB3CDD, size: 0x8, addend: 0x0, symName: '_$s9MimiUXKit0A12ThemeServiceCMa', symObjAddr: 0x1270, symBinAddr: 0x757E0, symSize: 0x20 }

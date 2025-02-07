@@ -1547,8 +1547,8 @@ relocations:
   - { offset: 0x89CB4, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0A11TestResultsVSeAASe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x920, symBinAddr: 0x3D9A0, symSize: 0x10 }
   - { offset: 0x89CC8, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0A11TestResultsVSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x930, symBinAddr: 0x3D9B0, symSize: 0x10 }
   - { offset: 0x89CE6, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0A11TestResultsV10CodingKeys33_9741100962DB2A7CA110031DFED32079LLO11stringValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0x36E0, symBinAddr: 0x40550, symSize: 0xA0 }
-  - { offset: 0x89E70, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit3logAA0A6LoggerCvp', symObjAddr: 0x178E0, symBinAddr: 0x139FA8, symSize: 0x0 }
-  - { offset: 0x89F2D, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit9analyticsAA0A9AnalyticsCyAA0abE5EventOGvp', symObjAddr: 0x178E8, symBinAddr: 0x139FB0, symSize: 0x0 }
+  - { offset: 0x89E70, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit3logAA0A6LoggerCvp', symObjAddr: 0x17918, symBinAddr: 0x139FA8, symSize: 0x0 }
+  - { offset: 0x89F2D, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit9analyticsAA0A9AnalyticsCyAA0abE5EventOGvp', symObjAddr: 0x17920, symBinAddr: 0x139FB0, symSize: 0x0 }
   - { offset: 0x89F53, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0aB0C6sharedACvpZ', symObjAddr: 0x3AC0, symBinAddr: 0x11E978, symSize: 0x0 }
   - { offset: 0x8A288, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit3log_WZ', symObjAddr: 0x150, symBinAddr: 0x40770, symSize: 0x40 }
   - { offset: 0x8A38D, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit9analytics_WZ', symObjAddr: 0x190, symBinAddr: 0x407B0, symSize: 0x70 }
@@ -4313,7 +4313,7 @@ relocations:
   - { offset: 0xF6D7E, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0A8TestTypeOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x250, symBinAddr: 0xC4820, symSize: 0x20 }
   - { offset: 0xF6D92, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0A8TestTypeOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x270, symBinAddr: 0xC4840, symSize: 0x30 }
   - { offset: 0xF6DD2, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit0A8TestTypeOs12CaseIterableAAsADP8allCases03AllI0QzvgZTW', symObjAddr: 0x330, symBinAddr: 0xC48C0, symSize: 0x30 }
-  - { offset: 0xF6F2C, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit19MockRequestExecutorC6sharedACvpZ', symObjAddr: 0x5060, symBinAddr: 0x139FE8, symSize: 0x0 }
+  - { offset: 0xF6F2C, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit19MockRequestExecutorC6sharedACvpZ', symObjAddr: 0x5090, symBinAddr: 0x139FE8, symSize: 0x0 }
   - { offset: 0xF6FBF, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit19MockRequestExecutorC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0xC49C0, symSize: 0x40 }
   - { offset: 0xF707E, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit19MockRequestExecutorCMa', symObjAddr: 0x930, symBinAddr: 0xC52F0, symSize: 0x20 }
   - { offset: 0xF7092, size: 0x8, addend: 0x0, symName: '_$s11MimiCoreKit16EndpointLocationOWOc', symObjAddr: 0x980, symBinAddr: 0xC5310, symSize: 0x30 }

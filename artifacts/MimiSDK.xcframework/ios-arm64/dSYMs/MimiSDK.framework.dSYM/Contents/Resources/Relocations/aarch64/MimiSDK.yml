@@ -680,7 +680,7 @@ relocations:
   - { offset: 0x9F780, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK21ProfileCardsNavigatorC15navigateToFirst_8animatedyAA0C4CardCm_SbtFyycfU0_TA', symObjAddr: 0x790, symBinAddr: 0x2E734, symSize: 0x18 }
   - { offset: 0x9F8F2, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK21ProfileCardsNavigatorC15navigateToFirst_8animatedyAA0C4CardCm_SbtF', symObjAddr: 0x26C, symBinAddr: 0x2E244, symSize: 0x384 }
   - { offset: 0x9FC6C, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK21ProfileCardsNavigatorCfD', symObjAddr: 0x644, symBinAddr: 0x2E61C, symSize: 0x34 }
-  - { offset: 0x9FE87, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioPlayerC7MimiSDKE015mimiSampleAudioB0ABvpZ', symObjAddr: 0x6A40, symBinAddr: 0x136D90, symSize: 0x0 }
+  - { offset: 0x9FE87, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioPlayerC7MimiSDKE015mimiSampleAudioB0ABvpZ', symObjAddr: 0x6A78, symBinAddr: 0x136D90, symSize: 0x0 }
   - { offset: 0x9FF22, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK32PersonalizationSampleAudioPlayerCfETo', symObjAddr: 0x3C4, symBinAddr: 0x2EB10, symSize: 0x48 }
   - { offset: 0x9FF91, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK32PersonalizationSampleAudioPlayerC05audioF16DidFinishPlaying_12successfullyySo07AVAudioF0C_SbtFTo', symObjAddr: 0x438, symBinAddr: 0x2EB84, symSize: 0x8C }
   - { offset: 0x9FFD0, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioPlayerC7MimiSDKE015mimiSampleAudioB0_WZ', symObjAddr: 0x4C4, symBinAddr: 0x2EC10, symSize: 0x1C }
@@ -2492,8 +2492,8 @@ relocations:
   - { offset: 0xF8850, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK29SessionExpiryAlertCoordinatorC04makec15ExpiredLoggedInE033_AB5A75F2DDAA21C084CBA0811EC5DA08LL4user26presentationViewController0A5UXKit0aE0C0A7CoreKit0A4UserV_So06UIViewV0CtFyycfU_', symObjAddr: 0x8C0, symBinAddr: 0x8FBA8, symSize: 0x118 }
   - { offset: 0xF8885, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK29SessionExpiryAlertCoordinatorCfD', symObjAddr: 0x9D8, symBinAddr: 0x8FCC0, symSize: 0x10 }
   - { offset: 0xF88AA, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK29SessionExpiryAlertCoordinatorC04makec15ExpiredLoggedInE033_AB5A75F2DDAA21C084CBA0811EC5DA08LL4user26presentationViewController0A5UXKit0aE0C0A7CoreKit0A4UserV_So06UIViewV0CtFTf4nnd_n', symObjAddr: 0xCC0, symBinAddr: 0x8FF20, symSize: 0x410 }
-  - { offset: 0xF8CEA, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK3log0A7CoreKit0A6LoggerCvp', symObjAddr: 0x40C0, symBinAddr: 0x136F88, symSize: 0x0 }
-  - { offset: 0xF8D04, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK9analytics0A7CoreKit0A9AnalyticsCyAA0F5EventOGvp', symObjAddr: 0x40C8, symBinAddr: 0x136F90, symSize: 0x0 }
+  - { offset: 0xF8CEA, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK3log0A7CoreKit0A6LoggerCvp', symObjAddr: 0x40F0, symBinAddr: 0x136F88, symSize: 0x0 }
+  - { offset: 0xF8D04, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK9analytics0A7CoreKit0A9AnalyticsCyAA0F5EventOGvp', symObjAddr: 0x40F8, symBinAddr: 0x136F90, symSize: 0x0 }
   - { offset: 0xF8D12, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK3log_WZ', symObjAddr: 0x0, symBinAddr: 0x903E4, symSize: 0x44 }
   - { offset: 0xF8D2C, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK9analytics_WZ', symObjAddr: 0x44, symBinAddr: 0x90428, symSize: 0xA8 }
   - { offset: 0xF8DB6, size: 0x8, addend: 0x0, symName: '_$s7MimiSDK0A0C7versionSSvgZ', symObjAddr: 0x158, symBinAddr: 0x9052C, symSize: 0x28 }

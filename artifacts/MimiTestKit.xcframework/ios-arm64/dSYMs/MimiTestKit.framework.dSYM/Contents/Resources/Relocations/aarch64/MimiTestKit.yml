@@ -307,8 +307,8 @@ relocations:
   - { offset: 0x8635B, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit07DefaultB4StepC7context13configuration12audioToolbox13interruptions9dataStoreAcA0B11FlowContextC_AC13ConfigurationVAA05AudioI0_pAA19InterruptionService_pAA0b4DataL0_ptcfcTf4nngggn_n', symObjAddr: 0xB4DC, symBinAddr: 0x159FC, symSize: 0x290 }
   - { offset: 0x8654B, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit07DefaultB4StepC11updateState33_9D0CA70C8BA787CEEA4ABE3576C4130DLL_4fromyAA09EngineRunG0O_AHSgtFTf4ndn_n', symObjAddr: 0xB968, symBinAddr: 0x15E88, symSize: 0x144C }
   - { offset: 0x86C22, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit07DefaultB4StepC7restart33_9D0CA70C8BA787CEEA4ABE3576C4130DLLyySo8UIButtonCFTf4dn_n', symObjAddr: 0xCE88, symBinAddr: 0x173A8, symSize: 0xD0 }
-  - { offset: 0x86FE6, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit3log0a4CoreC00A6LoggerCvp', symObjAddr: 0x29330, symBinAddr: 0xF94F0, symSize: 0x0 }
-  - { offset: 0x87000, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit0aB4FlowC20debugServiceProviderAA0bdfG0_pSgvpZ', symObjAddr: 0x29338, symBinAddr: 0xF94F8, symSize: 0x0 }
+  - { offset: 0x86FE6, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit3log0a4CoreC00A6LoggerCvp', symObjAddr: 0x29368, symBinAddr: 0xF94F0, symSize: 0x0 }
+  - { offset: 0x87000, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit0aB4FlowC20debugServiceProviderAA0bdfG0_pSgvpZ', symObjAddr: 0x29370, symBinAddr: 0xF94F8, symSize: 0x0 }
   - { offset: 0x8701A, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit3log_WZ', symObjAddr: 0x0, symBinAddr: 0x18594, symSize: 0x44 }
   - { offset: 0x87385, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit0aB4FlowC20debugServiceProvider_WZ', symObjAddr: 0xEC, symBinAddr: 0x18678, symSize: 0x14 }
   - { offset: 0x87C04, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit12AudioToolboxPAAE8tearDownyyFAA07DefaultdE0C_Tg5', symObjAddr: 0x1C10, symBinAddr: 0x1A15C, symSize: 0x130 }
@@ -2513,7 +2513,7 @@ relocations:
   - { offset: 0xF3F9A, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit0B11StateActionOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x970, symBinAddr: 0x91FA4, symSize: 0x28 }
   - { offset: 0xF3FC3, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit0B11StateActionO8rawValueACSgSi_tcfCTf4nd_n', symObjAddr: 0x9FC, symBinAddr: 0x92014, symSize: 0x10 }
   - { offset: 0xF4160, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit12InterruptionPAAE17setNeedsDismissalyyF', symObjAddr: 0x44, symBinAddr: 0x92024, symSize: 0x84 }
-  - { offset: 0xF4184, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit25InterruptionNotificationsV14needsDismissalSo18NSNotificationNameavpZ', symObjAddr: 0x2610, symBinAddr: 0xF97F0, symSize: 0x0 }
+  - { offset: 0xF4184, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit25InterruptionNotificationsV14needsDismissalSo18NSNotificationNameavpZ', symObjAddr: 0x2648, symBinAddr: 0xF97F0, symSize: 0x0 }
   - { offset: 0xF41A3, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit12InterruptionPAAE17setNeedsDismissalyyF', symObjAddr: 0x44, symBinAddr: 0x92024, symSize: 0x84 }
   - { offset: 0xF41ED, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit25InterruptionNotificationsV14needsDismissal_WZ', symObjAddr: 0xC8, symBinAddr: 0x920A8, symSize: 0x34 }
   - { offset: 0xF43E5, size: 0x8, addend: 0x0, symName: '_$s11MimiTestKit0B13SelectionStepCMa', symObjAddr: 0x0, symBinAddr: 0x920DC, symSize: 0x3C }

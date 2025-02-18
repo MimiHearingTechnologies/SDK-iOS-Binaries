@@ -2596,1050 +2596,1050 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Utility\/MimiUrls.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Utility\/MimiUrls.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 32,
       "value": "\"https:\/\/www.mimi.io\/en\/privacy\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Utility\/MimiUrls.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Utility\/MimiUrls.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 30,
       "value": "\"https:\/\/www.mimi.io\/en\/terms\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/BrandedHeaderViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/BrandedHeaderViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1664,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/AuthFlowSteps.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/AuthFlowSteps.swift",
       "kind": "BooleanLiteral",
       "offset": 1209,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 475,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 486,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 499,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 512,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 583,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 594,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 607,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpPasswordCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 619,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceRequestScannerViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceRequestScannerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1650,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveBuilder.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 2493,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Extensions\/UIColor+Detection.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Extensions\/UIColor+Detection.swift",
       "kind": "FloatLiteral",
       "offset": 361,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Extensions\/UIColor+Detection.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Extensions\/UIColor+Detection.swift",
       "kind": "FloatLiteral",
       "offset": 555,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Context\/AuthFlowContext.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Context\/AuthFlowContext.swift",
       "kind": "BooleanLiteral",
       "offset": 546,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 508,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 519,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 532,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/LogIn\/LoginCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 544,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 392,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 404,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 418,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 431,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 480,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentItemCheckbox.swift",
       "kind": "FloatLiteral",
       "offset": 526,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 19,
       "value": "\"generic_done_logo\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 19,
       "value": "\"generic_mimi_logo\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 34,
       "value": "\"login_already_have_account_title\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 25,
       "value": "\"login_email_error_label\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 24,
       "value": "\"login_email_text_field\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 28,
       "value": "\"login_forgot_password_link\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 27,
       "value": "\"login_invalid_login_label\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 20,
       "value": "\"login_login_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 28,
       "value": "\"login_password_error_label\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 27,
       "value": "\"login_password_text_field\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 37,
       "value": "\"password_reset_back_to_login_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 34,
       "value": "\"password_reset_email_error_label\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 38,
       "value": "\"password_reset_reset_password_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1038,
       "length": 38,
       "value": "\"password_reset_success_password_desc\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1133,
       "length": 30,
       "value": "\"sign_up_already_in_use_error\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1192,
       "length": 22,
       "value": "\"sign_up_consent_text\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1251,
       "length": 31,
       "value": "\"sign_up_create_account_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1313,
       "length": 24,
       "value": "\"sign_up_decline_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1370,
       "length": 26,
       "value": "\"sign_up_description_text\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1429,
       "length": 27,
       "value": "\"sign_up_email_error_label\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1488,
       "length": 26,
       "value": "\"sign_up_email_text_field\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1542,
       "length": 21,
       "value": "\"sign_up_exit_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1593,
       "length": 23,
       "value": "\"sign_up_finish_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1647,
       "length": 24,
       "value": "\"sign_up_internet_error\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1698,
       "length": 20,
       "value": "\"sign_up_login_link\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1749,
       "length": 25,
       "value": "\"sign_up_name_text_field\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1802,
       "length": 21,
       "value": "\"sign_up_next_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1858,
       "length": 30,
       "value": "\"sign_up_open_my_email_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1924,
       "length": 30,
       "value": "\"sign_up_password_error_label\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1992,
       "length": 33,
       "value": "\"sign_up_password_re_entry_error\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2060,
       "length": 29,
       "value": "\"sign_up_password_text_field\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2133,
       "length": 39,
       "value": "\"sign_up_privacy_policy_explainer_text\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2215,
       "length": 38,
       "value": "\"sign_up_privacy_policy_toggle_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2295,
       "length": 38,
       "value": "\"sign_up_re_enter_password_text_field\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2362,
       "length": 22,
       "value": "\"sign_up_retry_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2418,
       "length": 29,
       "value": "\"sign_up_sign_up_back_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2481,
       "length": 29,
       "value": "\"sign_up_skip_for_now_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2539,
       "length": 22,
       "value": "\"sign_up_success_text\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2602,
       "length": 37,
       "value": "\"sign_up_terms_of_use_explainer_text\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2671,
       "length": 27,
       "value": "\"sign_up_terms_of_use_link\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2738,
       "length": 36,
       "value": "\"sign_up_terms_of_use_toggle_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2809,
       "length": 29,
       "value": "\"sign_up_privacy_policy_link\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2891,
       "length": 26,
       "value": "\"exit_alert_cancel_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2946,
       "length": 24,
       "value": "\"exit_alert_exit_button\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Accessibility\/AuthFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2993,
       "length": 17,
       "value": "\"exit_alert_view\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 744,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 756,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 770,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 783,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 834,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/DeviceAuthLandingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 893,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentComponentView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/ConsentComponentView.swift",
       "kind": "FloatLiteral",
       "offset": 701,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
       "kind": "FloatLiteral",
       "offset": 486,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
       "kind": "FloatLiteral",
       "offset": 498,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
       "kind": "FloatLiteral",
       "offset": 512,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/InstructionsStepViewController.swift",
       "kind": "FloatLiteral",
       "offset": 525,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
       "kind": "FloatLiteral",
       "offset": 982,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1025,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1074,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/ConsentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1581,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/ResetPassword\/ResetPasswordStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/ResetPassword\/ResetPasswordStep.swift",
       "kind": "FloatLiteral",
       "offset": 415,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 952,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1063,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1173,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1284,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1390,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1497,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1619,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "Dictionary",
       "offset": 1567,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1749,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "Dictionary",
       "offset": 1697,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1854,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1804,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 1965,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 1915,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 2883,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 2997,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 3122,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 6920,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "Dictionary",
       "offset": 7264,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 7505,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/ActiveLabel.swift",
       "kind": "BooleanLiteral",
       "offset": 8187,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Transitions\/SwipeNavigationInteractionController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Transitions\/SwipeNavigationInteractionController.swift",
       "kind": "BooleanLiteral",
       "offset": 465,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Transitions\/SwipeNavigationInteractionController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Transitions\/SwipeNavigationInteractionController.swift",
       "kind": "BooleanLiteral",
       "offset": 520,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 473,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 484,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 497,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 510,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 581,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 592,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 605,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/SignUp\/SignUpDetailsCredentialsStep.swift",
       "kind": "FloatLiteral",
       "offset": 617,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Config\/AuthFlowConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Config\/AuthFlowConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 455,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 28,
       "value": "\"device_auth_tv_landing_bg1\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
       "kind": "StringLiteral",
       "offset": 509,
       "length": 28,
       "value": "\"device_auth_tv_landing_bg2\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 28,
       "value": "\"device_auth_tv_landing_fg1\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/Artwork\/DeviceAuthTVArtworkView.swift",
       "kind": "StringLiteral",
       "offset": 772,
       "length": 28,
       "value": "\"device_auth_tv_landing_fg2\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/DeviceAuthorization\/DeviceAuthScanStep.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Steps\/DeviceAuthorization\/DeviceAuthScanStep.swift",
       "kind": "FloatLiteral",
       "offset": 588,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 27,
       "value": "\"(?:^|\\s|$)#[\\p{L}0-9_]*\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 31,
       "value": "\"(?:^|\\s|$|[.])@[\\p{L}0-9_]*\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "StringLiteral",
       "offset": 337,
       "length": 51,
       "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 25,
       "value": "\"(^|[\\s.:;?\\-\\]<\\(])\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "StringLiteral",
       "offset": 453,
       "length": 89,
       "value": "\"((https?:\/\/|www\\.|pic\\.)[-\\w;\/?:@&=+$\\|\\_.!~*\\|'()\\[\\]%#,☺]+[\\w\/#](\\(\\))?)\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 41,
       "value": "\"(?=$|[\\s',\\|\\(\\).:;?\\-\\[\\]>\\)])\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/ActiveLabel\/RegexParser.swift",
       "kind": "Dictionary",
       "offset": 673,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 436,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 503,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 711,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/SubmissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 464,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 476,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 490,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 503,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 3633,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/BrandedHeaderView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/BrandedHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 351,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/BrandedHeaderView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/BrandedHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1010,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/BottomOverlayViewController.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/BottomOverlayViewController.swift",
       "kind": "FloatLiteral",
       "offset": 576,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/MimiAuthFlow.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/MimiAuthFlow.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 66,
       "value": "\"B33DB1670E1569BFAF02102EF7431785C850E1711C84E19FE2FE41E25280B462\""
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/MimiAuthFlow.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/MimiAuthFlow.swift",
       "kind": "BooleanLiteral",
       "offset": 1630,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
       "kind": "FloatLiteral",
       "offset": 355,
       "length": 4,
       "value": "36.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
       "kind": "FloatLiteral",
       "offset": 1482,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
       "kind": "FloatLiteral",
       "offset": 1496,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/salar\/Projects\/MimiHearingTechnologies\/SDK-iOS\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/PointListView.swift",
       "kind": "FloatLiteral",
       "offset": 1786,
       "length": 4,

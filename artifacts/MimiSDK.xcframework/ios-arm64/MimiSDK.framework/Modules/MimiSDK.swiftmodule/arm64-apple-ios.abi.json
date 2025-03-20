@@ -738,16 +738,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MimiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1660,23 +1650,6 @@
         "kind": "Import",
         "name": "MimiCoreKit",
         "printedName": "MimiCoreKit",
-        "declKind": "Import",
-        "moduleName": "MimiSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
         "declKind": "Import",
         "moduleName": "MimiSDK"
       },
@@ -2718,23 +2691,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
-        "declKind": "Import",
-        "moduleName": "MimiSDK"
       },
       {
         "kind": "Import",
@@ -7802,21 +7758,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1070,
+      "offset": 1046,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1190,
+      "offset": 1166,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Views\/ReTestActionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 858,
+      "offset": 834,
       "length": 5,
       "value": "false"
     },
@@ -9720,7 +9676,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Cards\/DataSource\/ProfileCardsCollectionDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 849,
+      "offset": 762,
       "length": 5,
       "value": "false"
     },
@@ -9853,21 +9809,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Bulletins\/ResultConditionsBulletin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1321,
+      "offset": 1286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Bulletins\/ResultConditionsBulletin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1442,
+      "offset": 1407,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Components\/Bulletins\/ResultConditionsBulletin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1125,
+      "offset": 1090,
       "length": 5,
       "value": "false"
     },
@@ -9923,7 +9879,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/States\/Personalization\/PTTResultsDetails\/Model\/PTTResultsFooterViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 942,
+      "offset": 821,
       "length": 12,
       "value": "\"dd.MM.yyyy\""
     },
@@ -10497,28 +10453,28 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Launcher\/MimiProfileLauncherView.swift",
       "kind": "FloatLiteral",
-      "offset": 561,
+      "offset": 573,
       "length": 5,
       "value": "208.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Launcher\/MimiProfileLauncherView.swift",
       "kind": "FloatLiteral",
-      "offset": 611,
+      "offset": 623,
       "length": 5,
       "value": "176.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Launcher\/MimiProfileLauncherView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1235,
+      "offset": 1247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Launcher\/MimiProfileLauncherView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1448,
+      "offset": 1460,
       "length": 5,
       "value": "false"
     },
@@ -10665,7 +10621,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiSDK\/Profile\/Core\/Notifications\/DefaultProfileNotificationService.swift",
       "kind": "StringLiteral",
-      "offset": 484,
+      "offset": 457,
       "length": 22,
       "value": "\"testResultConditions\""
     },
@@ -10833,84 +10789,77 @@
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
-      "length": 20,
-      "value": "\"ic_mac_unavailable\""
-    },
-    {
-      "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 2764,
       "length": 9,
       "value": "\"ic_mail\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3069,
+      "offset": 2905,
       "length": 14,
       "value": "\"ic_mimi_logo\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3227,
+      "offset": 3063,
       "length": 20,
       "value": "\"ic_mimi_onboarding\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3412,
+      "offset": 3248,
       "length": 31,
       "value": "\"ic_mimi_sound_personalization\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3573,
+      "offset": 3409,
       "length": 13,
       "value": "\"ic_no_entry\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3716,
+      "offset": 3552,
       "length": 13,
       "value": "\"ic_noise_on\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3897,
+      "offset": 3733,
       "length": 33,
       "value": "\"ic_personalization_mt_result_bg\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4100,
+      "offset": 3936,
       "length": 34,
       "value": "\"ic_personalization_mt_result_fg1\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4304,
+      "offset": 4140,
       "length": 34,
       "value": "\"ic_personalization_mt_result_fg2\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4467,
+      "offset": 4303,
       "length": 12,
       "value": "\"ic_refresh\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiSDK iOS\/IntermediateBuildFilesPath\/MimiSDK.build\/Release-iphoneos\/MimiSDK iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4604,
+      "offset": 4440,
       "length": 10,
       "value": "\"ic_retry\""
     }

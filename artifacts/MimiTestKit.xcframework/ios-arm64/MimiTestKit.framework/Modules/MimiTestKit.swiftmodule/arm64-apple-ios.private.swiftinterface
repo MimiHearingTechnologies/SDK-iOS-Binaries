@@ -58,6 +58,7 @@ extension MimiHTEKit.MimiAmbientLoudnessRating : Swift.CustomDebugStringConverti
 }
 public enum MimiTestFlowError : Swift.Error {
   case notAuthenticated
+  @available(*, deprecated, message: "Remove in SDK v11")
   case unsupportedDevice
   case unsupportedTestType
   public static func == (a: MimiTestKit.MimiTestFlowError, b: MimiTestKit.MimiTestFlowError) -> Swift.Bool

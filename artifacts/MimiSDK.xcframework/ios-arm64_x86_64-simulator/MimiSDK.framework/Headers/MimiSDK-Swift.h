@@ -312,6 +312,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class UIColor;
 @class NSCoder;
 
+/// :nodoc:
 /// View which provides a compact, single point of entry into the Mimi Profile.
 SWIFT_RESILIENT_CLASS("_TtC7MimiSDK23MimiProfileLauncherView") SWIFT_DEPRECATED_MSG("MimiProfileLauncherView will be removed in SDK v11")
 @interface MimiProfileLauncherView : MimiView
@@ -716,6 +717,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class UIColor;
 @class NSCoder;
 
+/// :nodoc:
 /// View which provides a compact, single point of entry into the Mimi Profile.
 SWIFT_RESILIENT_CLASS("_TtC7MimiSDK23MimiProfileLauncherView") SWIFT_DEPRECATED_MSG("MimiProfileLauncherView will be removed in SDK v11")
 @interface MimiProfileLauncherView : MimiView

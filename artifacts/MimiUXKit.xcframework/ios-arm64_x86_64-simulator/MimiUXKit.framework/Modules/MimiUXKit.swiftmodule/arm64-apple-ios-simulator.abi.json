@@ -2990,8 +2990,12 @@
                 "usr": "s:9MimiUXKit0A12ToggleButtonC17selectedTintColorSo7UIColorCSgvM",
                 "mangledName": "$s9MimiUXKit0A12ToggleButtonC17selectedTintColorSo7UIColorCSgvM",
                 "moduleName": "MimiUXKit",
+                "deprecated": true,
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3102,8 +3106,12 @@
                 "usr": "s:9MimiUXKit0A12ToggleButtonC18selectedTitleColorSo7UIColorCSgvM",
                 "mangledName": "$s9MimiUXKit0A12ToggleButtonC18selectedTitleColorSo7UIColorCSgvM",
                 "moduleName": "MimiUXKit",
+                "deprecated": true,
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3369,8 +3377,12 @@
                 "usr": "s:9MimiUXKit0A12ToggleButtonC7bouncesSbvM",
                 "mangledName": "$s9MimiUXKit0A12ToggleButtonC7bouncesSbvM",
                 "moduleName": "MimiUXKit",
+                "deprecated": true,
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3607,11 +3619,13 @@
         "usr": "c:@M@MimiUXKit@objc(cs)MimiToggleButton",
         "mangledName": "$s9MimiUXKit0A12ToggleButtonC",
         "moduleName": "MimiUXKit",
+        "deprecated": true,
         "isOpen": true,
         "declAttributes": [
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "Available",
           "RawDocComment",
           "ObjC"
         ],
@@ -47925,63 +47939,63 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 472,
+      "offset": 528,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 539,
+      "offset": 595,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 553,
+      "offset": 609,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 567,
+      "offset": 623,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 582,
+      "offset": 638,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 632,
+      "offset": 688,
       "length": 4,
       "value": "34.0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1312,
+      "offset": 1368,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3364,
+      "offset": 3420,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Buttons\/MimiToggleButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3746,
+      "offset": 3802,
       "length": 4,
       "value": "true"
     },

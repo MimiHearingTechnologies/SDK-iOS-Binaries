@@ -22889,16 +22889,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MimiCoreKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "MimiUser",
         "printedName": "MimiUser",
@@ -31965,7 +31955,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"10.5.0\""
+      "value": "\"10.6.0\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/CacheFirstDomainResolver.swift",
@@ -31980,20 +31970,6 @@
       "offset": 381,
       "length": 7,
       "value": "\"merge\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/FeatureFlags\/FeatureFlagsService.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 14,
-      "value": "\"dev_feature_\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/FeatureFlags\/FeatureFlagsService.swift",
-      "kind": "StringLiteral",
-      "offset": 1626,
-      "length": 18,
-      "value": "\"FOO_FEATURE_FLAG\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Analytics\/AnalyticsEventDeliveryController.swift",

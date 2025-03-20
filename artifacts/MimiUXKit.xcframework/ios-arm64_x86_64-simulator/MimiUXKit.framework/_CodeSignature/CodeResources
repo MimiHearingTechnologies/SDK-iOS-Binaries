@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MimiUXKit-Swift.h</key>
 		<data>
-		+LBoHqVkCl+GGdCDmcrZ4AE2H7Q=
+		X7ZiisJeVAD0DC1maLsB/mhyzeg=
 		</data>
 		<key>Headers/MimiUXKit.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6mYUGYOSmADfyXmTqGgw9y3k1mw=
+		AqpIreYyVQscijtSWj9GSQ3jA5c=
 		</data>
 		<key>MimiAlertView.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7sOK0eknviaM1ldLd0W5bYWxk2U=
+		6XDv9b/EmtIClHi8Q0vt/D6cj0A=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gev1/K7yBjkruTK7ikpBXYBji3A=
+		CQU/dkx8+1TmQO6O1U6+UySuMyE=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gev1/K7yBjkruTK7ikpBXYBji3A=
+		CQU/dkx8+1TmQO6O1U6+UySuMyE=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		unovAJB+F/cHbaS45d2XeF8Z8/s=
+		ONk1E2XUnsas94OZm+dNCWiCRc0=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7sOK0eknviaM1ldLd0W5bYWxk2U=
+		6XDv9b/EmtIClHi8Q0vt/D6cj0A=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cEzFnoQTRR/zco+x/J3W/+ggeTw=
+		fzRhkXdQM0x+OUaoURtZfPhc2gI=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cEzFnoQTRR/zco+x/J3W/+ggeTw=
+		fzRhkXdQM0x+OUaoURtZfPhc2gI=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dbRdk/CxaAQ/uLIdU12fbXevtto=
+		V7tQWM4ogAi12vTT8r4G6f9P9Pw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cq3x9H4NBPpl+n+UWwKRLlZx4ungx8nrLeDk04DSvOI=
+			IOAcsf0ruvVwHx776I1qBZxQGEcnKefbtZ/AKJ80kNM=
 			</data>
 		</dict>
 		<key>Headers/MimiUXKit.h</key>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7IZCswsdMI0bYXBHFpEm6UKn0KDuEt75243Tpe8Kpo=
+			LU6jhyygNEaSXXE7Ou5r5XOwM/89O+rUERnGuIJccQ0=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7krLzgEGO/bIhDuOYch3Pz0cydwXfE0b1PfcsXR5OTo=
+			y0z99whqWbfj8Iw2BxHV11VmD+Dk4uSPcaHMQNa8RBk=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7krLzgEGO/bIhDuOYch3Pz0cydwXfE0b1PfcsXR5OTo=
+			y0z99whqWbfj8Iw2BxHV11VmD+Dk4uSPcaHMQNa8RBk=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jokXVkzT/sQaYnz+yf7gaSMosR9tuVwFbcRmwAlLg4Q=
+			QNATUpI1f9KITv89ZslvyKCK7rDQfbJ3VLnvUhAIbnI=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7IZCswsdMI0bYXBHFpEm6UKn0KDuEt75243Tpe8Kpo=
+			LU6jhyygNEaSXXE7Ou5r5XOwM/89O+rUERnGuIJccQ0=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnZRYcFZw9Z+lGswzdFCf6miuk/Py4StNmkfJAK6IiE=
+			gto8nOTQEqUbFafdpOqz9PHJgUIi2Ody6DMAFTC4ilI=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnZRYcFZw9Z+lGswzdFCf6miuk/Py4StNmkfJAK6IiE=
+			gto8nOTQEqUbFafdpOqz9PHJgUIi2Ody6DMAFTC4ilI=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HgGlW83SiYNI/AA1eblW7XMFCAaFez3Oiwe1nkwwLlM=
+			ZokCNSoUBbSlZ1o8nzab7H7Oix6xV6Brsq0z4wRbjAM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

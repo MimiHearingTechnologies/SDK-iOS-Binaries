@@ -685,7 +685,7 @@ SWIFT_CLASS("_TtC9MimiUXKit14MimiTextButton")
 
 
 /// Button which is designed for On / Off toggle behavior. Featuring support for a left aligned image and outlined, eliptical corners.
-SWIFT_CLASS("_TtC9MimiUXKit16MimiToggleButton")
+SWIFT_CLASS("_TtC9MimiUXKit16MimiToggleButton") SWIFT_DEPRECATED_MSG("Remove in SDK v11")
 @interface MimiToggleButton : MimiButton
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 /// Color to use for the button tint when not selected.

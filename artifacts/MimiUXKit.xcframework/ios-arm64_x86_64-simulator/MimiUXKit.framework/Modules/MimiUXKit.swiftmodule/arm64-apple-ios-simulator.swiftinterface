@@ -97,7 +97,8 @@ public struct MimiTextUppercaseOptions : Swift.OptionSet {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_Concurrency.MainActor @preconcurrency open class MimiToggleButton : MimiUXKit.MimiButton {
+@objc @available(*, deprecated, message: "Remove in SDK v11")
+@_Concurrency.MainActor @preconcurrency open class MimiToggleButton : MimiUXKit.MimiButton {
   public enum Style {
     case onOff
     case custom
@@ -1683,7 +1684,9 @@ public protocol MimiUserFlowSteppable : AnyObject {
 }
 extension MimiUXKit.MimiLabel.Style : Swift.Equatable {}
 extension MimiUXKit.MimiLabel.Style : Swift.Hashable {}
+@available(*, deprecated, message: "Remove in SDK v11")
 extension MimiUXKit.MimiToggleButton.Style : Swift.Equatable {}
+@available(*, deprecated, message: "Remove in SDK v11")
 extension MimiUXKit.MimiToggleButton.Style : Swift.Hashable {}
 extension MimiUXKit.MimiTextButton.Style : Swift.Equatable {}
 extension MimiUXKit.MimiTextButton.Style : Swift.Hashable {}

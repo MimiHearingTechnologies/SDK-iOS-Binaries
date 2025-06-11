@@ -1855,30 +1855,6 @@
       },
       {
         "kind": "Import",
-        "name": "MimiCoreKit",
-        "printedName": "MimiCoreKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2102,23 +2078,6 @@
         "kind": "Import",
         "name": "MimiCoreKit",
         "printedName": "MimiCoreKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
         "declKind": "Import",
         "moduleName": "MimiTestKit"
       },
@@ -2721,6 +2680,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MimiUXKit",
+        "printedName": "MimiUXKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
         "name": "MimiHTEKit",
         "printedName": "MimiHTEKit",
         "declKind": "Import",
@@ -2770,6 +2746,23 @@
         "kind": "Import",
         "name": "MimiCoreKit",
         "printedName": "MimiCoreKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MimiUXKit",
+        "printedName": "MimiUXKit",
         "declKind": "Import",
         "moduleName": "MimiTestKit"
       },
@@ -3127,23 +3120,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3217,23 +3193,6 @@
         "kind": "Import",
         "name": "MimiCoreKit",
         "printedName": "MimiCoreKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
         "declKind": "Import",
         "moduleName": "MimiTestKit"
       },
@@ -5020,6 +4979,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5118,16 +5087,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -5176,16 +5135,6 @@
         "printedName": "MimiHTEKit",
         "declKind": "Import",
         "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -5276,6 +5225,23 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MimiUXKit",
+        "printedName": "MimiUXKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "MimiTestKit",
         "declAttributes": [
@@ -5963,8 +5929,22 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
+      "kind": "IntegerLiteral",
+      "offset": 939,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1265,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 1864,
+      "offset": 1971,
       "length": 5,
       "value": "false"
     },
@@ -7530,13 +7510,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/HardInactivityInterruption.swift",
-      "kind": "BooleanLiteral",
-      "offset": 484,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 468,
@@ -7659,13 +7632,6 @@
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 842,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/SoftInactivityInterruption.swift",
-      "kind": "BooleanLiteral",
-      "offset": 565,
       "length": 5,
       "value": "false"
     },
@@ -8097,6 +8063,13 @@
       "value": "\"flow_setup_learn_about_calibration_question_three_description\""
     },
     {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/SoftInactivityInterruption.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
       "kind": "FloatLiteral",
       "offset": 548,
@@ -8301,43 +8274,36 @@
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 679,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 716,
       "length": 45,
       "value": "\"flow_setup_devices_instruction_audioeffects\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 806,
+      "offset": 782,
       "length": 43,
       "value": "\"flow_setup_devices_footprint_audioeffects\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 900,
       "length": 46,
       "value": "\"flow_setup_devices_instruction_accessibility\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
-      "offset": 991,
+      "offset": 967,
       "length": 44,
       "value": "\"flow_setup_devices_footprint_accessibility\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2535,
+      "offset": 2654,
       "length": 4,
       "value": "true"
     },
@@ -8603,308 +8569,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 938,
-      "length": 23,
-      "value": "\"settings_about_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1003,
-      "length": 37,
-      "value": "\"settings_change_localization_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1075,
-      "length": 29,
-      "value": "\"settings_environment_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1132,
-      "length": 21,
-      "value": "\"settings_production\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1183,
-      "length": 24,
-      "value": "\"settings_region_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 18,
-      "value": "\"settings_staging\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1279,
-      "length": 23,
-      "value": "\"settings_theme_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 21,
-      "value": "\"settings_theme_view\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1399,
-      "length": 22,
-      "value": "\"about_auth_kit_value\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1452,
-      "length": 22,
-      "value": "\"about_core_kit_value\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1501,
-      "length": 17,
-      "value": "\"about_hte_value\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1549,
-      "length": 22,
-      "value": "\"about_test_kit_value\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1600,
-      "length": 20,
-      "value": "\"about_ux_kit_value\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1680,
-      "length": 27,
-      "value": "\"environment_cancel_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1742,
-      "length": 31,
-      "value": "\"environment_production_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1805,
-      "length": 28,
-      "value": "\"environment_staging_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1895,
-      "length": 29,
-      "value": "\"localization_bosnian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 1964,
-      "length": 39,
-      "value": "\"localization_chinese_hong_kong_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2043,
-      "length": 38,
-      "value": "\"localization_chinese_mainland_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2119,
-      "length": 36,
-      "value": "\"localization_chinese_taiwan_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2188,
-      "length": 30,
-      "value": "\"localization_croatian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2248,
-      "length": 27,
-      "value": "\"localization_dutch_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2307,
-      "length": 29,
-      "value": "\"localization_english_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2370,
-      "length": 32,
-      "value": "\"localization_english_uk_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2433,
-      "length": 28,
-      "value": "\"localization_french_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2492,
-      "length": 28,
-      "value": "\"localization_german_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2552,
-      "length": 29,
-      "value": "\"localization_italian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2614,
-      "length": 30,
-      "value": "\"localization_japanese_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2675,
-      "length": 28,
-      "value": "\"localization_korean_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2737,
-      "length": 32,
-      "value": "\"localization_phrase_key_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2800,
-      "length": 28,
-      "value": "\"localization_polish_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2863,
-      "length": 32,
-      "value": "\"localization_portuguese_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2927,
-      "length": 29,
-      "value": "\"localization_russian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 2988,
-      "length": 29,
-      "value": "\"localization_serbian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3054,
-      "length": 35,
-      "value": "\"localization_serbian_latin_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3123,
-      "length": 31,
-      "value": "\"localization_slovenian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3185,
-      "length": 28,
-      "value": "\"localization_spanis_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3247,
-      "length": 31,
-      "value": "\"localization_ukrainian_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3332,
-      "length": 21,
-      "value": "\"region_china_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3385,
-      "length": 23,
-      "value": "\"region_dynamic_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3444,
-      "length": 29,
-      "value": "\"region_rest_of_world_button\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
-      "kind": "StringLiteral",
-      "offset": 3532,
+      "offset": 939,
       "length": 24,
       "value": "\"snackbar_leading_label\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3587,
+      "offset": 994,
       "length": 25,
       "value": "\"snackbar_trailing_label\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
-      "offset": 3634,
+      "offset": 1041,
       "length": 15,
       "value": "\"snackbar_view\""
     },
@@ -8965,90 +8644,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 279,
-      "length": 51,
-      "value": "\"flow_setup_devices_explainer_accessibility_header\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 359,
-      "length": 52,
-      "value": "\"flow_setup_devices_explainer_accessibility_message\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 442,
-      "length": 55,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_title\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 606,
-      "length": 74,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_headphone_accommodations\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 67,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_background_sounds\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 845,
-      "length": 60,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_mono_audio\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 954,
-      "length": 57,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_balance\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1061,
-      "length": 67,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_balance_footprint\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1177,
-      "length": 62,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_volume_limit\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1288,
-      "length": 61,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_adapt_sound\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1398,
-      "length": 65,
-      "value": "\"flow_setup_devices_explainer_accessibility_list_sound_amplifier\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAccessibilitySettingsExplainerView\/PTTAccessibilitySettingsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1507,
-      "length": 50,
-      "value": "\"flow_setup_devices_explainer_accessibility_title\""
-    },
-    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/InterruptionPresentationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1112,
@@ -9068,90 +8663,6 @@
       "offset": 731,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 261,
-      "length": 49,
-      "value": "\"flow_setup_devices_explainer_audioeffect_header\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 50,
-      "value": "\"flow_setup_devices_explainer_audioeffect_message\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
-      "length": 54,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_title\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 532,
-      "length": 51,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_eq\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 603,
-      "length": 54,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_dolby\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 677,
-      "length": 62,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_spatial_audio\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 67,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_noise_cancellation\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 846,
-      "length": 61,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_transparency\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 927,
-      "length": 63,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_adaptive_audio\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1010,
-      "length": 59,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_bass_boost\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1089,
-      "length": 53,
-      "value": "\"flow_setup_devices_explainer_audioeffects_list_ldac\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTAudioEffectsExplainerView\/PTTAudioEffectsExplainerViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1185,
-      "length": 48,
-      "value": "\"flow_setup_devices_explainer_audioeffect_title\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
@@ -9201,6 +8712,27 @@
       "offset": 394,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 24,
+      "value": "\"Accessibility Settings\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1778,
+      "length": 15,
+      "value": "\"Audio Effects\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
+      "length": 16,
+      "value": "\"Do Not Disturb\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PromptExplainerView.swift",

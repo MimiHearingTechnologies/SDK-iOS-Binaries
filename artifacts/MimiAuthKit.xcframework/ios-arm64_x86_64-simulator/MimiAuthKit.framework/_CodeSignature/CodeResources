@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		neC9Hq4c14FuuJs6fsm6OeKQFro=
+		BrHevq9oJK91bADQ43vYf4keO6Q=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MimiAuthKit-Swift.h</key>
 		<data>
-		2nFPzUI4XZ/rt0P8i/3UqfZrbf8=
+		jget5sEHEXdb/+OALkXoARdW5bE=
 		</data>
 		<key>Headers/MimiAuthKit.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2w7v9F8SwRjUt5TPxIUF/M3sElQ=
+		EMyJBmQ07CJeVKUpRr3qDQ+FRFY=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8uIfSyaL/+QbGqPxNa/P39kdZYw=
+		FK2/XQYwY8w5+Hz0VQXUW5dt+Lo=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		68OBzZGqLhqNU4qDb+qSB4cp24I=
+		OVRGjRzPzrs3gKV9boJWzv7p2Oo=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8uIfSyaL/+QbGqPxNa/P39kdZYw=
+		FK2/XQYwY8w5+Hz0VQXUW5dt+Lo=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AbUMAPQX88Dj8EO+kb0dY6QHBJA=
+		Ox9N18VAQFIMPcHPx02gwaI40oQ=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,19 +50,19 @@
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O2qPU3mkcuW+QYS6SovzKs9Xmqg=
+		0BRz+WbvyaVUadKsmFqqdov2Gbw=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XScDGTF6ftpv4AhwIKDVKvDH2MM=
+		izNV89fOjKrvlHFhc+RS3Pu3QWo=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O2qPU3mkcuW+QYS6SovzKs9Xmqg=
+		0BRz+WbvyaVUadKsmFqqdov2Gbw=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0lXLZbg8EfCFGm0yfiJOr3FCM/A=
+		j6yhG93tGH0BC/dJ63/4qj8+/SY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -176,6 +176,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KB+RjF1WcNG9Yb0LBNH9C545uE8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -252,7 +261,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DGMgcoY993Vu8CNXRu85VA/5vMQ=
+			OHSKxsKslB8fXD0iTbLg4B2lMgE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,7 +273,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sO5eDk7zy901TSlNNMAZrPiCmPcJvmwhJlXq4mNWK5I=
+			c3V2UR6pBGztezBs5lk4TUMAK2Ojw6ofQYZQPLgK0S0=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -278,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGA1rw4NT23N99rech7oZtP2ZNLDQ821KARKbHALpVU=
+			G7kMn6zxSFXd5EkzKDuIwdTvMUWbw2sDh1bomwUYvpY=
 			</data>
 		</dict>
 		<key>Headers/MimiAuthKit.h</key>
@@ -299,28 +308,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/NGYQjIK9ibLn7PFj3ffnYDS7Nn/UoQAUfrJ/wX/kI=
+			8nw6CU1d5eVDgo92Zw5Rdp6IKf5M5isuG4EMeHbsTYw=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9wlrF6dGk+tgATV7nw6E306qRClc6mbtHK+zXxyiZ/k=
+			p8ybdTUGchGybQIEuxAQvXrjj575REpBuEJJjAJcfnY=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/NGYQjIK9ibLn7PFj3ffnYDS7Nn/UoQAUfrJ/wX/kI=
+			8nw6CU1d5eVDgo92Zw5Rdp6IKf5M5isuG4EMeHbsTYw=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aMnm+5cCzTW3RQUIr1zktruG06TETuHb8+whbfB565A=
+			UYur5WVKetximP1bfXQl02ItIzVBYL1efLmu9slMXw8=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -334,28 +343,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rr9WCDxueLb+rhG7E+1J7kv7JXlrZeprbCqKNjVKd+M=
+			6aRYFOqnCgelQPr07AntmOg4GjhEtCSF7liiqQM1ZrI=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UMkL4hBHrZ4xAVdpdcGWZemsr+lIO/FRv33Ea0O6SHU=
+			ph9xCWCvU5tutAfmO3QjScqydwT+ENENakafZ/tZbLg=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rr9WCDxueLb+rhG7E+1J7kv7JXlrZeprbCqKNjVKd+M=
+			6aRYFOqnCgelQPr07AntmOg4GjhEtCSF7liiqQM1ZrI=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nSbwcloEx8IjSZKiP2VCN6L6Ma8dowMz3g8MDv22+DY=
+			cA3aUEV+Jj1inK3F7uxd4VIgPPDz9KIU0cjY1JQ026s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -473,6 +482,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N3ykMApn9/I8Q/xh1vWKreIFtQMHuY9u5e5kGoP9KDk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
@@ -549,7 +567,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4CTUn2Ke+yqH0ynrdWQqSO6HYBzGcZMo5LFH9lcxXdw=
+			sksltdAF4vDJmMjrUSP0aGUQxBvCYYaAxFuMCFOUhpQ=
 			</data>
 			<key>optional</key>
 			<true/>

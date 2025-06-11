@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MimiUXKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiUXKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -54,11 +54,11 @@ public struct MimiTextUppercaseOptions : Swift.OptionSet {
     case body
     case caption
     public static func == (a: MimiUXKit.MimiLabel.Style, b: MimiUXKit.MimiLabel.Style) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
     public typealias AllCases = [MimiUXKit.MimiLabel.Style]
     nonisolated public static var allCases: [MimiUXKit.MimiLabel.Style] {
       get
     }
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
@@ -394,7 +394,8 @@ extension MimiUXKit.MimiAlertBanner {
       get
     }
   }
-  @_Concurrency.MainActor @preconcurrency public init(_ text: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public init(_ string: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public init(_ key: SwiftUICore.LocalizedStringKey)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -1321,17 +1322,20 @@ extension MimiUXKit.MimiUserFlowCoordinator {
   @objc override dynamic public init()
   @objc deinit
 }
+@available(*, deprecated, message: "Remove in SDK v11")
 public enum MimiSnackbarDuration {
   case short
   case long
   case indefinite
   case custom(duration: Foundation.TimeInterval)
 }
+@available(*, deprecated, message: "Remove in SDK v11")
 public protocol MimiSnackbarPresentable : AnyObject {
   func show(animated: Swift.Bool, duration: MimiUXKit.MimiSnackbarDuration, completion: (() -> Swift.Void)?)
   func hide(animated: Swift.Bool, completion: (() -> Swift.Void)?)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class MimiSnackbar<ContentView> : MimiUXKit.MimiControl, MimiUXKit.MimiSnackbarPresentable where ContentView : UIKit.UIView {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(*, deprecated, message: "Remove in SDK v11")
+@_Concurrency.MainActor @preconcurrency open class MimiSnackbar<ContentView> : MimiUXKit.MimiControl, MimiUXKit.MimiSnackbarPresentable where ContentView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public class var `default`: MimiUXKit.MimiSnackbar<MimiUXKit.MimiSnackbarDefaultContentView> {
     get
   }
@@ -1356,7 +1360,8 @@ public protocol MimiSnackbarPresentable : AnyObject {
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class MimiSnackbarDefaultContentView : MimiUXKit.MimiView {
+@objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "Remove in SDK v11")
+@_Concurrency.MainActor @preconcurrency final public class MimiSnackbarDefaultContentView : MimiUXKit.MimiView {
   @_Concurrency.MainActor @preconcurrency final public var contentInset: UIKit.UIEdgeInsets {
     get
     set

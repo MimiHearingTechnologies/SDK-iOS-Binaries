@@ -21856,6 +21856,115 @@
                 ],
                 "isFromExtension": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "id",
+                "printedName": "id",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV2idSivp",
+                "mangledName": "$s11MimiCoreKit0A13TestAudiogramV9DataPointV2idSivp",
+                "moduleName": "MimiCoreKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV2idSivg",
+                    "mangledName": "$s11MimiCoreKit0A13TestAudiogramV9DataPointV2idSivg",
+                    "moduleName": "MimiCoreKit",
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV9hashValueSivp",
+                "mangledName": "$s11MimiCoreKit0A13TestAudiogramV9DataPointV9hashValueSivp",
+                "moduleName": "MimiCoreKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV9hashValueSivg",
+                    "mangledName": "$s11MimiCoreKit0A13TestAudiogramV9DataPointV9hashValueSivg",
+                    "moduleName": "MimiCoreKit",
+                    "implicit": true,
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11MimiCoreKit0A13TestAudiogramV9DataPointV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s11MimiCoreKit0A13TestAudiogramV9DataPointV4hash4intoys6HasherVz_tF",
+                "moduleName": "MimiCoreKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Struct",
@@ -21901,6 +22010,35 @@
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Identifiable",
+                "printedName": "Identifiable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "ID",
+                    "printedName": "ID",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12IdentifiableP",
+                "mangledName": "$ss12IdentifiableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -31955,7 +32093,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"10.6.0\""
+      "value": "\"10.7.0\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/CacheFirstDomainResolver.swift",

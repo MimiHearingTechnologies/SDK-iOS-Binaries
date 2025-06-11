@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MimiCoreKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiCoreKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import CommonCrypto
 import Foundation
@@ -776,6 +776,16 @@ extension MimiCoreKit.MimiTestAudiogram.DataPoint {
 extension MimiCoreKit.MimiTestAudiogram.DataPoint : Swift.Equatable {
   public static func == (lhs: MimiCoreKit.MimiTestAudiogram.DataPoint, rhs: MimiCoreKit.MimiTestAudiogram.DataPoint) -> Swift.Bool
 }
+extension MimiCoreKit.MimiTestAudiogram.DataPoint : Swift.Identifiable, Swift.Hashable {
+  public var id: Swift.Int {
+    get
+  }
+  public typealias ID = Swift.Int
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension MimiCoreKit.MimiCore {
   public static let version: Swift.String
 }
@@ -966,17 +976,10 @@ public struct MimiSignUpData {
   public let acceptedPermissions: [MimiCoreKit.MimiSignUpData.Permission]
   public init(email: Swift.String, password: Swift.String, nickname: Swift.String? = nil, sex: MimiCoreKit.MimiUser.Sex? = nil, yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth? = nil, country: Swift.String? = nil, acceptedPermissions: [MimiCoreKit.MimiSignUpData.Permission]? = nil)
 }
-#if compiler(>=5.3) && $PrimaryAssociatedTypes2
 public protocol MimiProcessingParameterDataSource<Value> {
   associatedtype Value : Swift.Decodable, Swift.Encodable, Swift.Equatable
   func load(value: Self.Value) async throws -> Self.Value
 }
-#else
-public protocol MimiProcessingParameterDataSource {
-  associatedtype Value : Swift.Decodable, Swift.Encodable, Swift.Equatable
-  func load(value: Self.Value) async throws -> Self.Value
-}
-#endif
 @_hasMissingDesignatedInitializers @available(iOS, deprecated: 16.0, message: "Use Swift's any keyword")
 final public class AnyMimiProcessingParameterDataSource<Value> : MimiCoreKit.MimiProcessingParameterDataSource where Value : Swift.Decodable, Value : Swift.Encodable, Value : Swift.Equatable {
   final public var type: Any? {

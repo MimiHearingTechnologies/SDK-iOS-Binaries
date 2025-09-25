@@ -79,6 +79,12 @@ extension MimiAuthKit.MimiEmailClientSelectionBulletin.Client {
 extension MimiAuthKit.MimiAuthFlow {
   final public class func build(route: MimiAuthKit.MimiAuthFlow.Route) throws -> MimiAuthKit.MimiAuthFlow
 }
+extension MimiAuthKit.MimiAuthFlow.Route : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public typealias ID = Swift.String
+}
 extension MimiAuthKit.MimiEmailClientSelectionBulletin.Client : Swift.Equatable {}
 extension MimiAuthKit.MimiEmailClientSelectionBulletin.Client : Swift.Hashable {}
 extension MimiAuthKit.MimiEmailClientSelectionBulletin.Client : Swift.RawRepresentable {}

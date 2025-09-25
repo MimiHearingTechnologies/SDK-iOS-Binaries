@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BrHevq9oJK91bADQ43vYf4keO6Q=
+		+fm8xeJ2ir3wTCVNup4WYpFZT/4=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EMyJBmQ07CJeVKUpRr3qDQ+FRFY=
+		RydseuKxHXvwmhcB9gUgPjN40Kg=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2f22YJkCv+I6vmCve1CwMCln+LU=
+		VgmpYpuTKtYNbpu41rBSLby05So=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FK2/XQYwY8w5+Hz0VQXUW5dt+Lo=
+		yNrPmVwHbNfuICN4s1iYwEIZue4=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FK2/XQYwY8w5+Hz0VQXUW5dt+Lo=
+		yNrPmVwHbNfuICN4s1iYwEIZue4=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ox9N18VAQFIMPcHPx02gwaI40oQ=
+		CGvvvNgirKQMEskspweF5jNio+M=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2f22YJkCv+I6vmCve1CwMCln+LU=
+		VgmpYpuTKtYNbpu41rBSLby05So=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0BRz+WbvyaVUadKsmFqqdov2Gbw=
+		NEYkh8aF08LyuW44uNy5vG4qv+g=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0BRz+WbvyaVUadKsmFqqdov2Gbw=
+		NEYkh8aF08LyuW44uNy5vG4qv+g=
 		</data>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j6yhG93tGH0BC/dJ63/4qj8+/SY=
+		8LrDIQBBRHKqWcwkiJptlVmgZ9U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -273,7 +273,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c3V2UR6pBGztezBs5lk4TUMAK2Ojw6ofQYZQPLgK0S0=
+			NtdeD2axTu/OIpHH4+b8++LTzJDiaL7gPLF0ZkZLVpE=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -301,14 +301,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F/G+8raPGXGc1UUtEzg4T4mr2vBeUVguc0JUJpoordk=
+			WR8pKO75IIj14UpK+7tjliQBY6wGTF3Ed8yIgHIa7qU=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8nw6CU1d5eVDgo92Zw5Rdp6IKf5M5isuG4EMeHbsTYw=
+			SNvBGaALitFOAFTvi+5NQu/jVvvuZnYJNReAeo+H+j8=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -322,28 +322,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8nw6CU1d5eVDgo92Zw5Rdp6IKf5M5isuG4EMeHbsTYw=
+			SNvBGaALitFOAFTvi+5NQu/jVvvuZnYJNReAeo+H+j8=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UYur5WVKetximP1bfXQl02ItIzVBYL1efLmu9slMXw8=
+			oan5wiaSFgkoc7F7WgE7luoE/yuxGAKIejBjEHnGSTs=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F/G+8raPGXGc1UUtEzg4T4mr2vBeUVguc0JUJpoordk=
+			WR8pKO75IIj14UpK+7tjliQBY6wGTF3Ed8yIgHIa7qU=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6aRYFOqnCgelQPr07AntmOg4GjhEtCSF7liiqQM1ZrI=
+			JfujNIPb2KVPmpjAovteeCPdoYRadhuPdpbg4fn0+Ss=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -357,14 +357,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6aRYFOqnCgelQPr07AntmOg4GjhEtCSF7liiqQM1ZrI=
+			JfujNIPb2KVPmpjAovteeCPdoYRadhuPdpbg4fn0+Ss=
 			</data>
 		</dict>
 		<key>Modules/MimiAuthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cA3aUEV+Jj1inK3F7uxd4VIgPPDz9KIU0cjY1JQ026s=
+			HccE03KrRM5tPjt8ZDoHJjsIQJiZ0lEa9tdzU1wbwX8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

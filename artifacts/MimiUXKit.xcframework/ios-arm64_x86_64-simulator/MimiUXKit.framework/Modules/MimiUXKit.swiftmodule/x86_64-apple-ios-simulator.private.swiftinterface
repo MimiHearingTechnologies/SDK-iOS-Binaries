@@ -97,69 +97,6 @@ public struct MimiTextUppercaseOptions : Swift.OptionSet {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @available(*, deprecated, message: "Remove in SDK v11")
-@_Concurrency.MainActor @preconcurrency open class MimiToggleButton : MimiUXKit.MimiButton {
-  public enum Style {
-    case onOff
-    case custom
-    public static func == (a: MimiUXKit.MimiToggleButton.Style, b: MimiUXKit.MimiToggleButton.Style) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
-    @objc get
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor @preconcurrency open var selectedTintColor: UIKit.UIColor! {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency open var selectedTitleColor: UIKit.UIColor! {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHighlighted: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor @preconcurrency open var bounces: Swift.Bool {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
-  @_Concurrency.MainActor @preconcurrency public init(style: MimiUXKit.MimiToggleButton.Style)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var backgroundColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var adjustsImageWhenDisabled: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var adjustsImageWhenHighlighted: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc deinit
-}
 extension UIKit.UITraitCollection {
   @objc dynamic public var mimiLayoutClass: MimiUXKit.MimiLayoutClass {
     @objc get
@@ -664,7 +601,7 @@ extension MimiUXKit.MimiThemePublisher {
   weak final public var shownBulletin: MimiUXKit.MimiBulletinItem? {
     get
   }
-  final public class func `for`(presentingViewController: UIKit.UIViewController) -> MimiUXKit.MimiBulletinController
+  public static func `for`(presentingViewController: UIKit.UIViewController) -> MimiUXKit.MimiBulletinController
   @discardableResult
   final public func show(_ item: MimiUXKit.MimiBulletinItem, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil) -> Swift.Bool
   final public func enqueue(_ item: MimiUXKit.MimiBulletinItem, sort: ((MimiUXKit.MimiBulletinItem, MimiUXKit.MimiBulletinItem) -> Swift.Bool)? = nil)
@@ -1322,79 +1259,6 @@ extension MimiUXKit.MimiUserFlowCoordinator {
   @objc override dynamic public init()
   @objc deinit
 }
-@available(*, deprecated, message: "Remove in SDK v11")
-public enum MimiSnackbarDuration {
-  case short
-  case long
-  case indefinite
-  case custom(duration: Foundation.TimeInterval)
-}
-@available(*, deprecated, message: "Remove in SDK v11")
-public protocol MimiSnackbarPresentable : AnyObject {
-  func show(animated: Swift.Bool, duration: MimiUXKit.MimiSnackbarDuration, completion: (() -> Swift.Void)?)
-  func hide(animated: Swift.Bool, completion: (() -> Swift.Void)?)
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(*, deprecated, message: "Remove in SDK v11")
-@_Concurrency.MainActor @preconcurrency open class MimiSnackbar<ContentView> : MimiUXKit.MimiControl, MimiUXKit.MimiSnackbarPresentable where ContentView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public class var `default`: MimiUXKit.MimiSnackbar<MimiUXKit.MimiSnackbarDefaultContentView> {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency final public let contents: ContentView
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
-    @objc get
-    @objc set
-  }
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var backgroundColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @available(*, unavailable)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency @objc convenience override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
-  @_Concurrency.MainActor @preconcurrency open func show(animated: Swift.Bool, duration: MimiUXKit.MimiSnackbarDuration, completion: (() -> Swift.Void)?)
-  @_Concurrency.MainActor @preconcurrency open func hide(animated: Swift.Bool, completion: (() -> Swift.Void)?)
-  @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "Remove in SDK v11")
-@_Concurrency.MainActor @preconcurrency final public class MimiSnackbarDefaultContentView : MimiUXKit.MimiView {
-  @_Concurrency.MainActor @preconcurrency final public var contentInset: UIKit.UIEdgeInsets {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency final public var leadingText: Swift.String? {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency final public var trailingText: Swift.String? {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency final public var textColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency final public var leadingTextAlignment: UIKit.NSTextAlignment {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency final public var trailingTextAlignment: UIKit.NSTextAlignment {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency final public var style: MimiUXKit.MimiLabel.Style {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency override final public func construct(in view: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc deinit
-}
 public struct MimiFont : Swift.Equatable {
   public var name: Swift.String {
     get
@@ -1689,10 +1553,6 @@ public protocol MimiUserFlowSteppable : AnyObject {
 }
 extension MimiUXKit.MimiLabel.Style : Swift.Equatable {}
 extension MimiUXKit.MimiLabel.Style : Swift.Hashable {}
-@available(*, deprecated, message: "Remove in SDK v11")
-extension MimiUXKit.MimiToggleButton.Style : Swift.Equatable {}
-@available(*, deprecated, message: "Remove in SDK v11")
-extension MimiUXKit.MimiToggleButton.Style : Swift.Hashable {}
 extension MimiUXKit.MimiTextButton.Style : Swift.Equatable {}
 extension MimiUXKit.MimiTextButton.Style : Swift.Hashable {}
 extension MimiUXKit.MimiTextAligment : Swift.Equatable {}

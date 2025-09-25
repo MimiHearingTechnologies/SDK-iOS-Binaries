@@ -1988,23 +1988,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MimiUXKit",
-        "printedName": "MimiUXKit",
-        "declKind": "Import",
-        "moduleName": "MimiTestKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2319,47 +2302,6 @@
             "usr": "s:11MimiTestKit0aB9FlowErrorO16notAuthenticatedyA2CmF",
             "mangledName": "$s11MimiTestKit0aB9FlowErrorO16notAuthenticatedyA2CmF",
             "moduleName": "MimiTestKit"
-          },
-          {
-            "kind": "Var",
-            "name": "unsupportedDevice",
-            "printedName": "unsupportedDevice",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MimiTestKit.MimiTestFlowError.Type) -> MimiTestKit.MimiTestFlowError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MimiTestFlowError",
-                    "printedName": "MimiTestKit.MimiTestFlowError",
-                    "usr": "s:11MimiTestKit0aB9FlowErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MimiTestKit.MimiTestFlowError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MimiTestFlowError",
-                        "printedName": "MimiTestKit.MimiTestFlowError",
-                        "usr": "s:11MimiTestKit0aB9FlowErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11MimiTestKit0aB9FlowErrorO17unsupportedDeviceyA2CmF",
-            "mangledName": "$s11MimiTestKit0aB9FlowErrorO17unsupportedDeviceyA2CmF",
-            "moduleName": "MimiTestKit",
-            "deprecated": true,
-            "declAttributes": [
-              "Available"
-            ]
           },
           {
             "kind": "Var",
@@ -5879,2884 +5821,2842 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 468,
+      "offset": 510,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 503,
+      "offset": 545,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 723,
+      "offset": 765,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/ProgressViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 758,
+      "offset": 800,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Submission\/SubmissionStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Submission\/SubmissionStep.swift",
       "kind": "FloatLiteral",
       "offset": 996,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Submission\/SubmissionStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Submission\/SubmissionStep.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 13,
       "value": "\"testResults\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
       "kind": "IntegerLiteral",
       "offset": 885,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
       "kind": "IntegerLiteral",
       "offset": 939,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
       "kind": "IntegerLiteral",
       "offset": 1265,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Default\/DefaultTestStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1971,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow.swift",
       "kind": "BooleanLiteral",
       "offset": 2155,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesCheckStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesCheckStep.swift",
       "kind": "BooleanLiteral",
       "offset": 856,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
       "offset": 2304,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
       "offset": 2315,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
       "offset": 2329,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "FloatLiteral",
       "offset": 2341,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "BooleanLiteral",
       "offset": 2769,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "BooleanLiteral",
       "offset": 2970,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Controls\/TestInputButton.swift",
       "kind": "BooleanLiteral",
       "offset": 3090,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestVolumeAdjustmentBulletin.swift",
-      "kind": "FloatLiteral",
-      "offset": 428,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestVolumeAdjustmentBulletin.swift",
-      "kind": "FloatLiteral",
-      "offset": 440,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestVolumeAdjustmentBulletin.swift",
-      "kind": "FloatLiteral",
-      "offset": 453,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestVolumeAdjustmentBulletin.swift",
-      "kind": "FloatLiteral",
-      "offset": 466,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 933,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1026,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1890,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2298,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2189,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2421,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4729,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestProgressView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestProgressView.swift",
       "kind": "FloatLiteral",
       "offset": 548,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/Secrets.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/Secrets.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 66,
       "value": "\"B33DB1670E1569BFAF02102EF7431785C850E1711C84E19FE2FE41E25280B462\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestHeadphoneDisconnectBulletin.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestHeadphoneDisconnectBulletin.swift",
       "kind": "FloatLiteral",
       "offset": 595,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/Generic\/CircularBorderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/Generic\/CircularBorderView.swift",
       "kind": "FloatLiteral",
       "offset": 432,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "StringLiteral",
       "offset": 421,
       "length": 20,
       "value": "\"ExpandableInfoCell\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 529,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 541,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 555,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 567,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 630,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 642,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 656,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 669,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 723,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "FloatLiteral",
       "offset": 770,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1102,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1327,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 17,
       "value": "\"ic_chevron_down\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/ExpandableInfoCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1746,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Utilities\/MonitorInterruptionFacilitator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Utilities\/MonitorInterruptionFacilitator.swift",
       "kind": "FloatLiteral",
       "offset": 507,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Utilities\/MonitorInterruptionFacilitator.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Utilities\/MonitorInterruptionFacilitator.swift",
       "kind": "BooleanLiteral",
       "offset": 10493,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/VolumeChangedInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/VolumeChangedInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 401,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStatePauseHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStatePauseHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1293,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStatePauseHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStatePauseHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1392,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStatePauseHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStatePauseHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1168,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/AmbientNoiseMonitor.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/AmbientNoiseMonitor.swift",
       "kind": "FloatLiteral",
       "offset": 1056,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/AmbientNoiseMonitor.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/AmbientNoiseMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 2003,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/AmbientNoiseMeter\/AmbientNoiseMeter.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/AmbientNoiseMeter\/AmbientNoiseMeter.swift",
       "kind": "FloatLiteral",
       "offset": 426,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/AmbientNoiseMeter\/AmbientNoiseMeter.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/AmbientNoiseMeter\/AmbientNoiseMeter.swift",
       "kind": "FloatLiteral",
       "offset": 486,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 520,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 571,
       "length": 5,
       "value": "600.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 586,
       "length": 5,
       "value": "600.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 636,
       "length": 4,
       "value": "32.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "BooleanLiteral",
       "offset": 1006,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "FloatLiteral",
       "offset": 1693,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 1787,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 1883,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 1986,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Presentation\/TestExplainerOverlayPresentationController.swift",
       "kind": "IntegerLiteral",
       "offset": 2081,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/TestActionInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/TestActionInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 404,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
       "kind": "FloatLiteral",
       "offset": 488,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
       "kind": "FloatLiteral",
       "offset": 500,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
       "kind": "FloatLiteral",
       "offset": 514,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSelectionCardView.swift",
       "kind": "FloatLiteral",
       "offset": 527,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 370,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/NoiseFamiliarityViewController.swift",
       "kind": "FloatLiteral",
       "offset": 750,
       "length": 4,
       "value": "48.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/Monitor.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/Monitor.swift",
       "kind": "BooleanLiteral",
       "offset": 764,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/Observable.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/Observable.swift",
       "kind": "BooleanLiteral",
       "offset": 350,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestInputCenteredContainer.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestInputCenteredContainer.swift",
       "kind": "FloatLiteral",
       "offset": 440,
       "length": 5,
       "value": "320.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PracticeTestStatusView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PracticeTestStatusView.swift",
       "kind": "BooleanLiteral",
       "offset": 961,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PracticeTestStatusView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PracticeTestStatusView.swift",
       "kind": "FloatLiteral",
       "offset": 7016,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/TestFlowSteps.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/TestFlowSteps.swift",
       "kind": "BooleanLiteral",
       "offset": 773,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 36,
       "value": "\"hearing_test_step_pause_nav_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 39,
       "value": "\"hearing_test_step_restart_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 25,
       "value": "\"hearing_test_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 42,
       "value": "\"practice_test_step_practice_again_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 41,
       "value": "\"practice_test_step_skip_practice_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 38,
       "value": "\"practice_test_step_start_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 26,
       "value": "\"practice_test_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 749,
       "length": 24,
       "value": "\"results_step_done_logo\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 804,
       "length": 28,
       "value": "\"results_step_finish_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 856,
       "length": 20,
       "value": "\"results_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 957,
       "length": 53,
       "value": "\"set_up_device_prompt_step_accessibility_info_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1047,
       "length": 48,
       "value": "\"set_up_device_prompt_step_audio_effects_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 33,
       "value": "\"set_up_device_prompt_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1194,
       "length": 54,
       "value": "\"set_up_device_prompt_step_turn_off_effects_explainer\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1286,
       "length": 50,
       "value": "\"set_up_device_prompt_step_turn_off_effects_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1373,
       "length": 49,
       "value": "\"set_up_device_prompt_step_turn_on_dnb_explainer\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1455,
       "length": 45,
       "value": "\"set_up_device_prompt_step_turn_on_dnb_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1542,
       "length": 55,
       "value": "\"set_up_device_prompt_step_what_are_audio_effects_link\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1673,
       "length": 47,
       "value": "\"set_up_headphones_check_step_headphones_image\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 36,
       "value": "\"set_up_headphones_check_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1845,
       "length": 23,
       "value": "\"disclaimer_modal_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1894,
       "length": 28,
       "value": "\"disclaimer_modal_ok_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1945,
       "length": 24,
       "value": "\"disclaimer_modal_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2066,
       "length": 38,
       "value": "\"loud_environment_alert_cancel_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2139,
       "length": 43,
       "value": "\"loud_environment_alert_test_anyway_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2205,
       "length": 29,
       "value": "\"loud_environment_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2302,
       "length": 37,
       "value": "\"slightly_loud_alert_continue_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2362,
       "length": 26,
       "value": "\"slightly_loud_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2454,
       "length": 34,
       "value": "\"generic_test_flow_all_set_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2518,
       "length": 33,
       "value": "\"generic_test_flow_cancel_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2579,
       "length": 31,
       "value": "\"generic_test_flow_next_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2651,
       "length": 46,
       "value": "\"generic_test_flow_practise_test_input_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2730,
       "length": 37,
       "value": "\"generic_test_flow_test_again_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2800,
       "length": 37,
       "value": "\"generic_test_flow_test_input_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2873,
       "length": 39,
       "value": "\"generic_test_flow_troubleshoot_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 2941,
       "length": 32,
       "value": "\"generic_test_flow_progress_bar\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3065,
       "length": 32,
       "value": "\"mt_environment_setup_step_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3128,
       "length": 41,
       "value": "\"mt_environment_setup_step_silence_image\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3193,
       "length": 33,
       "value": "\"mt_environment_setup_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3295,
       "length": 39,
       "value": "\"mt_noise_familiarity_step_beep_switch\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3364,
       "length": 32,
       "value": "\"mt_noise_familiarity_step_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3430,
       "length": 45,
       "value": "\"mt_noise_familiarity_step_play_noise_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3499,
       "length": 33,
       "value": "\"mt_noise_familiarity_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3610,
       "length": 51,
       "value": "\"mt_set_up_volume_adjustment_step_cant_hear_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3691,
       "length": 39,
       "value": "\"mt_set_up_volume_adjustment_step_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3764,
       "length": 52,
       "value": "\"mt_set_up_volume_adjustment_step_play_noise_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3840,
       "length": 40,
       "value": "\"mt_set_up_volume_adjustment_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 3917,
       "length": 55,
       "value": "\"mt_set_up_volume_adjustment_step_volume_adjust_slider\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4044,
       "length": 40,
       "value": "\"ptt_results_details_bullet_points_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4118,
       "length": 39,
       "value": "\"ptt_results_details_disclaimer_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4180,
       "length": 27,
       "value": "\"ptt_results_details_graph\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4238,
       "length": 37,
       "value": "\"ptt_results_details_left_ear_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4307,
       "length": 38,
       "value": "\"ptt_results_details_right_ear_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4378,
       "length": 39,
       "value": "\"ptt_results_details_test_again_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4457,
       "length": 46,
       "value": "\"ptt_results_details_your_hearing_description\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4537,
       "length": 40,
       "value": "\"ptt_results_details_your_hearing_label\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4609,
       "length": 38,
       "value": "\"ptt_results_details_your_sound_label\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4694,
       "length": 19,
       "value": "\"error_banner_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4774,
       "length": 30,
       "value": "\"ptt_audio_player_play_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4831,
       "length": 27,
       "value": "\"ptt_audio_player_subtitle\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4882,
       "length": 24,
       "value": "\"ptt_audio_player_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 4971,
       "length": 30,
       "value": "\"sound_personalization_switch\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5025,
       "length": 29,
       "value": "\"sound_personalization_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5153,
       "length": 33,
       "value": "\"ptt_environment_setup_step_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5220,
       "length": 46,
       "value": "\"ptt_environment_setup_step_learn_more_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5290,
       "length": 34,
       "value": "\"ptt_environment_setup_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5400,
       "length": 47,
       "value": "\"ptt_set_up_volume_adjustment_step_description\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5471,
       "length": 41,
       "value": "\"ptt_set_up_volume_adjustment_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5552,
       "length": 59,
       "value": "\"ptt_set_up_volume_adjustment_step_volume50_percent_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5648,
       "length": 56,
       "value": "\"ptt_set_up_volume_adjustment_step_volume_adjust_slider\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5790,
       "length": 58,
       "value": "\"set_up_headphones_selection_step_calibrated_radio_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5889,
       "length": 59,
       "value": "\"set_up_headphones_selection_step_calibrated_radio_button1\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 5989,
       "length": 59,
       "value": "\"set_up_headphones_selection_step_calibrated_radio_button4\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6096,
       "length": 67,
       "value": "\"set_up_headphones_selection_step_calibration_question_mark_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6203,
       "length": 58,
       "value": "\"set_up_headphones_selection_step_other_headphones_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6285,
       "length": 40,
       "value": "\"set_up_headphones_selection_step_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6367,
       "length": 53,
       "value": "\"set_up_headphones_selection_step_un_calibrated_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6462,
       "length": 61,
       "value": "\"set_up_headphones_selection_step_un_calibrated_radio_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6612,
       "length": 46,
       "value": "\"unsupported_headphones_bulletin_close_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6701,
       "length": 49,
       "value": "\"unsupported_headphones_bulletin_continue_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6784,
       "length": 39,
       "value": "\"unsupported_headphones_bulletin_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6910,
       "length": 42,
       "value": "\"result_conditions_bulletin_action_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 6981,
       "length": 41,
       "value": "\"result_conditions_bulletin_close_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7045,
       "length": 34,
       "value": "\"result_conditions_bulletin_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7136,
       "length": 30,
       "value": "\"body_result_condition_plural\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7206,
       "length": 30,
       "value": "\"body_result_condition_single\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7295,
       "length": 27,
       "value": "\"carousel_view_scroll_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7390,
       "length": 36,
       "value": "\"result_conditions_loud_environment\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7456,
       "length": 32,
       "value": "\"result_conditions_missing_data\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7518,
       "length": 33,
       "value": "\"result_conditions_out_of_bounds\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7592,
       "length": 43,
       "value": "\"result_conditions_uncalibrated_headphones\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7731,
       "length": 30,
       "value": "\"another_app_using_audio_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7794,
       "length": 42,
       "value": "\"another_app_using_audio_exit_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7860,
       "length": 31,
       "value": "\"another_app_using_audio_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 7963,
       "length": 34,
       "value": "\"cant_hear_anything_bulletin_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8021,
       "length": 35,
       "value": "\"cant_hear_anything_bulletin_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8089,
       "length": 46,
       "value": "\"cant_hear_anything_bulletin_try_again_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8205,
       "length": 30,
       "value": "\"headphones_disconnected_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8268,
       "length": 42,
       "value": "\"headphones_disconnected_exit_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8346,
       "length": 45,
       "value": "\"headphones_disconnected_no_headphones_image\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8415,
       "length": 31,
       "value": "\"headphones_disconnected_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8515,
       "length": 39,
       "value": "\"test_paused_bulletin_exit_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8592,
       "length": 44,
       "value": "\"test_paused_bulletin_practice_again_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8675,
       "length": 46,
       "value": "\"test_paused_bulletin_restart_this_ear_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8752,
       "length": 36,
       "value": "\"test_paused_bulletin_resume_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8824,
       "length": 43,
       "value": "\"test_paused_bulletin_skip_this_ear_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8930,
       "length": 24,
       "value": "\"too_loud_bulletin_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 8978,
       "length": 25,
       "value": "\"too_loud_bulletin_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9040,
       "length": 39,
       "value": "\"too_loud_bulletin_troubleshoot_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9148,
       "length": 30,
       "value": "\"volume_changed_bulletin_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9214,
       "length": 45,
       "value": "\"volume_changed_bulletin_reset_volume_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9283,
       "length": 31,
       "value": "\"volume_changed_bulletin_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9403,
       "length": 24,
       "value": "\"exit_alert_exit_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9450,
       "length": 17,
       "value": "\"exit_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9535,
       "length": 37,
       "value": "\"interruption_alert_exit_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9607,
       "length": 39,
       "value": "\"interruption_alert_test_anyway_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9669,
       "length": 25,
       "value": "\"interruption_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9764,
       "length": 39,
       "value": "\"microphone_access_alert_cancel_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9834,
       "length": 39,
       "value": "\"microphone_access_alert_open_settings\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9896,
       "length": 30,
       "value": "\"microphone_access_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 9990,
       "length": 32,
       "value": "\"practice_alert_practice_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10045,
       "length": 21,
       "value": "\"practice_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10128,
       "length": 30,
       "value": "\"restart_alert_restart_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10181,
       "length": 20,
       "value": "\"restart_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10257,
       "length": 24,
       "value": "\"skip_alert_skip_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10304,
       "length": 17,
       "value": "\"skip_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10386,
       "length": 34,
       "value": "\"test_paused_alert_restart_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10451,
       "length": 33,
       "value": "\"test_paused_alert_resume_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10516,
       "length": 35,
       "value": "\"test_paused_alert_skip_ear_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10574,
       "length": 24,
       "value": "\"test_paused_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10679,
       "length": 52,
       "value": "\"uncalibrated_head_phones_alert_i_understand_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10754,
       "length": 37,
       "value": "\"uncalibrated_head_phones_alert_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10853,
       "length": 20,
       "value": "\"test_complete_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10905,
       "length": 32,
       "value": "\"test_complete_exit_test_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 10960,
       "length": 21,
       "value": "\"test_complete_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11038,
       "length": 29,
       "value": "\"test_selection_mt_test_card\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11096,
       "length": 30,
       "value": "\"test_selection_ptt_test_card\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11149,
       "length": 22,
       "value": "\"test_selection_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11239,
       "length": 32,
       "value": "\"your_personalization_card_desc\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11305,
       "length": 45,
       "value": "\"your_personalization_card_disclaimer_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11380,
       "length": 41,
       "value": "\"your_personalization_card_finish_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11444,
       "length": 33,
       "value": "\"your_personalization_card_graph\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/TestFlow+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 11500,
       "length": 33,
       "value": "\"your_personalization_card_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Controllers\/Test\/TestInputButtonController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Controllers\/Test\/TestInputButtonController.swift",
       "kind": "BooleanLiteral",
       "offset": 1400,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1169,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1570,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1620,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1691,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1843,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/HeadphonesSelectionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2274,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 468,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 742,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 748,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 848,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestStepHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 662,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStateInterruptionHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/EngineStateInterruptionHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2105,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1067,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentNoiseStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1261,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/UIColor+Adjustment.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/UIColor+Adjustment.swift",
       "kind": "FloatLiteral",
       "offset": 268,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/UIColor+Adjustment.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/UIColor+Adjustment.swift",
       "kind": "FloatLiteral",
       "offset": 397,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/UIColor+Adjustment.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/UIColor+Adjustment.swift",
       "kind": "FloatLiteral",
       "offset": 545,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAudioInterruptedBulletin.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAudioInterruptedBulletin.swift",
       "kind": "BooleanLiteral",
       "offset": 839,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 463,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 475,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 489,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 502,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 775,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AudioEffectsExplainerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 842,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2845,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2894,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 8984,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 8996,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 9346,
       "length": 4,
       "value": "44.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 9458,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 9635,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 9830,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 13125,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 13136,
       "length": 4,
       "value": "40.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 13150,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 13162,
       "length": 4,
       "value": "40.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 13211,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 19648,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 19574,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 19870,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CardsViewController.swift",
       "kind": "FloatLiteral",
       "offset": 19876,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesSectionHeaderView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesSectionHeaderView.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 29,
       "value": "\"HeadphonesSectionHeaderView\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "StringLiteral",
       "offset": 1569,
       "length": 21,
       "value": "\"HeadphonesTableCell\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
       "offset": 1678,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
       "offset": 1690,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
       "offset": 1704,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
       "offset": 1717,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "FloatLiteral",
       "offset": 1766,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesSelection\/HeadphonesTableCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2767,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 22,
       "value": "\"mimiTestFlowDidStart\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 1052,
       "length": 29,
       "value": "\"mimiTestFlowDidBecomeActive\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 1401,
       "length": 31,
       "value": "\"mimiTestFlowDidBecomeInactive\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 1636,
       "length": 23,
       "value": "\"mimiTestFlowDidFinish\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 2061,
       "length": 27,
       "value": "\"mimiTestFlowDidSubmitTest\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/MimiTestFlow+Notifications.swift",
       "kind": "StringLiteral",
       "offset": 2338,
       "length": 33,
       "value": "\"mimiTestFlowDidFailToSubmitTest\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowContext.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowContext.swift",
       "kind": "BooleanLiteral",
       "offset": 449,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowContext.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowContext.swift",
       "kind": "IntegerLiteral",
       "offset": 1878,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestSelectionCardViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestSelectionCardViewController.swift",
       "kind": "FloatLiteral",
       "offset": 506,
       "length": 5,
       "value": "360.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/RestartTestConfirmationInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/RestartTestConfirmationInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 490,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "FloatLiteral",
       "offset": 325,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/BarButtonItemMaker.swift",
       "kind": "FloatLiteral",
       "offset": 339,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentPromptStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpEnvironmentPromptStep.swift",
       "kind": "BooleanLiteral",
       "offset": 756,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
       "kind": "FloatLiteral",
       "offset": 571,
       "length": 3,
       "value": "3.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
       "kind": "FloatLiteral",
       "offset": 627,
       "length": 3,
       "value": "3.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1191,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTSetUpVolumeAdjustmentStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/DefaultInterruptionService.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/DefaultInterruptionService.swift",
       "kind": "BooleanLiteral",
       "offset": 740,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/DefaultInterruptionService.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/DefaultInterruptionService.swift",
       "kind": "StringLiteral",
       "offset": 1453,
       "length": 16,
       "value": "\"Pending \""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/DefaultInterruptionService.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/DefaultInterruptionService.swift",
       "kind": "StringLiteral",
       "offset": 1468,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/VolumeAdjustmentMonitor.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/VolumeAdjustmentMonitor.swift",
       "kind": "FloatLiteral",
       "offset": 501,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/VolumeAdjustmentMonitor.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Monitoring\/Monitors\/VolumeAdjustmentMonitor.swift",
       "kind": "FloatLiteral",
       "offset": 546,
       "length": 4,
       "value": "0.02"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 961,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1006,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestFlowLaunchConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1098,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "FloatLiteral",
       "offset": 561,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "FloatLiteral",
       "offset": 573,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "FloatLiteral",
       "offset": 586,
       "length": 4,
       "value": "32.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "FloatLiteral",
       "offset": 599,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 49,
       "value": "\"flow_setup_learn_about_calibration_question_one\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "StringLiteral",
       "offset": 817,
       "length": 61,
       "value": "\"flow_setup_learn_about_calibration_question_one_description\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "StringLiteral",
       "offset": 913,
       "length": 49,
       "value": "\"flow_setup_learn_about_calibration_question_two\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "StringLiteral",
       "offset": 1000,
       "length": 61,
       "value": "\"flow_setup_learn_about_calibration_question_two_description\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 51,
       "value": "\"flow_setup_learn_about_calibration_question_three\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/CalibrationInfoViewController.swift",
       "kind": "StringLiteral",
       "offset": 1185,
       "length": 63,
       "value": "\"flow_setup_learn_about_calibration_question_three_description\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/SoftInactivityInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/SoftInactivityInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
       "kind": "FloatLiteral",
       "offset": 548,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
       "kind": "BooleanLiteral",
       "offset": 871,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpHeadphonesSelectionStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1051,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Limiters\/CountingInterruptionLimiter.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Limiters\/CountingInterruptionLimiter.swift",
       "kind": "IntegerLiteral",
       "offset": 592,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/Bundle+Framework.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Extensions\/Bundle+Framework.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 21,
       "value": "\"io.mimi.MimiTestKit\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeSlider.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeSlider.swift",
       "kind": "BooleanLiteral",
       "offset": 1660,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeSlider.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeSlider.swift",
       "kind": "IntegerLiteral",
       "offset": 2596,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
       "kind": "FloatLiteral",
       "offset": 708,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
       "kind": "IntegerLiteral",
       "offset": 720,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
       "kind": "FloatLiteral",
       "offset": 731,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestAmbientNoiseLoudBulletin.swift",
       "kind": "IntegerLiteral",
       "offset": 744,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSetUpArtwork.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSetUpArtwork.swift",
       "kind": "FloatLiteral",
       "offset": 844,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSetUpArtwork.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestSetUpArtwork.swift",
       "kind": "IntegerLiteral",
       "offset": 1212,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Controllers\/Practice\/PracticeInputButtonController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Controllers\/Practice\/PracticeInputButtonController.swift",
       "kind": "BooleanLiteral",
       "offset": 956,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 411,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 425,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 438,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 453,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 502,
       "length": 4,
       "value": "34.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "IntegerLiteral",
       "offset": 902,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "FloatLiteral",
       "offset": 2846,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/ToggleButton.swift",
       "kind": "BooleanLiteral",
       "offset": 3218,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/PTTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/PTTVolumeAdjustmentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 680,
-      "length": 2,
-      "value": "40"
+      "offset": 422,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/PTTVolumeAdjustmentViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/PTTVolumeAdjustmentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1120,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/PTTVolumeAdjustmentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1011,
+      "offset": 515,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/PTTVolumeAdjustmentViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1833,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "FloatLiteral",
       "offset": 466,
       "length": 4,
       "value": "32.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
       "offset": 557,
       "length": 37,
       "value": "\"flow_setup_devices_instruction_mute\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 35,
       "value": "\"flow_setup_devices_footprint_mute\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
       "offset": 716,
       "length": 45,
       "value": "\"flow_setup_devices_instruction_audioeffects\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 43,
       "value": "\"flow_setup_devices_footprint_audioeffects\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
       "offset": 900,
       "length": 46,
       "value": "\"flow_setup_devices_instruction_accessibility\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "StringLiteral",
       "offset": 967,
       "length": 44,
       "value": "\"flow_setup_devices_footprint_accessibility\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/DevicePromptViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2654,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/CountdownTimer.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/CountdownTimer.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 30,
       "value": "\"io.mimi.dispatcher.countdown\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Utilities\/InterruptionBulletinPresenter.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Utilities\/InterruptionBulletinPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 1034,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/AmbientNoiseInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/AmbientNoiseInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 1037,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 639,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1048,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1229,
       "length": 27,
       "value": "\"ic_microphone_unavailable\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/AmbientNoiseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1721,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 809,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1015,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1050,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1259,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/TestViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1405,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
       "kind": "FloatLiteral",
       "offset": 829,
       "length": 3,
       "value": "1.3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
       "kind": "FloatLiteral",
       "offset": 868,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
       "kind": "StringLiteral",
       "offset": 1498,
       "length": 13,
       "value": "\"ic_nav_skip\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1907,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/Practice\/PracticeTestStep.swift",
       "kind": "IntegerLiteral",
       "offset": 1951,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Model\/TestStateAction.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 15,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/Core\/Interruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/Core\/Interruption.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 28,
       "value": "\"interruptionNeedsDismissal\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/HeadphonesDisconnectedInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/HeadphonesDisconnectedInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 609,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/AmbientNoiseMeter\/AmbientNoiseMeterViewModel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/AmbientNoiseMeter\/AmbientNoiseMeterViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 785,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/AVAudioSessionDelayedInterruptionHandler.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Utilities\/AVAudioSessionDelayedInterruptionHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 465,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 35,
       "value": "\"presentation_debug_present_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 47,
       "value": "\"presentation_debug_present_full_screen_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 32,
       "value": "\"presentation_debug_push_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 26,
       "value": "\"presentation_debug_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 30,
       "value": "\"sound_personalization_slider\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 30,
       "value": "\"sound_personalization_switch\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 29,
       "value": "\"sound_personalization_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 16,
       "value": "\"menu_debug_tab\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 746,
       "length": 15,
       "value": "\"menu_more_tab\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 789,
       "length": 18,
       "value": "\"menu_profile_tab\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 861,
       "length": 24,
       "value": "\"navigation_exit_button\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 24,
       "value": "\"snackbar_leading_label\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 25,
       "value": "\"snackbar_trailing_label\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Accessibility\/SDKGeneric+AccessibilityIds.swift",
       "kind": "StringLiteral",
       "offset": 1041,
       "length": 15,
       "value": "\"snackbar_view\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesTroubleshootingView\/HeadphonesTroubleshootingViewModel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesTroubleshootingView\/HeadphonesTroubleshootingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 43,
       "value": "\"flow_setup_headphonecheck_explainer_title\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesTroubleshootingView\/HeadphonesTroubleshootingViewModel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesTroubleshootingView\/HeadphonesTroubleshootingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 54,
       "value": "\"flow_setup_headphonecheck_explainer_bluetooth_header\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesTroubleshootingView\/HeadphonesTroubleshootingViewModel.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/HeadphonesTroubleshootingView\/HeadphonesTroubleshootingViewModel.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 59,
       "value": "\"flow_setup_headphonecheck_explainer_bluetooth_description\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTNoiseFamiliarityStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTNoiseFamiliarityStep.swift",
       "kind": "BooleanLiteral",
       "offset": 879,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTNoiseFamiliarityStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTNoiseFamiliarityStep.swift",
       "kind": "BooleanLiteral",
       "offset": 928,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTNoiseFamiliarityStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/MTNoiseFamiliarityStep.swift",
       "kind": "BooleanLiteral",
       "offset": 1195,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Model\/RunningInfo.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Model\/RunningInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 559,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Model\/RunningInfo.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Model\/RunningInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 675,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/InterruptionPresentationManager.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/InterruptionPresentationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1112,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/InterruptionPresentationManager.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/InterruptionPresentationManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4128,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/PTTSetUpVolumeAdjustmentStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/PTTSetUpVolumeAdjustmentStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 731,
+      "offset": 838,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "IntegerLiteral",
       "offset": 969,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "FloatLiteral",
       "offset": 1737,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "FloatLiteral",
       "offset": 1743,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "BooleanLiteral",
       "offset": 2211,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/TestVolumeView.swift",
       "kind": "BooleanLiteral",
       "offset": 2260,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/TestEngineAlerts.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/TestEngine\/TestEngineAlerts.swift",
       "kind": "BooleanLiteral",
       "offset": 409,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/SoundTroubleshootInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/SoundTroubleshootInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 394,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 24,
       "value": "\"Accessibility Settings\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
       "kind": "StringLiteral",
       "offset": 1778,
       "length": 15,
       "value": "\"Audio Effects\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PTTExplainerView\/PTTExplainerView.swift",
       "kind": "StringLiteral",
       "offset": 1896,
       "length": 16,
       "value": "\"Do Not Disturb\""
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PromptExplainerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PromptExplainerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1230,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PromptExplainerView.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Views\/PromptExplainerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1442,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/AudioSessionAvailabilityInterruption.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Services\/Interruptions\/Interruptions\/AudioSessionAvailabilityInterruption.swift",
       "kind": "BooleanLiteral",
       "offset": 533,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpDevicePromptStep.swift",
+      "filePath": "\/Users\/hozefaindorewala\/Projects\/SDK-iOS\/Sources\/MimiTestKit\/MimiTestKit\/Steps\/SetUp\/SetUpDevicePromptStep.swift",
       "kind": "BooleanLiteral",
       "offset": 586,
       "length": 5,
@@ -8933,14 +8833,21 @@
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiTestKit iOS\/IntermediateBuildFilesPath\/MimiTestKit.build\/Release-iphonesimulator\/MimiTestKit iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4560,
+      "offset": 4574,
+      "length": 22,
+      "value": "\"ic_volume_adjustment\""
+    },
+    {
+      "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiTestKit iOS\/IntermediateBuildFilesPath\/MimiTestKit.build\/Release-iphonesimulator\/MimiTestKit iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4730,
       "length": 15,
       "value": "\"ic_volume_max\""
     },
     {
       "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MimiTestKit iOS\/IntermediateBuildFilesPath\/MimiTestKit.build\/Release-iphonesimulator\/MimiTestKit iOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4709,
+      "offset": 4879,
       "length": 15,
       "value": "\"ic_volume_min\""
     }

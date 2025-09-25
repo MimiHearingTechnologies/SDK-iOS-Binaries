@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
 @import MimiUXKit;
 @import UIKit;
 #endif
@@ -306,25 +305,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class UIColor;
-@class NSCoder;
-/// :nodoc:
-/// View which provides a compact, single point of entry into the Mimi Profile.
-SWIFT_RESILIENT_CLASS("_TtC7MimiSDK23MimiProfileLauncherView") SWIFT_DEPRECATED_MSG("MimiProfileLauncherView will be removed in SDK v11")
-@interface MimiProfileLauncherView : MimiView
-/// :nodoc:
-@property (nonatomic, strong) UIColor * _Nullable backgroundColor;
-/// :nodoc:
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-/// :nodoc:
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-/// :nodoc:
-- (void)layoutSubviews;
-@end
-
 @class UIViewController;
 @class NSString;
 @class NSBundle;
+@class NSCoder;
 /// UINavigationController with the Mimi Profile embedded as a view controller.
 SWIFT_CLASS("_TtC7MimiSDK31MimiProfileNavigationController")
 @interface MimiProfileNavigationController : UINavigationController
@@ -663,7 +647,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
 @import MimiUXKit;
 @import UIKit;
 #endif
@@ -688,25 +671,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class UIColor;
-@class NSCoder;
-/// :nodoc:
-/// View which provides a compact, single point of entry into the Mimi Profile.
-SWIFT_RESILIENT_CLASS("_TtC7MimiSDK23MimiProfileLauncherView") SWIFT_DEPRECATED_MSG("MimiProfileLauncherView will be removed in SDK v11")
-@interface MimiProfileLauncherView : MimiView
-/// :nodoc:
-@property (nonatomic, strong) UIColor * _Nullable backgroundColor;
-/// :nodoc:
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-/// :nodoc:
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-/// :nodoc:
-- (void)layoutSubviews;
-@end
-
 @class UIViewController;
 @class NSString;
 @class NSBundle;
+@class NSCoder;
 /// UINavigationController with the Mimi Profile embedded as a view controller.
 SWIFT_CLASS("_TtC7MimiSDK31MimiProfileNavigationController")
 @interface MimiProfileNavigationController : UINavigationController

@@ -52,7 +52,7 @@ public struct MimiProfileConfiguration : Swift.Equatable {
   public static func == (a: MimiSDK.MimiProfileConfiguration, b: MimiSDK.MimiProfileConfiguration) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers final public class Mimi {
-  final public class func start(credentials: MimiCoreKit.MimiCore.ClientCredentials, delegate: any MimiCoreKit.MimiCoreDelegate)
+  public static func start(credentials: MimiCoreKit.MimiCore.ClientCredentials, delegate: any MimiCoreKit.MimiCoreDelegate)
   @objc deinit
 }
 extension MimiSDK.Mimi {
@@ -73,16 +73,9 @@ extension MimiSDK.Mimi {
 }
 public struct MimiPersonalizationConfiguration : Swift.Equatable {
   public let showsSampleSoundPlayer: Swift.Bool
-  public let uiControlDebounceBehavior: MimiSDK.MimiPersonalizationConfiguration.UIControlDebounceBehavior
-  public init(showsSampleSoundPlayer: Swift.Bool = true, uiControlDebounceBehavior: MimiSDK.MimiPersonalizationConfiguration.UIControlDebounceBehavior = .none)
+  public let uiControlDebounceInterval: Foundation.TimeInterval
+  public init(showsSampleSoundPlayer: Swift.Bool = true, uiControlDebounceInterval: Foundation.TimeInterval = 0.2)
   public static func == (a: MimiSDK.MimiPersonalizationConfiguration, b: MimiSDK.MimiPersonalizationConfiguration) -> Swift.Bool
-}
-extension MimiSDK.MimiPersonalizationConfiguration {
-  public enum UIControlDebounceBehavior : Swift.Equatable {
-    case none
-    case debounce(seconds: Foundation.TimeInterval)
-    public static func == (a: MimiSDK.MimiPersonalizationConfiguration.UIControlDebounceBehavior, b: MimiSDK.MimiPersonalizationConfiguration.UIControlDebounceBehavior) -> Swift.Bool
-  }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MimiProfileViewController : MimiUXKit.MimiViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
@@ -105,20 +98,4 @@ extension MimiSDK.MimiProfileViewController {
 }
 extension MimiSDK.MimiProfileViewController : MimiCoreKit.MimiAuthControllerObservable {
   @_Concurrency.MainActor @preconcurrency public func authController(_ controller: any MimiCoreKit.MimiAuthController, didUpdate currentUser: MimiCoreKit.MimiUser?, from oldUser: MimiCoreKit.MimiUser?, error: MimiCoreKit.MimiCoreError?)
-}
-@objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "MimiProfileLauncherView will be removed in SDK v11")
-@_Concurrency.MainActor @preconcurrency public class MimiProfileLauncherView : MimiUXKit.MimiView {
-  @_Concurrency.MainActor @preconcurrency public var isHighlighted: Swift.Bool {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var backgroundColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor @preconcurrency public init(configuration: MimiSDK.MimiProfileConfiguration = MimiProfileConfiguration())
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency override public func construct(in view: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
-  @objc deinit
 }

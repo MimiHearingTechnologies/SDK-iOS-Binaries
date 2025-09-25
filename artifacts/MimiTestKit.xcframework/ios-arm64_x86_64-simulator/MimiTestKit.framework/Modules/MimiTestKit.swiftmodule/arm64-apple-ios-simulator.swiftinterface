@@ -32,12 +32,12 @@ import _SwiftConcurrencyShims
 extension MimiTestKit.MimiTestFlow {
   public class func build() async throws -> MimiTestKit.MimiTestFlow
 }
-extension MimiHTEKit.MimiHTEEngineStatus : Swift.CustomDebugStringConvertible {
+extension MimiHTEKit.MimiHTEEngineStatus : @retroactive Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
   }
 }
-extension MimiHTEKit.MimiHTETestStatus : Swift.CustomDebugStringConvertible {
+extension MimiHTEKit.MimiHTETestStatus : @retroactive Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
   }
@@ -51,15 +51,13 @@ extension MimiTestKit.MimiTestFlow {
   public static let didSubmitTestNotification: Foundation.Notification.Name
   public static let didFailToSubmitTestNotification: Foundation.Notification.Name
 }
-extension MimiHTEKit.MimiAmbientLoudnessRating : Swift.CustomDebugStringConvertible {
+extension MimiHTEKit.MimiAmbientLoudnessRating : @retroactive Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
   }
 }
 public enum MimiTestFlowError : Swift.Error {
   case notAuthenticated
-  @available(*, deprecated, message: "Remove in SDK v11")
-  case unsupportedDevice
   case unsupportedTestType
   public static func == (a: MimiTestKit.MimiTestFlowError, b: MimiTestKit.MimiTestFlowError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -96,7 +94,7 @@ public enum MimiTestFlowError : Swift.Error {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-extension MimiHTEKit.MimiAmbientLoudnessRating : Swift.CustomStringConvertible {
+extension MimiHTEKit.MimiAmbientLoudnessRating : @retroactive Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }

@@ -596,13 +596,6 @@ SWIFT_CLASS("_TtC9MimiUXKit23MimiPagingScrollHandler")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-/// Snackbar content view that displays a leading and trailing text.
-SWIFT_CLASS("_TtC9MimiUXKit30MimiSnackbarDefaultContentView") SWIFT_DEPRECATED_MSG("Remove in SDK v11")
-@interface MimiSnackbarDefaultContentView : MimiView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 /// Switch that supports Mimi Theming.
 SWIFT_CLASS("_TtC9MimiUXKit10MimiSwitch")
 @interface MimiSwitch : UISwitch
@@ -626,26 +619,6 @@ SWIFT_CLASS("_TtC9MimiUXKit14MimiTextButton")
 @property (nonatomic, getter=isEnabled) BOOL enabled;
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
 - (void)setTitleColor:(UIColor * _Nullable)color forState:(UIControlState)state SWIFT_UNAVAILABLE;
-@end
-
-/// Button which is designed for On / Off toggle behavior. Featuring support for a left aligned image and outlined, eliptical corners.
-SWIFT_CLASS("_TtC9MimiUXKit16MimiToggleButton") SWIFT_DEPRECATED_MSG("Remove in SDK v11")
-@interface MimiToggleButton : MimiButton
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-/// Color to use for the button tint when not selected.
-/// This will be used for the button outline and text color in this state.
-@property (nonatomic, strong) UIColor * _Null_unspecified tintColor;
-@property (nonatomic, getter=isHighlighted) BOOL highlighted;
-@property (nonatomic, getter=isSelected) BOOL selected;
-/// Create a new toggle button.
-- (nonnull instancetype)init;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
-- (void)setTitleColor:(UIColor * _Nullable)color forState:(UIControlState)state SWIFT_UNAVAILABLE;
-@property (nonatomic, strong) UIColor * _Nullable backgroundColor SWIFT_UNAVAILABLE;
-@property (nonatomic) BOOL adjustsImageWhenDisabled SWIFT_UNAVAILABLE;
-@property (nonatomic) BOOL adjustsImageWhenHighlighted SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 /// A sequential flow of ‘steps’ which correspond to visible view controllers on screen.

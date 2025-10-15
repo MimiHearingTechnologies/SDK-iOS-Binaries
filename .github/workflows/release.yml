@@ -25,9 +25,9 @@ jobs:
         echo "sdk_version=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> "$GITHUB_OUTPUT"
       working-directory: ${{ github.workspace }}
 
-    - name: List release assets
+    - name: Download MimiSDK zip from draft release
       run: |
-        gh release view $MIMI_SDK_VERSION
+        gh release download $MIMI_SDK_VERSION --pattern "MimiSDK-$MIMI_SDK_VERSION.zip"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}

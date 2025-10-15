@@ -82,7 +82,7 @@ jobs:
 
     - name: Update draft release to false
       run: |
-        gh release edit $MIMI_SDK_VERSION --draft=false --notes-file Changelog.md
+        gh release edit $MIMI_SDK_VERSION --tag $MIMI_SDK_VERSION --target main --draft=false --notes-file Changelog.md
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}

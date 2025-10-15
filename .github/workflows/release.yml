@@ -60,17 +60,17 @@ jobs:
         token: ${{ secrets.GH_TOKEN }}
       working-directory: ${{ github.workspace }}
 
-    # - name: Merge changes into main branch with squash
-    #   run: |
-    #     git checkout main
-    #     git pull origin main
-    #     git merge --no-ff --no-commit release/$MIMI_SDK_VERSION
-    #     git commit -m "Release v$MIMI_SDK_VERSION [skip ci]"
-    #     git push
-    #   env:
-    #     token: ${{ secrets.GH_TOKEN }}
-    #     MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
-    #   working-directory: ${{ github.workspace }}
+    - name: Merge changes into main branch with squash
+      run: |
+        git checkout main
+        git pull origin main
+        git merge --no-ff --no-commit release/$MIMI_SDK_VERSION
+        git commit -m "Release v$MIMI_SDK_VERSION [skip ci]"
+        git push
+      env:
+        token: ${{ secrets.GH_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+      working-directory: ${{ github.workspace }}
 
     - name: Delete release branch
       run: |
@@ -88,65 +88,65 @@ jobs:
         MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
-  # notify:
-  #   needs: release
-  #   runs-on: ubuntu-latest
+  notify:
+    needs: release
+    runs-on: ubuntu-latest
 
-  #   steps:
-  #   - name: Send Slack message to prod-releases channel
-  #     uses: slackapi/slack-github-action@v1.24.0
-  #     with:
-  #       payload: |
-  #         {
-  #           "channel": "C01JDQES01G",
-  #           "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
-  #           "blocks": [
-  #             {	
-  #               "type": "header",
-  #               "text": {
-  #                 "type": "plain_text",
-  #                 "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
-  #                 "emoji": true
-  #               }
-  #             },
-  #             {
-  #               "type": "section",
-  #               "text": {
-  #                 "type": "mrkdwn",
-  #                 "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries/releases/tag/${{needs.release.outputs.sdk_version}}|*View on GitHub*>"
-  #               }
-  #             }
-  #           ]
-  #         }
-  #     env:
-  #       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-  #       SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+    steps:
+    - name: Send Slack message to prod-releases channel
+      uses: slackapi/slack-github-action@v1.24.0
+      with:
+        payload: |
+          {
+            "channel": "C01JDQES01G",
+            "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
+            "blocks": [
+              {	
+                "type": "header",
+                "text": {
+                  "type": "plain_text",
+                  "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
+                  "emoji": true
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries/releases/tag/${{needs.release.outputs.sdk_version}}|*View on GitHub*>"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
 
-  #   - name: Send Slack message to prod-mobile-sdk channel
-  #     uses: slackapi/slack-github-action@v1.24.0
-  #     with:
-  #       payload: |
-  #         {
-  #           "channel": "C01CJUL8AM6",
-  #           "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
-  #           "blocks": [
-  #             {	
-  #               "type": "header",
-  #               "text": {
-  #                 "type": "plain_text",
-  #                 "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
-  #                 "emoji": true
-  #               }
-  #             },
-  #             {
-  #               "type": "section",
-  #               "text": {
-  #                 "type": "mrkdwn",
-  #                 "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries/releases/tag/${{needs.release.outputs.sdk_version}}|*View on GitHub*>"
-  #               }
-  #             }
-  #           ]
-  #         }
-  #     env:
-  #       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-  #       SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+    - name: Send Slack message to prod-mobile-sdk channel
+      uses: slackapi/slack-github-action@v1.24.0
+      with:
+        payload: |
+          {
+            "channel": "C01CJUL8AM6",
+            "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
+            "blocks": [
+              {	
+                "type": "header",
+                "text": {
+                  "type": "plain_text",
+                  "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
+                  "emoji": true
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "<https://github.com/MimiHearingTechnologies/SDK-iOS-Binaries/releases/tag/${{needs.release.outputs.sdk_version}}|*View on GitHub*>"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK

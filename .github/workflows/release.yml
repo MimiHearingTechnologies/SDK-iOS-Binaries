@@ -44,7 +44,7 @@ jobs:
 
     - name: Remove zip file and unnecessary files
       run: |
-        rm -rf MimiSDK-$MIMI_SDK_VERSION.zip Version.config Changelog.md
+        rm -rf MimiSDK-$MIMI_SDK_VERSION.zip Version.config
       env:
         MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
@@ -72,21 +72,21 @@ jobs:
     #     MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
     #   working-directory: ${{ github.workspace }}
 
-  #   - name: Delete release branch
-  #     run: |
-  #       git push origin --delete release/$MIMI_SDK_VERSION
-  #     env:
-  #       token: ${{ secrets.GH_TOKEN }}
-  #       MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
-  #     working-directory: ${{ github.workspace }}
+    - name: Delete release branch
+      run: |
+        git push origin --delete release/$MIMI_SDK_VERSION
+      env:
+        token: ${{ secrets.GH_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+      working-directory: ${{ github.workspace }}
 
-  #   - name: Update draft release to false
-  #     run: |
-  #       gh release edit $MIMI_SDK_VERSION --draft=false
-  #     env:
-  #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
-  #     working-directory: ${{ github.workspace }}
+    - name: Update draft release to false
+      run: |
+        gh release edit $MIMI_SDK_VERSION --draft=false --notes-file Changelog.md
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+      working-directory: ${{ github.workspace }}
 
   # notify:
   #   needs: release
@@ -122,12 +122,12 @@ jobs:
   #       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
   #       SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
 
-  #   - name: Send Slack message to dev-release channel
+  #   - name: Send Slack message to prod-mobile-sdk channel
   #     uses: slackapi/slack-github-action@v1.24.0
   #     with:
   #       payload: |
   #         {
-  #           "channel": "CBR1NVCKA",
+  #           "channel": "C01CJUL8AM6",
   #           "text": "🚀 Mimi SDK v${{needs.release.outputs.sdk_version}} for iOS is now available",
   #           "blocks": [
   #             {	

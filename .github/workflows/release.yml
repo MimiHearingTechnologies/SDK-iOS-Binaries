@@ -24,30 +24,21 @@ jobs:
       run: |
         echo "sdk_version=$(grep -oP 'MIMI_SDK_VERSION=\K[^ ]+' Version.config)" >> "$GITHUB_OUTPUT"
       working-directory: ${{ github.workspace }}
-      
+
+    - name: Download release asset
+      run: |
+        gh release download $MIMI_SDK_VERSION --pattern "MimiSDK-$MIMI_SDK_VERSION.zip"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+      working-directory: ${{ github.workspace }}
+
     - name: Unarchive zip file
       run: |
         rm -rf artifacts
         mkdir artifacts
         unzip MimiSDK-$MIMI_SDK_VERSION.zip -d artifacts
       env:
-        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
-      working-directory: ${{ github.workspace }}
-
-    - name: Create draft release
-      run: |
-        body=$(<Changelog.md)
-        gh release create $MIMI_SDK_VERSION -t "MimiSDK v$MIMI_SDK_VERSION" -F Changelog.md --draft
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
-      working-directory: ${{ github.workspace }}
-
-    - name: Upload artifacts to release
-      run: |
-        gh release upload $MIMI_SDK_VERSION "MimiSDK-$MIMI_SDK_VERSION.zip"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
       working-directory: ${{ github.workspace }}
 
@@ -69,17 +60,17 @@ jobs:
         token: ${{ secrets.GH_TOKEN }}
       working-directory: ${{ github.workspace }}
 
-    - name: Merge changes into main branch with squash
-      run: |
-        git checkout main
-        git pull origin main
-        git merge --no-ff --no-commit release/$MIMI_SDK_VERSION
-        git commit -m "Release v$MIMI_SDK_VERSION [skip ci]"
-        git push
-      env:
-        token: ${{ secrets.GH_TOKEN }}
-        MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
-      working-directory: ${{ github.workspace }}
+    # - name: Merge changes into main branch with squash
+    #   run: |
+    #     git checkout main
+    #     git pull origin main
+    #     git merge --no-ff --no-commit release/$MIMI_SDK_VERSION
+    #     git commit -m "Release v$MIMI_SDK_VERSION [skip ci]"
+    #     git push
+    #   env:
+    #     token: ${{ secrets.GH_TOKEN }}
+    #     MIMI_SDK_VERSION: ${{steps.set_env_variables.outputs.sdk_version}}
+    #   working-directory: ${{ github.workspace }}
 
     - name: Delete release branch
       run: |

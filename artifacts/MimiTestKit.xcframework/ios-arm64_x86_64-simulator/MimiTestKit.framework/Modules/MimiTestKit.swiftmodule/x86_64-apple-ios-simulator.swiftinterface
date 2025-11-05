@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiTestKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import Combine
 import CommonCrypto
@@ -23,9 +23,15 @@ import _SwiftConcurrencyShims
   override public func didAppear(animated: Swift.Bool)
   override public func willDismiss(animated: Swift.Bool)
   override public func didDismiss(animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   override public func present(from presentingviewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   override public func push(in navigationController: UIKit.UINavigationController?, animated: Swift.Bool)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   override public func addAsChild(to viewController: UIKit.UIViewController, layout: ((UIKit.UIViewController, UIKit.UIView) -> Swift.Void)? = nil)
+  #endif
   public func makeViewControllerForPresentation() throws -> (testFlowViewController: UIKit.UIViewController, completion: () -> Swift.Void)
   @objc deinit
 }
@@ -80,10 +86,12 @@ public enum MimiTestFlowError : Swift.Error {
     case beam
     public static func == (a: MimiTestKit.MimiHearingGradeAvatarView.Avatar, b: MimiTestKit.MimiHearingGradeAvatarView.Avatar) -> Swift.Bool
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency final public var avatar: MimiTestKit.MimiHearingGradeAvatarView.Avatar {
     get
     set
@@ -91,7 +99,9 @@ public enum MimiTestFlowError : Swift.Error {
   @_Concurrency.MainActor @preconcurrency override final public func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency override final public func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension MimiHTEKit.MimiAmbientLoudnessRating : @retroactive Swift.CustomStringConvertible {
@@ -110,18 +120,24 @@ extension MimiHTEKit.MimiAmbientLoudnessRating {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override final public var backgroundColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override final public func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 

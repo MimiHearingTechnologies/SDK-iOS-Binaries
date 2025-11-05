@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import Combine
 import DeveloperToolsSupport
@@ -26,21 +26,31 @@ import simd
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var childForStatusBarHidden: UIKit.UIViewController? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var childForStatusBarStyle: UIKit.UIViewController? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var childForHomeIndicatorAutoHidden: UIKit.UIViewController? {
     @objc get
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public init(configuration: MimiSDK.MimiProfileConfiguration = MimiProfileConfiguration())
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct MimiProfileConfiguration : Swift.Equatable {
@@ -85,11 +95,15 @@ public struct MimiPersonalizationConfiguration : Swift.Equatable {
     @objc get
   }
   @_Concurrency.MainActor @preconcurrency public init(configuration: MimiSDK.MimiProfileConfiguration = MimiProfileConfiguration())
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func present(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency override public func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
@@ -97,5 +111,7 @@ extension MimiSDK.MimiProfileViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
 }
 extension MimiSDK.MimiProfileViewController : MimiCoreKit.MimiAuthControllerObservable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func authController(_ controller: any MimiCoreKit.MimiAuthController, didUpdate currentUser: MimiCoreKit.MimiUser?, from oldUser: MimiCoreKit.MimiUser?, error: MimiCoreKit.MimiCoreError?)
+  #endif
 }

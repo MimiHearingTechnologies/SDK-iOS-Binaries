@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiUXKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -25,14 +25,18 @@ import _SwiftConcurrencyShims
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct MimiTextUppercaseOptions : Swift.OptionSet {
@@ -67,26 +71,36 @@ public struct MimiTextUppercaseOptions : Swift.OptionSet {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var textColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var font: UIKit.UIFont! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency override open var highlightedFont: UIKit.UIFont? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency override open var paragraphLineSpacing: CoreFoundation.CGFloat? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency override open var kern: CoreFoundation.CGFloat? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open var allowsOverridingTextAlignmentByTheme: Swift.Bool {
     get
     set
@@ -94,7 +108,9 @@ public struct MimiTextUppercaseOptions : Swift.OptionSet {
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension UIKit.UITraitCollection {
@@ -103,9 +119,13 @@ extension UIKit.UITraitCollection {
   }
 }
 @_hasMissingDesignatedInitializers final public class MimiAlertPresenter : MimiUXKit.MimiAlertPresentable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiTextButton : MimiUXKit.MimiButton {
@@ -120,27 +140,37 @@ extension UIKit.UITraitCollection {
   }
   @_Concurrency.MainActor @preconcurrency public init(style: MimiUXKit.MimiTextButton.Style = .default)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var titleLabel: UIKit.UILabel? {
     @objc get
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var style: MimiUXKit.MimiTextButton.Style {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var highlightedTintColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var titleFont: UIKit.UIFont! {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isEnabled: Swift.Bool {
     @objc get
     @objc set
@@ -150,8 +180,10 @@ extension UIKit.UITraitCollection {
     @objc set
   }
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
@@ -168,51 +200,67 @@ extension MimiUXKit.MimiHighlightableColor : Swift.Equatable {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var currentPage: Swift.Int! {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var hidesForSinglePage: Swift.Bool {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiAttributedLabel : UIKit.UILabel, MimiUXKit.MimiComponent {
   @_Concurrency.MainActor @preconcurrency public var automaticallyApplyAttributes: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var attributedText: Foundation.NSAttributedString? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var font: UIKit.UIFont! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var textColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var highlightedFont: UIKit.UIFont? {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var highlightedTextColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var numberOfLines: Swift.Int {
     @objc get
     @objc set
@@ -230,21 +278,27 @@ extension MimiUXKit.MimiHighlightableColor : Swift.Equatable {
     set
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiValidatingTextField<TextField> : MimiUXKit.MimiControl where TextField : UIKit.UITextField {
   @_Concurrency.MainActor @preconcurrency final public let field: TextField
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var errorColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var messageColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
@@ -256,66 +310,92 @@ extension MimiUXKit.MimiHighlightableColor : Swift.Equatable {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var accessibilityIdentifier: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var messageAccessibilityIdentifier: Swift.String? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var fieldAccessibilityIdentifier: Swift.String? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension MimiUXKit.MimiValidatingTextField {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor @preconcurrency public func addValidation(_ validation: @escaping (TextField) -> Swift.Bool?, investigation: MimiUXKit.MimiValidationEngine.CheckInvestigation? = nil) -> any MimiUXKit.MimiValidation
+  #endif
   @discardableResult
   @_Concurrency.MainActor @preconcurrency public func validate() -> Swift.Bool
 }
 public protocol MimiAlertPresentable : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiAlertBanner : MimiUXKit.MimiControl {
   @_Concurrency.MainActor @preconcurrency open var title: Swift.String {
     get
   }
   @_Concurrency.MainActor @preconcurrency open var hideOnTouch: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var textColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var labelAccessibilityId: Swift.String? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
 extension MimiUXKit.MimiAlertBanner {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor @preconcurrency public class func show(title: Swift.String, in view: UIKit.UIView, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> MimiUXKit.MimiAlertBanner?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func hide(from view: UIKit.UIView, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct MimiText : SwiftUICore.View {
   public enum TextStyle {
@@ -346,8 +426,12 @@ extension MimiUXKit.MimiText {
   @_Concurrency.MainActor @preconcurrency public func foregroundColor(_ color: SwiftUICore.Color) -> MimiUXKit.MimiText
 }
 extension UIKit.UIAlertController : MimiUXKit.MimiAlertPresentable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiLoadingView : MimiUXKit.MimiView {
   public enum IndicatorColor {
@@ -358,15 +442,23 @@ extension UIKit.UIAlertController : MimiUXKit.MimiAlertPresentable {
   @_Concurrency.MainActor @preconcurrency open var preferredIndicatorColor: MimiUXKit.MimiLoadingView.IndicatorColor?
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency open func startAnimating()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func stopAnimating(completion: (() -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension UIKit.UIView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func mimiStartLoading(animated: Swift.Bool, preferredIndicatorColor: MimiUXKit.MimiLoadingView.IndicatorColor? = nil, completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func mimiStopLoading(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class MimiUX {
   @objc deinit
@@ -377,7 +469,9 @@ extension UIKit.UIView {
   final public let image: UIKit.UIImage?
   final public let actions: [MimiUXKit.MimiAlertAction]
   public var accessibilityId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String?, message: Swift.String?, image: UIKit.UIImage? = nil, actions: [MimiUXKit.MimiAlertAction]?)
+  #endif
   @objc deinit
 }
 public class MimiAlertAction {
@@ -396,7 +490,9 @@ public class MimiAlertAction {
   final public let action: MimiUXKit.MimiAlertAction.Handler?
   final public let style: MimiUXKit.MimiAlertAction.Style
   public var accessibilityId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, style: MimiUXKit.MimiAlertAction.Style = .default, action: MimiUXKit.MimiAlertAction.Handler?)
+  #endif
   @objc deinit
 }
 public struct MimiColorBook : Swift.Equatable {
@@ -464,13 +560,19 @@ extension MimiUXKit.MimiColorBook {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiNavigationBar : UIKit.UINavigationBar, MimiUXKit.MimiThemeable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
 extension MimiUXKit.MimiAlertController : MimiUXKit.MimiAlertPresentable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func present(alert: MimiUXKit.MimiAlert, from presentingViewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?) -> any MimiUXKit.MimiAlertPresentable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func dismissIfNeeded(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiUserFlowStepAccessoryView : MimiUXKit.MimiView {
   public enum Action {
@@ -479,7 +581,9 @@ extension MimiUXKit.MimiAlertController : MimiUXKit.MimiAlertPresentable {
   @_Concurrency.MainActor @preconcurrency open var performDefaultActions: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public func performAction(_ action: MimiUXKit.MimiUserFlowStepAccessoryView.Action)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public enum MimiUserFlowCoordinatorError : Swift.Error {
@@ -502,18 +606,22 @@ extension MimiUXKit.MimiColor : Swift.Equatable {
   public static func == (lhs: MimiUXKit.MimiColor, rhs: MimiUXKit.MimiColor) -> Swift.Bool
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiNavigationStepHeaderView : MimiUXKit.MimiUserFlowStepHeaderView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var text: Swift.String? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var textAlignment: UIKit.NSTextAlignment {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var textAccessibilityIdentifier: Swift.String? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public var contentInset: UIKit.UIEdgeInsets {
     get
     set
@@ -521,35 +629,51 @@ extension MimiUXKit.MimiColor : Swift.Equatable {
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiView : UIKit.UIView, MimiUXKit.MimiComponent, MimiUXKit.MimiThemeable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
 final public class MimiThemePublisher : Combine.ObservableObject, MimiUXKit.MimiThemeable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @Combine.Published @_projectedValueProperty($colors) final public var colors: MimiUXKit.MimiThemePublisher.ColorBook! {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var $colors: Combine.Published<MimiUXKit.MimiThemePublisher.ColorBook?>.Publisher {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @Combine.Published @_projectedValueProperty($fonts) final public var fonts: MimiUXKit.MimiFontBook! {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var $fonts: Combine.Published<MimiUXKit.MimiFontBook?>.Publisher {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @Combine.Published @_projectedValueProperty($styles) final public var styles: MimiUXKit.MimiStyleBook! {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var $styles: Combine.Published<MimiUXKit.MimiStyleBook?>.Publisher {
     get
   }
+  #endif
   public init()
   final public func apply(theme: any MimiUXKit.MimiThemeDefinition)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
@@ -594,7 +718,9 @@ extension MimiUXKit.MimiThemePublisher {
   }
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class MimiBulletinController {
@@ -602,12 +728,20 @@ extension MimiUXKit.MimiThemePublisher {
     get
   }
   public static func `for`(presentingViewController: UIKit.UIViewController) -> MimiUXKit.MimiBulletinController
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   final public func show(_ item: MimiUXKit.MimiBulletinItem, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func enqueue(_ item: MimiUXKit.MimiBulletinItem, sort: ((MimiUXKit.MimiBulletinItem, MimiUXKit.MimiBulletinItem) -> Swift.Bool)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   final public func dequeue(_ item: MimiUXKit.MimiBulletinItem, sort: ((MimiUXKit.MimiBulletinItem, MimiUXKit.MimiBulletinItem) -> Swift.Bool)? = nil) -> MimiUXKit.MimiBulletinItem?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func dismiss(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  #endif
   final public func invalidateIntrinsicSize(for bulletin: MimiUXKit.MimiBulletinItem)
   @objc deinit
 }
@@ -615,7 +749,9 @@ extension MimiUXKit.MimiThemePublisher {
   case compact
   case regular
   case large
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -642,9 +778,15 @@ extension MimiUXKit.MimiThemePublisher {
     }
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setTitle(_ title: Swift.String?, for state: UIKit.UIControl.State)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setAttributedTitle(_ title: Foundation.NSAttributedString?, for state: UIKit.UIControl.State)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func updateConfiguration()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor @preconcurrency open func construct(in view: UIKit.UIView)
@@ -688,13 +830,17 @@ extension MimiUXKit.MimiFontBook {
   }
 }
 extension Foundation.NSMutableAttributedString {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func mimiAddHighlightsAttribute(with font: UIKit.UIFont, color: UIKit.UIColor? = nil)
+  #endif
 }
 @objc @_Concurrency.MainActor @preconcurrency final public class MimiPagingScrollHandler : ObjectiveC.NSObject, UIKit.UIScrollViewDelegate {
   public enum Axis : Swift.Int {
     case horizontal
     case vertical
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -731,34 +877,52 @@ extension Foundation.NSMutableAttributedString {
   @objc deinit
 }
 extension MimiUXKit.MimiPagingScrollHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency final public func viewInTransition(at location: CoreFoundation.CGPoint, in referenceView: UIKit.UIView) -> UIKit.UIView?
+  #endif
 }
 public protocol MimiPagingScrollHandlerDataSource : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func scrollHandler(_ handler: MimiUXKit.MimiPagingScrollHandler, requiresTransitionViewFor page: Swift.Int) -> UIKit.UIView?
+  #endif
 }
 public protocol MimiPagingScrollHandlerDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func scrollHandler(_ handler: MimiUXKit.MimiPagingScrollHandler, didScrollTo position: CoreFoundation.CGFloat, from old: CoreFoundation.CGFloat?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func scrollHandler(_ handler: MimiUXKit.MimiPagingScrollHandler, didScrollTo page: Swift.Int, from old: Swift.Int?)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiSwitch : UIKit.UISwitch, MimiUXKit.MimiComponent, MimiUXKit.MimiThemeable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var onTintColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var thumbTintColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var backgroundColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor @preconcurrency open func apply(theme: any MimiUXKit.MimiThemeDefinition)
@@ -768,11 +932,15 @@ public protocol MimiPagingScrollHandlerDelegate : AnyObject {
   @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class None : MimiUXKit.MimiUserFlowStepFooterView {
     @_Concurrency.MainActor @preconcurrency override public func construct(in view: UIKit.UIView)
     @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+    #if compiler(>=5.3) && $NonescapableTypes
     @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+    #endif
     @objc deinit
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension UIKit.UIDevice {
@@ -795,9 +963,11 @@ public enum MimiIconBook {
   }
 }
 extension MimiUXKit.MimiIconBook {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var image: UIKit.UIImage? {
     get
   }
+  #endif
 }
 extension MimiUXKit.MimiActivityIndicator {
   public enum FinishState : Swift.Hashable {
@@ -818,35 +988,49 @@ extension MimiUXKit.MimiActivityIndicator.FinishState : Swift.Equatable {
     @objc get
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var backgroundColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var placeholderColor: UIKit.UIColor? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var font: UIKit.UIFont? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var keyboardAppearance: UIKit.UIKeyboardAppearance {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var textColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
@@ -854,13 +1038,25 @@ extension MimiUXKit.MimiActivityIndicator.FinishState : Swift.Equatable {
   @objc deinit
 }
 public protocol MimiUserFlowNavigationItemable : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var backButtonTitle: Swift.String? { get set }
+  #endif
   var hidesBackButton: Swift.Bool { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   var rightBarButtonItem: UIKit.UIBarButtonItem? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var leftBarButtonItem: UIKit.UIBarButtonItem? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func setRightBarButton(_ item: UIKit.UIBarButtonItem?, animated: Swift.Bool)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func setLeftBarButton(_ item: UIKit.UIBarButtonItem?, animated: Swift.Bool)
+  #endif
   func setHidesBackButton(_ hidesBackButton: Swift.Bool, animated: Swift.Bool)
 }
 public protocol MimiThemeDefinition {
@@ -871,7 +1067,9 @@ public protocol MimiThemeDefinition {
   var isApplied: Swift.Bool { get }
   func apply()
   func clear()
+  #if compiler(>=5.3) && $NonescapableTypes
   func variantForUserInterfaceStyle(_ style: UIKit.UIUserInterfaceStyle) -> Self?
+  #endif
 }
 public protocol MimiTheme : MimiUXKit.MimiThemeDefinition, Swift.Equatable {
   static var variants: [Self] { get }
@@ -887,7 +1085,9 @@ extension MimiUXKit.MimiThemeDefinition {
   public func clear()
 }
 extension MimiUXKit.MimiThemeDefinition {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func variantForUserInterfaceStyle(_ style: UIKit.UIUserInterfaceStyle) -> Self?
+  #endif
 }
 extension MimiUXKit.MimiActivityIndicator {
   public enum ErrorArtwork {
@@ -909,8 +1109,10 @@ extension MimiUXKit.MimiActivityIndicator {
   }
   @_Concurrency.MainActor @preconcurrency weak open var delegate: (any MimiUXKit.MimiBirthYearPickerViewDelegate)?
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @objc deinit
 }
@@ -919,7 +1121,9 @@ extension MimiUXKit.MimiBirthYearPickerView : UIKit.UIPickerViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
 }
 extension MimiUXKit.MimiBirthYearPickerView : UIKit.UIPickerViewDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func pickerView(_ pickerView: UIKit.UIPickerView, viewForRow row: Swift.Int, forComponent component: Swift.Int, reusing view: UIKit.UIView?) -> UIKit.UIView
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
 }
 public protocol MimiBirthYearPickerViewDelegate : AnyObject {
@@ -947,49 +1151,65 @@ extension UIKit.UIView {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func rightViewRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency open func synchronizeSecureTextEntry(with other: MimiUXKit.MimiCredentialTextField)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiUserFlowStepHeaderView : MimiUXKit.MimiUserFlowStepAccessoryView {
   @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class None : MimiUXKit.MimiUserFlowStepHeaderView {
     @_Concurrency.MainActor @preconcurrency override public func construct(in view: UIKit.UIView)
     @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+    #if compiler(>=5.3) && $NonescapableTypes
     @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+    #endif
     @objc deinit
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiCheckbox : MimiUXKit.MimiControl {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var highlightedTintColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var uncheckedTintColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var uncheckedHighlightedTintColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHighlighted: Swift.Bool {
     @objc get
     @objc set
@@ -1011,12 +1231,16 @@ extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency open func setChecked(_ isChecked: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiControl : UIKit.UIControl, MimiUXKit.MimiComponent {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
@@ -1050,8 +1274,12 @@ public enum MimiTextAligment {
   }
   @_Concurrency.MainActor @preconcurrency public init(style: MimiUXKit.MimiFooterActionButton.Style)
   @_Concurrency.MainActor @preconcurrency override final public func construct(in view: UIKit.UIView)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public func setImage(_ image: UIKit.UIImage?, for state: UIKit.UIControl.State)
+  #endif
   @_Concurrency.MainActor @preconcurrency override final public func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @objc deinit
 }
@@ -1082,62 +1310,90 @@ public struct MimiPagingProgressCalculator {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var titleLabel: UIKit.UILabel? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var highlightedTintColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var backgroundColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var cornerStyle: MimiUXKit.MimiButton.CornerStyle! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var displayStyle: MimiUXKit.MimiButton.DisplayStyle! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var titleFont: UIKit.UIFont! {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func setTitleColor(_ color: UIKit.UIColor?, for state: UIKit.UIControl.State)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func titleColor(for state: UIKit.UIControl.State) -> UIKit.UIColor?
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension MimiUXKit.MimiActionButton : UIKit.UIPointerInteractionDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func pointerInteraction(_ interaction: UIKit.UIPointerInteraction, styleFor region: UIKit.UIPointerRegion) -> UIKit.UIPointerStyle?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func pointerInteraction(_ interaction: UIKit.UIPointerInteraction, regionFor request: UIKit.UIPointerRegionRequest, defaultRegion: UIKit.UIPointerRegion) -> UIKit.UIPointerRegion?
+  #endif
 }
 @objc @_inheritsConvenienceInitializers open class MimiUserFlow : ObjectiveC.NSObject, MimiUXKit.MimiThemeable {
   public var count: Swift.Int {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var currentIndex: Swift.Int? {
     get
   }
+  #endif
   weak public var delegate: (any MimiUXKit.MimiUserFlowDelegate)?
   public var modalPresentationStyle: UIKit.UIModalPresentationStyle?
   public var modalTransitionStyle: UIKit.UIModalTransitionStyle?
   weak public var transitioningDelegate: (any UIKit.UIViewControllerTransitioningDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   open var navigationBarClass: UIKit.UINavigationBar.Type? {
     get
   }
+  #endif
   weak open var parent: MimiUXKit.MimiUserFlow? {
     get
   }
@@ -1151,14 +1407,26 @@ extension MimiUXKit.MimiActionButton : UIKit.UIPointerInteractionDelegate {
   open func didDismiss(animated: Swift.Bool)
   public func step(_ step: any MimiUXKit.MimiUserFlowSteppable) -> Self
   public func step(_ step: any MimiUXKit.MimiUserFlowSteppable, if decision: @escaping () -> Swift.Bool) -> Self
+  #if compiler(>=5.3) && $NonescapableTypes
   public func step(_ step: any MimiUXKit.MimiUserFlowSteppable, or other: any MimiUXKit.MimiUserFlowSteppable, decision: @escaping (any MimiUXKit.MimiUserFlowSteppable, any MimiUXKit.MimiUserFlowSteppable) -> (any MimiUXKit.MimiUserFlowSteppable)?) -> Self
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func push(in navigationController: UIKit.UINavigationController?, animated: Swift.Bool)
+  #endif
   open func makeFlowViewController() throws -> UIKit.UIViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   open func present(from presentingviewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func addAsChild(to viewController: UIKit.UIViewController, layout: ((_ parent: UIKit.UIViewController, _ view: UIKit.UIView) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
   open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func interactionController(for animationController: any UIKit.UIViewControllerAnimatedTransitioning, in navigationController: UIKit.UINavigationController) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #endif
   @objc deinit
 }
 public protocol MimiBulletinViewMaker {
@@ -1173,9 +1441,11 @@ open class MimiBulletinItem {
   public var controller: MimiUXKit.MimiBulletinController? {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var view: UIKit.UIView? {
     get
   }
+  #endif
   public var isDismissable: Swift.Bool
   open var isFullWidth: Swift.Bool {
     get
@@ -1254,8 +1524,12 @@ extension MimiUXKit.MimiUserFlowCoordinator {
   open func willDisappear(animated: Swift.Bool)
   open func didDisappear(animated: Swift.Bool)
   open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func animationControllerForPush(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func animationControllerForPop(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1269,7 +1543,9 @@ public struct MimiFont : Swift.Equatable {
   public var lineSpacing: CoreFoundation.CGFloat?
   public var kern: CoreFoundation.CGFloat?
   public let font: UIKit.UIFont
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(name: Swift.String, size: CoreFoundation.CGFloat, lineSpacing: CoreFoundation.CGFloat? = nil, kern: CoreFoundation.CGFloat? = nil)
+  #endif
   public static func systemFont(ofSize size: CoreFoundation.CGFloat, weight: UIKit.UIFont.Weight) -> MimiUXKit.MimiFont
   public static func == (a: MimiUXKit.MimiFont, b: MimiUXKit.MimiFont) -> Swift.Bool
 }
@@ -1322,24 +1598,34 @@ extension MimiUXKit.MimiStateMachine {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var color: UIKit.UIColor? {
     get
     set
   }
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willMove(toWindow newWindow: UIKit.UIWindow?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency open func startAnimating()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func stopAnimating(completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func finish(to state: MimiUXKit.MimiActivityIndicator.FinishState, completion: (() -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension MimiUXKit.MimiActivityIndicator.State : Swift.Equatable {
@@ -1391,14 +1677,18 @@ extension MimiUXKit.MimiStyleBook : Swift.Equatable {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override public func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency override public func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public protocol MimiThemeObservable : AnyObject {
@@ -1424,8 +1714,12 @@ extension MimiUXKit.MimiThemeable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency open func apply(theme: any MimiUXKit.MimiThemeDefinition)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MimiInstructionStepView : MimiUXKit.MimiView {
@@ -1437,36 +1731,50 @@ extension MimiUXKit.MimiThemeable {
   @_Concurrency.MainActor @preconcurrency open var spacing: CoreFoundation.CGFloat {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var textColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var linkColor: UIKit.UIColor! {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var accessibilityIdentifier: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func construct(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @_Concurrency.MainActor @preconcurrency override open func apply(theme: any MimiUXKit.MimiThemeDefinition)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class MimiUserFlowViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency final public let coordinator: MimiUXKit.MimiUserFlowCoordinator
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public var childForStatusBarStyle: UIKit.UIViewController? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public var childForStatusBarHidden: UIKit.UIViewController? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override final public var childForHomeIndicatorAutoHidden: UIKit.UIViewController? {
     @objc get
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override final public var shouldAutorotate: Swift.Bool {
     @objc get
   }
@@ -1477,8 +1785,10 @@ extension MimiUXKit.MimiThemeable {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, unavailable)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @objc deinit
 }
@@ -1498,14 +1808,20 @@ extension MimiUXKit.MimiUserFlowDelegate {
     case fail(failingChecks: [any MimiUXKit.MimiValidation], reasons: [MimiUXKit.MimiValidationFailReason]?)
   }
   public typealias CheckInvestigation = () -> MimiUXKit.MimiValidationFailReason
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func addCheck<T>(that object: T?, passes validation: @escaping (T) -> Swift.Bool?, investigation: MimiUXKit.MimiValidationEngine.CheckInvestigation? = nil) -> any MimiUXKit.MimiValidation where T : AnyObject
+  #endif
   open func performAllChecks() -> MimiUXKit.MimiValidationEngine.Result
   @objc deinit
 }
 public protocol MimiValidation {
+  #if compiler(>=5.3) && $NonescapableTypes
   var suspect: Swift.AnyObject? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var failReason: MimiUXKit.MimiValidationFailReason? { get }
+  #endif
   func check() -> Swift.Bool
 }
 public enum MimiValidationFailReason {
@@ -1521,8 +1837,12 @@ public enum MimiValidationError : Swift.Error {
   }
 }
 @_hasMissingDesignatedInitializers open class MimiAlertController {
+  #if compiler(>=5.3) && $NonescapableTypes
   open func present(from viewController: UIKit.UIViewController?, animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers final public class MimiUserFlowCoordinator : ObjectiveC.NSObject {
@@ -1535,21 +1855,33 @@ extension MimiUXKit.MimiUserFlowCoordinator {
 }
 extension MimiUXKit.MimiUserFlowCoordinator : UIKit.UINavigationControllerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func navigationController(_ navigationController: UIKit.UINavigationController, didShow viewController: UIKit.UIViewController, animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func navigationController(_ navigationController: UIKit.UINavigationController, animationControllerFor operation: UIKit.UINavigationController.Operation, from fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func navigationController(_ navigationController: UIKit.UINavigationController, interactionControllerFor animationController: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc final public func navigationControllerSupportedInterfaceOrientations(_ navigationController: UIKit.UINavigationController) -> UIKit.UIInterfaceOrientationMask
 }
 public protocol MimiUserFlowSteppable : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var view: UIKit.UIView? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var navigationItem: (any MimiUXKit.MimiUserFlowNavigationItemable)? { get }
+  #endif
   var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask { get }
   func didLoad()
   func willAppear(animated: Swift.Bool)
   func didAppear(animated: Swift.Bool)
   func willDisappear(animated: Swift.Bool)
   func didDisappear(animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   func animationControllerForPush(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func animationControllerForPop(to step: any MimiUXKit.MimiUserFlowSteppable, header: UIKit.UIView, content: UIKit.UIViewController, footer: UIKit.UIView) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
 }
 extension MimiUXKit.MimiLabel.Style : Swift.Equatable {}
 extension MimiUXKit.MimiLabel.Style : Swift.Hashable {}

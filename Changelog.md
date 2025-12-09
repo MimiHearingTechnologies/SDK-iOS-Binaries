@@ -1,12 +1,17 @@
 #### Added:
-- `denoiser` to `MimiProcessingSession.voiceClarity`.
+- `beamformer` to `MimiProcessingSession.voiceClarity`.
+- `preGain` to `MimiProcessingSession.voiceClarity`.
+- `outputGain` to `MimiProcessingSession.voiceClarity`.
+- `equalizer` to `MimiProcessingSession.voiceClarity`.
+- `transparencyEqualizer` to `MimiProcessingSession.voiceClarity`.
+- `afc` to `MimiProcessingSession.voiceClarity`.
+- `howlingDetector` to `MimiProcessingSession.voiceClarity`.
+- `metadata`to `MimiProcessingSession`.
 
 
 
 
 #### Fixed:
-- Issue where the number circles in instruction views would not be rendered correctly on iOS 26.
-- Issue where the volume changed bulletin would be presented incessantly in noisy test environments.
-- Issue where the Ear Indicator on the Audiogram Plot would not be rendered correctly on iOS 26.
+- Issue where denoiser updates wouldn't be applied in the Processing Session.
 
 

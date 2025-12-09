@@ -205,6 +205,9 @@ extension MimiCoreKit.AnyMimiProcessingParameterDataSource : Swift.Equatable {
 public protocol MimiProcessingSession : Swift.CustomDebugStringConvertible {
   var id: Swift.String { get }
   #if compiler(>=5.3) && $NonescapableTypes
+  var metadata: (any MimiCoreKit.MimiProcessorMetadata)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var soundPersonalization: (any MimiCoreKit.MimiSoundPersonalizationFeature)? { get }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
@@ -219,6 +222,9 @@ extension MimiCoreKit.MimiProcessingSession {
   public var debugDescription: Swift.String {
     get
   }
+}
+public protocol MimiProcessorMetadata {
+  var firmwareVersion: Swift.String { get }
 }
 extension MimiCoreKit.MimiProcessingParameterUpdateState : Swift.Equatable {
   public static func == (lhs: MimiCoreKit.MimiProcessingParameterUpdateState<Value>, rhs: MimiCoreKit.MimiProcessingParameterUpdateState<Value>) -> Swift.Bool
@@ -1353,12 +1359,56 @@ public protocol MimiDenoiserModule {
   var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
   var intensity: any MimiCoreKit.MimiProcessingParameter<Swift.Double> { get }
 }
+public protocol MimiBeamformerModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+}
+public protocol MimiPreGainModule {
+  var gain: any MimiCoreKit.MimiProcessingParameter<Swift.Float> { get }
+}
+public protocol MimiOutputGainModule {
+  var gain: any MimiCoreKit.MimiProcessingParameter<Swift.Float> { get }
+}
+public protocol MimiEqualizerModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+  var presetId: any MimiCoreKit.MimiProcessingParameter<Swift.Int32> { get }
+}
+public protocol MimiTransparencyEqualizerModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+  var presetId: any MimiCoreKit.MimiProcessingParameter<Swift.Int32> { get }
+}
+public protocol MimiAFCModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+}
+public protocol MimiHowlingDetectorModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+}
 public protocol MimiVoiceClarityFeature {
   #if compiler(>=5.3) && $NonescapableTypes
   var ambient: (any MimiCoreKit.MimiPersonalizationModule)? { get }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var denoiser: (any MimiCoreKit.MimiDenoiserModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var beamformer: (any MimiCoreKit.MimiBeamformerModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var preGain: (any MimiCoreKit.MimiPreGainModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var outputGain: (any MimiCoreKit.MimiOutputGainModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var equalizer: (any MimiCoreKit.MimiEqualizerModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var transparencyEqualizer: (any MimiCoreKit.MimiTransparencyEqualizerModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var afc: (any MimiCoreKit.MimiAFCModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var howlingDetector: (any MimiCoreKit.MimiHowlingDetectorModule)? { get }
   #endif
 }
 public enum MimiAnalyticsProperty : Swift.Equatable {

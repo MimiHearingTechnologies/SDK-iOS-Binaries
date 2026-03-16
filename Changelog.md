@@ -1,17 +1,13 @@
 #### Added:
-- `beamformer` to `MimiProcessingSession.voiceClarity`.
-- `preGain` to `MimiProcessingSession.voiceClarity`.
-- `outputGain` to `MimiProcessingSession.voiceClarity`.
-- `equalizer` to `MimiProcessingSession.voiceClarity`.
-- `transparencyEqualizer` to `MimiProcessingSession.voiceClarity`.
-- `afc` to `MimiProcessingSession.voiceClarity`.
-- `howlingDetector` to `MimiProcessingSession.voiceClarity`.
-- `metadata`to `MimiProcessingSession`.
+- `impulseAgc` to `MimiProcessingSession.voiceClarity`.
+- `ovad` to `MimiProcessingSession.voiceClarity`.
+- `fbc` to `MimiProcessingSession.voiceClarity`.
 
 
 
 
 #### Fixed:
-- Issue where denoiser updates wouldn't be applied in the Processing Session.
+- Issue where presetId updates for Equalizer and TransparencyEQ wouldn't be applied in the Processing Session.
+- Issue where Presets would be reloaded unexpectedly during Session instantiation.
 
 

@@ -1379,6 +1379,18 @@ public protocol MimiTransparencyEqualizerModule {
 public protocol MimiAFCModule {
   var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
 }
+public protocol MimiImpulseAGCModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+  var threshold: any MimiCoreKit.MimiProcessingParameter<Swift.Int32> { get }
+}
+public protocol MimiOVADModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+  var attenuation: any MimiCoreKit.MimiProcessingParameter<Swift.Int32> { get }
+}
+public protocol MimiFBCModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+  var threshold: any MimiCoreKit.MimiProcessingParameter<Swift.Float> { get }
+}
 public protocol MimiHowlingDetectorModule {
   var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
 }
@@ -1406,6 +1418,15 @@ public protocol MimiVoiceClarityFeature {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var afc: (any MimiCoreKit.MimiAFCModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var impulseAGC: (any MimiCoreKit.MimiImpulseAGCModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var ovad: (any MimiCoreKit.MimiOVADModule)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var fbc: (any MimiCoreKit.MimiFBCModule)? { get }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var howlingDetector: (any MimiCoreKit.MimiHowlingDetectorModule)? { get }

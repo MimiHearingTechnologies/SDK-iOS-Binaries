@@ -33919,6 +33919,127 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MimiDRCModule",
+        "printedName": "MimiDRCModule",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiProcessingParameter",
+                "printedName": "any MimiCoreKit.MimiProcessingParameter<Swift.Bool>",
+                "usr": "s:11MimiCoreKit0A19ProcessingParameterP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MimiCoreKit0A9DRCModuleP9isEnabledAA0A19ProcessingParameter_pSb5ValueRts_XPvp",
+            "mangledName": "$s11MimiCoreKit0A9DRCModuleP9isEnabledAA0A19ProcessingParameter_pSb5ValueRts_XPvp",
+            "moduleName": "MimiCoreKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiProcessingParameter",
+                    "printedName": "any MimiCoreKit.MimiProcessingParameter<Swift.Bool>",
+                    "usr": "s:11MimiCoreKit0A19ProcessingParameterP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MimiCoreKit0A9DRCModuleP9isEnabledAA0A19ProcessingParameter_pSb5ValueRts_XPvg",
+                "mangledName": "$s11MimiCoreKit0A9DRCModuleP9isEnabledAA0A19ProcessingParameter_pSb5ValueRts_XPvg",
+                "moduleName": "MimiCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : MimiCoreKit.MimiDRCModule>",
+                "sugared_genericSig": "<Self where Self : MimiCoreKit.MimiDRCModule>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presetId",
+            "printedName": "presetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MimiProcessingParameter",
+                "printedName": "any MimiCoreKit.MimiProcessingParameter<Swift.Int32>",
+                "usr": "s:11MimiCoreKit0A19ProcessingParameterP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MimiCoreKit0A9DRCModuleP8presetIdAA0A19ProcessingParameter_ps5Int32V5ValueRts_XPvp",
+            "mangledName": "$s11MimiCoreKit0A9DRCModuleP8presetIdAA0A19ProcessingParameter_ps5Int32V5ValueRts_XPvp",
+            "moduleName": "MimiCoreKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiProcessingParameter",
+                    "printedName": "any MimiCoreKit.MimiProcessingParameter<Swift.Int32>",
+                    "usr": "s:11MimiCoreKit0A19ProcessingParameterP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MimiCoreKit0A9DRCModuleP8presetIdAA0A19ProcessingParameter_ps5Int32V5ValueRts_XPvg",
+                "mangledName": "$s11MimiCoreKit0A9DRCModuleP8presetIdAA0A19ProcessingParameter_ps5Int32V5ValueRts_XPvg",
+                "moduleName": "MimiCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : MimiCoreKit.MimiDRCModule>",
+                "sugared_genericSig": "<Self where Self : MimiCoreKit.MimiDRCModule>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11MimiCoreKit0A9DRCModuleP",
+        "mangledName": "$s11MimiCoreKit0A9DRCModuleP",
+        "moduleName": "MimiCoreKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MimiAFCModule",
         "printedName": "MimiAFCModule",
         "children": [
@@ -35160,6 +35281,67 @@
                 "declKind": "Accessor",
                 "usr": "s:11MimiCoreKit0A19VoiceClarityFeatureP15howlingDetectorAA0a7HowlingH6Module_pSgvg",
                 "mangledName": "$s11MimiCoreKit0A19VoiceClarityFeatureP15howlingDetectorAA0a7HowlingH6Module_pSgvg",
+                "moduleName": "MimiCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : MimiCoreKit.MimiVoiceClarityFeature>",
+                "sugared_genericSig": "<Self where Self : MimiCoreKit.MimiVoiceClarityFeature>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drc",
+            "printedName": "drc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MimiCoreKit.MimiDRCModule)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MimiDRCModule",
+                    "printedName": "any MimiCoreKit.MimiDRCModule",
+                    "usr": "s:11MimiCoreKit0A9DRCModuleP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MimiCoreKit0A19VoiceClarityFeatureP3drcAA0A9DRCModule_pSgvp",
+            "mangledName": "$s11MimiCoreKit0A19VoiceClarityFeatureP3drcAA0A9DRCModule_pSgvp",
+            "moduleName": "MimiCoreKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MimiCoreKit.MimiDRCModule)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MimiDRCModule",
+                        "printedName": "any MimiCoreKit.MimiDRCModule",
+                        "usr": "s:11MimiCoreKit0A9DRCModuleP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MimiCoreKit0A19VoiceClarityFeatureP3drcAA0A9DRCModule_pSgvg",
+                "mangledName": "$s11MimiCoreKit0A19VoiceClarityFeatureP3drcAA0A9DRCModule_pSgvg",
                 "moduleName": "MimiCoreKit",
                 "genericSig": "<τ_0_0 where τ_0_0 : MimiCoreKit.MimiVoiceClarityFeature>",
                 "sugared_genericSig": "<Self where Self : MimiCoreKit.MimiVoiceClarityFeature>",
@@ -37550,6 +37732,88 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Mimi_V1_DRC",
+        "printedName": "Mimi_V1_DRC",
+        "declKind": "Struct",
+        "usr": "s:22FirmwareAPISchemaSwift11Mimi_V1_DRCV",
+        "mangledName": "$s22FirmwareAPISchemaSwift11Mimi_V1_DRCV",
+        "moduleName": "FirmwareAPISchemaSwift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Message",
+            "printedName": "Message",
+            "usr": "s:13SwiftProtobuf7MessageP",
+            "mangledName": "$s13SwiftProtobuf7MessageP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_MessageImplementationBase",
+            "printedName": "_MessageImplementationBase",
+            "usr": "s:13SwiftProtobuf26_MessageImplementationBaseP",
+            "mangledName": "$s13SwiftProtobuf26_MessageImplementationBaseP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ProtoNameProviding",
+            "printedName": "_ProtoNameProviding",
+            "usr": "s:13SwiftProtobuf19_ProtoNameProvidingP",
+            "mangledName": "$s13SwiftProtobuf19_ProtoNameProvidingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Mimi_V1_Personalization",
         "printedName": "Mimi_V1_Personalization",
         "declKind": "Struct",
@@ -38752,7 +39016,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"11.3.0\""
+      "value": "\"11.4.0\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/CacheFirstDomainResolver.swift",

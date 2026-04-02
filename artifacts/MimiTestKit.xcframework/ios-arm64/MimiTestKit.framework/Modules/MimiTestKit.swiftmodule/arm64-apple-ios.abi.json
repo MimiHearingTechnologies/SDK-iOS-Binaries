@@ -2509,6 +2509,23 @@
       },
       {
         "kind": "Import",
+        "name": "MimiCoreKit",
+        "printedName": "MimiCoreKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MimiTestKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MimiUXKit",
         "printedName": "MimiUXKit",
         "declKind": "Import",

@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gHxu/0ksqCncrrwCTdyaixMMkJs=
+		sSu3T7gufmtF1j7QkV81TGh1wqg=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ekdJaxemxDEWRK2YuFtg1kvUoIQ=
+		Etv6xrbx8UBc3n5Ec06cU9ZRPKo=
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7i7k/8Jk9088+ULJL9RK/Lx0Fvc=
+		h6Arj0AAq276vaN+n7sNOZasQRE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -329,7 +329,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rqiOol87xb8mQnvs5yFfj7Qa/VCcKV5EI3cdhI4gyuY=
+			JXOE4e9I8UM0n1CmbIj2rEw4/RtkDgrlCA64dxaBxH0=
 			</data>
 		</dict>
 		<key>Modules/MimiTestKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -364,7 +364,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IbEprmxzXxRp+2c/QD2O6EH08x/L/8Q/mU4/ZGS8aDA=
+			p8w0A1AyYQk2wOLlWTZ2V7N1vZNr5ZfLvzLAS6cMPPY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

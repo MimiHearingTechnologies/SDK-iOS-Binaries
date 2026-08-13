@@ -36235,16 +36235,15 @@
             "usr": "s:9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvp",
             "mangledName": "$s9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvp",
             "moduleName": "MimiUXKit",
+            "deprecated": true,
             "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
               "Preconcurrency",
               "Custom",
-              "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -36270,7 +36269,6 @@
                 "usr": "s:9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvg",
                 "mangledName": "$s9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvg",
                 "moduleName": "MimiUXKit",
-                "implicit": true,
                 "isOpen": true,
                 "accessorKind": "get"
               },
@@ -36303,7 +36301,6 @@
                 "usr": "s:9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvs",
                 "mangledName": "$s9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvs",
                 "moduleName": "MimiUXKit",
-                "implicit": true,
                 "isOpen": true,
                 "accessorKind": "set"
               },
@@ -36322,8 +36319,12 @@
                 "usr": "s:9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvM",
                 "mangledName": "$s9MimiUXKit0A17ActivityIndicatorC5colorSo7UIColorCSgvM",
                 "moduleName": "MimiUXKit",
+                "deprecated": true,
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -45673,6 +45674,20 @@
       "value": "16.0"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1142,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/ViewControllers\/MimiBulletin\/BulletinStackViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1561,
+      "length": 4,
+      "value": "32.0"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Controls\/MimiCredentialTextField.swift",
       "kind": "BooleanLiteral",
       "offset": 756,
@@ -45892,7 +45907,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/MimiActivityIndicator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2404,
+      "offset": 3005,
       "length": 5,
       "value": "false"
     },

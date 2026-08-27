@@ -6013,6 +6013,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/Bulletins\/TestVolumeAdjustmentBulletin.swift",
+      "kind": "FloatLiteral",
+      "offset": 1204,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiTestKit\/MimiTestKit\/Components\/ViewControllers\/MTVolumeAdjustmentViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 933,

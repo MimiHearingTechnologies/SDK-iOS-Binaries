@@ -42198,7 +42198,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"12.1.0\""
+      "value": "\"12.1.1\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/CacheFirstDomainResolver.swift",

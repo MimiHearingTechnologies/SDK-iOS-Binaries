@@ -41781,6 +41781,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Extensions\/Publisher+AsyncSink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2685,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/MimiCoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 1570,
@@ -42198,7 +42205,7 @@
       "kind": "StringLiteral",
       "offset": 279,
       "length": 8,
-      "value": "\"12.1.1\""
+      "value": "\"12.1.2\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiCoreKit\/MimiCoreKit\/Core\/Networking\/DomainResolution\/CacheFirstDomainResolver.swift",

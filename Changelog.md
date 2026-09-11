@@ -1,11 +1,6 @@
-#### Changed:
-- Updated localization strings to `v6.0.4`.
-
-
-
 #### Fixed:
-- A crash on iOS 15 when a processing session was created while sound personalization data was present. Collecting the session's suspendable parameters cast `media.isEnabled` out of `any MimiProcessingParameter<Bool>`, and casting out of a parameterized existential relies on runtime support that only exists from iOS 16 onwards, so the cast trapped on iOS 15. The suspendable parameter is now reached without a runtime cast.
-- The \"Practice\" action in the pause interruption used Traditional Chinese characters in the Simplified Chinese (`zh-CN`) locale.
-- The \"Device volume changed\" interruption could get stuck showing a loading indicator during a hearing test. After tapping \"OK\", changing the device volume again before the interruption dismissed left the dialog loading with its action covered, so it could not be retried. The loading indicator is now stopped when the volume moves away from the target again while the interruption is still on screen, and is bounded by a timeout so the action is always restored even when the volume never settles.
+- Navigation bar buttons ignored the theme's tint colors on iOS 26. From iOS 26 a bar button item no longer takes the tint color of its navigation bar, so the back button and the hearing test's pause and skip buttons were drawn in the system's automatic color instead of the themed one. The bar button items of the test flow, the profile and the authentication flow are now tinted individually, including items added after the theme was applied, and the back button's chevron and title are themed explicitly when the theme names a tint color.
+- Processing state could be applied out of order. Values from a publisher were handed to their asynchronous subscribers in a task each, so two values emitted close together could be applied in either order - a session suspended immediately after being activated could leave the recommendation engine active against it. Each subscriber now handles values in the order they were emitted, and drops any that are still queued when it is cancelled.
+- Sound Personalization stayed switched off after completing a hearing test, and could not be switched back on. A test flow suspends the processing session when it appears, but only the top flow observes the session, so when a finished test dismissed a child flow the resume was applied to a `nil` session and silently did nothing. The session stayed suspended and rejected every later write with `.currentlySuspended`. The resume is now applied to the top flow's session. This only affected integrations that show the test type selection screen, which is the only thing that builds a child flow.
 
 

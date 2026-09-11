@@ -3493,6 +3493,13 @@
       "value": "0.0"
     },
     {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/Views\/AuthFlowNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 18,
+      "value": "\"chevron.backward\""
+    },
+    {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Config\/AuthFlowConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 455,

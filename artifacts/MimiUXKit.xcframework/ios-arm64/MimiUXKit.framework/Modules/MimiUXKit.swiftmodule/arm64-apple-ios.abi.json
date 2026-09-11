@@ -12564,6 +12564,35 @@
           },
           {
             "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MimiUXKit@objc(cs)MimiNavigationBar(im)layoutSubviews",
+            "mangledName": "$s9MimiUXKit0A13NavigationBarC14layoutSubviewsyyF",
+            "moduleName": "MimiUXKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "apply",
             "printedName": "apply(theme:)",
             "children": [
@@ -45287,6 +45316,13 @@
       "offset": 5648,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiNavigationBar.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 18,
+      "value": "\"chevron.backward\""
     },
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiUXKit\/MimiUXKit\/Components\/Views\/MimiActivityIndicator\/FinishStateLayers\/CrossActivityFinishStateLayer.swift",

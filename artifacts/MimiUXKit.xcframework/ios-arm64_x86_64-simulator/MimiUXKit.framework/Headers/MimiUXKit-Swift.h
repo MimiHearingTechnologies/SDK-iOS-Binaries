@@ -541,6 +541,8 @@ SWIFT_CLASS("_TtC9MimiUXKit17MimiNavigationBar")
 @interface MimiNavigationBar : UINavigationBar
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// :nodoc:
+- (void)layoutSubviews;
 @end
 
 /// Abstract class for either a header or footer view in a <code>UserFlowStep</code>.
@@ -1246,6 +1248,8 @@ SWIFT_CLASS("_TtC9MimiUXKit17MimiNavigationBar")
 @interface MimiNavigationBar : UINavigationBar
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// :nodoc:
+- (void)layoutSubviews;
 @end
 
 /// Abstract class for either a header or footer view in a <code>UserFlowStep</code>.

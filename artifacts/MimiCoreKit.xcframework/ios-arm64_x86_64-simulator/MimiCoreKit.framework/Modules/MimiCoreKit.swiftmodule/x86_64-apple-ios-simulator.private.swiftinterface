@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiCoreKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MimiCoreKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import Combine
 import CommonCrypto
 import CryptoKit
@@ -46,14 +46,10 @@ public struct MimiHeadphone : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension MimiCoreKit.MimiHeadphone.ConnectionType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
 }
 extension MimiCoreKit.MimiHeadphone.Category {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
 }
 extension MimiCoreKit.MimiHeadphone : Swift.Equatable {
   public static func == (lhs: MimiCoreKit.MimiHeadphone, rhs: MimiCoreKit.MimiHeadphone) -> Swift.Bool
@@ -81,15 +77,80 @@ extension MimiCoreKit.MimiProcessingConfigurationType : Swift.CustomDebugStringC
     get
   }
 }
+public enum MimiProcessingParameterUpdateState<Value> where Value : Swift.Equatable, Value : Swift.Sendable {
+  case applied
+  case loading
+  case applying(value: Value)
+  case failed(value: Value, error: any Swift.Error)
+}
+public typealias MimiProcessingParameterable = Swift.Equatable & Swift.Sendable
+public protocol MimiProcessingParameter<Value> : AnyObject {
+  associatedtype Value : Swift.Equatable, Swift.Sendable
+  var name: Swift.String { get }
+  var valuePublisher: Combine.AnyPublisher<Self.Value, Swift.Never> { get }
+  var value: Self.Value { get }
+  var updateState: Combine.AnyPublisher<MimiCoreKit.MimiProcessingParameterUpdateState<Self.Value>, Swift.Never> { get }
+  var dataSource: MimiCoreKit.AnyMimiProcessingParameterDataSource<Self.Value>? { get }
+  func synchronizeApplicator() async throws
+  func apply(_ value: Self.Value) async throws
+  func load() async throws
+}
+final public class MimiProcessingParameterApplicator<Value> : Swift.Identifiable where Value : Swift.Equatable, Value : Swift.Sendable {
+  final public let id: Swift.String
+  final public var latestAppliedValue: Value? {
+    get
+  }
+  public init(currentValue: Value? = nil, applyTimeout: Swift.Double? = nil, apply: @escaping @Sendable (Value) async throws -> Swift.Void)
+  public typealias ID = Swift.String
+  @objc deinit
+}
+extension MimiCoreKit.MimiProcessingParameterApplicator : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiProcessingParameterApplicator<Value>, rhs: MimiCoreKit.MimiProcessingParameterApplicator<Value>) -> Swift.Bool
+}
+public protocol MimiProcessingParameterDataSource<Value> {
+  associatedtype Value : Swift.Equatable, Swift.Sendable
+  func load(value: Self.Value) async throws -> Self.Value
+}
+@available(iOS, deprecated: 16.0, message: "Use Swift's any keyword")
+final public class AnyMimiProcessingParameterDataSource<Value> : MimiCoreKit.MimiProcessingParameterDataSource where Value : Swift.Equatable, Value : Swift.Sendable {
+  final public var type: Any? {
+    get
+  }
+  public init<DataSource>(_ wrappedDataSource: DataSource) where Value == DataSource.Value, DataSource : MimiCoreKit.MimiProcessingParameterDataSource
+  final public func load(value: Value) async throws -> Value
+  @objc deinit
+}
+extension MimiCoreKit.AnyMimiProcessingParameterDataSource : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.AnyMimiProcessingParameterDataSource<Value>, rhs: MimiCoreKit.AnyMimiProcessingParameterDataSource<Value>) -> Swift.Bool
+}
+public protocol MimiProcessingSession : Swift.CustomDebugStringConvertible {
+  var id: Swift.String { get }
+  var metadata: (any MimiCoreKit.MimiProcessorMetadata)? { get }
+  var soundPersonalization: (any MimiCoreKit.MimiSoundPersonalizationFeature)? { get }
+  var voiceClarity: MimiCoreKit.AnyMimiProcessingFeatureControlling<any MimiCoreKit.MimiVoiceClarityFeature>? { get }
+  var debug: (any MimiCoreKit.MimiDebugFeature)? { get }
+  var isSuspendedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> { get }
+  var isSuspended: Swift.Bool { get }
+  func suspend() async throws -> Swift.Bool
+  func resume() async throws -> Swift.Bool
+}
+extension MimiCoreKit.MimiProcessingSession {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public protocol MimiProcessorMetadata {
+  var firmwareVersion: Swift.String { get }
+  var headphoneIdentifier: Swift.String { get }
+}
+extension MimiCoreKit.MimiProcessingParameterUpdateState : Swift.Equatable {
+  public static func == (lhs: MimiCoreKit.MimiProcessingParameterUpdateState<Value>, rhs: MimiCoreKit.MimiProcessingParameterUpdateState<Value>) -> Swift.Bool
+}
 public protocol MimiResourceController : MimiCoreKit.MimiCoreController {
-  #if compiler(>=5.3) && $NonescapableTypes
   func load(url: Foundation.URL, cachePreferred: Swift.Bool, result: MimiCoreKit.MimiCoreResultHandler<Foundation.Data>)
-  #endif
 }
 public protocol MimiProcessingController : AnyObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   var sessionPublisher: Combine.AnyPublisher<(any MimiCoreKit.MimiProcessingSession)?, Swift.Never> { get }
-  #endif
   func activate(configuration: any MimiCoreKit.MimiProcessingConfiguring) async throws -> any MimiCoreKit.MimiProcessingSession
   func deactivate() async
 }
@@ -99,9 +160,7 @@ public enum MimiTestResultError : Swift.Error, Swift.Codable {
     case visualizationMissingData
     case validationMissingData
     case insightComputationFailed
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -113,9 +172,7 @@ public enum MimiTestResultError : Swift.Error, Swift.Codable {
     case audiogramTechnicalLimits
     case audiogramThresholdsClipped
     case missingPTA4
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -131,9 +188,7 @@ extension MimiCoreKit.MimiTestResultError : Swift.RawRepresentable, Swift.Equata
   public var rawValue: Swift.Int {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
 }
 extension MimiCoreKit.MimiTestResultError : Swift.CustomDebugStringConvertible {
@@ -177,9 +232,7 @@ public enum MimiCustomParameterControl : Swift.Sendable, Swift.Equatable {
 public protocol MimiCustomParameter {
   var id: Swift.String { get }
   var label: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var hint: Swift.String? { get }
-  #endif
   var valueType: MimiCoreKit.MimiCustomParameterValueType { get }
   var control: MimiCoreKit.MimiCustomParameterControl { get }
   var value: any MimiCoreKit.MimiProcessingParameter<MimiCoreKit.MimiCustomParameterValue> { get }
@@ -196,12 +249,8 @@ extension MimiCoreKit.MimiHeadphoneIdentifier : Swift.Equatable {
 }
 public protocol MimiPersonalizationController {
   var observable: MimiCoreKit.MimiCoreObservable<any MimiCoreKit.MimiPersonalizationControllerObservable> { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var visualization: MimiCoreKit.MimiPersonalizationVisualization? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func loadVisualization(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiPersonalizationVisualization>)
-  #endif
 }
 public protocol MimiPersonalizationControllerObservable : AnyObject {
   func personalizationController(_ controller: any MimiCoreKit.MimiPersonalizationController, didUpdate visualization: MimiCoreKit.MimiPersonalizationVisualization)
@@ -216,27 +265,21 @@ public typealias MimiCoreResult<DataType> = Swift.Result<DataType, MimiCoreKit.M
 public typealias MimiCoreResultHandler<Model> = ((MimiCoreKit.MimiCoreResult<Model>) -> Swift.Void)?
 public enum MimiCorePagedResult<DataType> {
   case result(MimiCoreKit.MimiCoreResult<DataType>, next: ((MimiCoreKit.MimiCorePagedResultHandler<DataType>) -> Swift.Void)?)
-  #if compiler(>=5.3) && $NonescapableTypes
   public var value: MimiCoreKit.MimiCoreResult<DataType> {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var loadNext: ((MimiCoreKit.MimiCorePagedResultHandler<DataType>) -> Swift.Void)? {
     get
   }
-  #endif
 }
 public enum MimiCoreAsyncPagedResult<DataType> {
   case result(DataType, next: (() async throws -> MimiCoreKit.MimiCoreAsyncPagedResult<DataType>)?)
   public var value: DataType {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var loadNext: (() async throws -> MimiCoreKit.MimiCoreAsyncPagedResult<DataType>)? {
     get
   }
-  #endif
 }
 public typealias MimiCorePagedResultHandler<Model> = ((MimiCoreKit.MimiCorePagedResult<Model>) -> Swift.Void)?
 public enum MimiHearingGradeWHO2021 : Swift.Int, Swift.Codable, Swift.CaseIterable {
@@ -247,9 +290,7 @@ public enum MimiHearingGradeWHO2021 : Swift.Int, Swift.Codable, Swift.CaseIterab
   case severe
   case profound
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias AllCases = [MimiCoreKit.MimiHearingGradeWHO2021]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [MimiCoreKit.MimiHearingGradeWHO2021] {
@@ -271,21 +312,15 @@ public struct MimiPTTTestRunResultData : MimiCoreKit.MimiTestRunResultData {
   public let hearingGrade: MimiCoreKit.MimiHearingGrade
   public let audiogram: MimiCoreKit.MimiTestAudiogram?
   public let dbHearingLoss: Swift.Int?
-  #if compiler(>=5.3) && $NonescapableTypes
   public var error: MimiCoreKit.MimiTestResultError? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var warnings: [MimiCoreKit.MimiTestResultError]? {
     get
   }
-  #endif
 }
 extension MimiCoreKit.MimiPTTTestRunResultData {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(ear: MimiCoreKit.MimiTestEar, hearingPercentage: MimiCoreKit.MimiHearingPercentage?, hearingGradeWHO2021: MimiCoreKit.MimiHearingGradeWHO2021, hearingGrade: MimiCoreKit.MimiHearingGrade, audiogram: MimiCoreKit.MimiTestAudiogram?, dbHearingLoss: Swift.Int?, error: MimiCoreKit.MimiTestResultError?, warnings: [MimiCoreKit.MimiTestResultError]?)
-  #endif
 }
 extension MimiCoreKit.MimiPTTTestRunResultData {
   public init(from decoder: any Swift.Decoder) throws
@@ -318,9 +353,7 @@ public struct MimiTestMetadata : Swift.Codable {
   public let client: MimiCoreKit.MimiTestMetadata.Client?
   public let sdkVersion: Swift.String?
   public let engineVersion: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(host: MimiCoreKit.MimiTestMetadata.Host = .from(device: .current, locale: .current), client: MimiCoreKit.MimiTestMetadata.Client = .from(bundle: .main), engineVersion: Swift.String?)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -331,9 +364,7 @@ public enum MimiHearingGrade : Swift.Int, Swift.Codable, Swift.CaseIterable {
   case limited
   case impaired
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias AllCases = [MimiCoreKit.MimiHearingGrade]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [MimiCoreKit.MimiHearingGrade] {
@@ -369,12 +400,8 @@ public protocol AnyMimiTestResult : Swift.Decodable, Swift.Encodable {
   var hearingGradeWHO2021: MimiCoreKit.MimiHearingGradeWHO2021 { get }
   var hearingGrade: MimiCoreKit.MimiHearingGrade { get }
   var hearingSymmetry: MimiCoreKit.MimiHearingSymmetry { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var errors: [MimiCoreKit.MimiTestResultError]? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var warnings: [MimiCoreKit.MimiTestResultError]? { get }
-  #endif
 }
 public struct MimiTestResults : Swift.Codable {
   public let ptt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiPTTTestRunResultData>?
@@ -382,9 +409,7 @@ public struct MimiTestResults : Swift.Codable {
   public var isEmpty: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(ptt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiPTTTestRunResultData>?, mt: MimiCoreKit.MimiTestResult<MimiCoreKit.MimiMTTestRunResultData>?)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -455,23 +480,16 @@ extension MimiCoreKit.MimiPersonalization.Preset : Swift.Sendable {
 @_hasMissingDesignatedInitializers final public actor MimiUpDownPresetParameterDataSource : MimiCoreKit.MimiProcessingParameterDataSource {
   public typealias Value = MimiCoreKit.MimiPersonalization.Preset?
   nonisolated final public let fitting: MimiCoreKit.MimiPersonalization.Fitting
-  #if compiler(>=5.3) && $NonescapableTypes
   nonisolated final public var bundlePublisher: Combine.AnyPublisher<MimiCoreKit.MimiPersonalization.UpDownPresetBundle?, Swift.Never> {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   nonisolated final public var bundle: MimiCoreKit.MimiPersonalization.UpDownPresetBundle? {
     get
   }
-  #endif
   public convenience init(fitting: MimiCoreKit.MimiPersonalization.Fitting)
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func load(value: MimiCoreKit.MimiPersonalization.Preset?) async throws -> MimiCoreKit.MimiPersonalization.Preset?
-  #endif
   final public func loadVisualization() async throws -> MimiCoreKit.MimiUpDownBundleVisualizationData
   @objc deinit
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
     get
   }
@@ -503,16 +521,12 @@ public struct MimiTestResult<RunResultData> : MimiCoreKit.AnyMimiTestResult, Swi
   public var hearingSymmetry: MimiCoreKit.MimiHearingSymmetry {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errors: [MimiCoreKit.MimiTestResultError]? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var warnings: [MimiCoreKit.MimiTestResultError]? {
     get
   }
-  #endif
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -618,15 +632,18 @@ public func SoundPersonalization(@MimiCoreKit.MimiBasicProcessingConfiguration.S
 public func SinglePreset(fitting: MimiCoreKit.MimiPersonalization.Fitting) -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Component
 public func FineTuning(fitting: MimiCoreKit.MimiPersonalization.Fitting) -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Component
 public func Applicators(@MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Applicators.Builder _ content: () -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Applicators.Builder.Result) -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Component
-#if compiler(>=5.3) && $NonescapableTypes
 public func IsEnabled(timeout: Foundation.TimeInterval? = nil, _ applicator: @escaping @Sendable (Swift.Bool) async throws -> Swift.Void) -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Applicators.Component
-#endif
-#if compiler(>=5.3) && $NonescapableTypes
 public func Intensity(timeout: Foundation.TimeInterval? = nil, _ applicator: @escaping @Sendable (Swift.Double) async throws -> Swift.Void) -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Applicators.Component
-#endif
-#if compiler(>=5.3) && $NonescapableTypes
 public func Preset(timeout: Foundation.TimeInterval? = nil, _ applicator: @escaping @Sendable (MimiCoreKit.MimiPersonalization.Preset?) async throws -> Swift.Void) -> MimiCoreKit.MimiBasicProcessingConfiguration.SoundPersonalization.Applicators.Component
-#endif
+public protocol MimiPersonalizationModule {
+  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
+  var intensity: any MimiCoreKit.MimiProcessingParameter<Swift.Double> { get }
+  var preset: any MimiCoreKit.MimiProcessingParameter<MimiCoreKit.MimiPersonalization.Preset?> { get }
+}
+public protocol MimiSoundPersonalizationFeature {
+  var media: (any MimiCoreKit.MimiPersonalizationModule)? { get }
+  var voiceCall: (any MimiCoreKit.MimiPersonalizationModule)? { get }
+}
 final public class MimiAnalytics<Event> where Event : MimiCoreKit.MimiAnalyticsEvent {
   public init(core: MimiCoreKit.MimiCore, secret: Swift.String) throws
   final public func track(event: Event)
@@ -671,9 +688,7 @@ public enum MimiProcessingSessionError : Swift.Error {
 public enum MimiCoreError : Swift.Error {
   public enum ConfigurationError : Swift.Int, Swift.Error {
     case invalidCredentials
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -688,9 +703,7 @@ public enum MimiCoreError : Swift.Error {
     case gone
     case unprocessableEntity
     case unknown
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -702,9 +715,7 @@ public enum MimiCoreError : Swift.Error {
     case serviceUnavailable
     case timeout
     case unknown
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -714,9 +725,7 @@ public enum MimiCoreError : Swift.Error {
     case missing
     case invalidHash
     case invalid
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -724,9 +733,7 @@ public enum MimiCoreError : Swift.Error {
   }
   public enum ProcessingError : Swift.Int, Swift.Error {
     case processorRequestFailed
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -741,16 +748,12 @@ public enum MimiCoreError : Swift.Error {
   case unserviceable
 }
 extension MimiCoreKit.MimiCoreError {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var rawError: (any Swift.Error)? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var details: MimiCoreKit.MimiCoreErrorDetails? {
     get
   }
-  #endif
 }
 extension MimiCoreKit.MimiCoreError : Swift.Equatable {
   public static func == (lhs: MimiCoreKit.MimiCoreError, rhs: MimiCoreKit.MimiCoreError) -> Swift.Bool
@@ -780,20 +783,16 @@ public enum MimiTestEar : Swift.String, Swift.Codable {
   case left
   case right
   case both
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 extension MimiCoreKit.MimiTestEar {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var other: MimiCoreKit.MimiTestEar? {
     get
   }
-  #endif
 }
 extension MimiCoreKit.MimiTestTypeConfiguration {
   public struct MimiSupportedTestConfigurations : Swift.Codable {
@@ -831,46 +830,26 @@ extension MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations.
 }
 public protocol MimiAuthController : MimiCoreKit.MimiCoreController {
   var observable: MimiCoreKit.MimiCoreObservable<any MimiCoreKit.MimiAuthControllerObservable> { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var currentUser: MimiCoreKit.MimiUser? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   func authenticate(route: MimiCoreKit.MimiAuthRoute, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiUser>) -> MimiCoreKit.MimiAuthTokenRequest?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func resetPassword(email: Swift.String, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func requestDeviceAuthorization(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiDeviceAuthRequest>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func approveDeviceAuthorization(request: MimiCoreKit.MimiDeviceAuthRequest, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
-  #endif
   func logOut()
-  #if compiler(>=5.3) && $NonescapableTypes
   func reloadUser(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiUser>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateUser(properties: MimiCoreKit.MimiUser.PropertyUpdate..., result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiUser>)
-  #endif
   func loadUserAccountPortalURL() async throws -> Foundation.URL
 }
 public protocol MimiAuthControllerObservable : AnyObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   func authController(_ controller: any MimiCoreKit.MimiAuthController, didUpdate currentUser: MimiCoreKit.MimiUser?, from oldUser: MimiCoreKit.MimiUser?, error: MimiCoreKit.MimiCoreError?)
-  #endif
 }
 public protocol MimiTestRunResultData : Swift.Decodable, Swift.Encodable {
   var ear: MimiCoreKit.MimiTestEar { get }
   var hearingGradeWHO2021: MimiCoreKit.MimiHearingGradeWHO2021 { get }
   var hearingGrade: MimiCoreKit.MimiHearingGrade { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var error: MimiCoreKit.MimiTestResultError? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var warnings: [MimiCoreKit.MimiTestResultError]? { get }
-  #endif
 }
 public enum MimiProcessingParameterError : Swift.Error {
   case applyTimeoutExceeded
@@ -884,34 +863,16 @@ public enum MimiProcessingParameterError : Swift.Error {
 }
 public protocol MimiTestController : MimiCoreKit.MimiCoreController {
   var observable: MimiCoreKit.MimiCoreObservable<any MimiCoreKit.MimiTestControllerObservable> { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var latestResults: MimiCoreKit.MimiTestResults? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var connectedHeadphoneProvider: (any MimiCoreKit.MimiConnectedHeadphoneProvider)? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func loadTestTypeConfiguration(headphoneIdentifier: MimiCoreKit.MimiHeadphoneIdentifier?, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestTypeConfiguration>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func submit(test: MimiCoreKit.MimiTest, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestResults>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func submitAudiogram(leftEar: MimiCoreKit.MimiTestAudiogram, rightEar: MimiCoreKit.MimiTestAudiogram, metadata: MimiCoreKit.MimiTestAudiogramMetadata, result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiSubmitAudiogramResponse>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func loadHeadphones(connectionType: MimiCoreKit.MimiHeadphone.ConnectionType, result: MimiCoreKit.MimiCoreResultHandler<[MimiCoreKit.MimiHeadphone]>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func delete(testResult: any MimiCoreKit.AnyMimiTestResult, result: MimiCoreKit.MimiCoreResultHandler<Swift.Void>)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func loadResults<RunResultData>(type: RunResultData.Type, result: MimiCoreKit.MimiCorePagedResultHandler<[MimiCoreKit.MimiTestResult<RunResultData>]>) where RunResultData : MimiCoreKit.MimiTestRunResultData
-  #endif
   func loadResults<RunResultData>(type: RunResultData.Type) async throws -> MimiCoreKit.MimiCoreAsyncPagedResult<[MimiCoreKit.MimiTestResult<RunResultData>]> where RunResultData : MimiCoreKit.MimiTestRunResultData
-  #if compiler(>=5.3) && $NonescapableTypes
   func loadLatestResults(result: MimiCoreKit.MimiCoreResultHandler<MimiCoreKit.MimiTestResults>)
-  #endif
 }
 public protocol MimiTestControllerObservable : AnyObject {
   func testController(_ controller: any MimiCoreKit.MimiTestController, didUpdate latestResults: MimiCoreKit.MimiTestResults)
@@ -938,18 +899,10 @@ final public class MimiLogger {
     get
   }
   public init(levels: [MimiCoreKit.MimiLogger.Level] = [.none])
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func debug(_ message: Swift.String, sender: Swift.AnyObject?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func info(_ message: Swift.String, sender: Swift.AnyObject?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func warn(_ message: Swift.String, sender: Swift.AnyObject?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func error(_ message: Swift.String, sender: Swift.AnyObject?)
-  #endif
   final public func clearHistory()
   @objc deinit
 }
@@ -965,9 +918,7 @@ extension MimiCoreKit.MimiPersonalization {
   public struct Fitting : Swift.Codable, Swift.Equatable {
     public let techLevel: Swift.Int
     public let additionalInfo: Swift.String?
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func techLevel(_ techLevel: Swift.Int, additionalInfo: Swift.String? = nil) -> MimiCoreKit.MimiPersonalization.Fitting
-    #endif
     public static func == (a: MimiCoreKit.MimiPersonalization.Fitting, b: MimiCoreKit.MimiPersonalization.Fitting) -> Swift.Bool
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
@@ -1057,18 +1008,14 @@ extension MimiCoreKit.MimiAutomaticProcessingConfiguration.Processor {
   }
 }
 public func Processor(@MimiCoreKit.MimiAutomaticProcessingConfiguration.Processor.Builder _ content: () -> MimiCoreKit.MimiAutomaticProcessingConfiguration.Processor.Builder.Result) -> MimiCoreKit.MimiAutomaticProcessingConfiguration.Component
-#if compiler(>=5.3) && $NonescapableTypes
 public func Applicator(timeout: Foundation.TimeInterval? = nil, _ body: @escaping @Sendable (Foundation.Data) async throws -> Foundation.Data) -> MimiCoreKit.MimiAutomaticProcessingConfiguration.Processor.Component
-#endif
 extension MimiCoreKit.MimiCore {
   public static let version: Swift.String
 }
 public struct MimiTestHeadphoneMetadata : Swift.Equatable, Swift.Codable {
   public let id: Swift.String
   public let connectionType: MimiCoreKit.MimiHeadphone.ConnectionType?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String, connectionType: MimiCoreKit.MimiHeadphone.ConnectionType?)
-  #endif
   public static func == (a: MimiCoreKit.MimiTestHeadphoneMetadata, b: MimiCoreKit.MimiTestHeadphoneMetadata) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1077,11 +1024,8 @@ public struct MimiTestHeadphoneMetadata : Swift.Equatable, Swift.Codable {
   public typealias Value = MimiCoreKit.MimiPersonalization.Preset?
   nonisolated final public let fitting: MimiCoreKit.MimiPersonalization.Fitting
   public convenience init(fitting: MimiCoreKit.MimiPersonalization.Fitting)
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func load(value: MimiCoreKit.MimiPersonalization.Preset?) async throws -> MimiCoreKit.MimiPersonalization.Preset?
-  #endif
   @objc deinit
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
     get
   }
@@ -1091,9 +1035,7 @@ public struct MimiUser : Swift.Codable {
     case male
     case female
     case intersex
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias AllCases = [MimiCoreKit.MimiUser.Sex]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [MimiCoreKit.MimiUser.Sex] {
@@ -1135,17 +1077,13 @@ public struct MimiUser : Swift.Codable {
   public var country: Swift.String? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var age: MimiCoreKit.MimiUser.Age? {
     get
   }
-  #endif
   public var isVerified: Swift.Bool? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(anonymousId: Swift.String?, isAnonymous: Swift.Bool, email: Swift.String?, yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth?, sex: MimiCoreKit.MimiUser.Sex?, nickname: Swift.String?, country: Swift.String?, isVerified: Swift.Bool?)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 extension MimiCoreKit.MimiUser {
@@ -1155,98 +1093,11 @@ extension MimiCoreKit.MimiUser : Swift.Equatable {
   public static func == (lhs: MimiCoreKit.MimiUser, rhs: MimiCoreKit.MimiUser) -> Swift.Bool
 }
 extension MimiCoreKit.MimiUser {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func isRelated(to other: MimiCoreKit.MimiUser?) -> Swift.Bool
-  #endif
-}
-public enum MimiProcessingParameterUpdateState<Value> where Value : Swift.Equatable, Value : Swift.Sendable {
-  case applied
-  case loading
-  case applying(value: Value)
-  case failed(value: Value, error: any Swift.Error)
-}
-public typealias MimiProcessingParameterable = Swift.Equatable & Swift.Sendable
-public protocol MimiProcessingParameter<Value> : AnyObject {
-  associatedtype Value : Swift.Equatable, Swift.Sendable
-  var name: Swift.String { get }
-  var valuePublisher: Combine.AnyPublisher<Self.Value, Swift.Never> { get }
-  var value: Self.Value { get }
-  var updateState: Combine.AnyPublisher<MimiCoreKit.MimiProcessingParameterUpdateState<Self.Value>, Swift.Never> { get }
-  #if compiler(>=5.3) && $NonescapableTypes
-  var dataSource: MimiCoreKit.AnyMimiProcessingParameterDataSource<Self.Value>? { get }
-  #endif
-  func synchronizeApplicator() async throws
-  func apply(_ value: Self.Value) async throws
-  func load() async throws
-}
-final public class MimiProcessingParameterApplicator<Value> : Swift.Identifiable where Value : Swift.Equatable, Value : Swift.Sendable {
-  final public let id: Swift.String
-  final public var latestAppliedValue: Value? {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(currentValue: Value? = nil, applyTimeout: Swift.Double? = nil, apply: @escaping @Sendable (Value) async throws -> Swift.Void)
-  #endif
-  public typealias ID = Swift.String
-  @objc deinit
-}
-extension MimiCoreKit.MimiProcessingParameterApplicator : Swift.Equatable {
-  public static func == (lhs: MimiCoreKit.MimiProcessingParameterApplicator<Value>, rhs: MimiCoreKit.MimiProcessingParameterApplicator<Value>) -> Swift.Bool
-}
-public protocol MimiProcessingParameterDataSource<Value> {
-  associatedtype Value : Swift.Equatable, Swift.Sendable
-  func load(value: Self.Value) async throws -> Self.Value
-}
-@available(iOS, deprecated: 16.0, message: "Use Swift's any keyword")
-final public class AnyMimiProcessingParameterDataSource<Value> : MimiCoreKit.MimiProcessingParameterDataSource where Value : Swift.Equatable, Value : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public var type: Any? {
-    get
-  }
-  #endif
-  public init<DataSource>(_ wrappedDataSource: DataSource) where Value == DataSource.Value, DataSource : MimiCoreKit.MimiProcessingParameterDataSource
-  final public func load(value: Value) async throws -> Value
-  @objc deinit
-}
-extension MimiCoreKit.AnyMimiProcessingParameterDataSource : Swift.Equatable {
-  public static func == (lhs: MimiCoreKit.AnyMimiProcessingParameterDataSource<Value>, rhs: MimiCoreKit.AnyMimiProcessingParameterDataSource<Value>) -> Swift.Bool
-}
-public protocol MimiProcessingSession : Swift.CustomDebugStringConvertible {
-  var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
-  var metadata: (any MimiCoreKit.MimiProcessorMetadata)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  var soundPersonalization: (any MimiCoreKit.MimiSoundPersonalizationFeature)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  var voiceClarity: MimiCoreKit.AnyMimiProcessingFeatureControlling<any MimiCoreKit.MimiVoiceClarityFeature>? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  var debug: (any MimiCoreKit.MimiDebugFeature)? { get }
-  #endif
-  var isSuspendedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> { get }
-  var isSuspended: Swift.Bool { get }
-  func suspend() async throws -> Swift.Bool
-  func resume() async throws -> Swift.Bool
-}
-extension MimiCoreKit.MimiProcessingSession {
-  public var debugDescription: Swift.String {
-    get
-  }
-}
-public protocol MimiProcessorMetadata {
-  var firmwareVersion: Swift.String { get }
-  var headphoneIdentifier: Swift.String { get }
-}
-extension MimiCoreKit.MimiProcessingParameterUpdateState : Swift.Equatable {
-  public static func == (lhs: MimiCoreKit.MimiProcessingParameterUpdateState<Value>, rhs: MimiCoreKit.MimiProcessingParameterUpdateState<Value>) -> Swift.Bool
 }
 public protocol MimiAnalyticsEvent {
   var name: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var properties: [Swift.String : MimiCoreKit.MimiAnalyticsProperty]? { get }
-  #endif
   var bundle: Foundation.Bundle { get }
 }
 extension MimiCoreKit.MimiTestMetadata.Host {
@@ -1257,9 +1108,7 @@ extension MimiCoreKit.MimiTestMetadata.Client {
 }
 public protocol MimiProcessingFeatureControlling<Feature> : AnyObject {
   associatedtype Feature
-  #if compiler(>=5.3) && $NonescapableTypes
   var featurePublisher: Combine.AnyPublisher<Self.Feature?, Swift.Never> { get }
-  #endif
   func activate() async throws
   func deactivate() async throws
 }
@@ -1275,30 +1124,22 @@ public struct MimiMTTestRunResultData : MimiCoreKit.MimiTestRunResultData {
   public let ear: MimiCoreKit.MimiTestEar
   public let hearingGradeWHO2021: MimiCoreKit.MimiHearingGradeWHO2021
   public let hearingGrade: MimiCoreKit.MimiHearingGrade
-  #if compiler(>=5.3) && $NonescapableTypes
   public var error: MimiCoreKit.MimiTestResultError? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var warnings: [MimiCoreKit.MimiTestResultError]? {
     get
   }
-  #endif
 }
 extension MimiCoreKit.MimiMTTestRunResultData {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(ear: MimiCoreKit.MimiTestEar, hearingGradeWHO2021: MimiCoreKit.MimiHearingGradeWHO2021, hearingGrade: MimiCoreKit.MimiHearingGrade, error: MimiCoreKit.MimiTestResultError?, warnings: [MimiCoreKit.MimiTestResultError]?)
-  #endif
 }
 extension MimiCoreKit.MimiMTTestRunResultData {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol MimiConnectedHeadphoneProvider : AnyObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   func getMimiHeadphoneIdentifier() -> MimiCoreKit.MimiHeadphoneIdentifier?
-  #endif
 }
 public struct MimiTestTypeConfiguration {
   public let supported: MimiCoreKit.MimiTestTypeConfiguration.MimiSupportedTestConfigurations?
@@ -1323,18 +1164,14 @@ extension MimiCoreKit.MimiDeviceAuthRequest {
 }
 extension MimiCoreKit.MimiDeviceAuthRequest {
   public static func fromQRCode(data: Foundation.Data) throws -> MimiCoreKit.MimiDeviceAuthRequest
-  #if compiler(>=5.3) && $NonescapableTypes
   public func generateQRCode(size: CoreFoundation.CGSize) -> UIKit.UIImage?
-  #endif
 }
 public struct MimiSignUpData {
   public enum Permission : Swift.String, Swift.CaseIterable {
     case privacyPolicy
     case termsOfService
     case contact
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias AllCases = [MimiCoreKit.MimiSignUpData.Permission]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [MimiCoreKit.MimiSignUpData.Permission] {
@@ -1351,16 +1188,12 @@ public struct MimiSignUpData {
   public let yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth?
   public let country: Swift.String?
   public let acceptedPermissions: [MimiCoreKit.MimiSignUpData.Permission]
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(email: Swift.String, password: Swift.String, nickname: Swift.String? = nil, sex: MimiCoreKit.MimiUser.Sex? = nil, yearOfBirth: MimiCoreKit.MimiUser.YearOfBirth? = nil, country: Swift.String? = nil, acceptedPermissions: [MimiCoreKit.MimiSignUpData.Permission]? = nil)
-  #endif
 }
 public enum MimiTestType : Swift.String, Swift.CaseIterable, Swift.Codable {
   case maskThreshold
   case pureToneThreshold
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [MimiCoreKit.MimiTestType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [MimiCoreKit.MimiTestType] {
@@ -1384,30 +1217,13 @@ public struct MimiTest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public protocol MimiPersonalizationModule {
-  var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
-  var intensity: any MimiCoreKit.MimiProcessingParameter<Swift.Double> { get }
-  #if compiler(>=5.3) && $NonescapableTypes
-  var preset: any MimiCoreKit.MimiProcessingParameter<MimiCoreKit.MimiPersonalization.Preset?> { get }
-  #endif
-}
-public protocol MimiSoundPersonalizationFeature {
-  #if compiler(>=5.3) && $NonescapableTypes
-  var media: (any MimiCoreKit.MimiPersonalizationModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  var voiceCall: (any MimiCoreKit.MimiPersonalizationModule)? { get }
-  #endif
-}
 public struct MimiTestRun : Swift.Codable {
   public enum MetadataItem {
     case none
     case headphone(MimiCoreKit.MimiTestHeadphoneMetadata)
     case sampleRate(Swift.Double?)
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(data: Foundation.Data, noiseData: Foundation.Data? = nil, metadata: [MimiCoreKit.MimiTestRun.MetadataItem]) throws
-  #endif
 }
 extension MimiCoreKit.MimiTestRun {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -1474,52 +1290,26 @@ public protocol MimiHowlingDetectorModule {
   var isEnabled: any MimiCoreKit.MimiProcessingParameter<Swift.Bool> { get }
 }
 public protocol MimiVoiceClarityFeature {
-  #if compiler(>=5.3) && $NonescapableTypes
   var ambient: (any MimiCoreKit.MimiPersonalizationModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var denoiser: (any MimiCoreKit.MimiDenoiserModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var beamformer: (any MimiCoreKit.MimiBeamformerModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var preGain: (any MimiCoreKit.MimiPreGainModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var outputGain: (any MimiCoreKit.MimiOutputGainModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var equalizer: (any MimiCoreKit.MimiEqualizerModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var transparencyEqualizer: (any MimiCoreKit.MimiTransparencyEqualizerModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var afc: (any MimiCoreKit.MimiAFCModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var impulseAGC: (any MimiCoreKit.MimiImpulseAGCModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ovad: (any MimiCoreKit.MimiOVADModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var fbc: (any MimiCoreKit.MimiFBCModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var howlingDetector: (any MimiCoreKit.MimiHowlingDetectorModule)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This Voice Clarity module is no longer in active use and will be removed in a future release.")
   var drc: (any MimiCoreKit.MimiDRCModule)? { get }
-  #endif
 }
 public enum MimiAnalyticsProperty : Swift.Equatable {
   case string(_: Swift.String)
@@ -1539,12 +1329,8 @@ extension MimiCoreKit.MimiAnalyticsProperty : Swift.CustomDebugStringConvertible
   }
 }
 public struct MimiAnalyticsPropertiesGenerator {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func generate(for error: MimiCoreKit.MimiCoreError) -> [Swift.String : MimiCoreKit.MimiAnalyticsProperty]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func generate(for error: any Swift.Error) -> [Swift.String : MimiCoreKit.MimiAnalyticsProperty]?
-  #endif
 }
 public struct MimiUpDownBundleVisualizationData : Swift.Codable, Swift.Equatable {
   public let original: MimiCoreKit.MimiUpDownBundleVisualizationData.EarLevels

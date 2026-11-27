@@ -754,17 +754,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -2150,6 +2150,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
@@ -2157,10 +2164,25 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
+                "name": "Identifiable",
+                "printedName": "Identifiable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "ID",
+                    "printedName": "ID",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12IdentifiableP",
+                "mangledName": "$ss12IdentifiableP"
               },
               {
                 "kind": "Conformance",
@@ -2220,28 +2242,6 @@
                 ],
                 "usr": "s:s12CaseIterableP",
                 "mangledName": "$ss12CaseIterableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Identifiable",
-                "printedName": "Identifiable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "ID",
-                    "printedName": "ID",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:s12IdentifiableP",
-                "mangledName": "$ss12IdentifiableP"
               }
             ]
           },
@@ -2533,52 +2533,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "MimiThemeable",
-            "printedName": "MimiThemeable",
-            "usr": "s:9MimiUXKit0A9ThemeableP",
-            "mangledName": "$s9MimiUXKit0A9ThemeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MimiThemeObservable",
-            "printedName": "MimiThemeObservable",
-            "usr": "s:9MimiUXKit0A15ThemeObservableP",
-            "mangledName": "$s9MimiUXKit0A15ThemeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2589,10 +2547,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "MimiThemeObservable",
+            "printedName": "MimiThemeObservable",
+            "usr": "s:9MimiUXKit0A15ThemeObservableP",
+            "mangledName": "$s9MimiUXKit0A15ThemeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MimiThemeable",
+            "printedName": "MimiThemeable",
+            "usr": "s:9MimiUXKit0A9ThemeableP",
+            "mangledName": "$s9MimiUXKit0A9ThemeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -2603,10 +2589,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -3649,7 +3649,7 @@
     {
       "filePath": "\/Users\/distiller\/project\/Sources\/MimiAuthKit\/MimiAuthKit\/Components\/ViewControllers\/LoadingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3633,
+      "offset": 3733,
       "length": 3,
       "value": "0.0"
     },

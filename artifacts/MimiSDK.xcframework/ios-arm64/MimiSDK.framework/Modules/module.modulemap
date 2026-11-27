@@ -7,5 +7,4 @@ framework module MimiSDK {
 
 module MimiSDK.Swift {
   header "MimiSDK-Swift.h"
-  requires objc
 }

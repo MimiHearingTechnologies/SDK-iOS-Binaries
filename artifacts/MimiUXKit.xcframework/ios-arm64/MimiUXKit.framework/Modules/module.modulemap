@@ -7,5 +7,4 @@ framework module MimiUXKit {
 
 module MimiUXKit.Swift {
   header "MimiUXKit-Swift.h"
-  requires objc
 }

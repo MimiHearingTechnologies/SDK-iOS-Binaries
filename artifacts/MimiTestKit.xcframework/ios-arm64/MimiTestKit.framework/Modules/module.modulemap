@@ -7,5 +7,4 @@ framework module MimiTestKit {
 
 module MimiTestKit.Swift {
   header "MimiTestKit-Swift.h"
-  requires objc
 }

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		dzAH1rdksrHXXyu9HO+f3VXBgCg=
+		rsdybOQJZnPUi2PENQVdK9wh11o=
 		</data>
 		<key>Headers/MimiUXKit-Swift.h</key>
 		<data>
-		jwWG18jbzdH9xi8fThbbWhTLArs=
+		Mf7nYRChI5PQtJb/pMzs1IGRqBI=
 		</data>
 		<key>Headers/MimiUXKit.h</key>
 		<data>
@@ -18,55 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xMJLzpVOPI2/1NGi5iZI306Dy00=
+		wo0de34CoZEOrtuqob09f5dhWK4=
 		</data>
 		<key>MimiAlertView.nib</key>
 		<data>
-		5r1LtfQUKATZ70KEtq08Ow9SN9M=
+		mrJmATkFOT4543dqLbrv+1v50m0=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WGIDYJWipnMoKpkWEItKFSikVig=
+		F7sFaJGEWSGBXvB0tj7C5NhkxoE=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ESjbqjHIjVmMrhvd2pZvKegfezQ=
+		JUDPJR4sEls1v56+hh5jMp9rJV4=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wPuT5zEIqa1zReNcYJmS1nIYtos=
+		N1RJ/vzXBLQBH+0/ODM+bAAHYVg=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ESjbqjHIjVmMrhvd2pZvKegfezQ=
+		JUDPJR4sEls1v56+hh5jMp9rJV4=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PrtM4aacxiPUhwnoAHXsPXMww0Q=
+		scPVlm9zWPg5/01ddnbvURffumo=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WGIDYJWipnMoKpkWEItKFSikVig=
+		F7sFaJGEWSGBXvB0tj7C5NhkxoE=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FywLz/zjAtDG30235ElPcOJSfXQ=
+		qzJmqtgca0xoiU2rBXbFNKpzwRw=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		p3/Jr6PQQ8VzovYqlkLgD4vPAdQ=
+		+pkr73N0c26cMBL3opv7Z2FHFIE=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FywLz/zjAtDG30235ElPcOJSfXQ=
+		qzJmqtgca0xoiU2rBXbFNKpzwRw=
 		</data>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x4kcxJBizgALL9GFMdoqdx0s/Xs=
+		I67xRfnaJujcIiklUJH0JNyf+Xc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		d9R3fvMeT93MG+CIDQImlC5W6cc=
+		ieLZrHHXtf9YOeKQWfxtauQCX5E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,14 +75,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c0+QNd4XC6h0R7c5VAmJwlY8BgvIfkPhj7uYwK1uuR0=
+			z9qc1lBrz9PB8ytmH8EKppN7c5/UcV8kyoU1yRq+lNQ=
 			</data>
 		</dict>
 		<key>Headers/MimiUXKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cJnUikebBsL3Cibc5UhBIRtceqA7HWUDxJRbIsBVDKE=
+			6S5apn8C43t6XauzNEt9f0Z+C15VSdYaxzZJ2sH7iyU=
 			</data>
 		</dict>
 		<key>Headers/MimiUXKit.h</key>
@@ -96,84 +96,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J7M51yUDnbH5XPllZUxwRV5b54fXHtRZMegJjljF2dg=
+			6gwLBYm4Kt0zDC57w9ukazqUNNUiRcXNKhlqhAS2An4=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			krykwOjhlfJsdZf2Ukjn8Xw8S8vdm5WDw9fY/6Ebna4=
+			kw6MOJHfe+DjeVPLDQ/jrsXlogWEcVsDEKF1DRH/3qI=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AbC0gE+JC1HF2zGC4MI3sfbm2erGbVEyECGsNLMM6og=
+			qWYqJtJOWlQat6OZw4ox9d6K7GWMo4SITmkJ2sb8KrU=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gLPJ6D0ndr5I0M5HdrPk4iQiYtFY4dp/exkGRS6t5jE=
+			WwsDzADW1OTQ13dNxWfXt9Ny6giS+B5DXGtaWunvLXk=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AbC0gE+JC1HF2zGC4MI3sfbm2erGbVEyECGsNLMM6og=
+			qWYqJtJOWlQat6OZw4ox9d6K7GWMo4SITmkJ2sb8KrU=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FlMaufhijpkcFykJQmOmvT5VWh/IJn/x1XduHEh+WhM=
+			Q4dKh6SwwHSMNfpyAT+oV8FrR5d08UfUhsvaTVFW2Bo=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			krykwOjhlfJsdZf2Ukjn8Xw8S8vdm5WDw9fY/6Ebna4=
+			kw6MOJHfe+DjeVPLDQ/jrsXlogWEcVsDEKF1DRH/3qI=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY0un54Lx6ayQ7LbJh4v2X7b/vlVPxspA5+dltREL9o=
+			Ftho7tTdK1yll0zOsXp8Q4vuOfXwnqtM8K6JlKm7Tkw=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wNGlL8BHBeydsgDLNZ0u8/UeznHSfkxpmbPehBd2VyE=
+			jWlW92igtU7WX7wxqFcnWz2zZa45dR6bzuVd8KYolco=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY0un54Lx6ayQ7LbJh4v2X7b/vlVPxspA5+dltREL9o=
+			Ftho7tTdK1yll0zOsXp8Q4vuOfXwnqtM8K6JlKm7Tkw=
 			</data>
 		</dict>
 		<key>Modules/MimiUXKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			adRFRr5ddZpZR+UCKUJWAYHSDFZaFaxCN5dMe3BXwZE=
+			TM58N+DWJoWaIWseQh9TyIisgkTREeO4XiHHV9/cHjc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbjxV8Uhp2fC9SwQlVs/kLJ2bU0oA3eE2SZbd3gvgFU=
+			QF/CypI1DxknEG0IgLTNMM94UZ6G+kaoqIp2H+SvuMY=
 			</data>
 		</dict>
 	</dict>

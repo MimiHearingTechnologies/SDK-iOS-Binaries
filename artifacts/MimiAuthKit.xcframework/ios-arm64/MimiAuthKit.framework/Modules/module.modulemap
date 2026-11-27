@@ -7,5 +7,4 @@ framework module MimiAuthKit {
 
 module MimiAuthKit.Swift {
   header "MimiAuthKit-Swift.h"
-  requires objc
 }
